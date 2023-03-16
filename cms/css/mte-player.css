@@ -1,0 +1,2577 @@
+﻿@charset "utf-8";
+
+/**************************************************
+            共通タグ設定
+***************************************************/
+div.mte-baseplayer,
+div.mte-baseplayer * {
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', serif, sans-serif;
+    border: none;
+    padding: 0;
+    margin: 0;
+    line-height: initial;
+    text-align: left;
+}
+
+div.mte-baseplayer {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: scroll;
+}
+
+/**************************************************
+            VIDEO
+***************************************************/
+div.video-player {
+    width: 850px;
+    height: 490px;
+    overflow: hidden;
+    position: relative;
+}
+
+div.video-screen {
+    width: 640px;
+    height: 360px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+div.video-title {
+    width: 100%;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+}
+
+div.mte-player_external {
+    background-color: rgb(255, 255, 255);
+}
+
+/**************************************************
+            LIST
+***************************************************/
+
+div.mte-baseplayer div.mte-video-list {
+    overflow: hidden;
+    position: absolute;
+
+    /* todo nowrap? */
+    /*white-space: nowrap;*/
+    white-space: normal;
+
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+div.mte-baseplayer div.video-list-area {
+    width: 200px;
+    height: 490px;
+    left: 650px;
+    top: 0px;
+    overflow: hidden auto;
+}
+
+div.mte-baseplayer div.video-item-area {
+    width: 180px;
+    height: 160px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    background: rgb(153, 153, 153);
+    border-width: 0px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 12px;
+}
+
+div.mte-baseplayer div.video-item-area div.selecting {
+    background: rgb(0, 0, 0);
+}
+
+div.mte-baseplayer div.video-item-area div.bottom-item {
+    margin-bottom: 0px;
+}
+
+/**************************************************
+            THUMBNAIL
+***************************************************/
+
+div.mte-video-item div.mte-thumbnail-box {
+    width: 160px;
+    height: 90px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.mte-video-item div.mte-thumbnail-box div.thumbnail-box-div {
+    background: rgb(0, 0, 0);
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+}
+
+div.mte-video-item div.mte-thumbnail-box img {
+    width: auto;
+    height: auto;
+    max-width: 160px;
+    max-height: 90px;
+}
+
+div.mte-video-item div.mte-thumbnail-box img.thumbnail-box-img {
+    transition-duration: 0.5s;
+    transition-property: opacity;
+}
+
+div.mte-video-item div.mte-thumbnail-box img.selecting {
+    opacity: 0.45;
+    text-align: center;
+}
+
+div.mte-video-item div.mte-thumbnail-box span.video-play-time {
+    position: absolute;
+    background: rgb(0, 0, 0);
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    top: 85px;
+    left: 141px;
+}
+
+div.mte-video-item div.mte-thumbnail-box span.selecting {
+    opacity: 0.45;
+    text-align: center;
+}
+
+div.mte-video-item div.mte-thumbnail-box span.video-now-playing {
+    opacity: 0.85;
+    position: absolute;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    top: 45px;
+    left: 45px;
+    display: none;
+}
+
+div.mte-video-item div.mte-thumbnail-box span.selecting {
+    opacity: 0.45;
+    text-align: center;
+}
+
+div.mte-video-item div.mte-thumbnail-box.small {
+    width: 112px;
+    height: 63px;
+}
+
+div.mte-video-item div.mte-thumbnail-box.small img {
+    max-width: 112px;
+    max-height: 63px;
+}
+
+/***************************************************/
+/*Slide*/
+/****************************************************/
+
+div.mte-slide-button {
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+div.mte-slide-button.mte-slide-next-button div,
+div.mte-slide-button.mte-slide-previous-button div {
+    width: 0;
+    height: 0;
+    padding: 0;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+div.mte-slide-case-position,
+div.mte-slide-case-position-selecting {
+    padding: 0;
+    border: 0;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/**************************************************/
+/**************************************************/
+/**************************************************/
+/**************************************************/
+
+/**************************************************
+            Smartfon
+***************************************************/
+
+div.mte-smartfon-screen {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div.mte-smartfon-header {
+    margin: 0;
+    overflow: hidden;
+    height: 44px;
+    line-height: 44px;
+    font-size: 12px;
+    position: relative;
+    border-bottom: 1px #9e9e9e solid;
+}
+
+button.mte-smartfon-header-button {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    line-height: 13px;
+    padding: 6px 8px;
+    position: absolute;
+    left: 0;
+    border: 0 none;
+    margin: 9px 0 0 5px;
+    display: inline;
+    cursor: pointer;
+}
+
+button.mte-smartfon-header-button div.mte-smartfon-header-arrow {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin-right: 5px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+div.mte-smartfon-playlist {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: auto;
+}
+
+div.mte-smartfon-playlist ul {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+li.mte-smartfon-playlist-item {
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    display: block;
+    position: relative;
+    font-weight: bold;
+    list-style-type: none;
+    border-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+li.mte-smartfon-playlist-item span.mte-smartfon-playlist-item-arrow {
+    display: block;
+    position: absolute;
+    top: 50%;
+    *top: 50%;
+    right: 12px;
+    width: 7px;
+    height: 7px;
+    margin-top: -4px;
+    border-top: solid 2px;
+    border-right: solid 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+
+    /* IE8+ - must be on one line, unfortunately */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865474, M12=-0.7071067811865477, M21=0.7071067811865477, M22=0.7071067811865474, SizingMethod='auto expand')";
+
+    /* IE6 and 7 */
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865474,
+            M12=-0.7071067811865477,
+            M21=0.7071067811865477,
+            M22=0.7071067811865474,
+            SizingMethod='auto expand');
+}
+
+div.mte-smartfon-videolist {
+    font-size: 12px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: auto;
+}
+
+div.mte-smartfon-videolist ul {
+    margin: 0;
+    padding: 0;
+}
+
+li.mte-smartfon-videolist-item {
+    display: block;
+    position: relative;
+    font-weight: bold;
+    list-style-type: none;
+    border-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+li.mte-smartfon-videolist-item div.thumbnail-box {
+    height: 72px;
+    width: 128px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+li.mte-smartfon-videolist-item div.thumbnail-outer {
+    text-align: center;
+    background: #000;
+    position: relative;
+}
+
+li.mte-smartfon-videolist-item img.thumbnail-img {
+    width: auto;
+    height: auto;
+    max-width: 128px;
+    max-height: 72px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li.mte-smartfon-videolist-item div.thumbnail-time {
+    width: auto;
+    height: 14px;
+    float: right;
+    font-size: 12px;
+    color: #fff;
+    background: #000;
+    opacity: 0.75;
+    -moz-opacity: 0.75;
+    filter: alpha(opacity=75);
+    -khtml-opacity: 0.75;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    padding: 0 4px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+li.mte-smartfon-videolist-item div.thumbnail-description {
+    width: auto;
+    height: 72px;
+    display: table-cell;
+    padding-left: 5px;
+    vertical-align: top;
+}
+
+div.mte-baseplayer .gradient-background {
+    background: #ebebeb;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ebebeb, endColorstr=#ffffff);
+    /* IE 6,7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ebebeb,endColorstr=#ffffff))";
+    /* IE 8,9 */
+    background-image: linear-gradient(top, #ebebeb 0%, #fff 100%);
+    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #ebebeb), color-stop(100%, #fff));
+    background-image: -webkit-linear-gradient(top, #ebebeb 0%, #fff 100%);
+    background-image: -ms-linear-gradient(#ebebeb, #fff);
+    /* IE 10 */
+    background-image: -moz-linear-gradient(top, #ebebeb, #fff);
+}
+
+div.mte-smartfon-video-info {
+    margin-top: 1px;
+}
+
+div.mte-baseplayer video,
+div.mte-baseplayer img.mte-poster {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+    outline: 0 !important;
+}
+
+/**************************************************
+            HTML5 Custom Player
+***************************************************/
+div.mte-custom-html5 div.mte-poster {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+div.mte-custom-html5 div.mte-playback-button-base {
+    z-index: 20;
+    background-color: transparent;
+    position: absolute;
+    cursor: pointer;
+}
+
+div.mte-custom-html5 div.mte-playback-button-circle {
+    border-color: #eee;
+    border-style: solid;
+    border-width: 5px;
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+    outline: 0 !important;
+}
+
+div.mte-custom-html5 div.mte-playback-button-base:focus {
+    outline: 0 !important;
+}
+
+div.mte-custom-html5 div.mte-playback-button-play {
+    border-left: 40px solid #eee;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+div.mte-custom-html5 div.mte-playback-button-pause {
+    width: 10px;
+    height: 40px;
+    border-left: 15px solid #eee;
+    border-right: 15px solid #eee;
+    margin: 25px;
+    background-color: transparent;
+}
+
+div.mte-custom-html5 div.mte-control-panel {
+    z-index: 20;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+div.mte-custom-html5 div.mte-control-panel-top-bar {
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    *width: 100%;
+    font-size: 15px;
+    height: 18px;
+    padding: 1px 0;
+}
+
+div.mte-custom-html5 span.mte-control-panel-current-time {
+    float: left;
+}
+
+div.mte-custom-html5 span.mte-control-panel-duration-time {
+    float: right;
+}
+
+div.mte-custom-html5 div.mte-control-panel-bottom-bar {
+    width: 100%;
+    *width: 100%;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+div.mte-custom-html5 div.mte-control-panel-full-screen {
+    width: 20px;
+    height: 20px;
+    top: 30%;
+    right: 0;
+    margin-top: -10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+div.mte-custom-html5 div.mte-control-panel-full-screen-div-top {
+    z-index: 10;
+    width: 4px;
+    height: 0;
+    border-width: 0 7px 7px;
+    border-style: solid;
+    border-color: transparent #fff;
+    margin-top: 0;
+    background: transparent;
+}
+
+div.mte-custom-html5 div.mte-control-panel-full-screen-div-bottom {
+    z-index: 10;
+    width: 4px;
+    height: 0;
+    border-width: 7px 7px 0;
+    border-style: solid;
+    border-color: transparent #fff;
+    margin-top: 6px;
+    background: transparent;
+}
+
+div.mte-custom-html5 div.mte-control-panel-exit-full-screen-div-top {
+    z-index: 10;
+    left: 2px;
+    width: 6px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #fff;
+    margin-top: 5px;
+    cursor: pointer;
+    background: transparent;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476);
+    /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)";
+    /* IE8 */
+}
+
+div.mte-custom-html5 div.mte-control-panel-exit-full-screen-div-bottom {
+    z-index: 10;
+    left: 2px;
+    width: 6px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #fff;
+    cursor: pointer;
+    margin: -10px 0 0;
+    background: transparent;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=-0.7071067811865476, M12=0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476);
+    /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=-0.7071067811865476, M12=0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)";
+    /* IE8 */
+}
+
+div.mte-custom-html5 div.mte-control-panel-progress {
+    width: 100%;
+    *width: 100%;
+    height: 6px;
+    background: #666666;
+    top: 30%;
+    margin-top: -3px;
+    position: absolute;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+div.mte-custom-html5 div.mte-control-panel-progress-bar {
+    width: 100%;
+    *width: 100%;
+    height: 30px;
+    position: absolute;
+}
+
+div.mte-custom-html5 div.mte-control-panel-progress.buffered {
+    width: 0;
+    background: #e0e2e0;
+}
+
+div.mte-custom-html5 div.mte-control-panel-progress.progressed {
+    width: 0;
+}
+
+div.mte-custom-html5 div.mte-control-panel-seek-bar {
+    position: relative;
+    float: left;
+    height: 100%;
+    *height: 100%;
+}
+
+div.mte-custom-html5 div.mte-control-panel-knob {
+    z-index: 20;
+    width: 14px;
+    height: 14px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    position: absolute;
+    /*top: 5px;*/
+    top: 30%;
+    margin-top: -7px;
+    cursor: pointer;
+}
+
+
+/***************************************************/
+/* pdf slide */
+/****************************************************/
+
+div.mte-pdfslide div.container div.screen div.slideBox div.slide {
+    overflow: hidden;
+    width: 100%;
+    height: 0px;
+    text-align: center;
+    background: url('../image/preloader.gif') no-repeat scroll center center transparent;
+}
+
+div.mte-pdfslide div.container div.screen div.slideBox div.show {
+    height: 100%;
+    min-height: 0px;
+}
+
+div.mte-pdfslide div.container div.screen div.slideBox div.slide img {
+    vertical-align: middle;
+    max-width: 100%;
+    border: 0px none;
+}
+
+div.mte-pdfslide div.container div.screen div.slideBox {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+div.mte-pdfslide div.container div.screen div.wide div.slide img {
+    max-height: none;
+    width: auto;
+    height: 100%;
+}
+
+div.mte-pdfslide div.container div.screen div.tall div.slide img {
+    max-width: none;
+    width: 100%;
+    height: auto;
+}
+
+div.mte-pdfslide div.container div.funcArea {
+    width: 30%;
+    height: 90%;
+    top: 0;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    cursor: hand;
+    background-color: #000;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+div.mte-pdfslide div.container div.left {
+    left: 0;
+}
+
+div.mte-pdfslide div.container div.right {
+    right: 0;
+}
+
+div.mte-pdfslide div.container div.toolbar div.zoom {
+    content: "";
+    border: 0px none;
+    display: block;
+    margin: 0px;
+    text-align: center;
+    vertical-align: baseline;
+    /*width: 50px;*/
+    height: 33px;
+}
+
+div.mte-pdfslide div.container div.toolbar div.zoom div {
+    display: inline-block;
+    float: left;
+    width: 25px;
+    margin-left: 4px;
+}
+
+div.mte-pdfslide div.container div.toolbar div.zoom div.btn-enlarging,
+div.mte-pdfslide div.container div.toolbar div.zoom div.btn-condensing {
+    width: 25px;
+    height: 33px;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+}
+
+div.mte-pdfslide div.container div.toolbar div.zoom div.btn-condensing:before,
+div.mte-pdfslide div.container div.toolbar div.zoom div.btn-condensing:after,
+div.mte-pdfslide div.container div.toolbar div.zoom div.btn-enlarging:before,
+div.mte-pdfslide div.container div.toolbar div.zoom div.btn-enlarging:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    left: 5px;
+    width: 12px;
+    height: 0px;
+    border: 2px #ccc solid;
+}
+
+div.mte-pdfslide div.container div.toolbar div.zoom div.btn-enlarging:before {
+    transform: rotate(90deg);
+}
+
+div.mte-pdfslide div.container div.toolbar div.navi {
+    content: "";
+    border: 0px none;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    vertical-align: baseline;
+    width: 100px;
+    height: 33px;
+}
+
+div.mte-pdfslide div.container div.toolbar div.navi div {
+    float: left;
+    width: 25px;
+    height: 33px;
+    cursor: pointer;
+}
+
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-first,
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-prev,
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-next,
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-last {
+    float: left;
+    outline: 0px none;
+    content: "";
+    text-indent: -9999em;
+    display: block;
+}
+
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-first {
+    height: 16px;
+    width: 2px;
+    background: #999999;
+    margin: 9px 8px 8px 8px;
+}
+
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-first:hover {
+    background: #B8B8B8;
+    cursor: pointer;
+    cursor: hand;
+}
+
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-first div {
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    border-right: 8px solid #999999;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-first:hover div {
+    border-right: 8px solid #B8B8B8;
+}
+
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-prev {
+    width: 0;
+    height: 0;
+    border-right: 9px solid #999999;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    margin: 8px 10px 7px 6px;
+}
+
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-prev:hover {
+    border-right: 9px solid #B8B8B8;
+    cursor: pointer;
+    cursor: hand;
+}
+
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-next {
+    width: 0;
+    height: 0;
+    border-left: 9px solid #999999;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    margin: 8px 6px 7px 10px;
+}
+
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-next:hover {
+    border-left: 9px solid #B8B8B8;
+    cursor: pointer;
+    cursor: hand;
+}
+
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-last {
+    height: 16px;
+    width: 2px;
+    background: #999999;
+    background: #999999;
+    margin: 9px 0px 8px 16px;
+}
+
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-last:hover {
+    background: #B8B8B8;
+    cursor: pointer;
+    cursor: hand;
+}
+
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-last div {
+    width: 0;
+    height: 0;
+    margin-left: -8px;
+    border-left: 8px solid #999999;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+div.mte-pdfslide div.container div.toolbar div.navi div.btn-last:hover div {
+    border-left: 8px solid #B8B8B8;
+}
+
+div.mte-pdfslide div.fullscreen div.fullscreen-inner-container div {
+    position: absolute;
+    width: 5px;
+    height: 4px;
+    border-style: solid;
+    border-color: #999999;
+    border-width: 2px;
+}
+
+div.mte-pdfslide div.fullscreen div.fullscreen-inner-container div.top-left {
+    top: 0;
+    left: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+
+div.mte-pdfslide div.fullscreen div.fullscreen-inner-container div.top-right {
+    top: 0;
+    right: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+}
+
+div.mte-pdfslide div.fullscreen div.fullscreen-inner-container div.bottom-left {
+    bottom: 0;
+    left: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+}
+
+div.mte-pdfslide div.fullscreen div.fullscreen-inner-container div.bottom-right {
+    bottom: 0;
+    right: 0;
+    border-left-width: 0;
+    border-top-width: 0;
+}
+
+div.mte-pdfslide div.fullscreen.expanded div.fullscreen-inner-container div {
+    border-width: 2px;
+}
+
+div.mte-pdfslide div.fullscreen.expanded div.fullscreen-inner-container div.top-left {
+    border-top-width: 0;
+    border-left-width: 0;
+}
+
+div.mte-pdfslide div.fullscreen.expanded div.fullscreen-inner-container div.top-right {
+    border-top-width: 0;
+    border-right-width: 0;
+}
+
+div.mte-pdfslide div.fullscreen.expanded div.fullscreen-inner-container div.bottom-left {
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+div.mte-pdfslide div.fullscreen.expanded div.fullscreen-inner-container div.bottom-right {
+    border-bottom-width: 0;
+    border-right-width: 0;
+}
+
+/***************************************************/
+/* custom-deck */
+/****************************************************/
+div.mte-custom-deck div {
+    width: 100%;
+    height: 0%;
+    text-align: center;
+    overflow: hidden;
+}
+
+div.mte-custom-deck div.show {
+    height: 100%;
+}
+
+div.mte-custom-deck div.wide img {
+    max-height: none;
+    width: auto;
+    height: 100%
+}
+
+div.mte-custom-deck div.tall img {
+    max-width: none;
+    width: 100%;
+    height: auto
+}
+
+/***************************************************/
+/* reset audio */
+/****************************************************/
+div.mte-baseplayer audio {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/***************************************************/
+/* error message */
+/****************************************************/
+div.mte-baseplayer div.error-message-box {
+    z-index: 100;
+    text-align: center;
+    background-image: url('../image/msg_bg.png');
+    background-repeat: repeat;
+}
+
+div.mte-baseplayer div.error-message-box span.error-message-text {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgb(4, 0, 0);
+    vertical-align: middle;
+}
+
+
+/**************************************************
+            パスワード認証設定
+***************************************************/
+div.mte-baseplayer div.password-auth-box {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div.mte-baseplayer button.password-auth {
+    color: #525252;
+    background-color: #C0C0C0;
+    padding: 0 10px;
+    margin: 0;
+    border-style: none;
+    outline: 0 none;
+    z-index: 100;
+    cursor: pointer;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-size: 12px;
+}
+
+/*----------------- at hover -----------------*/
+
+div.mte-baseplayer .password-auth-box {
+    user-select: none;
+    /* CSS3 */
+    -moz-user-select: none;
+    /* Firefox */
+    -webkit-user-select: none;
+    /* Safari、Chromeなど */
+    -ms-user-select: none;
+    /* IE10かららしい */
+}
+
+div.mte-baseplayer button.password-auth:disabled {
+    cursor: default;
+    top: 0;
+    transition: all 0ms;
+    -moz-transition: all 0ms;
+    -webkit-transition: all 0ms;
+    -o-transition: all 0ms;
+    background-color: #C0C0C0;
+}
+
+div.mte-baseplayer button.password-auth:hover {
+    top: -1px;
+    transition: all 30ms;
+    -moz-transition: all 30ms;
+    -webkit-transition: all 30ms;
+    -o-transition: all 30ms;
+    background-color: #c7c7c7;
+}
+
+div.mte-baseplayer button.password-auth:before {
+    border-bottom: 1px solid rgba(153, 153, 153, 0);
+    transition: all 30ms;
+    -moz-transition: all 30ms;
+    -webkit-transition: all 30ms;
+    -o-transition: all 30ms;
+}
+
+/*----------------- at active -----------------*/
+
+div.mte-baseplayer button.password-auth:active {
+    background-color: #b3b3b3;
+    box-shadow: 0px 1.2px 0px 0px rgba(141, 141, 141, 1) inset;
+}
+
+div.mte-baseplayer button.password-auth:active:before {
+    top: -1px;
+    padding-bottom: 1px;
+    border-bottom: 0px solid rgba(153, 153, 153, 0);
+}
+
+div.mte-baseplayer input.password-auth {
+    outline: 0 none;
+    z-index: 100;
+    width: 100px;
+    height: 18px;
+    border: 1px white solid;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-size: 12px;
+    -webkit-appearance: none;
+}
+
+div.mte-baseplayer input.password-auth.error {
+    border: 1px #dd4b39 solid;
+}
+
+div.mte-baseplayer div.error-message-box.password-auth-box {
+    display: table;
+}
+
+div.mte-baseplayer div.error-message-box span.password-invalid {
+    font-size: 11px;
+    color: #dd4b39;
+}
+
+
+/**************************************************
+            reqoタグ設定
+***************************************************/
+div.reqo-controlpanel,
+div.reqo-controlpanel * {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+/**************************************************
+            custom2 player 設定
+***************************************************/
+div.miovip-controlpanel,
+div.miovip-controlpanel * {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+div.miovip-controlpanel button,
+div.miovip-controlpanel input,
+div.miovip-controlpanel select,
+div.miovip-controlpanel textarea {
+    color: #222;
+}
+
+body div.miovip-controlpanel {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+div.miovip-controlpanel::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+div.miovip-controlpanel::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+div.miovip-controlpanel hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+div.miovip-controlpanel img {
+    vertical-align: middle;
+}
+
+div.miovip-controlpanel fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+div.miovip-controlpanel textarea {
+    resize: vertical;
+}
+
+div.miovip-controlpanel div,
+div.miovip-controlpanel span {
+    word-wrap: normal;
+    word-break: normal;
+}
+
+/* ==========================================================================
+   default
+   ========================================================================== */
+
+div.miovip-controlpanel .html5-player-wrap {
+    background-image: url("../image/sprite.png") !important;
+    background-repeat: repeat-x;
+    background-position: 0px -564px;
+    width: 100%;
+    height: 33px;
+    color: #999;
+}
+
+div.miovip-controlpanel .btn-play {
+    float: left;
+    width: 44px;
+    height: 33px;
+    background-image: url("../image/sprite.png") !important;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+div.miovip-controlpanel .btn-play:hover {
+    background-position: 0px -34px;
+}
+
+div.miovip-controlpanel .btn-play.pause {
+    /* pauseクラス付与で一時停止デザイン */
+    background-image: url("../image/sprite.png") !important;
+    background-repeat: no-repeat;
+    background-position: 0px -68px;
+}
+
+div.miovip-controlpanel .btn-play.pause:hover {
+    background-position: 0px -102px;
+}
+
+div.miovip-controlpanel .btn-play.replay {
+    /* replayクラス付与でリプレイデザイン */
+    background-image: url("../image/sprite.png") !important;
+    background-repeat: no-repeat;
+    background-position: 0px -136px;
+}
+
+div.miovip-controlpanel .btn-play.replay:hover {
+    background-position: 0px -169px;
+}
+
+div.miovip-controlpanel .btn-play-img {
+    /*
+CSS版
+width: 0px;
+height: 0px;
+border: 7px solid transparent;
+border-left: 12px solid #999;
+display: inline-block;
+_display: inline;
+_zoom: 1;
+position: relative;
+top: 6px;
+left: 4px;
+*/
+}
+
+div.miovip-controlpanel .btn-play-img:hover {
+    /*
+ * border-left: 12px solid #bcbcbc;
+*/
+}
+
+div.miovip-controlpanel .time-display {
+    float: left;
+    display: inline-block;
+    _display: inline;
+    _zoom: 1;
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+div.miovip-controlpanel span.time-separater {
+    padding: 0 7px;
+}
+
+div.miovip-controlpanel .volume-control {
+    float: left;
+    display: inline-block;
+    _display: inline;
+    _zoom: 1;
+}
+
+div.miovip-controlpanel .volume-pict,
+div.miovip-controlpanel .volume-pict-container {
+    height: 33px;
+    vertical-align: top;
+    display: inline-block;
+    _display: inline;
+    _zoom: 1;
+}
+
+div.miovip-controlpanel .volume-pict {
+    background-image: url("../image/sprite.png") !important;
+    background-repeat: no-repeat;
+    background-position: 0px -340px;
+    /* 通常画像 */
+    width: 35px;
+}
+
+div.miovip-controlpanel .volume-pict:hover {
+    background-position: 0px -374px;
+}
+
+div.miovip-controlpanel .volume-pict.md {
+    background-position: 0px -408px;
+    /* 小音量時画像 */
+}
+
+div.miovip-controlpanel .volume-pict.md:hover {
+    background-position: 0px -442px;
+}
+
+div.miovip-controlpanel .volume-pict.mute {
+    background-position: 0px -476px;
+    /* ミュート時画像 */
+}
+
+div.miovip-controlpanel .volume-pict.mute:hover {
+    background-position: 0px -510px;
+}
+
+div.miovip-controlpanel .volume-pict-container {
+    position: relative;
+    cursor: pointer;
+    width: 56px;
+}
+
+div.miovip-controlpanel .volume-min,
+div.miovip-controlpanel .volume-low,
+div.miovip-controlpanel .volume-mid,
+div.miovip-controlpanel .volume-midm,
+div.miovip-controlpanel .volume-high,
+div.miovip-controlpanel .volume-max {
+    width: 6px;
+    background: #909090;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 11px;
+}
+
+div.miovip-controlpanel .volume-unselect {
+    background: #555 !important;
+    opacity: 0.8;
+}
+
+div.miovip-controlpanel .volume-min {
+    height: 5px;
+    left: 0px;
+}
+
+div.miovip-controlpanel .volume-low {
+    height: 6px;
+    left: 10px;
+}
+
+div.miovip-controlpanel .volume-mid {
+    height: 8px;
+    left: 20px;
+}
+
+div.miovip-controlpanel .volume-midm {
+    height: 10px;
+    left: 30px;
+}
+
+div.miovip-controlpanel .volume-high {
+    height: 12px;
+    left: 40px;
+}
+
+div.miovip-controlpanel .volume-max {
+    height: 14px;
+    left: 50px;
+}
+
+div.miovip-controlpanel .btn-fullscreen,
+div.miovip-controlpanel .btn-menu,
+div.miovip-controlpanel .control-menu,
+div.miovip-controlpanel .subtitle-menu {
+    float: right;
+}
+
+div.miovip-controlpanel .btn-fullscreen {
+    background-image: url("../image/sprite.png") !important;
+    background-repeat: no-repeat;
+    background-position: 0px -204px;
+    width: 30px;
+    height: 33px;
+    margin-right: 6px;
+}
+
+div.miovip-controlpanel .btn-fullscreen:hover {
+    background-position: 0px -238px;
+}
+
+div.miovip-controlpanel .btn-fullscreen.open {
+    background-position: 0px -272px;
+}
+
+div.miovip-controlpanel .btn-fullscreen.open:hover {
+    background-position: 0px -306px;
+}
+
+div.miovip-controlpanel .btn-menu {
+    /*background: transparent url('./img/img-menu.png') 8px 9px no-repeat;
+width: 30px;
+height: 34px;*/
+}
+
+div.miovip-controlpanel .skip-backward {
+    background-image: url("../image/sprite_clip/skip_back.png");
+    margin: 6px 0 6px 10px;
+}
+
+div.miovip-controlpanel .skip-forward {
+    background-image: url("../image/sprite_clip/skip_forward.png");
+    margin: 6px 10px 6px 0;
+}
+
+div.miovip-controlpanel .skip-backward:hover {
+    background-image: url("../image/sprite_clip/skip_back_hover.png");
+}
+
+div.miovip-controlpanel .skip-forward:hover {
+    background-image: url("../image/sprite_clip/skip_forward_hover.png");
+}
+
+div.miovip-controlpanel .skip-backward,
+div.miovip-controlpanel .skip-forward {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-clip: content-box;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+div.miovip-controlpanel .live-mark {
+    background-image: url("../image/sprite.png") !important;
+    background-repeat: no-repeat;
+    background-position: 0px -986px;
+    width: 60px;
+    height: 34px;
+    margin: 0 0 0 10px;
+    float: left;
+}
+
+div.miovip-controlpanel .control-menu.miovip-btn {
+    padding-right: 1px;
+    position: relative;
+}
+
+div.miovip-controlpanel .control-current {
+    width: 38px;
+    height: 24px;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+
+div.miovip-controlpanel .control-current.qualities {
+    margin-top: 9px;
+    height: 16px;
+    color: #343434;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #999;
+}
+
+div.miovip-controlpanel .control-current .qualities {
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+div.miovip-controlpanel .control-current {
+    color: #999;
+}
+
+div.miovip-controlpanel .control-current:hover {
+    color: #bcbcbc;
+}
+
+div.miovip-controlpanel .control-current.qualities:hover {
+    color: #343434;
+    background-color: #bfbfbf;
+}
+
+div.miovip-controlpanel .control-selector {
+    font-size: 14px;
+    background-color: black;
+    opacity: 0.9;
+    text-align: right;
+    position: absolute;
+    bottom: 33px;
+    z-index: 100;
+}
+
+div.miovip-controlpanel .control-selector-list {
+    width: 48px;
+    border: solid 1px white;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+div.miovip-controlpanel .control-selector-osd {
+    /* diff from common css */
+}
+
+div.miovip-controlpanel .control-selector-list ul.control-list,
+div.miovip-controlpanel .control-selector-osd ul.control-list {
+    margin: 0;
+    padding: 0;
+}
+
+div.miovip-controlpanel .control-selector-list ul.control-list li,
+div.miovip-controlpanel .control-selector-osd ul.control-list li {
+    list-style-type: none;
+}
+
+div.miovip-controlpanel .control-selector-list ul.control-list li span,
+div.miovip-controlpanel .control-selector-osd ul.control-list li span {
+    font-size: 14px;
+}
+
+div.miovip-controlpanel .control-selector-list ul.control-list li,
+div.miovip-controlpanel .control-selector-osd ul.control-list li {
+    color: #c8c8c8;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+div.miovip-controlpanel .control-selector-list ul.control-list li:hover,
+div.miovip-controlpanel .control-selector-osd ul.control-list li:hover {
+    color: white;
+}
+
+div.miovip-controlpanel .control-selector-list ul.control-list li:active,
+div.miovip-controlpanel .control-selector-osd ul.control-list li:active {
+    color: #e7e7e7;
+}
+
+div.miovip-controlpanel .control-selector-list ul.control-list li.control-list-selected,
+div.miovip-controlpanel .control-selector-osd ul.control-list li.control-list-selected {
+    color: white;
+    font-weight: bold;
+}
+
+div.miovip-controlpanel .control-selector-list ul.control-list li.control-list-selected:hover,
+div.miovip-controlpanel .control-selector-osd ul.control-list li.control-list-selected:hover {
+    color: #d2d2d2;
+}
+
+div.miovip-controlpanel .control-selector-list ul.control-list li.control-list-selected:active,
+div.miovip-controlpanel .control-selector-osd ul.control-list li.control-list-selected:active {
+    color: white;
+}
+
+div.miovip-controlpanel .control-selector-list ul.control-list li.qualities-title,
+div.miovip-controlpanel .control-selector-osd ul.control-list li.qualities-title {
+    cursor: default;
+}
+
+div.miovip-controlpanel .control-selector-list ul.control-list li.qualities-title:hover,
+div.miovip-controlpanel .control-selector-osd ul.control-list li.qualities-title:hover {
+    color: #c8c8c8;
+}
+
+div.miovip-controlpanel .subtitle-menu {
+    width: 42px;
+    height: 32px;
+    line-height: 35px;
+    text-align: center;
+}
+
+div.miovip-controlpanel .miovip-btn {
+    cursor: pointer;
+    outline: 0 none;
+}
+
+div.miovip-controlpanel .html5-player-progress-bar-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+div.miovip-controlpanel .load-progress-bar {
+    background-image: url("../image/sprite.png") !important;
+    background-repeat: repeat-x;
+    background-position: 0px -572px;
+    width: 100%;
+    height: 6px;
+    position: relative;
+    border-bottom: 1px solid #777;
+}
+
+div.miovip-controlpanel .seek-bar {
+    width: 100%;
+    height: 22px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 40;
+    top: -7px;
+    background-color: #000;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+div.miovip-controlpanel .load-progress {
+    background: #363636;
+    /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM2MzYzNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhZGFkYWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #363636 0%, #adadad 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #363636), color-stop(100%, #adadad));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #363636 0%, #adadad 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #363636 0%, #adadad 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #363636 0%, #adadad 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #363636 0%, #adadad 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#363636', endColorstr='#adadad', GradientType=0);
+    /* IE6-8 */
+    width: 0px;
+    height: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+div.miovip-controlpanel .load-progress.unseekable {
+    background: #2d2d2d;
+    /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJkMmQyZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1MzUzNTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #2d2d2d 0%, #535353 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2d2d2d), color-stop(100%, #535353));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #2d2d2d 0%, #535353 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #2d2d2d 0%, #535353 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #2d2d2d 0%, #535353 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #2d2d2d 0%, #535353 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2d2d2d', endColorstr='#535353', GradientType=0);
+    /* IE6-8 */
+}
+
+div.miovip-controlpanel .play-progress-bar-wrap {
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    top: 0px;
+    left: 0px;
+}
+
+div.miovip-controlpanel .play-progress-bar {
+    position: relative;
+    margin-right: 7px;
+    padding-left: 7px;
+    height: 7px;
+}
+
+div.miovip-controlpanel .play-progress {
+    width: 0px;
+    height: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+div.miovip-controlpanel .scrubber-bar-wrap {
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    top: 0px;
+    left: 0px;
+}
+
+div.miovip-controlpanel .scrubber-bar {
+    position: relative;
+    margin: 0 7px;
+    height: 7px;
+}
+
+div.miovip-controlpanel .scrubber-button {
+    background-image: url("../image/sprite.png") !important;
+    background-repeat: no-repeat;
+    background-position: 0px -542px;
+    width: 14px;
+    height: 10px;
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    z-index: 30;
+    margin-left: -7px;
+}
+
+/* accessibility */
+div.miovip-controlpanel .accessible:focus {
+    outline: 0;
+}
+
+div.miovip-controlpanel .volume-pict-container.accessible:focus,
+div.miovip-controlpanel .volume-pict-container.accessible:hover {
+    background-color: #999;
+    opacity: 1.0;
+}
+
+div.miovip-controlpanel div.html5-player-progress-bar-wrap.accessible.on-hover {
+    outline: 2px solid #999;
+}
+
+div.miovip-controlpanel div.html5-player-progress-bar-wrap.accessible:focus {
+    outline: 2px solid #999;
+}
+
+div.miovip-controlpanel .control-current.accessible {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 9px;
+    height: 16px;
+    outline: 2px solid #999;
+}
+
+div.miovip-controlpanel .control-current.accessible:focus,
+div.miovip-controlpanel .control-current.accessible:hover {
+    color: #343434;
+    background-color: #999;
+}
+
+div.miovip-controlpanel ul.control-list li.accessible:focus,
+div.miovip-controlpanel ul.control-list li.accessible:hover {
+    color: #343434;
+    background-color: #999;
+}
+
+div.miovip-controlpanel .control-current.qualities.accessible {
+    font-size: 10px;
+    color: #999;
+    background-color: transparent;
+}
+
+div.miovip-controlpanel .control-current.qualities.accessible:focus,
+div.miovip-controlpanel .control-current.qualities.accessible:hover {
+    color: #343434;
+    background-color: #999;
+}
+
+div.mte-screen .btn-center-control.miovip-btn.accessible:focus {
+    outline: 0;
+    opacity: 0.8;
+}
+
+div.miovip-controlpanel .btn-play-img {
+    float: left;
+    width: 44px;
+    height: 33px;
+}
+
+div.miovip-controlpanel .live-mark-img {
+    width: 60px;
+    height: 34px;
+    margin: 0;
+    float: left;
+}
+
+div.miovip-controlpanel .scrubber-button-img {
+    width: 14px;
+    height: 10px;
+    position: absolute;
+    top: -6px;
+    left: 0;
+    z-index: 30;
+    margin-left: -7px;
+}
+
+div.miovip-controlpanel .volume-pict-img {
+    height: 33px;
+    vertical-align: top;
+    display: inline-block;
+    _display: inline;
+    _zoom: 1;
+    width: 44px;
+}
+
+div.miovip-controlpanel .btn-fullscreen-img {
+    float: right;
+    width: 30px;
+    height: 33px;
+    margin-right: 6px;
+}
+
+div.miovip-controlpanel .skip-backward-img,
+.skip-forward-img {
+    height: 33px;
+    float: left;
+}
+
+div.miovip-playback-button .btn-center-control-img.miovip-btn {
+    position: absolute;
+    display: inline-block;
+    _display: inline;
+    _zoom: 1;
+    width: 96px;
+    height: 96px;
+    top: 50%;
+    margin-top: -48px;
+    left: 50%;
+    margin-left: -48px;
+}
+
+div.miovip-playback-button .btn-center-control-img.miovip-btn.control-replay {
+    height: 128px;
+    margin-top: -68px;
+    margin-left: -48px;
+}
+
+div.mte-screen .btn-center-control-img.miovip-btn.hover {
+    opacity: 0.8;
+}
+
+/* for Html5 Deck player */
+
+div.miovip-controlpanel .html5-deck-wrap {
+    width: 100%;
+    height: 33px;
+    color: #999;
+}
+
+div.miovip-controlpanel .html5-deck-wrap .time-display {
+    float: left;
+    display: inline-block;
+    _display: inline;
+    _zoom: 1;
+    font-size: 15px;
+}
+
+div.miovip-controlpanel .html5-deck-wrap .html5-player-progress-bar-wrap {
+    float: left;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    padding-top: 13px;
+    margin-left: 7px;
+    margin-right: 7px;
+    width: 50%;
+}
+
+
+div.miovip-controlpanel .html5-deck-wrap .load-progress-bar {
+    background-image: url("../image/sprite.png") !important;
+    background-repeat: repeat-x;
+    background-position: 0px -572px;
+    width: 100%;
+    height: 6px;
+    position: relative;
+    border-bottom: 1px solid #777;
+}
+
+div.miovip-controlpanel .html5-deck-wrap .seek-bar {
+    width: 100%;
+    height: 22px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 40;
+    top: 6px;
+    background-color: #000;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+div.miovip-controlpanel .html5-deck-wrap .load-progress {
+    background: #363636;
+    /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM2MzYzNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhZGFkYWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #363636 0%, #adadad 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #363636), color-stop(100%, #adadad));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #363636 0%, #adadad 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #363636 0%, #adadad 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #363636 0%, #adadad 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #363636 0%, #adadad 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#363636', endColorstr='#adadad', GradientType=0);
+    /* IE6-8 */
+    width: 0px;
+    height: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+div.miovip-controlpanel .html5-deck-wrap .load-progress.unseekable {
+    background: #2d2d2d;
+    /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJkMmQyZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1MzUzNTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #2d2d2d 0%, #535353 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2d2d2d), color-stop(100%, #535353));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #2d2d2d 0%, #535353 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #2d2d2d 0%, #535353 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #2d2d2d 0%, #535353 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #2d2d2d 0%, #535353 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2d2d2d', endColorstr='#535353', GradientType=0);
+    /* IE6-8 */
+}
+
+div.miovip-controlpanel .html5-deck-wrap .play-progress-bar-wrap {
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    top: 0;
+    left: 0;
+    padding-top: 13.5px;
+}
+
+div.miovip-controlpanel .html5-deck-wrap .play-progress-bar {
+    position: relative;
+    margin-right: 7px;
+    padding-left: 7px;
+    height: 7px;
+}
+
+div.miovip-controlpanel .html5-deck-wrap .play-progress {
+    width: 0;
+    height: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+div.miovip-controlpanel .html5-deck-wrap .scrubber-bar-wrap {
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    top: 0;
+    left: 0;
+    padding-top: 13.5px;
+}
+
+div.miovip-controlpanel .html5-deck-wrap .scrubber-bar {
+    position: relative;
+    margin: 0 7px;
+    height: 7px;
+}
+
+div.miovip-controlpanel .html5-deck-wrap .scrubber-button {
+    background-image: url("../image/sprite.png") !important;
+    background-repeat: no-repeat;
+    background-position: 0px -542px;
+    width: 14px;
+    height: 10px;
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    z-index: 30;
+    margin-left: -7px;
+}
+
+/* ==========================================================================
+   center play button
+   ========================================================================== */
+
+div.miovip-playback-button .btn-center-control.miovip-btn {
+    position: absolute;
+    display: inline-block;
+    _display: inline;
+    _zoom: 1;
+}
+
+div.miovip-playback-button .btn-center-control.miovip-btn.control-play {
+    width: 96px;
+    height: 96px;
+    background-image: url("../image/sprite.png") !important;
+    background-repeat: no-repeat;
+    background-position: 0px -598px;
+    top: 50%;
+    margin-top: -48px;
+    left: 50%;
+    margin-left: -48px;
+}
+
+div.miovip-playback-button .btn-center-control.miovip-btn.control-pause {
+    width: 96px;
+    height: 96px;
+    background-image: url("../image/sprite.png") !important;
+    background-repeat: no-repeat;
+    background-position: 0px -694px;
+    top: 50%;
+    margin-top: -48px;
+    left: 50%;
+    margin-left: -48px;
+}
+
+div.miovip-playback-button .btn-center-control.miovip-btn.control-replay {
+    width: 96px;
+    height: 128px;
+    background-image: url("../image/sprite.png") !important;
+    background-repeat: no-repeat;
+    background-position: 0px -790px;
+    top: 50%;
+    margin-top: -64px;
+    left: 50%;
+    margin-left: -48px;
+}
+
+div.mte-screen .btn-center-control.miovip-btn.hover {
+    opacity: 0.8;
+}
+
+
+/* ==========================================================================
+   color option
+   ========================================================================== */
+
+/*
+   color-name
+ */
+div.miovip-controlpanel .color-class .play-progress {
+    background-color: #000;
+    border: 1px solid #555;
+}
+
+div.miovip-controlpanel .color-class .volume-pict-container div {
+    background-color: #111;
+}
+
+/*
+   black
+ */
+div.miovip-controlpanel.c-black .play-progress {
+    background-color: #000;
+    border: 1px solid #555;
+}
+
+div.miovip-controlpanel.c-black .volume-pict-container div {
+    background-color: #111;
+}
+
+/*
+   red
+ */
+div.miovip-controlpanel.c-red .play-progress {
+    background-color: #CF4444;
+    border: 1px solid #8B1818;
+}
+
+div.miovip-controlpanel.c-red .volume-pict-container div {
+    background-color: #DD4949;
+}
+
+/*
+   blue
+ */
+div.miovip-controlpanel.c-blue .play-progress {
+    background-color: #2B5698;
+    border: 1px solid #26487C;
+}
+
+div.miovip-controlpanel.c-blue .volume-pict-container div {
+    background-color: #2D64B8;
+}
+
+/*
+   green
+ */
+div.miovip-controlpanel.c-green .play-progress {
+    background-color: #4B9619;
+    border: 1px solid #386B17;
+}
+
+div.miovip-controlpanel.c-green .volume-pict-container div {
+    background-color: #499317;
+}
+
+/*
+   yellow
+ */
+div.miovip-controlpanel.c-yellow .play-progress {
+    background-color: #B1B51F;
+    border: 1px solid #B7BB21;
+}
+
+div.miovip-controlpanel.c-yellow .volume-pict-container div {
+    background-color: #B7BB21;
+}
+
+/*
+   pink
+ */
+div.miovip-controlpanel.c-pink .play-progress {
+    background-color: #E564B7;
+    border: 1px solid #CA3996;
+}
+
+div.miovip-controlpanel.c-pink .volume-pict-container div {
+    background-color: #E570CD;
+}
+
+/*
+   orange
+ */
+div.miovip-controlpanel.c-orange .play-progress {
+    background-color: #C56927;
+    border: 1px solid #AE581A;
+}
+
+div.miovip-controlpanel.c-orange .volume-pict-container div {
+    background-color: #D87731;
+}
+
+/*
+   purple
+ */
+div.miovip-controlpanel.c-purple .play-progress {
+    background-color: #A82798;
+    border: 1px solid #841877;
+}
+
+div.miovip-controlpanel.c-purple .volume-pict-container div {
+    background-color: #A13193;
+}
+
+/*
+   gray
+ */
+div.miovip-controlpanel.c-gray .play-progress {
+    background-color: #61666E;
+    border: 1px solid #40454D;
+}
+
+div.miovip-controlpanel.c-gray .volume-pict-container div {
+    background-color: #6A6E74;
+}
+
+/*
+   lightgray
+ */
+div.miovip-controlpanel.c-lightgray .play-progress {
+    background-color: #869096;
+    border: 1px solid #576167;
+}
+
+div.miovip-controlpanel.c-lightgray .volume-pict-container div {
+    background-color: #8F9BA3;
+}
+
+/* ==========================================================================
+   Subtitle classes
+   ========================================================================== */
+div.miovip-subtitle-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 30;
+    color: #FFF;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+div.miovip-subtitle-button .button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 45px;
+    height: 30px;
+    background-color: #000;
+    border: 2px solid #FFF;
+    line-height: 30px;
+    text-align: center;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=8);
+    -khtml-opacity: 0.8;
+}
+
+div.miovip-subtitle-button .list {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+    width: 100px;
+    background-color: #000;
+    border: 2px solid #FFF;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=8);
+    -khtml-opacity: 0.8;
+    overflow-y: auto;
+}
+
+div.miovip-subtitle-button .list .item {
+    height: 23px;
+}
+
+div.miovip-subtitle-button .list .item.title {
+    border-bottom: 1px solid #FFF;
+}
+
+div.miovip-subtitle-button .list .item.setting {
+    border-top: 1px solid #FFF;
+}
+
+div.miovip-subtitle-button .list .item .selected {
+    float: left;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 10px;
+}
+
+div.miovip-subtitle-button .list .item .text {
+    float: left;
+    width: 77px;
+    height: 23px;
+    line-height: 23px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+div.miovip-subtitle-button .list.mobile {
+    right: 0px;
+    padding: 5px;
+    width: 140px;
+}
+
+div.miovip-subtitle-button .list.mobile .item {
+    height: 35px;
+}
+
+div.miovip-subtitle-button .list.mobile .item .selected {
+    width: 23px;
+    height: 35px;
+    line-height: 35px;
+}
+
+div.miovip-subtitle-button .list.mobile .item .text {
+    width: 60px;
+    height: 35px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+div.mte-screen ::cue,
+div.mte-screen .cue-color-black::cue {
+    color: #FFF;
+    background-color: #000;
+    font-size: 1em;
+}
+
+div.mte-screen .cue-color-white::cue {
+    color: #000;
+    background-color: #FFF;
+}
+
+div.mte-screen .cue-size-x-large::cue {
+    font-size: 1.5em;
+}
+
+div.mte-screen .cue-size-large::cue {
+    font-size: 1.25em;
+}
+
+div.mte-screen .cue-size-middle::cue {
+    font-size: 1em;
+}
+
+div.mte-screen .cue-size-small::cue {
+    font-size: 0.9em;
+}
+
+div.mte-screen .cue-size-x-small::cue {
+    font-size: 0.75em;
+}
+
+/* ==========================================================================
+   Title Panel classes
+   ========================================================================== */
+
+div.miovip-titlepanel {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    top: 0;
+    left: 0;
+    z-index: 25;
+    background-color: #000000;
+    opacity: 0.85;
+    -moz-opacity: 0.85;
+    filter: alpha(opacity=85);
+    -khtml-opacity: 0.85;
+}
+
+div.miovip-titlepanel span {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-left: 18px;
+    line-height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
+/* ==========================================================================
+   Menu classes
+   ========================================================================== */
+
+div.miovip-menu {
+    position: absolute;
+    z-index: 35;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFF;
+    overflow-x: auto;
+    overflow-y: auto;
+    font-size: 13px;
+}
+
+div.miovip-menu .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #FFF;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    cursor: pointer;
+}
+
+div.miovip-menu .clearfix {
+    *zoom: 1;
+    clear: both;
+}
+
+div.miovip-menu .subtitle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 15px;
+    width: 380px;
+}
+
+div.miovip-menu .subtitle .subtitle-title {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+div.miovip-menu .subtitle .subtitle-style,
+div.miovip-menu .subtitle .subtitle-size {
+    margin-bottom: 8px;
+}
+
+div.miovip-menu .subtitle .subtitle-style {
+    height: 60px;
+}
+
+div.miovip-menu .subtitle .subtitle-size {
+    height: 30px;
+}
+
+div.miovip-menu .subtitle .subtitle-style .subtitle-style-title,
+div.miovip-menu .subtitle .subtitle-size .subtitle-size-title {
+    width: 100px;
+    float: left;
+}
+
+div.miovip-menu .subtitle .subtitle-style .subtitle-style-list {
+    width: 280px;
+    float: left;
+}
+
+div.miovip-menu .subtitle .subtitle-style .subtitle-style-list .subtitle-style-item * {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+div.miovip-menu .subtitle .subtitle-style .subtitle-style-list .subtitle-style-item label {
+    width: 140px;
+}
+
+div.miovip-menu .subtitle .subtitle-style .subtitle-style-list .subtitle-style-item label input {
+    margin-right: 3px;
+}
+
+div.miovip-menu .subtitle .subtitle-style .subtitle-style-list .subtitle-style-item .subtitle-style-preview {
+    padding: 0 15px;
+}
+
+div.miovip-menu .subtitle .subtitle-style .subtitle-style-list .subtitle-style-item .subtitle-style-preview.cue-color-black {
+    color: #FFF;
+    background-color: #000;
+}
+
+div.miovip-menu .subtitle .subtitle-style .subtitle-style-list .subtitle-style-item .subtitle-style-preview.cue-color-white {
+    color: #000;
+    background-color: #FFF;
+}
+
+div.miovip-menu .subtitle .subtitle-size .subtitle-size-list .subtitle-size-item {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+}
+
+div.miovip-menu .subtitle .subtitle-size .subtitle-size-list .subtitle-size-item label input {
+    margin-right: 3px;
+}
+
+div.miovip-menu .submit {
+    float: right;
+    width: 73px;
+    height: 28px;
+    padding: 0px;
+    background-image: url("../image/btn_caption_off.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+div.miovip-menu .submit:hover {
+    background-image: url("../image/btn_caption_on.png");
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+div.miovip-controlpanel .clearfix:before,
+div.miovip-controlpanel .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+div.miovip-controlpanel .clearfix:after {
+    clear: both;
+}
+
+div.miovip-controlpanel .clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   VAST control classes
+   ========================================================================== */
+
+div.miovp-vast-skip-display,
+div.miovp-vast-skip-display-small {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: black;
+    opacity: 0.9;
+    text-align: left;
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    z-index: 100;
+}
+
+div.miovp-vast-skip-display-small {
+    bottom: 45px;
+    right: 5px;
+}
+
+div.miovp-vast-skip-display div.miovp-vast-skip-text,
+div.miovp-vast-skip-display-small div.miovp-vast-skip-text-small {
+    color: #D2D2D2;
+    opacity: 0.8;
+    font-size: 14px;
+    padding: 10px 16px;
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', serif, sans-serif;
+    cursor: default;
+}
+
+div.miovp-vast-skip-display-small div.miovp-vast-skip-text-small {
+    font-size: 8px;
+    padding: 4px 10px;
+}
+
+div.miovp-vast-skip-text,
+div.miovp-vast-skip-text-small {
+    white-space: pre-wrap;
+}
+
+div.miovp-vast-skip-display div.miovp-vast-skip-text.skippable {
+    padding: 1.31em 0.52em;
+    font-size: 1.0em;
+}
+
+div.miovp-vast-skip-display-small div.miovp-vast-skip-text-small.skippable {
+    padding: 0.84em 0.68em;
+    font-size: 0.7em;
+}
+
+div.miovp-vast-skip-text.skippable:hover,
+div.miovp-vast-skip-text-small.skippable:hover {
+    color: white;
+    cursor: pointer;
+}
+
+/* ==========================================================================
+   html player related movie and image classes
+   ========================================================================== */
+div.mte-related-image {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.mte-related-image img {
+    cursor: pointer;
+    color: #000000;
+}
+
+div.mte-related-movies {
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+ul.mte-related-movies {
+    list-style-type: none;
+}
+
+ul.mte-related-movies li {
+    float: left;
+    margin: 0 0 0 0;
+}
+
+ul.mte-related-movies li {
+    width: 174px;
+    height: 104px;
+}
+
+ul.mte-related-movies li img {
+    cursor: pointer;
+    width: 160px;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 1.0)
+}
+
+ul.mte-related-movies li div {
+    position: absolute;
+    cursor: pointer;
+    width: 160px;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+ul.mte-related-movies li div p {
+    position: absolute;
+    color: #FFFFFF;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+ul.mte-related-movies li a {
+    display: block;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+/* MacIE用 */
+*+html .clearfix {
+    height: 1%;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}

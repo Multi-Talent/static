@@ -1,0 +1,60 @@
+@charset "UTF-8";
+.mf_finder_search_box .mf_finder_search_box_form {
+    width: 10rem;
+    height: 2rem;
+}
+.mf_finder_search_box .mf_finder_search_box_form .mf_finder_search_box_items {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    flex-grow: 1;
+    line-height: 1.5;
+}
+.mf_finder_search_box .mf_finder_search_box_form .mf_finder_search_box_items .mf_finder_search_box_query_input {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    width: 8rem;
+    min-height: 1rem;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+.mf_finder_search_box .mf_finder_search_box_form .mf_finder_search_box_items .mf_finder_search_box_submit {
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    background-image: url(https://www.global.toshiba/etc.clientlibs/toshiba-gw/core/clientlibs/clientlib/resources/icon/icon-grass.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    margin-left: -2px;
+    padding: 0 12px;
+    font-size: 16px;
+}
+.mf_finder_search_box_submit:before {
+    content: none;
+}
+.mf_finder_search_box_submit span {
+    margin-left: 0.35rem;
+    margin-right: 0.35rem;
+}
+
+.mf_finder_search_box .mf_finder_search_box_suggest_items {
+    z-index: 1000;
+}
+
+.mf_finder_search_box .mf_finder_search_box_suggest_item a {
+    color: #fff;
+    text-decoration: none;
+}
