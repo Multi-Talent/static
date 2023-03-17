@@ -1,4 +1,4 @@
-﻿/*--------------------------------------------------------------
+/*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 # Utility
@@ -7350,3 +7350,106 @@ ul {
     display: none;
 }
 
+/*===============================
+	Events CSS 
+=================================*/
+.events{
+	background:#F8F8F8;
+}
+.event-img, .coming-event {
+	margin-top: 30px;
+}
+.coming-event {
+	padding-left: 35px;
+}
+.events .single-event {
+	background: #fff;
+	position: relative;
+	margin-left: 0;
+	padding: 30px 20px 30px 60px;
+	margin-bottom: 30px;
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.events .single-event:last-child{
+	margin:0;
+}
+.events .event-date {
+	position: absolute;
+	left: -35px;
+	width: 70px;
+	text-align: center;
+	top: 50%;
+	margin-top: -35px;
+	padding: 10px 0;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.events .single-event:hover .event-date {
+	border-radius:100%;
+}
+.events .event-date p {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.events .single-event:hover .event-date p{
+	font-size:25px;
+}
+.events .event-date p span {
+	display: block;
+	font-size: 14px;
+	font-weight:500;
+}
+.events .event-title {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.events .event-title a {
+	font-weight: 700;
+	color: #252525;
+}
+.events .entry-date-time {
+	color: #555;
+	margin-top: 5px;
+	display: block;
+}
+/* Events Archive */
+.events.archive{}
+.events.archive .single-event {
+	padding: 15px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+.events.archive .event-image{
+	position: relative;
+	overflow:hidden;
+}
+.events.archive .event-image img{
+	width: 100%;
+	height: 100%;
+}
+.events.archive .single-event:hover .event-image img{
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	transform:scale(1.2);
+}
+.events.archive .event-date {
+	top: 5px;
+	margin: 0;
+	left: 5px;
+}
+.events.archive .event-content{
+	margin-top: 20px;
+}
+/*===============================
+	End Events CSS 
+=================================*/
