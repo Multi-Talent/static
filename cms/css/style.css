@@ -389,6 +389,7 @@ input::placeholder {
     background-repeat: no-repeat;
     background-position: center left 8px;
     font-size: 14px;
+    color: #6e6e6e;
     border: 1px solid #6e6e6e
 }
 
