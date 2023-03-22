@@ -292,7 +292,7 @@ label {
 
 fieldset,
 input {
-    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     vertical-align: middle;
     border-radius: 0;
     outline: none
@@ -310,7 +310,7 @@ input[type=radio] {
 }
 
 textarea {
-    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     resize: none;
     vertical-align: top;
     border-radius: 0;
@@ -319,7 +319,7 @@ textarea {
 }
 
 select {
-    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     line-height: normal;
     outline: none
 }
@@ -329,7 +329,7 @@ html {
 }
 
 body {
-    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     line-height: 1.8;
     word-break: break-word;
     color: #333;
@@ -459,7 +459,7 @@ a:focus {
 }
 
 .header-shool-01-item {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 10px;
     font-size: 2.63158vw;
     font-weight: 600;
@@ -479,7 +479,7 @@ a:focus {
 
 @media screen and (max-width:769px) {
     .header-shool-01-item {
-        font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+        font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
         font-weight: 600
     }
 }
@@ -687,7 +687,7 @@ a:focus {
 }
 
 .c-link-kids a {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 10px;
     font-size: 2.63158vw;
     font-weight: 600;
@@ -710,7 +710,7 @@ a:focus {
     width: 12.5px;
     height: 12.5px;
     content: '';
-    background-image: url(/assets/img/link/icon_link_external_01_kids.png);
+    background-image: url(/static/top/images/link/icon_link_external_01_kids.png);
     background-repeat: no-repeat;
     background-size: contain
 }
@@ -741,7 +741,7 @@ a:focus {
 }
 
 .c-link-ippan a {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 10px;
     font-size: 2.63158vw;
     font-weight: 600;
@@ -763,7 +763,7 @@ a:focus {
     width: 10.5px;
     height: 10.5px;
     content: '';
-    background-image: url(/assets/img/link/icon_link_external_01.png);
+    background-image: url(/static/top/images/link/icon_link_external_01.png);
     background-repeat: no-repeat;
     background-size: contain
 }
@@ -825,7 +825,7 @@ a:focus {
 }
 
 #l-footer {
-    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     line-height: 1.8;
     box-sizing: border-box;
     width: 100%;
@@ -972,7 +972,7 @@ a:focus {
 }
 
 .c-list-pan-01 a {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -1145,7 +1145,7 @@ a:focus {
 }
 
 #l-footer .c-list-link-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     padding-top: 3.94737vw;
     border-bottom: 1px solid #d9d9d9
@@ -1389,13 +1389,13 @@ a:focus {
     height: 23.5px;
     height: 6.18421vw;
     margin: 0 auto;
-    background-image: url(/assets/img/footer/icon_tell.png);
+    background-image: url(/static/top/images/footer/icon_tell.png);
     background-repeat: no-repeat;
     background-size: contain
 }
 
 .is-kids .c-lyt-fixcontact-01 .tell .icon {
-    background-image: url(/assets/img/footer/icon_tell_kids.png)
+    background-image: url(/static/top/images/footer/icon_tell_kids.png)
 }
 
 .c-lyt-fixcontact-01 .pagelink {
@@ -1459,7 +1459,7 @@ a:focus {
 }
 
 .c-tbl-data-01 .c-tb-access .icon_map {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     position: absolute;
     right: 0;
@@ -1771,7 +1771,7 @@ a:focus {
     height: 11px;
     margin: auto;
     content: '';
-    background-image: url(/assets/img/icon/icon_arrow01.png);
+    background-image: url(/static/top/images/icon/icon_arrow01.png);
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -1789,7 +1789,7 @@ a:focus {
 }
 
 .is-kids .c-announce-list li:after {
-    background-image: url(/assets/img/icon/icon_arrow02.png)
+    background-image: url(/static/top/images/icon/icon_arrow02.png)
 }
 
 .c-announce-list li a {
@@ -2135,7 +2135,7 @@ a:focus {
 .c-list-link-01 li a,
 .c-list-info-03 .title,
 .c-list-link-03 li a {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     position: relative;
     padding: 0 19px 0 0;
@@ -2155,7 +2155,7 @@ a:focus {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/assets/img/icon/icon_arrow01.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow01.png) center center no-repeat;
     background-size: contain
 }
 
@@ -2226,7 +2226,7 @@ a:focus {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/assets/img/icon/icon_arrow02.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow02.png) center center no-repeat;
     background-size: contain
 }
 
@@ -2314,7 +2314,7 @@ a:focus {
 }
 
 .link-prev-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     position: relative;
     padding: 0 0 0 20px;
@@ -2336,7 +2336,7 @@ a:focus {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/assets/img/icon/icon_arrow01.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow01.png) center center no-repeat;
     background-size: contain
 }
 
@@ -2397,7 +2397,7 @@ a:focus {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/assets/img/icon/icon_arrow02.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow02.png) center center no-repeat;
     background-size: contain
 }
 
@@ -2449,7 +2449,7 @@ a:focus {
 }
 
 .link-external-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     position: relative;
     display: inline-block;
@@ -2461,7 +2461,7 @@ a:focus {
 }
 
 .link-external-01.external-kids:after {
-    background-image: url(/assets/img/link/icon_link_external_01_kids.png)
+    background-image: url(/static/top/images/link/icon_link_external_01_kids.png)
 }
 
 .link-external-01.external-corp {
@@ -2469,7 +2469,7 @@ a:focus {
 }
 
 .link-external-01.external-corp:after {
-    background-image: url(/assets/img/link/icon_link_external_01_corp.png)
+    background-image: url(/static/top/images/link/icon_link_external_01_corp.png)
 }
 
 .link-external-01:after {
@@ -2481,7 +2481,7 @@ a:focus {
     height: 2.63158vw;
     margin: auto .39474vw;
     content: '';
-    background: url(/assets/img/link/icon_link_external_01.png) center center no-repeat;
+    background: url(/static/top/images/link/icon_link_external_01.png) center center no-repeat;
     background-size: contain
 }
 
@@ -2493,7 +2493,7 @@ a:focus {
 }
 
 .is-kids .link-external-01:after {
-    background-image: url(/assets/img/link/icon_link_external_01_kids.png)
+    background-image: url(/static/top/images/link/icon_link_external_01_kids.png)
 }
 
 @media screen and (min-width:770px) {
@@ -2538,7 +2538,7 @@ a:focus {
 }
 
 .c-link-block li a {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: -webkit-box;
     display: -webkit-flex;
@@ -2573,7 +2573,7 @@ a:focus {
 @media screen and (max-width:769px) {
     .is-kids .c-link-block li a.bg-01 {
         padding-left: 14.93333vw;
-        background-image: url(/assets/img/page/general-top/service_01_sp.png);
+        background-image: url(/static/top/images/page/general-top/service_01_sp.png);
         background-repeat: no-repeat;
         background-position: top 50% left 3.33333vw;
         background-size: 9.33333vw 9.33333vw
@@ -2583,7 +2583,7 @@ a:focus {
 @media screen and (min-width:770px) {
     .is-kids .c-link-block li a.bg-01 {
         padding-left: 40px;
-        background-image: url(/assets/img/page/general-top/service_01_sp.png);
+        background-image: url(/static/top/images/page/general-top/service_01_sp.png);
         background-repeat: no-repeat;
         background-position: top 0 left 0;
         background-size: 31px
@@ -2607,7 +2607,7 @@ a:focus {
     display: inline-block;
     margin: auto;
     content: '';
-    background: url(/assets/img/link/icon_link_external_02.png) center center no-repeat;
+    background: url(/static/top/images/link/icon_link_external_02.png) center center no-repeat;
     background-size: contain
 }
 
@@ -2688,7 +2688,7 @@ a:focus {
 @media screen and (max-width:769px) {
     .c-link-block li.sp-2col a.bg-01 {
         padding-left: 14.93333vw;
-        background-image: url(/assets/img/page/general-top/service_01_sp.png);
+        background-image: url(/static/top/images/page/general-top/service_01_sp.png);
         background-repeat: no-repeat;
         background-position: top 50% left 3.33333vw;
         background-size: 9.33333vw 9.33333vw
@@ -2698,7 +2698,7 @@ a:focus {
 @media screen and (min-width:770px) {
     .c-link-block li.sp-2col a.bg-01 {
         padding-left: 38px;
-        background-image: url(/assets/img/page/general-top/service_01_sp.png);
+        background-image: url(/static/top/images/page/general-top/service_01_sp.png);
         background-repeat: no-repeat;
         background-position: top 0 left 0;
         background-size: 31px
@@ -2708,7 +2708,7 @@ a:focus {
 @media screen and (max-width:769px) {
     .c-link-block li.sp-2col a.bg-02 {
         padding-left: 19.33333vw;
-        background-image: url(/assets/img/page/general-top/service_02_sp.png);
+        background-image: url(/static/top/images/page/general-top/service_02_sp.png);
         background-repeat: no-repeat;
         background-position: top 50% left 4.26667vw;
         background-size: 12.66667vw 6.8vw
@@ -2718,7 +2718,7 @@ a:focus {
 @media screen and (min-width:770px) {
     .c-link-block li.sp-2col a.bg-02 {
         padding-left: 47px;
-        background-image: url(/assets/img/page/general-top/service_02_sp.png);
+        background-image: url(/static/top/images/page/general-top/service_02_sp.png);
         background-repeat: no-repeat;
         background-position: top 3px left 0;
         background-size: 41px 22px
@@ -2733,7 +2733,7 @@ a:focus {
 }
 
 .c-text-bold-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -2784,7 +2784,7 @@ a:focus {
 
 .c-nav-btn-01 button,
 .c-nav-btn-01 a {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 16px;
     font-size: 4.21053vw;
     font-weight: 600;
@@ -2806,7 +2806,7 @@ a:focus {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/static/top/images/icon/icon_arrow.png) center center no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/images/icon/icon_arrow.png) center center no-repeat;
     background-size: contain
 }
 
@@ -2875,7 +2875,7 @@ a:focus {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     border: none;
-    background: url(/assets/img/link/icon_external.png) center no-repeat;
+    background: url(/static/top/images/link/icon_external.png) center no-repeat;
     background-size: contain
 }
 
@@ -2979,7 +2979,7 @@ a:focus {
 }
 
 .c-moreread-btn-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium,Helvetica,Arial,'ヒラギノ角ゴ Pro W3',Hiragino Kaku Gothic Pro,'メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
     font-weight: 600;
     line-height: 1;
     box-sizing: border-box;
@@ -3246,7 +3246,7 @@ a:focus {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/static/top/images/icon/icon_arrow.png) center center no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/images/icon/icon_arrow.png) center center no-repeat;
     background-size: contain
 }
 
@@ -3289,7 +3289,7 @@ a:focus {
 }
 
 .c-reserve-btn-01 .c-reserve-btn-item-01 a {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium,Helvetica,Arial,'ヒラギノ角ゴ Pro W3',Hiragino Kaku Gothic Pro,'メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
     font-weight: 600;
     color: #fff
 }
@@ -3308,7 +3308,7 @@ a:focus {
     .c-reserve-btn-01 .c-reserve-btn-item-01 a .icon {
         margin-right: 2.66667vw;
         padding: 0 0 0 9.33333vw;
-        background: url(/assets/img/icon/icon_reserve.png) left 0 center no-repeat;
+        background: url(/static/top/images/icon/icon_reserve.png) left 0 center no-repeat;
         background-size: 6.4vw, 5.6vw
     }
 }
@@ -3317,7 +3317,7 @@ a:focus {
     .c-reserve-btn-01 .c-reserve-btn-item-01 a .icon {
         margin-right: 10px;
         padding-left: 46px;
-        background: url(/assets/img/icon/icon_reserve.png) left 0 top 40% no-repeat;
+        background: url(/static/top/images/icon/icon_reserve.png) left 0 top 40% no-repeat;
         background-size: 33px 28px
     }
 }
@@ -3332,7 +3332,7 @@ a:focus {
 @media screen and (min-width:770px) {
     .c-reserve-btn-01 .c-reserve-btn-item-01 a .icon.is-font-large {
         font-size: 26px;
-        background: url(/assets/img/icon/icon_reserve.png) left 0 top 50% no-repeat;
+        background: url(/static/top/images/icon/icon_reserve.png) left 0 top 50% no-repeat;
         background-size: 33px 28px
     }
 }
@@ -3355,7 +3355,7 @@ a:focus {
         -ms-transform: translate(0, -50%);
         transform: translate(0, -50%);
         vertical-align: middle;
-        background: url(/static/top/images/icon/icon_arrow.png) center center no-repeat;
+        background: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/images/icon/icon_arrow.png) center center no-repeat;
         background-size: contain
     }
 }
@@ -3379,12 +3379,12 @@ a:focus {
 
 @media screen and (max-width:769px) {
     .c-reserve-btn-01 .c-reserve-btn-item-02:after {
-        background: url(/assets/img/icon/icon_arrow01.png) center center no-repeat;
+        background: url(/static/top/images/icon/icon_arrow01.png) center center no-repeat;
         background-size: contain
     }
 
     .is-kids .c-reserve-btn-01 .c-reserve-btn-item-02:after {
-        background: url(/assets/img/icon/icon_arrow02.png) center center no-repeat;
+        background: url(/static/top/images/icon/icon_arrow02.png) center center no-repeat;
         background-size: contain
     }
 }
@@ -3398,7 +3398,7 @@ a:focus {
 .c-reserve-btn-01 .c-reserve-btn-item-02 a {
     box-sizing: border-box;
     border: 2px solid #02a0e8;
-    background: url(/assets/img/icon/icon_reserve.png) left 25.33333vw center no-repeat
+    background: url(/static/top/images/icon/icon_reserve.png) left 25.33333vw center no-repeat
 }
 
 @media screen and (max-width:769px) {
@@ -3432,7 +3432,7 @@ a:focus {
 }
 
 .c-reserve-btn-01 .c-reserve-btn-item-02 a .txt {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium,Helvetica,Arial,'ヒラギノ角ゴ Pro W3',Hiragino Kaku Gothic Pro,'メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
     font-weight: 600;
     display: block;
     width: 100%;
@@ -3446,7 +3446,7 @@ a:focus {
         font-size: 3.68421vw;
         margin-top: 1.06667vw;
         padding-left: 4vw;
-        background: url(/assets/img/icon/icon_freecall.png) left 4vw top 70% no-repeat;
+        background: url(/static/top/images/icon/icon_freecall.png) left 4vw top 70% no-repeat;
         background-size: 5.33333vw, 5.06667vw
     }
 }
@@ -3468,7 +3468,7 @@ a:focus {
 
 @media screen and (max-width:769px) {
     .is-kids .c-reserve-btn-01 .c-reserve-btn-item-02 a .txt {
-        background: url(/assets/img/icon/icon_freecall_kids.png) left 4vw top 70% no-repeat;
+        background: url(/static/top/images/icon/icon_freecall_kids.png) left 4vw top 70% no-repeat;
         background-size: 5.33333vw, 5.06667vw
     }
 }
@@ -3480,13 +3480,13 @@ a:focus {
         display: inline-block;
         margin: -11px 0 3px;
         padding-left: 46px;
-        background: url(/assets/img/icon/icon_freecall.png) left 0 top 3px no-repeat;
+        background: url(/static/top/images/icon/icon_freecall.png) left 0 top 3px no-repeat;
         background-size: 37px 29px
     }
 }
 
 .is-kids .c-reserve-btn-01 .c-reserve-btn-item-02 a .number {
-    background: url(/assets/img/icon/icon_freecall_kids.png) left 0 top 3px no-repeat;
+    background: url(/static/top/images/icon/icon_freecall_kids.png) left 0 top 3px no-repeat;
     background-size: 37px 29px
 }
 
@@ -3562,7 +3562,7 @@ a:focus {
 
 .c-btnlist .c-btnlist-item-01 button,
 .c-btnlist .c-btnlist-item-01 a {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     position: relative;
     display: block;
@@ -3609,7 +3609,7 @@ a:focus {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/static/top/images/icon/icon_arrow.png) center center no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/images/icon/icon_arrow.png) center center no-repeat;
     background-size: contain
 }
 
@@ -3667,13 +3667,13 @@ a:focus {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     border: none;
-    background: url(/assets/img/link/icon_external.png) center no-repeat;
+    background: url(/static/top/images/link/icon_external.png) center no-repeat;
     background-size: contain
 }
 
 .is-kids .c-btnlist .c-btnlist-item-01 button.external:after,
 .is-kids .c-btnlist .c-btnlist-item-01 a.external:after {
-    background-image: url(/assets/img/link/icon_link_external_01_kids.png)
+    background-image: url(/static/top/images/link/icon_link_external_01_kids.png)
 }
 
 .c-btnlist .c-btnlist-item-01 button.bold,
@@ -3693,7 +3693,7 @@ a:focus {
 }
 
 .c-hdg-level1-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     position: relative;
     z-index: 2;
@@ -3786,7 +3786,7 @@ a:focus {
 }
 
 .c-hdg-level1-02 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 22px;
     font-size: 5.78947vw;
     font-weight: 600;
@@ -3863,7 +3863,7 @@ a:focus {
 }
 
 .c-hdg-level2-01 .c-hdg-level2-01-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -3960,7 +3960,7 @@ a:focus {
 }
 
 .c-hdg-level2-02 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 24px;
     font-size: 6.31579vw;
     font-weight: 600;
@@ -3968,18 +3968,18 @@ a:focus {
 }
 
 .c-hdg-level2-03 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 16px;
     font-size: 4.21053vw;
     font-weight: 600;
     margin-bottom: 3.28947vw;
     padding-left: 3.94737vw;
-    background: url(/assets/img/bg/bg_c-hdg-level2-04.gif) no-repeat 0 50%;
+    background: url(/static/top/images/bg/bg_c-hdg-level2-04.gif) no-repeat 0 50%;
     background-size: 4px 20px
 }
 
 .c-hdg-level3-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 20px;
     font-size: 5.26316vw;
     font-weight: 600;
@@ -3999,7 +3999,7 @@ a:focus {
 }
 
 .c-hdg-level3-02 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     text-align: center
 }
@@ -4030,7 +4030,7 @@ a:focus {
 }
 
 .c-hdg-level3-03 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -4061,7 +4061,7 @@ a:focus {
 }
 
 .c-hdg-level3-04 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -4091,7 +4091,7 @@ a:focus {
 }
 
 .c-hdg-level3-05 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -4181,7 +4181,7 @@ a:focus {
 }
 
 .c-hdg-deco-container .c-hdg-deco-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     position: relative;
     display: inline-block;
@@ -4217,13 +4217,13 @@ a:focus {
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
-    background-image: url(/assets/img/heading/deco_01_l.png);
+    background-image: url(/static/top/images/heading/deco_01_l.png);
     background-repeat: no-repeat;
     background-size: contain
 }
 
 .is-kids .c-hdg-deco-container .c-hdg-deco-01:before {
-    background-image: url(/assets/img/heading/deco_01_l_kids.png)
+    background-image: url(/static/top/images/heading/deco_01_l_kids.png)
 }
 
 .c-hdg-deco-container .c-hdg-deco-01:after {
@@ -4234,17 +4234,17 @@ a:focus {
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
-    background-image: url(/assets/img/heading/deco_01_r.png);
+    background-image: url(/static/top/images/heading/deco_01_r.png);
     background-repeat: no-repeat;
     background-size: contain
 }
 
 .is-kids .c-hdg-deco-container .c-hdg-deco-01:after {
-    background-image: url(/assets/img/heading/deco_01_r_kids.png)
+    background-image: url(/static/top/images/heading/deco_01_r_kids.png)
 }
 
 .c-hdg-level4-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 15px;
     font-size: 3.94737vw;
     font-weight: 600;
@@ -4259,7 +4259,7 @@ a:focus {
 }
 
 .c-hdg-level4-02 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -4279,7 +4279,7 @@ a:focus {
 }
 
 .c-hdg-level4-03 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 15px;
     font-size: 3.94737vw;
     font-weight: 600;
@@ -4288,7 +4288,7 @@ a:focus {
 }
 
 .c-hdg-level4-04 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -4308,7 +4308,7 @@ a:focus {
 }
 
 .c-hdg-level4-05 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -4521,7 +4521,7 @@ a:focus {
 }
 
 .c-discountbox-01 .c-discountbox-inner .c-discountbox-block .c-discountbox-label {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: -webkit-box;
     display: -webkit-flex;
@@ -4581,7 +4581,7 @@ a:focus {
 }
 
 .c-discountbox-01 .c-discountbox-inner .c-discountbox-block .c-discountbox-txt {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     text-align: left;
     word-break: break-all;
@@ -4627,7 +4627,7 @@ a:focus {
 }
 
 .c-doc-plain-01 em {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -4739,7 +4739,7 @@ a:focus {
 }
 
 .c-detailblock .c-detailblock-inner .c-detailblock-introduction .c-detailblock-name {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1;
     display: block
@@ -4761,7 +4761,7 @@ a:focus {
 }
 
 .c-detailblock .c-detailblock-inner .c-detailblock-introduction .c-detailblock-detail {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.286;
     display: inline-block;
@@ -4859,7 +4859,7 @@ a:focus {
 }
 
 .c-detailblock .c-detailblock-lead-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.471;
     box-sizing: border-box;
@@ -4901,7 +4901,7 @@ a:focus {
     display: block;
     margin: auto;
     content: '';
-    background-image: url(/assets/img/page/voice-detail/icon_person.png);
+    background-image: url(/static/top/images/page/voice-detail/icon_person.png);
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -4923,7 +4923,7 @@ a:focus {
 }
 
 .is-kids .c-detailblock .c-detailblock-lead-title:before {
-    background-image: url(/assets/img/page/kids-voice-detail/icon_person_kids.png)
+    background-image: url(/static/top/images/page/kids-voice-detail/icon_person_kids.png)
 }
 
 .c-detailblock-02 {
@@ -4988,7 +4988,7 @@ a:focus {
 }
 
 .c-detailblock-02 .c-detailblock-lead-title-02 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.471;
     box-sizing: border-box;
@@ -5030,7 +5030,7 @@ a:focus {
     display: block;
     margin: auto;
     content: '';
-    background-image: url(/assets/img/page/voice-detail/icon_person.png);
+    background-image: url(/static/top/images/page/voice-detail/icon_person.png);
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -5052,7 +5052,7 @@ a:focus {
 }
 
 .is-kids .c-detailblock-02 .c-detailblock-lead-title-02:before {
-    background-image: url(/assets/img/page/kids-voice-detail/icon_person_kids.png)
+    background-image: url(/static/top/images/page/kids-voice-detail/icon_person_kids.png)
 }
 
 .c-detail-more {
@@ -5306,12 +5306,12 @@ a:focus {
     transform: none;
     border-top: none;
     border-right: none;
-    background: url(/assets/img/link/icon_link_external_01.png) center center no-repeat;
+    background: url(/static/top/images/link/icon_link_external_01.png) center center no-repeat;
     background-size: contain
 }
 
 .is-kids .c-list-link-01 li a.external:after {
-    background-image: url(/assets/img/link/icon_link_external_01_kids.png)
+    background-image: url(/static/top/images/link/icon_link_external_01_kids.png)
 }
 
 @media screen and (max-width:769px) {
@@ -5369,7 +5369,7 @@ a:focus {
 }
 
 .c-list-link-02-item a {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     position: relative;
     display: block;
@@ -5419,7 +5419,7 @@ a:focus {
     height: 10px;
     margin-top: -5px;
     content: '';
-    background-image: url(/assets/img/link/icon_link_external_02.png);
+    background-image: url(/static/top/images/link/icon_link_external_02.png);
     background-repeat: no-repeat;
     background-size: contain
 }
@@ -5509,7 +5509,7 @@ a:focus {
 
 .c-list-desc-01 li,
 .c-list-desc-02 li {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     position: relative;
     padding: 3px 0 3px 1em;
@@ -5679,7 +5679,7 @@ a:focus {
 }
 
 .c-list-check-01 li {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.5;
     position: relative;
@@ -5707,12 +5707,12 @@ a:focus {
     width: 1.5em;
     height: 1em;
     content: '';
-    background: url(/static/top/picture/new-course-top/icon_check.png) left top no-repeat;
+    background: url(/static/top/images/icon/icon_check.png) left top no-repeat;
     background-size: contain
 }
 
 .is-kids .c-list-check-01 li:after {
-    background-image: url(/assets/img/icon/icon_check_kids.png)
+    background-image: url(/static/top/images/icon/icon_check_kids.png)
 }
 
 @media screen and (max-width:769px) {
@@ -5811,7 +5811,7 @@ a:focus {
 }
 
 .c-list-point-01 .bold {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     position: relative;
     box-sizing: border-box;
@@ -5924,7 +5924,7 @@ a:focus {
 }
 
 .c-list-point-01 .text {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif
 }
 
 @media screen and (max-width:769px) {
@@ -5938,7 +5938,7 @@ a:focus {
 }
 
 .c-list-point-01 .no {
-    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     margin-left: 2px;
     vertical-align: bottom
 }
@@ -5957,7 +5957,7 @@ a:focus {
 }
 
 .c-list-point-02 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: inline-block;
     margin: 0 auto
@@ -5983,7 +5983,7 @@ a:focus {
         width: 4.21053vw;
         height: 10.5px;
         height: 2.76316vw;
-        background-image: url(/static/top/picture/new-course-top/icon_check.png);
+        background-image: url(/static/top/images/icon/icon_check.png);
         background-repeat: no-repeat;
         background-size: contain
     }
@@ -5994,7 +5994,7 @@ a:focus {
         left: 0;
         width: 18px;
         height: 11px;
-        background-image: url(/static/top/picture/new-course-top/icon_check.png);
+        background-image: url(/static/top/images/icon/icon_check.png);
         background-repeat: no-repeat;
         background-size: contain
     }
@@ -6006,7 +6006,7 @@ a:focus {
         width: 4.21053vw;
         height: 10.5px;
         height: 2.76316vw;
-        background-image: url(/assets/img/course/icon_check_kids.png);
+        background-image: url(/static/top/images/icon/icon_check_kids.png);
         background-repeat: no-repeat;
         background-size: contain
     }
@@ -6017,7 +6017,7 @@ a:focus {
         left: 0;
         width: 18px;
         height: 11px;
-        background-image: url(/assets/img/course/icon_check_kids.png);
+        background-image: url(/static/top/images/icon/icon_check_kids.png);
         background-repeat: no-repeat;
         background-size: contain
     }
@@ -6404,12 +6404,12 @@ a:focus {
     transform: none;
     border-top: none;
     border-right: none;
-    background: url(/assets/img/link/icon_link_external_01.png) center center no-repeat;
+    background: url(/static/top/images/link/icon_link_external_01.png) center center no-repeat;
     background-size: contain
 }
 
 .is-kids .c-list-link-03 li a.external:after {
-    background-image: url(/assets/img/link/icon_link_external_01_kids.png)
+    background-image: url(/static/top/images/link/icon_link_external_01_kids.png)
 }
 
 @media screen and (max-width:769px) {
@@ -6596,7 +6596,7 @@ a:focus {
     margin-left: 1em;
     content: '';
     vertical-align: middle;
-    background: url(/assets/img/link/icon_link_external_02.png) no-repeat;
+    background: url(/static/top/images/link/icon_link_external_02.png) no-repeat;
     background-size: contain
 }
 
@@ -6606,7 +6606,7 @@ a:focus {
 }
 
 .c-list-pagelink-01 li {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: inline-block;
     margin-right: 2em
@@ -6662,7 +6662,7 @@ a:focus {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/assets/img/icon/icon_arrow01.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow01.png) center center no-repeat;
     background-size: contain
 }
 
@@ -6759,7 +6759,7 @@ a:focus {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/assets/img/icon/icon_arrow02.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow02.png) center center no-repeat;
     background-size: contain
 }
 
@@ -6973,7 +6973,7 @@ a:focus {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/assets/img/icon/icon_arrow01.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow01.png) center center no-repeat;
     background-size: contain
 }
 
@@ -7021,7 +7021,7 @@ a:focus {
 }
 
 .is-kids .c-list-pagelink-02 li>a:after {
-    background: url(/assets/img/icon/icon_arrow02.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow02.png) center center no-repeat;
     background-size: contain
 }
 
@@ -7160,7 +7160,7 @@ a:focus {
 }
 
 .c-tbl-data-02 dl {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.5;
     display: -webkit-box;
@@ -7251,21 +7251,21 @@ a:focus {
 }
 
 .c-tbl-data-02 .dt-number .c-tbl-data-hd {
-    background-image: url(/assets/img/icon/icon_number.png);
+    background-image: url(/static/top/images/icon/icon_number.png);
     background-size: 21px auto
 }
 
 .is-kids .c-tbl-data-02 .dt-number .c-tbl-data-hd {
-    background-image: url(/assets/img/icon/icon_kids_number.png)
+    background-image: url(/static/top/images/icon/icon_kids_number.png)
 }
 
 .c-tbl-data-02 .dt-lesson .c-tbl-data-hd {
-    background-image: url(/assets/img/icon/icon_lesson.png);
+    background-image: url(/static/top/images/icon/icon_lesson.png);
     background-size: 21px auto
 }
 
 .is-kids .c-tbl-data-02 .dt-lesson .c-tbl-data-hd {
-    background-image: url(/assets/img/icon/icon_kids_lesson.png)
+    background-image: url(/static/top/images/icon/icon_kids_lesson.png)
 }
 
 @media screen and (min-width:770px) {
@@ -7281,16 +7281,16 @@ a:focus {
 }
 
 .c-tbl-data-02 .dt-fees .c-tbl-data-hd {
-    background-image: url(/assets/img/icon/icon_fees.png);
+    background-image: url(/static/top/images/icon/icon_fees.png);
     background-size: 18px auto
 }
 
 .is-kids .c-tbl-data-02 .dt-fees .c-tbl-data-hd {
-    background-image: url(/assets/img/icon/icon_kids_fees.png)
+    background-image: url(/static/top/images/icon/icon_kids_fees.png)
 }
 
 .c-tbl-data-02-01 dd {
-    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 100
 }
 
@@ -7402,7 +7402,7 @@ a:focus {
 }
 
 .c-tbl-data-03 dt {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     position: relative;
     display: -webkit-box;
@@ -7751,7 +7751,7 @@ a:focus {
 }
 
 .c-lyt-bg-01 {
-    background-image: url(/assets/img/bg/bg_01.png)
+    background-image: url(/static/top/images/bg/bg_01.png)
 }
 
 @media screen and (max-width:769px) {
@@ -7761,21 +7761,21 @@ a:focus {
 }
 
 .is-kids .c-lyt-bg-01 {
-    background-image: url(/assets/img/bg/bg_kids_01.png)
+    background-image: url(/static/top/images/bg/bg_kids_01.png)
 }
 
 @media all and (-ms-high-contrast:none) {
     .c-lyt-bg-01 {
-        background-image: url(/assets/img/bg/bg_01.png)
+        background-image: url(/static/top/images/bg/bg_01.png)
     }
 
     .is-kids .c-lyt-bg-01 {
-        background-image: url(/assets/img/bg/bg_kids_01.png)
+        background-image: url(/static/top/images/bg/bg_kids_01.png)
     }
 }
 
 .c-lyt-bg-02 {
-    background-image: url(/assets/img/bg/bg_02.png)
+    background-image: url(/static/top/images/bg/bg_02.png)
 }
 
 @media screen and (max-width:769px) {
@@ -7786,11 +7786,11 @@ a:focus {
 
 @media all and (-ms-high-contrast:none) {
     .c-lyt-bg-02 {
-        background-image: url(/assets/img/bg/bg_02.png)
+        background-image: url(/static/top/images/bg/bg_02.png)
     }
 
     .is-kids .c-lyt-bg-02 {
-        background-image: url(/assets/img/bg/bg_02.png)
+        background-image: url(/static/top/images/bg/bg_02.png)
     }
 }
 
@@ -7957,7 +7957,7 @@ div[class*=c-lyt-bg-] .c-hdg-level2-01 .c-hdg-level2-01-title {
 }
 
 .c-lead {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -8110,7 +8110,7 @@ div[class*=c-lyt-bg-] .c-hdg-level2-01 .c-hdg-level2-01-title {
 }
 
 .c-nav-local-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: -webkit-box;
     display: -webkit-flex;
@@ -8383,7 +8383,7 @@ div[class*=c-lyt-bg-] .c-hdg-level2-01 .c-hdg-level2-01-title {
 }
 
 .l-globalnavi-list a {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 50px;
@@ -8570,7 +8570,7 @@ div[class*=c-lyt-bg-] .c-hdg-level2-01 .c-hdg-level2-01-title {
 }
 
 .l-globalnavi-list .l-globalnavi-special li {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.3;
     position: relative;
@@ -8719,7 +8719,7 @@ div[class*=c-lyt-bg-] .c-hdg-level2-01 .c-hdg-level2-01-title {
 }
 
 .l-schoolnavi-head {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -8930,7 +8930,7 @@ div[class*=c-lyt-bg-] .c-hdg-level2-01 .c-hdg-level2-01-title {
 }
 
 .l-schoolnavi-list a {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 50px;
     display: block;
@@ -9774,7 +9774,7 @@ div[class*=c-lyt-bg-] .c-hdg-level2-01 .c-hdg-level2-01-title {
 }
 
 .c-contell-hd {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 20px;
     font-size: 5.26316vw;
     font-weight: 600;
@@ -9794,7 +9794,7 @@ div[class*=c-lyt-bg-] .c-hdg-level2-01 .c-hdg-level2-01-title {
 }
 
 .btnFreeCall {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 27px;
     font-size: 7.10526vw;
     font-weight: 600;
@@ -9825,7 +9825,7 @@ div[class*=c-lyt-bg-] .c-hdg-level2-01 .c-hdg-level2-01-title {
 }
 
 .btnSchoolCall {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 22.5px;
     font-size: 5.92105vw;
     font-weight: 600;
@@ -10348,7 +10348,7 @@ div[class*=c-lyt-bg-] .c-hdg-level2-01 .c-hdg-level2-01-title {
     padding: 7px 10px 7px 15px;
     border: 1px solid #ddd;
     border-radius: 2px;
-    background: #f8f8f8 url(/assets/img/icon/icon_calendar_01.png) no-repeat 97% 50%;
+    background: #f8f8f8 url(/static/top/images/icon/icon_calendar_01.png) no-repeat 97% 50%;
     background-size: 23.5px 20px
 }
 
@@ -10445,7 +10445,7 @@ td.holiday a {
     border-radius: 2px;
     outline: none;
     background-color: #f8f8f8;
-    background-image: url(/assets/img/form/select_arrow.png);
+    background-image: url(/static/top/images/form/select_arrow.png);
     background-repeat: no-repeat;
     background-size: 13px 8px;
     box-shadow: none;
@@ -10756,7 +10756,7 @@ td.holiday a {
 }
 
 .c-box-agreement-01 label .text {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: block;
     overflow: hidden
@@ -10956,7 +10956,7 @@ td.holiday a {
 }
 
 .c-course-name-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -11238,7 +11238,7 @@ textarea {
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
-    background: url(/assets/img/icon/icon_arrow01.png) center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow01.png) center no-repeat;
     background-size: contain
 }
 
@@ -11255,7 +11255,7 @@ textarea {
 }
 
 .is-kids .c-nav-btn-01 .back-btn:after {
-    background: url(/assets/img/icon/icon_arrow02.png) center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow02.png) center no-repeat;
     background-size: contain
 }
 
@@ -11389,8 +11389,8 @@ textarea {
 }
 
 .c-bnr-list-01 .banner.banner-otameshi {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
-    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.46154;
     position: relative;
@@ -11482,8 +11482,8 @@ textarea {
 }
 
 .c-bnr-otameshi {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
-    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     position: relative;
     display: block;
@@ -11710,7 +11710,7 @@ textarea {
 
 @media screen and (max-width:769px) {
     .c-lyt-image-slide-01.slide-student .item .name {
-        font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+        font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
         font-weight: 600
     }
 }
@@ -11798,8 +11798,8 @@ textarea {
 }
 
 .c-lyt-image-slide-01.slide-teacher .item .name {
-    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -11849,7 +11849,7 @@ textarea {
 }
 
 .c-lyt-image-slide-01.slide-kids .badge {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 12px;
     font-size: 3.15789vw;
     font-weight: 600;
@@ -11884,7 +11884,7 @@ textarea {
 }
 
 .c-lyt-image-slide-01.slide-kids .text {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 18px;
     font-size: 4.73684vw;
     font-weight: 600;
@@ -11926,7 +11926,7 @@ textarea {
 }
 
 .c-lyt-image-slide-01.slide-general .coursename {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1;
     display: inline-block;
@@ -12012,7 +12012,7 @@ textarea {
 }
 
 .c-lyt-image-slide-01.slide-general .text {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -12108,7 +12108,7 @@ textarea {
 
 .c-lyt-image-slide-01.slide-topics-01 .lead,
 .c-lyt-image-slide-01.slide-topics-02 .lead {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: block
 }
@@ -12136,7 +12136,7 @@ textarea {
 
 .c-lyt-image-slide-01.slide-topics-01 .desc,
 .c-lyt-image-slide-01.slide-topics-02 .desc {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 14px;
     font-size: 3.68421vw;
     font-weight: 600;
@@ -12272,7 +12272,7 @@ textarea {
 
 .c-lyt-image-slide-01.slide-englishbook .title,
 .c-lyt-image-slide-01.slide-feature .title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -12301,7 +12301,7 @@ textarea {
 .c-lyt-image-slide-01.slide-englishbook .title.is-new-02:before,
 .c-lyt-image-slide-01.slide-feature .title.is-new-01:before,
 .c-lyt-image-slide-01.slide-feature .title.is-new-02:before {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -12476,7 +12476,7 @@ textarea {
 }
 
 .c-lyt-image-slide-01 .name {
-    font-family: RobotoCondensed Bold, Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: RobotoCondensed Bold, Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     text-align: center
 }
 
@@ -12557,52 +12557,52 @@ textarea {
 }
 
 .c-lyt-image-slide-01 .rank.rank1 {
-    background-image: url(/assets/img/icon/icon_rank1.png);
+    background-image: url(/static/top/images/icon/icon_rank1.png);
     background-size: contain
 }
 
 .c-lyt-image-slide-01 .rank.rank2 {
-    background-image: url(/assets/img/icon/icon_rank2.png);
+    background-image: url(/static/top/images/icon/icon_rank2.png);
     background-size: contain
 }
 
 .c-lyt-image-slide-01 .rank.rank3 {
-    background-image: url(/assets/img/icon/icon_rank3.png);
+    background-image: url(/static/top/images/icon/icon_rank3.png);
     background-size: contain
 }
 
 .c-lyt-image-slide-01 .rank.rank4 {
-    background-image: url(/assets/img/icon/icon_rank4.png);
+    background-image: url(/static/top/images/icon/icon_rank4.png);
     background-size: contain
 }
 
 .c-lyt-image-slide-01 .rank.rank5 {
-    background-image: url(/assets/img/icon/icon_rank5.png);
+    background-image: url(/static/top/images/icon/icon_rank5.png);
     background-size: contain
 }
 
 .c-lyt-image-slide-01 .rank.rank6 {
-    background-image: url(/assets/img/icon/icon_rank6.png);
+    background-image: url(/static/top/images/icon/icon_rank6.png);
     background-size: contain
 }
 
 .c-lyt-image-slide-01 .rank.rank7 {
-    background-image: url(/assets/img/icon/icon_rank7.png);
+    background-image: url(/static/top/images/icon/icon_rank7.png);
     background-size: contain
 }
 
 .c-lyt-image-slide-01 .rank.rank8 {
-    background-image: url(/assets/img/icon/icon_rank8.png);
+    background-image: url(/static/top/images/icon/icon_rank8.png);
     background-size: contain
 }
 
 .c-lyt-image-slide-01 .rank.rank9 {
-    background-image: url(/assets/img/icon/icon_rank9.png);
+    background-image: url(/static/top/images/icon/icon_rank9.png);
     background-size: contain
 }
 
 .c-lyt-image-slide-01 .rank.rank10 {
-    background-image: url(/assets/img/icon/icon_rank10.png);
+    background-image: url(/static/top/images/icon/icon_rank10.png);
     background-size: contain
 }
 
@@ -13361,7 +13361,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-lyt-course-01-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 20px;
     font-size: 5.26316vw;
     font-weight: 600
@@ -13426,7 +13426,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-coursestyle-01-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.4
 }
@@ -13471,7 +13471,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-coursestyle-01-en {
-    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     color: #7a7a7a
 }
 
@@ -13730,7 +13730,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-course-fees-01-fees {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -14115,11 +14115,11 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-dotarea-txt-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     text-align: center;
     color: #e75297;
-    background-image: url(/assets/img/page/kids-top/dotarea_dot_01.png), url(/assets/img/page/kids-top/dotarea_dot_01.png);
+    background-image: url(/static/top/images/page/kids-top/dotarea_dot_01.png), url(/static/top/images/page/kids-top/dotarea_dot_01.png);
     background-repeat: repeat-x;
     background-position: top, bottom;
     background-size: 8px 3px
@@ -14186,7 +14186,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-teacher-lists-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     text-align: center
 }
@@ -14235,7 +14235,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-teacher-box-01 .teacher-name {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 24px;
     font-size: 6.31579vw;
     font-weight: 600;
@@ -14252,7 +14252,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-teacher-box-01 .teacher-hurinaga {
-    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 12px;
     font-size: 3.15789vw;
     font-weight: 100;
@@ -14295,7 +14295,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-teacher-box-01 .teacher-lead {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -14314,7 +14314,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-teacher-box-01 .teacher-desc {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -14399,7 +14399,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-teacher-msg-ttl {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     color: #000
 }
@@ -14447,7 +14447,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
-    background-image: url(/assets/img/heading/question_a_hdg.png);
+    background-image: url(/static/top/images/heading/question_a_hdg.png);
     background-repeat: no-repeat;
     background-position: 0 5px;
     background-size: 34px 32px;
@@ -14471,22 +14471,22 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .is-kids .c-lyt-question-01-block .c-hdg-text {
-    background-image: url(/assets/img/heading/question_a_hdg_kids.png)
+    background-image: url(/static/top/images/heading/question_a_hdg_kids.png)
 }
 
 .c-hdg-question-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 16px;
     font-size: 4.21053vw;
     font-weight: 600;
     min-height: 32px;
-    background-image: url(/assets/img/heading/question_hdg.png);
+    background-image: url(/static/top/images/heading/question_hdg.png);
     background-repeat: no-repeat;
     background-size: 34px 32px
 }
 
 .is-kids .c-hdg-question-01 {
-    background-image: url(/assets/img/heading/question_hdg_kids.png)
+    background-image: url(/static/top/images/heading/question_hdg_kids.png)
 }
 
 @media screen and (max-width:769px) {
@@ -14697,11 +14697,11 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-tel-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1;
     color: #02a0e8;
-    background-image: url(/assets/img/icon/icon_freecall.png);
+    background-image: url(/static/top/images/icon/icon_freecall.png);
     background-repeat: no-repeat;
     background-position: top 65% left
 }
@@ -14734,15 +14734,15 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .is-kids .c-tel-01 {
-    background-image: url(/assets/img/icon/icon_freecall_kids.png)
+    background-image: url(/static/top/images/icon/icon_freecall_kids.png)
 }
 
 .c-tel-02 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1;
     color: #02a0e8;
-    background-image: url(/assets/img/icon/icon_tel.png);
+    background-image: url(/static/top/images/icon/icon_tel.png);
     background-repeat: no-repeat;
     background-position: top 65% left
 }
@@ -14775,7 +14775,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .is-kids .c-tel-02 {
-    background-image: url(/assets/img/icon/icon_kids_tel.png)
+    background-image: url(/static/top/images/icon/icon_kids_tel.png)
 }
 
 .c-tel-01 .c-tel-link-01,
@@ -14825,7 +14825,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-voicelist-block .c-voicelist-inner .c-voicelist-hdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     position: relative;
     display: inline-block;
@@ -14877,7 +14877,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-voicelist-block .c-voicelist-inner .c-voicelist-hdg:before {
-    background-image: url(/assets/img/page/voice-list/hdg_quotation_left.png)
+    background-image: url(/static/top/images/page/voice-list/hdg_quotation_left.png)
 }
 
 @media screen and (max-width:769px) {
@@ -14895,7 +14895,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-voicelist-block .c-voicelist-inner .c-voicelist-hdg:after {
-    background-image: url(/assets/img/page/voice-list/hdg_quotation_right.png)
+    background-image: url(/static/top/images/page/voice-list/hdg_quotation_right.png)
 }
 
 @media screen and (max-width:769px) {
@@ -15085,7 +15085,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 
 .c-voice-detail-cnt {
     box-sizing: border-box;
-    background: url(/assets/img/page/kids-voice-detail-common/bg_dotted_pink.png) left bottom repeat-x
+    background: url(/static/top/images/page/kids-voice-detail-common/bg_dotted_pink.png) left bottom repeat-x
 }
 
 @media screen and (min-width:770px) {
@@ -15162,7 +15162,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-voice-detail-kv .detail .name {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     margin-bottom: 5px
 }
@@ -15201,7 +15201,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-voice-detail-kv .detail .class-age span {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     color: #fff
 }
@@ -15338,7 +15338,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 .c-voice-detail-area .c-voice-detail-textarea:before {
     top: -37px;
     left: 0;
-    background: url(/assets/img/page/kids-voice-detail-common/bd_bottom.png) top left no-repeat;
+    background: url(/static/top/images/page/kids-voice-detail-common/bd_bottom.png) top left no-repeat;
     background-size: contain
 }
 
@@ -15351,7 +15351,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 .c-voice-detail-area .c-voice-detail-textarea:after {
     bottom: -37px;
     left: 0;
-    background: url(/assets/img/page/kids-voice-detail-common/bd_top.png) top left no-repeat;
+    background: url(/static/top/images/page/kids-voice-detail-common/bd_top.png) top left no-repeat;
     background-size: contain
 }
 
@@ -15362,7 +15362,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-voice-detail-area .c-voice-detail-textarea h3 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -15399,7 +15399,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-voice-detail-area.is-reverse .c-voice-detail-textarea:before {
-    background: url(/assets/img/page/kids-voice-detail-common/bd_top.png) top left no-repeat;
+    background: url(/static/top/images/page/kids-voice-detail-common/bd_top.png) top left no-repeat;
     background-size: contain
 }
 
@@ -15410,7 +15410,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-voice-detail-area.is-reverse .c-voice-detail-textarea:after {
-    background: url(/assets/img/page/kids-voice-detail-common/bd_bottom.png) top left no-repeat;
+    background: url(/static/top/images/page/kids-voice-detail-common/bd_bottom.png) top left no-repeat;
     background-size: contain
 }
 
@@ -15480,7 +15480,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-voice-detail-textbox p strong {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -15852,7 +15852,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-voice-detail-index-cnt .c-vocie-detail-index-textarea .c-voice-detail-index-ttl {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     letter-spacing: -.32px;
     letter-spacing: -.02rem;
@@ -15875,7 +15875,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-voice-detail-index-cnt .c-vocie-detail-index-textarea .c-voice-detail-index-text {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.6;
     text-align: center
@@ -16054,7 +16054,7 @@ form.form-validate .c-lyt-accordion-01 .c-lyt-accordion-01-wrap:after {
 }
 
 .c-lyt-flow-container .c-lyt-flow-01 .title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1;
     display: -webkit-box;
@@ -16390,7 +16390,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .c-notfound-01-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 20px
@@ -16422,7 +16422,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .c-notfound-01-freecall {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 30px;
     font-size: 33px;
     font-weight: 600;
@@ -16430,7 +16430,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     display: inline-block;
     padding-left: 46px;
     color: #02a0e8;
-    background: url(/assets/img/icon/icon_freecall.png) left 0 top 3px no-repeat;
+    background: url(/static/top/images/icon/icon_freecall.png) left 0 top 3px no-repeat;
     background-size: 37px 29px
 }
 
@@ -16452,7 +16452,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .is-kids .c-notfound-01-freecall {
-    background: url(/assets/img/icon/icon_freecall_kids.png) left 0 top 3px no-repeat
+    background: url(/static/top/images/icon/icon_freecall_kids.png) left 0 top 3px no-repeat
 }
 
 @media screen and (max-width:769px) {
@@ -17276,7 +17276,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .c-schooltop-btn-wrap .c-nav-btn-01 a:after {
-    background: url(/assets/img/link/icon_link_external_01.png) center no-repeat;
+    background: url(/static/top/images/link/icon_link_external_01.png) center no-repeat;
     background-size: contain
 }
 
@@ -17417,7 +17417,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-freetrial-lead {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.588;
     text-align: center
@@ -17498,14 +17498,14 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
 @media screen and (min-width:770px) {
     .p-freetrial-point .p-freetrial-point-list li .p-freetrial-point-label {
-        font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+        font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
         font-size: 12px;
         display: block
     }
 }
 
 .p-freetrial-point .p-freetrial-point-list li .p-freetrial-point-order {
-    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif
+    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif
 }
 
 @media screen and (min-width:770px) {
@@ -17522,7 +17522,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
 @media screen and (min-width:770px) {
     .p-freetrial-point .p-freetrial-point-list li .p-freetrial-point-lead {
-        font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+        font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
         font-size: 17px;
         font-weight: 600;
         line-height: 1.25;
@@ -17573,7 +17573,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-freetrial-hdg-level2 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.375;
     text-align: center
@@ -17595,7 +17595,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-freetrial-hdg-level3 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.563;
     text-align: center
@@ -17652,7 +17652,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-freetrial-applicationarea .p-freetrial-applicationarea-txt a:after {
-    background: url(/assets/img/link/icon_link_external_01_kids.png) center center no-repeat;
+    background: url(/static/top/images/link/icon_link_external_01_kids.png) center center no-repeat;
     background-size: contain
 }
 
@@ -17661,7 +17661,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .is-kids .p-freetrial-applicationarea .p-freetrial-applicationarea-txt a:after {
-    background: url(/assets/img/link/icon_link_external_01.png) center center no-repeat;
+    background: url(/static/top/images/link/icon_link_external_01.png) center center no-repeat;
     background-size: contain
 }
 
@@ -17679,7 +17679,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-freetrial-notearea .p-freetrial-notearea-subhdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1
 }
@@ -18025,7 +18025,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-general-top-about {
-    background: url(/assets/img/bg/bg_01.png) repeat left top
+    background: url(/static/top/images/bg/bg_01.png) repeat left top
 }
 
 @media screen and (min-width:770px) {
@@ -18163,12 +18163,12 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 @media screen and (max-width:769px) {
     .p-generaltop-findschool {
         padding: 8vw 4.66667vw 9.33333vw;
-        background-image: url(/assets/img/page/general-top/findschool_bg_sp.png)
+        background-image: url(/static/top/images/page/general-top/findschool_bg_sp.png)
     }
 
     .is-kids .p-generaltop-findschool {
         background-color: #f8e2d9;
-        background-image: url(/assets/img/page/kids-top/findschool_bg_sp.png)
+        background-image: url(/static/top/images/page/kids-top/findschool_bg_sp.png)
     }
 }
 
@@ -18183,7 +18183,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         flex-direction: column;
         height: 490px;
         background-color: #c3f1f4;
-        background-image: url(/assets/img/page/general-top/findschool_bg_pc.png);
+        background-image: url(/static/top/images/page/general-top/findschool_bg_pc.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: auto;
@@ -18194,7 +18194,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
     .is-kids .p-generaltop-findschool {
         background-color: #f8e2d9;
-        background-image: url(/assets/img/page/kids-top/findschool_bg_pc.png)
+        background-image: url(/static/top/images/page/kids-top/findschool_bg_pc.png)
     }
 }
 
@@ -18217,7 +18217,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-generaltop-findschool .p-generaltop-findschool-lead span {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: inline-block;
     text-align: center;
@@ -18260,7 +18260,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-generaltop-findschool .p-generaltop-findschool-sublead span {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: inline-block;
     text-align: center;
@@ -18598,7 +18598,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 .p-kidstop-feature .p-generaltop-feature-box .p-kidstop-subhdg,
 .p-kidstop-feature .p-kidstop-feature-slide .p-kidstop-feature-box .p-generaltop-subhdg,
 .p-kidstop-feature .p-kidstop-feature-slide .p-kidstop-feature-box .p-kidstop-subhdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: block
 }
@@ -18752,7 +18752,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-generaltop-hdg-level3 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1;
     text-align: center
@@ -19140,7 +19140,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     .p-kidstop-difference {
         width: 90.66667vw;
         margin: 10.66667vw auto 0;
-        background-image: url(/assets/img/page/kids-top/line_sp.png), url(/assets/img/page/kids-top/line_sp.png)
+        background-image: url(/static/top/images/page/kids-top/line_sp.png), url(/static/top/images/page/kids-top/line_sp.png)
     }
 }
 
@@ -19149,7 +19149,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         width: 93.75%;
         max-width: 1200px;
         margin: 110px auto 0;
-        background-image: url(/assets/img/page/kids-top/line_pc.png), url(/assets/img/page/kids-top/line_pc.png)
+        background-image: url(/static/top/images/page/kids-top/line_pc.png), url(/static/top/images/page/kids-top/line_pc.png)
     }
 }
 
@@ -19166,7 +19166,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     .p-kidstop-difference:before {
         width: .8vw;
         height: 100%;
-        background-image: url(/assets/img/page/kids-top/line_vertical_sp.png)
+        background-image: url(/static/top/images/page/kids-top/line_vertical_sp.png)
     }
 }
 
@@ -19174,7 +19174,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     .p-kidstop-difference:before {
         width: 4px;
         height: 100%;
-        background-image: url(/assets/img/page/kids-top/line_vertical_pc.png)
+        background-image: url(/static/top/images/page/kids-top/line_vertical_pc.png)
     }
 }
 
@@ -19191,7 +19191,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     .p-kidstop-difference:after {
         width: .8vw;
         height: 100%;
-        background-image: url(/assets/img/page/kids-top/line_vertical_sp.png)
+        background-image: url(/static/top/images/page/kids-top/line_vertical_sp.png)
     }
 }
 
@@ -19199,7 +19199,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     .p-kidstop-difference:after {
         width: 4px;
         height: 100%;
-        background-image: url(/assets/img/page/kids-top/line_vertical_pc.png)
+        background-image: url(/static/top/images/page/kids-top/line_vertical_pc.png)
     }
 }
 
@@ -19263,7 +19263,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kidstop-difference-hdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     text-align: center;
     letter-spacing: -.01em;
@@ -19278,7 +19278,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         line-height: 1.333;
         margin-bottom: 8.66667vw;
         padding-bottom: 2.66667vw;
-        background-image: url(/assets/img/page/kids-top/dot_line_01_sp.png);
+        background-image: url(/static/top/images/page/kids-top/dot_line_01_sp.png);
         background-position: bottom -4.66667vw center;
         background-size: 58.13333vw 10.4vw
     }
@@ -19290,7 +19290,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         line-height: 1;
         margin-bottom: 40px;
         padding-bottom: 19px;
-        background-image: url(/assets/img/page/kids-top/dot_line_01_pc.png);
+        background-image: url(/static/top/images/page/kids-top/dot_line_01_pc.png);
         background-position: bottom center;
         background-size: 457px 5px
     }
@@ -19343,7 +19343,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 @media screen and (max-width:769px) {
     .p-kidstop-difference-point .p-kidstop-difference-point-item.is-order-1 {
         margin-bottom: 7.2vw;
-        background-image: url(/assets/img/page/kids-top/point_01_sp.png);
+        background-image: url(/static/top/images/page/kids-top/point_01_sp.png);
         background-size: 9.06667vw 12.66667vw
     }
 }
@@ -19352,7 +19352,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     .p-kidstop-difference-point .p-kidstop-difference-point-item.is-order-1 {
         width: 55%;
         margin-bottom: 33px;
-        background-image: url(/assets/img/page/kids-top/point_01_pc.png);
+        background-image: url(/static/top/images/page/kids-top/point_01_pc.png);
         background-size: 46px 63px
     }
 }
@@ -19366,7 +19366,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 @media screen and (max-width:769px) {
     .p-kidstop-difference-point .p-kidstop-difference-point-item.is-order-2 {
         margin-bottom: 7.2vw;
-        background-image: url(/assets/img/page/kids-top/point_02_sp.png);
+        background-image: url(/static/top/images/page/kids-top/point_02_sp.png);
         background-size: 9.06667vw 12.8vw
     }
 }
@@ -19375,7 +19375,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     .p-kidstop-difference-point .p-kidstop-difference-point-item.is-order-2 {
         width: 45%;
         margin-bottom: 33px;
-        background-image: url(/assets/img/page/kids-top/point_02_pc.png);
+        background-image: url(/static/top/images/page/kids-top/point_02_pc.png);
         background-size: 46px 63px
     }
 }
@@ -19383,7 +19383,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 @media screen and (max-width:769px) {
     .p-kidstop-difference-point .p-kidstop-difference-point-item.is-order-3 {
         margin-bottom: 7.2vw;
-        background-image: url(/assets/img/page/kids-top/point_03_sp.png);
+        background-image: url(/static/top/images/page/kids-top/point_03_sp.png);
         background-size: 9.06667vw 12.26667vw
     }
 }
@@ -19391,14 +19391,14 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 @media screen and (min-width:770px) {
     .p-kidstop-difference-point .p-kidstop-difference-point-item.is-order-3 {
         width: 55%;
-        background-image: url(/assets/img/page/kids-top/point_03_pc.png);
+        background-image: url(/static/top/images/page/kids-top/point_03_pc.png);
         background-size: 46px 63px
     }
 }
 
 @media screen and (max-width:769px) {
     .p-kidstop-difference-point .p-kidstop-difference-point-item.is-order-4 {
-        background-image: url(/assets/img/page/kids-top/point_04_sp.png);
+        background-image: url(/static/top/images/page/kids-top/point_04_sp.png);
         background-size: 9.06667vw 12.26667vw
     }
 }
@@ -19406,7 +19406,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 @media screen and (min-width:770px) {
     .p-kidstop-difference-point .p-kidstop-difference-point-item.is-order-4 {
         width: 45%;
-        background-image: url(/assets/img/page/kids-top/point_04_pc.png);
+        background-image: url(/static/top/images/page/kids-top/point_04_pc.png);
         background-size: 46px 63px
     }
 }
@@ -19433,7 +19433,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kidstop-difference-point .p-kidstop-difference-point-desc {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: inline;
     font-feature-settings: 'palt'
@@ -19499,7 +19499,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kidstop-difference-grade-hdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1;
     text-align: center
@@ -19611,7 +19611,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
 .p-kidstop-findschool {
     padding: 8vw 4.66667vw 9.33333vw;
-    background-image: url(/assets/img/page/kids-top/findschool_bg.png);
+    background-image: url(/static/top/images/page/kids-top/findschool_bg.png);
     background-size: cover
 }
 
@@ -19622,7 +19622,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kidstop-findschool .p-kidstop-findschool-lead span {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 14px;
     font-size: 3.68421vw;
     font-weight: 600;
@@ -19668,7 +19668,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kidstop-feature .p-kidstop-feature-lead {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.588;
     text-align: center
@@ -19690,7 +19690,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kidstop-feature .p-kidstop-feature-desc {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.588;
     text-align: center
@@ -19724,13 +19724,13 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kidstop-feature .p-kidstop-feature-information span {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: inline
 }
 
 .p-kidstop-feature .p-kidstop-feature-movie-heading {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: block;
     text-align: center
@@ -19896,7 +19896,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kidstop-success-number .p-kidstop-success-number-box .p-kidstop-success-number-item .p-kidstop-success-number-hdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1;
     display: block
@@ -20236,7 +20236,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reserve-hdg-level1-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.5;
     display: inline-block;
@@ -20270,7 +20270,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reserve-hdg-level2-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -20290,7 +20290,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reserve-hdg-level2-02 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -20310,7 +20310,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reserve-hdg-level3-01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -20490,7 +20490,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reserve-error-wrap .p-reserve-error-hdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     text-align: center
 }
@@ -20539,7 +20539,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reserve-complete-hdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     text-align: center
 }
@@ -20603,7 +20603,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reserve-complete-strong {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -20852,7 +20852,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-blog-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -20956,7 +20956,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-blog-archive-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     text-align: center
 }
@@ -21388,7 +21388,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/assets/img/icon/icon_arrow01.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow01.png) center center no-repeat;
     background-size: contain
 }
 
@@ -21458,7 +21458,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/assets/img/icon/icon_arrow02.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow02.png) center center no-repeat;
     background-size: contain
 }
 
@@ -21528,7 +21528,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/assets/img/icon/icon_arrow01.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow01.png) center center no-repeat;
     background-size: contain
 }
 
@@ -21586,7 +21586,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/assets/img/icon/icon_arrow02.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow02.png) center center no-repeat;
     background-size: contain
 }
 
@@ -21695,7 +21695,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-news-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -21827,19 +21827,19 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
 @media screen and (min-width:770px) {
     .p-campaign-area .c-lyt-bg-01 {
-        background-image: url(/assets/img/bg/bg_01.png)
+        background-image: url(/static/top/images/bg/bg_01.png)
     }
 }
 
 @media screen and (max-width:769px) {
     .p-campaign-area .c-lyt-bg-01 {
         padding: 13.33333vw 4.60526vw 6.66667vw;
-        background-image: url(/assets/img/bg/bg_01.png)
+        background-image: url(/static/top/images/bg/bg_01.png)
     }
 }
 
 .is-kids .p-campaign-area .c-lyt-bg-01 {
-    background-image: url(/assets/img/bg/bg_kids_01.png)
+    background-image: url(/static/top/images/bg/bg_kids_01.png)
 }
 
 @media screen and (min-width:770px) {
@@ -21889,7 +21889,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
 @media screen and (max-width:769px) {
     .p-campaign-hdg-level2 {
-        font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+        font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
         font-size: 20px;
         font-size: 5.26316vw;
         font-weight: 600;
@@ -21921,7 +21921,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         bottom: -9px;
         width: 62px;
         height: 25px;
-        background-image: url(/assets/img/page/campaign/ribbon_parts.png)
+        background-image: url(/static/top/images/page/campaign/ribbon_parts.png)
     }
 }
 
@@ -21934,7 +21934,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         bottom: -9px;
         width: 50px;
         height: 22px;
-        background-image: url(/assets/img/page/campaign/ribbon_parts.png)
+        background-image: url(/static/top/images/page/campaign/ribbon_parts.png)
     }
 }
 
@@ -21947,7 +21947,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         bottom: -9px;
         width: 50px;
         height: 22px;
-        background-image: url(/assets/img/page/campaign/ribbon_parts_kids.png)
+        background-image: url(/static/top/images/page/campaign/ribbon_parts_kids.png)
     }
 }
 
@@ -21960,7 +21960,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         bottom: -9px;
         width: 50px;
         height: 22px;
-        background-image: url(/assets/img/page/campaign/ribbon_parts_kids.png)
+        background-image: url(/static/top/images/page/campaign/ribbon_parts_kids.png)
     }
 }
 
@@ -22069,8 +22069,8 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-campaign-block .p-campaign-img.p-campaign-otameshi .p-campaign-otameshi-date {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
-    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -22136,7 +22136,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-campaign-block .p-campaign-hdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: block;
     text-align: center
@@ -22195,7 +22195,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-campaign-block .p-campaign-subhdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -22379,7 +22379,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-campaign-block .p-campaign-difference .p-campaign-list-difference .p-campaign-list-difference-item .p-campaign-list-difference-hdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 19px;
     font-weight: 600;
     line-height: 1;
@@ -22501,7 +22501,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-campaign-block .p-campaign-list-link a {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     line-height: 1.3;
     position: relative;
@@ -22544,7 +22544,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-campaign-block .p-campaign-list-doc-hdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: block
 }
@@ -22699,7 +22699,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
 @media screen and (max-width:769px) {
     .p-campaign-list-number-item {
-        font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+        font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
         font-size: 16px;
         font-size: 4.21053vw;
         font-weight: 600;
@@ -22910,7 +22910,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-course-detail-bg-inner .p-course-detail-bg-inner-hdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -23063,7 +23063,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
 @media screen and (max-width:769px) {
     .p-reason-box {
-        font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+        font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
         font-size: 9px;
         font-size: 2.36842vw;
         font-weight: 600;
@@ -23074,7 +23074,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
 @media screen and (min-width:770px) {
     .p-reason-box {
-        font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+        font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
         font-weight: 600;
         margin-bottom: 20px;
         padding: 40px 0
@@ -23332,7 +23332,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reaeon-item-num {
-    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 24px;
     line-height: 1;
     display: inline-block;
@@ -23395,7 +23395,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/assets/img/icon/icon_arrow03.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow03.png) center center no-repeat;
     background-size: contain
 }
 
@@ -24169,7 +24169,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
 @media screen and (max-width:769px) {
     .p-reason-common-key-caption p {
-        font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+        font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
         font-size: 10px;
         font-size: 2.63158vw;
         font-weight: 600
@@ -24177,7 +24177,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-common-key-caption span {
-    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 47px;
     line-height: 1;
     padding-bottom: 2px;
@@ -24223,7 +24223,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-common-key-desc {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.8;
@@ -24291,7 +24291,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-key-common-hdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 26px;
     font-weight: 600;
     padding-top: 10px;
@@ -24385,7 +24385,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
 .p-reason-anchor-list.is-difference a p {
     color: #f092a9;
-    background: url(/assets/img/page/reason/difference/ico_arrow.png) center 95% no-repeat;
+    background: url(/static/top/images/page/reason/difference/ico_arrow.png) center 95% no-repeat;
     background-size: 20px auto
 }
 
@@ -24399,7 +24399,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
 .p-reason-anchor-list.is-teacher a p {
     color: #87d1c1;
-    background: url(/assets/img/page/reason/teacher/ico_arrow.png) center 95% no-repeat;
+    background: url(/static/top/images/page/reason/teacher/ico_arrow.png) center 95% no-repeat;
     background-size: 20px auto
 }
 
@@ -24413,7 +24413,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
 .p-reason-anchor-list.is-lesson a p {
     color: #fdbc5f;
-    background: url(/assets/img/page/reason/lesson/ico_arrow.png) center 95% no-repeat;
+    background: url(/static/top/images/page/reason/lesson/ico_arrow.png) center 95% no-repeat;
     background-size: 20px auto
 }
 
@@ -24485,8 +24485,8 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-anchor-list li a span {
-    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 26px;
     font-weight: 600;
     line-height: 1;
@@ -24507,7 +24507,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-anchor-list li a p {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 19px;
     font-weight: 600;
     line-height: 70px;
@@ -24515,7 +24515,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     height: 70px;
     pointer-events: none;
     color: #87d2e2;
-    background: url(/assets/img/page/reason/keep/ico_arrow.png) center 95% no-repeat;
+    background: url(/static/top/images/page/reason/keep/ico_arrow.png) center 95% no-repeat;
     background-size: 20px auto
 }
 
@@ -24549,7 +24549,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     box-sizing: border-box;
     min-width: 1000px;
     padding: 60px 0;
-    background: url(/assets/img/page/reason/keep/bg_02.png) top left repeat;
+    background: url(/static/top/images/page/reason/keep/bg_02.png) top left repeat;
     background-size: cover
 }
 
@@ -24572,7 +24572,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     box-sizing: border-box;
     min-width: 1000px;
     padding: 60px 0;
-    background: url(/assets/img/page/reason/difference/bg_02.png) top left repeat;
+    background: url(/static/top/images/page/reason/difference/bg_02.png) top left repeat;
     background-size: cover
 }
 
@@ -24595,7 +24595,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     box-sizing: border-box;
     min-width: 1000px;
     padding: 60px 0;
-    background: url(/assets/img/page/reason/teacher/bg_03.png) top left repeat;
+    background: url(/static/top/images/page/reason/teacher/bg_03.png) top left repeat;
     background-size: cover
 }
 
@@ -24618,7 +24618,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     box-sizing: border-box;
     min-width: 1000px;
     padding: 60px 0;
-    background: url(/assets/img/page/reason/lesson/bg_03.png) top left repeat;
+    background: url(/static/top/images/page/reason/lesson/bg_03.png) top left repeat;
     background-size: cover
 }
 
@@ -24728,7 +24728,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-common-content-hdg-cnt .p-reason-common-content-hdg p {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 32px;
     font-weight: 600;
     line-height: 1.5;
@@ -24755,7 +24755,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-common-content-hdg-cnt .p-reason-common-content-hdg h2 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 43px;
     font-weight: 600;
     line-height: 1.5;
@@ -24885,7 +24885,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-common-content-bubble-box .p-reason-common-content-bubble-hdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 30px;
     font-weight: 600;
     line-height: 1;
@@ -25208,7 +25208,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 .p-reason-common-content-item-text-box span,
 .p-reason-common-content-item-text-box p,
 .p-reason-common-content-item-text-box strong {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     color: #333
 }
@@ -25227,8 +25227,8 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-common-content-item-text-box span.is-num {
-    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 50px;
     font-weight: 600;
     position: relative;
@@ -25273,7 +25273,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/assets/img/icon/icon_arrow01.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow01.png) center center no-repeat;
     background-size: contain
 }
 
@@ -25321,7 +25321,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 .p-reason-common-content-item-text-box a[target=_blank]:after {
     width: 21px;
     height: 21px;
-    background: url(/assets/img/link/icon_link_external_01.png)
+    background: url(/static/top/images/link/icon_link_external_01.png)
 }
 
 @media screen and (max-width:769px) {
@@ -25412,7 +25412,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     padding: 20px;
     text-align: center;
     vertical-align: middle;
-    background: url(/assets/img/page/reason/keep/bg_03.png) left center no-repeat;
+    background: url(/static/top/images/page/reason/keep/bg_03.png) left center no-repeat;
     background-size: contain
 }
 
@@ -25421,7 +25421,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         width: calc(100% - 75px);
         height: auto;
         padding: 10px 10px 10px 30px;
-        background: url(/assets/img/page/reason/keep/bg_03_sp.png) left center no-repeat;
+        background: url(/static/top/images/page/reason/keep/bg_03_sp.png) left center no-repeat;
         background-size: 100% 100%
     }
 }
@@ -25453,7 +25453,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     box-sizing: border-box;
     width: 370px;
     padding-right: 80px;
-    background: url(/assets/img/page/reason/keep/figure_right_arrow.png) center right no-repeat;
+    background: url(/static/top/images/page/reason/keep/figure_right_arrow.png) center right no-repeat;
     background-size: 65px
 }
 
@@ -25462,7 +25462,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         width: 72%;
         margin-left: -2%;
         padding-right: 0;
-        background: url(/assets/img/page/reason/keep/figure_right_arrow.png) left 98% top 55% no-repeat;
+        background: url(/static/top/images/page/reason/keep/figure_right_arrow.png) left 98% top 55% no-repeat;
         background-size: 15%
     }
 }
@@ -25471,7 +25471,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     font-size: 23px;
     box-sizing: border-box;
     padding-left: 40px;
-    background: url(/assets/img/page/reason/keep/ico_check.png) center left no-repeat;
+    background: url(/static/top/images/page/reason/keep/ico_check.png) center left no-repeat;
     background-size: 25px auto
 }
 
@@ -25486,7 +25486,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-content-item-checklist li strong {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 30px;
     font-weight: 600;
     vertical-align: baseline
@@ -25521,7 +25521,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 .p-reason-content-item-checklist.is-teacher li {
     font-family: Noto Sans Medium, sans-serif;
     font-size: 21px;
-    background: url(/assets/img/page/reason/teacher/ico_check.png) left top 13px no-repeat;
+    background: url(/static/top/images/page/reason/teacher/ico_check.png) left top 13px no-repeat;
     background-size: 18px auto
 }
 
@@ -25532,7 +25532,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         line-height: 1.43;
         margin-bottom: 18px;
         padding-left: calc(34 /375*100vw);
-        background: url(/assets/img/page/reason/teacher/ico_check.png) left top no-repeat;
+        background: url(/static/top/images/page/reason/teacher/ico_check.png) left top no-repeat;
         background-size: calc(20 /375*100vw) auto
     }
 }
@@ -25559,7 +25559,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     line-height: 1.4;
     margin-bottom: 46px;
     letter-spacing: .05em;
-    background: url(/assets/img/page/reason/lesson/ico_check.png) left 8px no-repeat;
+    background: url(/static/top/images/page/reason/lesson/ico_check.png) left 8px no-repeat;
     background-size: 22px auto
 }
 
@@ -25570,18 +25570,18 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         line-height: 1.6;
         margin-bottom: 26px;
         padding-left: calc(32 /375*100vw);
-        background: url(/assets/img/page/reason/lesson/ico_check.png) left 0 no-repeat;
+        background: url(/static/top/images/page/reason/lesson/ico_check.png) left 0 no-repeat;
         background-size: calc(17 /375*100vw) auto
     }
 }
 
 .p-reason-content-item-checklist.is-lesson li b {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
 .p-reason-content-02-unique-ttl {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 43px;
     font-weight: 600;
     display: inline-block;
@@ -25590,7 +25590,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     text-align: center;
     vertical-align: middle;
     color: #54b3c7;
-    background: url(/assets/img/page/reason/keep/bg_04.png) center bottom no-repeat;
+    background: url(/static/top/images/page/reason/keep/bg_04.png) center bottom no-repeat;
     background-size: contain
 }
 
@@ -26387,7 +26387,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         animation: moveNext .7s ease 0s infinite alternate;
         opacity: 1;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-        background: url(/assets/img/page/reason/keep/ico_next.png) top left no-repeat;
+        background: url(/static/top/images/page/reason/keep/ico_next.png) top left no-repeat;
         background-size: contain
     }
 }
@@ -26423,7 +26423,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-common-content-pickup-hdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 21px;
     font-weight: 600;
     display: inline-block;
@@ -26799,7 +26799,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 .p-reacon-common-content-04-unique-box h4 {
     font-size: 19px;
     display: inline-block;
-    background: url(/assets/img/page/reason/keep/bg_04.png) center bottom no-repeat;
+    background: url(/static/top/images/page/reason/keep/bg_04.png) center bottom no-repeat;
     background-size: contain
 }
 
@@ -26812,8 +26812,8 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reacon-common-content-04-unique-box h4 span.is-num {
-    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
@@ -26880,7 +26880,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     vertical-align: middle;
-    background: url(/assets/img/icon/icon_arrow01.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow01.png) center center no-repeat;
     background-size: contain
 }
 
@@ -27043,12 +27043,12 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-common-content-item-check-cnt .p-reason-common-content-item-hdg.is-check {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 28px;
     font-weight: 600;
     padding-left: 30px;
     color: #333;
-    background: url(/assets/img/page/reason/keep/ico_check.png) left center no-repeat;
+    background: url(/static/top/images/page/reason/keep/ico_check.png) left center no-repeat;
     background-size: 30px
 }
 
@@ -27099,7 +27099,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     margin-left: 246px;
     padding: 36px 46px 36px 67px;
     text-align: left;
-    background: #87d2e2 url(/assets/img/page/reason/keep/bg_06.png) top center no-repeat;
+    background: #87d2e2 url(/static/top/images/page/reason/keep/bg_06.png) top center no-repeat;
     background-size: 100% 100%
 }
 
@@ -27108,13 +27108,13 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         width: 63.2%;
         margin-left: 34%;
         padding: 4% 4% 4% 8%;
-        background: url(/assets/img/page/reason/keep/bg_06_sp.png) top center no-repeat;
+        background: url(/static/top/images/page/reason/keep/bg_06_sp.png) top center no-repeat;
         background-size: 100% 100%
     }
 }
 
 .p-reason-common-result-bubble h2 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 24px;
     font-weight: 600;
     color: #333
@@ -27179,7 +27179,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 .p-reason-common-result.is-difference .p-reason-common-result-bubble {
     box-sizing: border-box;
     padding: 34px 14px 34px 60px;
-    background: #ffafbc url(/assets/img/page/reason/difference/bg_06.png) top center no-repeat;
+    background: #ffafbc url(/static/top/images/page/reason/difference/bg_06.png) top center no-repeat;
     background-size: 100% 100%
 }
 
@@ -27188,7 +27188,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         width: 61.4%;
         margin-left: 33.5%;
         padding: 2% 3% 2% 7%;
-        background: url(/assets/img/page/reason/difference/bg_06_sp.png) top center no-repeat;
+        background: url(/static/top/images/page/reason/difference/bg_06_sp.png) top center no-repeat;
         background-size: 100% 100%
     }
 }
@@ -27220,7 +27220,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 .p-reason-common-result.is-teacher .p-reason-common-result-bubble {
     box-sizing: border-box;
     padding: 34px 17px 53px 60px;
-    background: #87d1c1 url(/assets/img/page/reason/teacher/bg_05.png) top center no-repeat;
+    background: #87d1c1 url(/static/top/images/page/reason/teacher/bg_05.png) top center no-repeat;
     background-size: 100% 100%
 }
 
@@ -27228,7 +27228,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     .p-reason-common-result.is-teacher .p-reason-common-result-bubble {
         margin-left: 32%;
         padding: 2% 3% 2% 9%;
-        background: url(/assets/img/page/reason/teacher/bg_06_sp.png) top center no-repeat;
+        background: url(/static/top/images/page/reason/teacher/bg_06_sp.png) top center no-repeat;
         background-size: 100% 100%
     }
 }
@@ -27257,7 +27257,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 .p-reason-common-result.is-lesson .p-reason-common-result-bubble {
     box-sizing: border-box;
     padding: 34px 20px 34px 60px;
-    background: url(/assets/img/page/reason/lesson/bg_05.png) top center no-repeat;
+    background: url(/static/top/images/page/reason/lesson/bg_05.png) top center no-repeat;
     background-size: 100% 100%
 }
 
@@ -27268,7 +27268,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         margin-left: 32%;
         padding: 2% 0 2% 7%;
         letter-spacing: .043em;
-        background: url(/assets/img/page/reason/lesson/bg_05_sp.png) top center no-repeat;
+        background: url(/static/top/images/page/reason/lesson/bg_05_sp.png) top center no-repeat;
         background-size: 100% 100%
     }
 }
@@ -27374,7 +27374,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-apply-item .apply-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 26px;
     font-weight: 600;
     display: block;
@@ -27396,7 +27396,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-apply-item .apply-catch {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -27886,7 +27886,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-aword .p-reason-aword-head h3 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 15px;
     font-weight: 600;
     line-height: 1
@@ -27946,14 +27946,14 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-aword .p-reason-aword-list li {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 14px;
     font-weight: 600;
     box-sizing: border-box;
     width: 146px;
     margin-bottom: 5px;
     padding-left: 20px;
-    background: url(/assets/img/page/reason/difference/ico_crown.png) left center no-repeat;
+    background: url(/static/top/images/page/reason/difference/ico_crown.png) left center no-repeat;
     background-size: 10px auto
 }
 
@@ -28055,7 +28055,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-consul-content .p-reasonc-consul-item .p-reasonc-consule-desc h3 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -28148,13 +28148,13 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-common-data-content .p-reason-common-data-num {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-family: Noto Sans Bold, sans-serif;
     font-size: 37px;
     font-weight: 600;
     line-height: 1.3;
     padding: 0 20px;
-    background: url(/assets/img/page/reason/difference/bg_04.png) left 89% no-repeat;
+    background: url(/static/top/images/page/reason/difference/bg_04.png) left 89% no-repeat;
     background-size: 100% 28px
 }
 
@@ -28174,7 +28174,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-common-data-content .p-reason-common-data-num span {
-    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 71px;
     padding: 0 5px 0 0;
     vertical-align: baseline
@@ -28189,7 +28189,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-common-data-content .p-reason-common-data-num small {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-family: Noto Sans Bold, sans-serif;
     font-size: 23px;
     font-weight: 600;
@@ -28269,7 +28269,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-teacher-training .p-reason-teacher-table .p-reason-teacher-table-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 25px;
     font-weight: 600;
     display: block;
@@ -28361,7 +28361,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-teacher-training .p-reason-teacher-table p {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 18px;
     font-weight: 600;
     text-align: center
@@ -28413,7 +28413,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-teacher-training .p-reason-teacher-arrow-answer p {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     display: inline-block;
     padding: 0 10px;
@@ -28423,7 +28423,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 @media screen and (min-width:770px) {
     .p-reason-teacher-training .p-reason-teacher-arrow-answer p {
         font-size: 26px;
-        background: url(/assets/img/page/reason/teacher/bg_07.png) bottom left repeat-x;
+        background: url(/static/top/images/page/reason/teacher/bg_07.png) bottom left repeat-x;
         background-size: contain
     }
 }
@@ -28439,7 +28439,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 @media screen and (max-width:769px) {
     .p-reason-teacher-training .p-reason-teacher-arrow-answer p span {
         padding: 0 7px;
-        background: url(/assets/img/page/reason/teacher/bg_07.png) bottom left repeat-x;
+        background: url(/static/top/images/page/reason/teacher/bg_07.png) bottom left repeat-x;
         background-size: 100% 16px
     }
 }
@@ -28529,8 +28529,8 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-level-cnt .p-reason-lesson-level-item p {
-    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 20px;
     font-weight: 600;
     width: 126px;
@@ -28551,7 +28551,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-level-cnt .p-reason-lesson-level-item p span {
-    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 32px;
     box-sizing: border-box;
     padding-left: 5px;
@@ -28674,7 +28674,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-acc-cnt .p-reason-lesson-view-textbox .p-reason-lesson-view-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 26px;
     font-weight: 600;
     color: #f3ac47
@@ -28779,7 +28779,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-acc-cnt .p-reason-lesson-ac-content-handle p:after {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 26px;
     font-weight: 600;
     position: absolute;
@@ -28839,7 +28839,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-acc-cnt .p-reason-lesson-ac-content-item .flow-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 26px;
     font-weight: 600;
     display: block;
@@ -28862,7 +28862,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-acc-cnt .p-reason-lesson-ac-content-item .flow-answer {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 40px;
     font-weight: 600;
     display: block;
@@ -29110,7 +29110,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-acc-cnt .p-reason-lesson-ac-content-item .flow-grid .flow-grid-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 15px
@@ -29250,7 +29250,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-acc-cnt .p-reason-lesson-ac-content.is-open .p-reason-lesson-ac-content-handle p:after {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 26px;
     font-weight: 600;
     content: 'é–‰ã˜ã‚‹';
@@ -29281,7 +29281,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-style-cnt .p-reason-lesson-style-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 34px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -29296,7 +29296,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-style-cnt .p-reason-lesson-style-title span {
-    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: RobotoCondensed Regular, Noto Sans DemiLight, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 49px;
     vertical-align: baseline
 }
@@ -29309,7 +29309,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-style-cnt .p-reason-lessson-style-subtitle {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 26px;
     font-weight: 600;
     display: block;
@@ -29393,7 +29393,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-03-text p {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 22px;
     font-weight: 600;
     display: inline-block;
@@ -29449,7 +29449,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-method .p-reason-lesson-method-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 22px;
     font-weight: 600;
     padding-top: 30px;
@@ -29512,7 +29512,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    background: url(/assets/img/page/reason/lesson/ico_plus_orange.png) center center;
+    background: url(/static/top/images/page/reason/lesson/ico_plus_orange.png) center center;
     background-size: cover
 }
 
@@ -29535,7 +29535,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-method .p-reason-lesson-method-item .p-reason-lesson-method-subtitle {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 35px;
     font-weight: 600;
     word-break: keep-all;
@@ -29624,7 +29624,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson-03-pamph figcaption {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 22px;
     font-weight: 600;
     padding: 15px 0 5px;
@@ -30171,11 +30171,11 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson .p-reason-lesson-list .p-reason-lesson-list-item.is-learning .p-reason-lesson-point {
-    background-image: url(/assets/img/page/reason/difference/lesson/line_learning.svg), url(/assets/img/page/reason/difference/lesson/line_learning.svg)
+    background-image: url(/static/top/images/page/reason/difference/lesson/line_learning.svg), url(/static/top/images/page/reason/difference/lesson/line_learning.svg)
 }
 
 .p-reason-lesson .p-reason-lesson-list .p-reason-lesson-list-item.is-learning .p-reason-lesson-point li:before {
-    background-image: url(/assets/img/page/reason/difference/lesson/ico_check_learning.svg)
+    background-image: url(/static/top/images/page/reason/difference/lesson/ico_check_learning.svg)
 }
 
 .p-reason-lesson .p-reason-lesson-list .p-reason-lesson-list-item.is-learning .p-reason-lesson-info .p-reason-lesson-info-border {
@@ -30191,11 +30191,11 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson .p-reason-lesson-list .p-reason-lesson-list-item.is-acquisition .p-reason-lesson-point {
-    background-image: url(/assets/img/page/reason/difference/lesson/line_acquisition.svg), url(/assets/img/page/reason/difference/lesson/line_acquisition.svg)
+    background-image: url(/static/top/images/page/reason/difference/lesson/line_acquisition.svg), url(/static/top/images/page/reason/difference/lesson/line_acquisition.svg)
 }
 
 .p-reason-lesson .p-reason-lesson-list .p-reason-lesson-list-item.is-acquisition .p-reason-lesson-point li:before {
-    background-image: url(/assets/img/page/reason/difference/lesson/ico_check_acquisition.svg)
+    background-image: url(/static/top/images/page/reason/difference/lesson/ico_check_acquisition.svg)
 }
 
 .p-reason-lesson .p-reason-lesson-list .p-reason-lesson-list-item.is-acquisition .p-reason-lesson-info .p-reason-lesson-info-border {
@@ -30211,11 +30211,11 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson .p-reason-lesson-list .p-reason-lesson-list-item.is-light .p-reason-lesson-point {
-    background-image: url(/assets/img/page/reason/difference/lesson/line_light.svg), url(/assets/img/page/reason/difference/lesson/line_light.svg)
+    background-image: url(/static/top/images/page/reason/difference/lesson/line_light.svg), url(/static/top/images/page/reason/difference/lesson/line_light.svg)
 }
 
 .p-reason-lesson .p-reason-lesson-list .p-reason-lesson-list-item.is-light .p-reason-lesson-point li:before {
-    background-image: url(/assets/img/page/reason/difference/lesson/ico_check_light.svg)
+    background-image: url(/static/top/images/page/reason/difference/lesson/ico_check_light.svg)
 }
 
 .p-reason-lesson .p-reason-lesson-list .p-reason-lesson-list-item.is-light .p-reason-lesson-info .p-reason-lesson-info-border {
@@ -30231,11 +30231,11 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-reason-lesson .p-reason-lesson-list .p-reason-lesson-list-item.is-private .p-reason-lesson-point {
-    background-image: url(/assets/img/page/reason/difference/lesson/line_private.svg), url(/assets/img/page/reason/difference/lesson/line_private.svg)
+    background-image: url(/static/top/images/page/reason/difference/lesson/line_private.svg), url(/static/top/images/page/reason/difference/lesson/line_private.svg)
 }
 
 .p-reason-lesson .p-reason-lesson-list .p-reason-lesson-list-item.is-private .p-reason-lesson-point li:before {
-    background-image: url(/assets/img/page/reason/difference/lesson/ico_check_private.svg)
+    background-image: url(/static/top/images/page/reason/difference/lesson/ico_check_private.svg)
 }
 
 .p-reason-lesson .p-reason-lesson-list .p-reason-lesson-list-item.is-private .p-reason-lesson-info .p-reason-lesson-info-border {
@@ -30293,7 +30293,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         height: 317px;
         margin-top: 95px;
         padding: 26px;
-        background-image: url(/assets/img/page/reason/difference/lesson/bg_teach_pc.png)
+        background-image: url(/static/top/images/page/reason/difference/lesson/bg_teach_pc.png)
     }
 }
 
@@ -30303,7 +30303,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         height: calc(188/375*100vw);
         margin-top: 22px;
         padding: calc(40/375*100vw) calc(5 / 375 * 100vw) 0;
-        background-image: url(/assets/img/page/reason/difference/lesson/bg_teach_sp.png)
+        background-image: url(/static/top/images/page/reason/difference/lesson/bg_teach_sp.png)
     }
 }
 
@@ -30958,7 +30958,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     transform: translate(0, -50%);
     vertical-align: middle;
     border-color: #02a0e8;
-    background: url(/assets/img/icon/icon_arrow01.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow01.png) center center no-repeat;
     background-size: contain
 }
 
@@ -30976,7 +30976,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     transform: translate(0, -50%);
     vertical-align: middle;
     border-color: #e75297;
-    background: url(/assets/img/icon/icon_arrow02.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow02.png) center center no-repeat;
     background-size: contain
 }
 
@@ -31035,7 +31035,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     transform: translate(0, -50%);
     vertical-align: middle;
     border-color: #02a0e8;
-    background: url(/assets/img/icon/icon_arrow01.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow01.png) center center no-repeat;
     background-size: contain
 }
 
@@ -31102,7 +31102,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     transform: translate(0, -50%);
     vertical-align: middle;
     border-color: #02a0e8;
-    background: url(/assets/img/icon/icon_arrow01.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow01.png) center center no-repeat;
     background-size: contain
 }
 
@@ -31193,12 +31193,12 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     transform: none;
     border-top: none;
     border-right: none;
-    background: url(/assets/img/link/icon_link_external_01.png) center center no-repeat;
+    background: url(/static/top/images/link/icon_link_external_01.png) center center no-repeat;
     background-size: contain
 }
 
 .is-kids .p-new-course .p-china-course a.external:after {
-    background-image: url(/assets/img/link/icon_link_external_01_kids.png)
+    background-image: url(/static/top/images/link/icon_link_external_01_kids.png)
 }
 
 @media screen and (max-width:769px) {
@@ -33153,7 +33153,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     margin-right: .3em;
     content: '';
     vertical-align: middle;
-    background-image: url(/static/top/picture/new-course-top/icon_check.png);
+    background-image: url(/static/top/images/icon/icon_check.png);
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -35448,7 +35448,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     margin-right: .5em;
     content: '';
     vertical-align: middle;
-    background-image: url(/static/top/picture/new-course-top/icon_check.png);
+    background-image: url(/static/top/images/icon/icon_check.png);
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -37090,7 +37090,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
-    background: url(/assets/img/icon/icon_arrow02.png) center center no-repeat;
+    background: url(/static/top/images/icon/icon_arrow02.png) center center no-repeat;
     background-size: contain
 }
 
@@ -37516,7 +37516,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .mainVisual .p-kids-unique-kv-txt-p {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 1.7;
@@ -37539,7 +37539,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .mainVisual .p-kids-unique-kv-txt-link a {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 18px;
     font-weight: 600;
     position: relative;
@@ -37566,7 +37566,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
-    background-image: url(/assets/img/page/kids-unique/kid_uni_plus.png);
+    background-image: url(/static/top/images/page/kids-unique/kid_uni_plus.png);
     background-repeat: no-repeat;
     background-size: 100% 100%
 }
@@ -37585,7 +37585,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .kids-unique-index-model .p-kids-unique-model-txt02 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 20px;
     font-weight: 600;
     margin: 0 auto 20px;
@@ -37657,7 +37657,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-head01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 26px;
     font-weight: 600;
     padding: .5em 10px;
@@ -37700,7 +37700,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-link ul li a {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 16px;
     font-weight: 600;
     position: relative;
@@ -37796,7 +37796,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-anc-link ul li a {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 15px;
     font-weight: 600;
     line-height: 1.5;
@@ -37916,7 +37916,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 .p-kids-unique-page .p-kids-unique-point-contents {
     box-sizing: border-box;
     padding: 80px 10px;
-    background-image: url(/assets/img/page/kids-unique/kid_uni_bg01.gif);
+    background-image: url(/static/top/images/page/kids-unique/kid_uni_bg01.gif);
     background-repeat: repeat
 }
 
@@ -38017,7 +38017,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-point-contents .p-kids-unique-point .p-kids-unique-head05 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 30px;
     font-weight: 600;
     margin: 0 auto 30px;
@@ -38077,7 +38077,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     width: calc(100% - 10px);
     height: 3px;
     content: '';
-    background-image: url(/assets/img/page/kids-unique/kid_uni_bg02.png);
+    background-image: url(/static/top/images/page/kids-unique/kid_uni_bg02.png);
     background-repeat: repeat-x;
     background-size: auto 100%
 }
@@ -38104,7 +38104,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         width: calc(100% - 10px);
         height: .66667vw;
         content: '';
-        background-image: url(/assets/img/page/kids-unique/kid_uni_bg02.png);
+        background-image: url(/static/top/images/page/kids-unique/kid_uni_bg02.png);
         background-repeat: repeat-x;
         background-size: auto 100%
     }
@@ -38189,7 +38189,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-point-contents .p-kids-unique-point .p-kids-unique-plus {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 40px;
     font-weight: 600;
     line-height: 1;
@@ -38243,7 +38243,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-point-contents .p-kids-unique-point .p-kids-unique-ability li p {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 15px;
     font-weight: 600
 }
@@ -38465,7 +38465,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     width: 20px;
     height: 20px;
     content: '';
-    background-image: url(/assets/img/page/kids-unique/kid_uni_check_red.gif);
+    background-image: url(/static/top/images/page/kids-unique/kid_uni_check_red.gif);
     background-repeat: no-repeat;
     background-size: 100% auto
 }
@@ -38484,12 +38484,12 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-point-contents .p-kids-unique-point .p-kids-unique-detail-box .p-kids-unique-detail-txt li span {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
 .p-kids-unique-page .p-kids-unique-point-contents .p-kids-unique-point .p-kids-unique-detail-box .p-kids-unique-detail-txt.blue li:before {
-    background-image: url(/assets/img/page/kids-unique/kid_uni_check_blue.gif)
+    background-image: url(/static/top/images/page/kids-unique/kid_uni_check_blue.gif)
 }
 
 .p-kids-unique-page .p-kids-unique-point-contents .p-kids-unique-point .p-kids-unique-satisfaction {
@@ -38555,11 +38555,11 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     border-radius: 300px;
-    background-image: url(/assets/img/page/kids-unique/kid_uni_bg03.gif)
+    background-image: url(/static/top/images/page/kids-unique/kid_uni_bg03.gif)
 }
 
 .p-kids-unique-page .p-kids-unique-point-contents .p-kids-unique-point .p-kids-unique-satisfaction-inr-canvas .txt-box p {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 14px;
     font-weight: 600;
     position: absolute;
@@ -38653,7 +38653,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-point-contents .p-kids-unique-point .p-kids-unique-qualified-p01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 20px;
     font-weight: 600;
     margin: 0 auto 10px;
@@ -38723,7 +38723,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-point-contents .p-kids-unique-point .p-kids-unique-qualified-list-tit-sub {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 18px;
     font-weight: 600;
     margin: 0 auto 10px
@@ -38876,7 +38876,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
 @media screen and (max-width:769px) {
     .p-kids-unique-page .p-kids-unique-index ul li p {
-        font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+        font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
         font-size: 16px;
         font-size: 4.21053vw;
         font-weight: 600;
@@ -38893,7 +38893,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-kv-txt-sub {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     position: absolute;
     top: 54%;
@@ -39210,7 +39210,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     margin: 60px auto 10px;
     padding: 3px;
     border-radius: 5px;
-    background-image: url(/assets/img/page/kids-unique/kid_uni_bg01.gif);
+    background-image: url(/static/top/images/page/kids-unique/kid_uni_bg01.gif);
     background-repeat: repeat;
     background-size: 5px
 }
@@ -39238,7 +39238,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-pink-wrapper .p-kids-unique-pink-box .p-kids-unique-pink-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 20px;
     font-weight: 600;
     margin: 0 auto 20px;
@@ -39258,7 +39258,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-pink-wrapper .p-kids-unique-pink-box .p-kids-unique-pink-ul li {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 15px;
     font-weight: 600;
     box-sizing: border-box;
@@ -39276,7 +39276,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-pink-wrapper .p-kids-unique-pink-box .p-kids-unique-pink-ul li span {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 1.05em;
     font-weight: 600
 }
@@ -39347,7 +39347,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-class-tit {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 30px;
     font-weight: 600;
     margin: 0 auto 20px
@@ -39433,7 +39433,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
 @media screen and (max-width:769px) {
     .p-kids-unique-page .p-kids-unique-class-ul li p {
-        font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+        font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
         font-size: 16px;
         font-size: 4.21053vw;
         font-weight: 600;
@@ -39490,7 +39490,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-ul-s01 li .p-kids-unique-ul-s01-txt .jp {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 20px;
     font-weight: 600;
     display: inline-block;
@@ -39513,7 +39513,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-ul-s01 li .p-kids-unique-ul-s01-txt .en {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 14px;
     font-weight: 600;
     display: inline-block;
@@ -39626,7 +39626,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-p01 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-align: center
@@ -39651,7 +39651,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .p-kids-unique-p02-wrapper .p-kids-unique-p02 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 20px;
     font-weight: 600;
     display: table-cell;
@@ -39681,7 +39681,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         width: 100%;
         height: 3px;
         content: '';
-        background-image: url(/assets/img/page/kids-unique/kid_uni_bg02.png);
+        background-image: url(/static/top/images/page/kids-unique/kid_uni_bg02.png);
         background-repeat: repeat-x;
         background-size: auto 100%
     }
@@ -39706,7 +39706,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     width: 100%;
     height: 3px;
     content: '';
-    background-image: url(/assets/img/page/kids-unique/kid_uni_bg02.png);
+    background-image: url(/static/top/images/page/kids-unique/kid_uni_bg02.png);
     background-repeat: repeat-x;
     background-size: auto 100%
 }
@@ -39727,7 +39727,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     margin: 0 auto 40px;
     padding: 5px;
     border-radius: 5px;
-    background-image: url(/assets/img/page/kids-unique/kid_uni_bg01.gif);
+    background-image: url(/static/top/images/page/kids-unique/kid_uni_bg01.gif);
     background-repeat: repeat;
     background-size: 5px
 }
@@ -39804,7 +39804,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-kids-unique-page .example-box-wrapper .example-box-text-p03 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: #e75297
@@ -40064,7 +40064,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-faq-question-block .p-faq-question-text {
-    background-image: url(/assets/img/heading/question_a_hdg.png);
+    background-image: url(/static/top/images/heading/question_a_hdg.png);
     background-repeat: no-repeat;
     background-size: 34px 32px
 }
@@ -40088,7 +40088,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .is-kids .p-faq-question-block .p-faq-question-text {
-    background-image: url(/assets/img/heading/question_a_hdg_kids.png)
+    background-image: url(/static/top/images/heading/question_a_hdg_kids.png)
 }
 
 @media screen and (min-width:770px) {
@@ -40161,14 +40161,14 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-faq-question-hdg {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
     box-sizing: border-box;
-    background-image: url(/assets/img/heading/question_hdg.png);
+    background-image: url(/static/top/images/heading/question_hdg.png);
     background-repeat: no-repeat;
     background-size: 34px 32px;
     -webkit-box-align: center;
@@ -40177,7 +40177,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .is-kids .p-faq-question-hdg {
-    background-image: url(/assets/img/heading/question_hdg_kids.png)
+    background-image: url(/static/top/images/heading/question_hdg_kids.png)
 }
 
 @media screen and (max-width:769px) {
@@ -40283,7 +40283,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 
 @media screen and (min-width:770px) {
     .p-faq-question-dl .p-faq-question-dl-lyt .p-faq-question-dt {
-        font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+        font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
         font-weight: 600;
         width: 125px
     }
@@ -40367,7 +40367,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-faq-sidemenu-title {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     text-align: center
 }
@@ -40709,7 +40709,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-sitemap-hdg-level3 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 30px;
@@ -40727,7 +40727,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-sitemap-bold-link {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 18px;
     font-weight: 400 !important;
     margin-bottom: 15px
@@ -40809,7 +40809,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-pamphlet-hdg-level3 {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 30px;
@@ -41104,7 +41104,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
         margin-left: .4em;
         content: '';
         vertical-align: middle;
-        background: url(/assets/img/link/icon_link_external_02.png) no-repeat 0 0;
+        background: url(/static/top/images/link/icon_link_external_02.png) no-repeat 0 0;
         background-size: contain
     }
 
@@ -41247,12 +41247,12 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     height: .75em;
     content: '';
     vertical-align: middle;
-    background: url(/assets/img/icon/icon_arrow01.png) no-repeat 100% 50%;
+    background: url(/static/top/images/icon/icon_arrow01.png) no-repeat 100% 50%;
     background-size: contain
 }
 
 .is-kids .p-schoolsearch-top__item a:after {
-    background-image: url(/assets/img/icon/icon_arrow02.png)
+    background-image: url(/static/top/images/icon/icon_arrow02.png)
 }
 
 @media screen and (min-width:770px) {
@@ -41375,7 +41375,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .p-schoolsearch__heading {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600;
     text-align: center
 }
@@ -41457,12 +41457,12 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
     height: .75em;
     margin-left: .5em;
     content: '';
-    background: url(/assets/img/link/icon_link_external_01_kids.png) no-repeat 50% 50%;
+    background: url(/static/top/images/link/icon_link_external_01_kids.png) no-repeat 50% 50%;
     background-size: contain
 }
 
 .is-kids .p-schoolsearch__link a:after {
-    background-image: url(/assets/img/link/icon_link_external_01.png)
+    background-image: url(/static/top/images/link/icon_link_external_01.png)
 }
 
 .p-schoolsearch__noschool {
@@ -43500,7 +43500,7 @@ screen and (-ms-high-contrast:active) and (min-width:770px) {
 }
 
 .u-fwe {
-    font-family: Noto Sans Medium, Helvetica, Arial, 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', Hiragino Kaku Gothic Pro, 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', sans-serif;
+    font-family: Noto Sans Medium, Helvetica, Arial, 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-weight: 600
 }
 
