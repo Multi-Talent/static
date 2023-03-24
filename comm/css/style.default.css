@@ -3925,7 +3925,28 @@ div.error label.error:before {
     color: #333;
 }
 
+/* USER INFO */
 
+.user-info-input .form-control {
+    margin: 0;
+}
+
+.user-info-input select.form-control {
+    padding: 8px 10px
+}
+
+.user-info-group {
+    padding: 0;
+}
+
+.user-info-item {
+    border-bottom: 1px dotted #ddd;
+    padding: 12px 15px;
+}
+
+.user-info-group .user-info-item:last-child {
+    border-bottom: 0;
+}
 
 /* USER GROUP LIST */
 
