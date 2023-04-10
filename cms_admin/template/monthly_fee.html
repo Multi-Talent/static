@@ -1,0 +1,204 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <style>
+            body {
+                font-family: HeiseiKakuGo-W5;
+            }
+
+            h1 {
+                text-align: center;
+                padding: 10px;
+                background-color: navy;
+                color: white;
+            }
+
+            .left {
+                text-align: left;
+            }
+
+            .right {
+                text-align: right;
+            }
+
+            .center {
+                text-align: center;
+            }
+
+            .underline {
+                text-decoration: underline;
+            }
+
+            .tbl_title th {
+                text-align: left;
+            }
+
+            .tbl_payment th {
+                background-color: navy;
+                border: 2px solid white;
+                color: white;
+                padding-top: 5px;
+                padding-right: 10px;
+                padding-bottom: 3px;
+                padding-left: 10px;
+            }
+
+            .tbl_payment td {
+                padding-top: 5px;
+                padding-right: 10px;
+                padding-bottom: 3px;
+                padding-left: 10px;
+            }
+
+            .tbl_detail th {
+                background-color: navy;
+                border: 2px solid white;
+                color: white;
+                padding-top: 5px;
+                padding-right: 10px;
+                padding-bottom: 3px;
+                padding-left: 10px;
+            }
+
+            .tbl_detail td,
+            .tbl_remarks td {
+                padding-top: 5px;
+                padding-right: 10px;
+                padding-bottom: 3px;
+                padding-left: 10px;
+            }
+
+            .tbl_remarks th {
+                background-color: navy;
+                border: 2px solid white;
+                color: white;
+                padding-top: 5px;
+                padding-right: 10px;
+                padding-bottom: 3px;
+                padding-left: 10px;
+            }
+
+        </style>
+
+        <h1>請求書</h1>
+        <table class="tbl_title" width="100%">
+            <tr>
+                <th width="40%" style="vertical-align: top">
+                    <h3 class="underline">
+                        ${NAME}精読グループ　MP組（土）保護者様
+                    </h3>
+                </th>
+                <th width="20%"></th>
+                <th width="20%"></th>
+                <td width="10%">No.</td>
+                <td width="10%">00-000</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>請求日</td>
+                <td>2023/3/24</td>
+            </tr>
+        </table>
+        <p>下記のとおり、御請求申し上げます。</p>
+        <table class="tbl_payment" width="100%">
+            <tr>
+                <th width="10%">件名</th>
+                <td>２０２３年4月分授業料</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <th>支払期限</th>
+                <td>2023/4/1</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <th>振込先</th>
+                <td>現金　OR　Paypay</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>Paypay ID: readwithjackie</td>
+                <td>&nbsp;</td>
+                <td class="right">TEL: 080-9820-2084</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <th>合計</th>
+                <td>${TOTAL_PRICE}円</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <br />
+        <table class="tbl_detail" width="100%">
+            <tr>
+                <th class="left" style="width: 250px;">摘要</th>
+                <th class="right">単価</th>
+                <th class="center">単位</th>
+                <th class="right">数量</th>
+                <th class="right">金額</th>
+            </tr>
+            <tr>
+                <td class="left">CHAIRCHAIRCHAIRCHAIRCHAIRCHAIRCHAIR</td>
+                <td class="right">${CHAIR_PRICE}円</td>
+                <td class="center">回</td>
+                <td class="right">${CHAIR_AMOUNT}</td>
+                <td class="right">${CHAIR_TOTAL_AMOUNT}円</td>
+            </tr>
+            <tr>
+                <td class="left">TABLE</td>
+                <td class="right">${TABLE_PRICE}円</td>
+                <td class="center">月</td>
+                <td class="right">${TABLE_AMOUNT}</td>
+                <td class="right">${TABLE_TOTAL_AMOUNT}円</td>
+            </tr>
+            <tr>
+                <td class="left">APP　会員費　（月額）</td>
+                <td class="right">${TABLE_PRICE}円</td>
+                <td class="center">月</td>
+                <td class="right">${TABLE_AMOUNT}</td>
+                <td class="right">${TABLE_TOTAL_AMOUNT}円</td>
+            </tr>
+            <tr>
+                <td class="left">Phonics Bookドリル</td>
+                <td class="right">${TABLE_PRICE}円</td>
+                <td class="center">月</td>
+                <td class="right">${TABLE_AMOUNT}</td>
+                <td class="right">${TABLE_TOTAL_AMOUNT}円</td>
+            </tr>
+            <tr>
+                <td class="right">&nbsp;</td>
+                <td class="center">&nbsp;</td>
+                <td class="right">&nbsp;</td>
+                <td class="right">合計</td>
+                <td class="right">${TOTAL_PRICE}円</td>
+            </tr>
+        </table>
+        <br />
+        <table class="tbl_remarks" width="100%">
+            <tr>
+                <th>備考</th>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </body>
+</html>

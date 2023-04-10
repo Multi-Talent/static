@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <style>
+            body {
+                font-family: HeiseiKakuGo-W5;
+            }
+
+            h1 {
+                text-align: center;
+                padding: 10px;
+                background-color: navy;
+                color: white;
+            }
+
+            .right {
+                text-align: right;
+            }
+
+            .underline {
+                text-decoration: underline;
+            }
+
+            th {
+                background-color: navy;
+                color: white;
+                padding: 10px;
+            }
+
+            td {
+                border-bottom: 1px solid navy;
+                padding: 10px;
+            }
+        </style>
+        <p class="right">${DATE}</p>
+        <h1>請求書</h1>
+        <p class="right">（株）▲▲▲▲▲▲</p>
+        <p class="right">Tel: ${TEL_NO}</p>
+        <p class="right">Email: ${MAIL_ADDRESS}</p>
+        <h3 class="underline">${NAME} 様</h3>
+        <p>下記のとおり、御請求申し上げます。</p>
+        <table width="100%">
+            <tr>
+                <th>品名</th>
+                <th>単価</th>
+                <th>数量</th>
+                <th>金額</th>
+            </tr>
+            <tr>
+                <td>CHAIR</td>
+                <td class="right">${CHAIR_PRICE}</td>
+                <td class="right">${CHAIR_AMOUNT}</td>
+                <td class="right">${CHAIR_TOTAL_AMOUNT}</td>
+            </tr>
+            <tr>
+                <td>TABLE</td>
+                <td class="right">${TABLE_PRICE}</td>
+                <td class="right">${TABLE_AMOUNT}</td>
+                <td class="right">${TABLE_TOTAL_AMOUNT}</td>
+            </tr>
+            <tr>
+                <td>合計</td>
+                <td class="right"> </td>
+                <td class="right"> </td>
+                <td class="right">${TOTAL_PRICE}</td>
+            </tr>
+        </table>
+    </body>
+</html>
