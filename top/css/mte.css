@@ -2236,8 +2236,8 @@ ul {
 
 .main-slider-one__round-box {
     position: absolute;
-    top: -130px;
-    right: -130px;
+    top: -50px;
+    right: -10px;
     opacity: 0;
     transform: translateY(-100%);
 }
@@ -2311,6 +2311,7 @@ ul {
     font-weight: 700;
     letter-spacing: -0.04em;
     margin-bottom: 27px;
+    margin-left: 80px;
     opacity: 0;
     transition: all 1000ms ease;
     transform: translateY(80px);
