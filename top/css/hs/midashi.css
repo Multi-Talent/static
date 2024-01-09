@@ -1,0 +1,43 @@
+.babble {
+  position: relative;
+  padding: 1.5rem 2rem;
+  margin: 1rem;
+  color: #fff !important;
+  border-radius: 10px;
+  background: #223455;
+  width: 60% !important;
+}
+
+.babble:after {
+  position: absolute;
+  bottom: -9px;
+  left: 1em;
+  width: 0;
+  height: 0;
+  content: '';
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+  border-color: #223455 transparent transparent transparent;
+}
+
+.babble-lgy {
+  position: relative;
+  padding: 1.5rem 2rem;
+  margin: 1rem;
+  color: #ccc !important;
+  border-radius: 10px;
+  background: lightgoldenrodyellow;
+  width: 60% !important;
+}
+
+.babble-lgy:after {
+  position: absolute;
+  bottom: -9px;
+  left: 1em;
+  width: 0;
+  height: 0;
+  content: '';
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+  border-color: #ccc transparent transparent transparent;
+}

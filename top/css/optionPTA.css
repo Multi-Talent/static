@@ -1,0 +1,22 @@
+/*----------------------------------------
+PTAサイトの設定
+-----------------------------------------*/
+div.res {
+  text-align: initial;
+  width: 70%;
+  text-align: left;
+  margin-left: 20%;
+  color: #ff0000;
+}
+
+ol.asterisk li {
+  list-style-type: none;
+  text-indent: -1em;
+
+}
+
+ol.asterisk li:before {
+  display: inline;
+  content: "※";
+}
+}

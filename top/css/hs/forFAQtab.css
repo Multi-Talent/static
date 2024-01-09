@@ -1,0 +1,100 @@
+.container {
+  margin-top: 15px;
+}
+
+.tab-group,
+.tab-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  /* Fix for IE7 */
+  *display: inline;
+  /* Fix for IE7 */
+}
+
+.tab-group>li,
+.tab-group-vertical>li {
+  border: 1px solid #428bca;
+  border-radius: 4px;
+  position: relative;
+  float: left;
+}
+
+.tab-group>li.active>a,
+.tab-group>li.active>a:hover,
+.tab-group>li.active>a:focus,
+.tab-group-vertical>li.active>a,
+.tab-group-vertical>li.active>a:hover,
+.tab-group-vertical>li.active>a:focus {
+  background-color: #428bca;
+  color: #fff;
+}
+
+.tab-group>li>a,
+.tab-group-vertical>li>a {
+  border-radius: 0;
+}
+
+.tab-group>li>a:hover,
+.tab-group-vertical>li>a:hover {
+  border-radius: 4px;
+}
+
+.tab-group li+li {
+  margin-left: -1px;
+}
+
+.tab-group>li:not(:first-child):not(:last-child),
+.tab-group>li:not(:first-child):not(:last-child)>a:hover {
+  border-radius: 0;
+}
+
+.tab-group>li:first-child,
+.tab-group>li:first-child>a:hover {
+  margin-left: 0;
+}
+
+.tab-group>li:first-child:not(:last-child),
+.tab-group>li:first-child:not(:last-child)>a:hover {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.tab-group>li:last-child:not(:first-child),
+.tab-group>li:last-child:not(:first-child)>a:hover {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.tab-group-vertical>li {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.tab-group-vertical>li+li {
+  margin-top: -1px;
+  margin-left: 0px;
+}
+
+.tab-group-vertical>li:not(:first-child):not(:last-child),
+.tab-group-vertical>li:not(:first-child):not(:last-child)>a:hover {
+  border-radius: 0;
+}
+
+.tab-group-vertical>li:first-child:not(:last-child),
+.tab-group-vertical>li:first-child:not(:last-child)>a:hover {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.tab-group-vertical>li:last-child:not(:first-child),
+.tab-group-vertical>li:last-child:not(:first-child)>a:hover {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+}
