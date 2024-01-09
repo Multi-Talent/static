@@ -1,0 +1,1111 @@
+.index-mv-wrap {
+  padding-bottom: 0 !important;
+}
+
+.bgwhitesmoke {
+  background-color: whitesmoke;
+}
+
+.smallfont-xxs {
+  font-size: xx-small;
+}
+
+.smallfont-xs {
+  font-size: x-small;
+}
+
+.smallfont-s {
+  font-size: small;
+}
+
+.mediumfont {
+  font-size: medium;
+}
+
+.largefont {
+  font-size: large:
+}
+
+.exs_bnr .exs_nodisp {
+  /*display: none;*/
+}
+
+#topBnrSlider .topBnrSlider_nodisp {
+  /* display: none;*/
+}
+
+#retina {
+  /* display: none;*/
+}
+
+.i-news-bnr-nodisp {
+  /* display: none;*/
+}
+
+.btnHSAdm_nodisp {
+  /*display: none;*/
+}
+
+.c-orange {
+  color: #fecb81;
+}
+
+.c-lightblue {
+  color: lightblue;
+}
+
+.c-khaki {
+  color: khaki;
+}
+
+.c-pink {
+  color: pink;
+}
+
+.c-aquamarine {
+  color: aquamarine;
+}
+
+.textred {
+  color: red;
+}
+
+.w100p {
+  width: 100%;
+}
+
+/*}*/
+/*モバイルなら表示*/
+/*@media only screen and (max-width: 768px) {
+  
+}*/
+
+/*コロナお知らせ関連*/
+.i-news-bnr {
+  position: relative;
+  /*margin-bottom: 8px;*/
+  margin-top: 16px;
+
+  text-align: center !important;
+}
+
+.i-news-bnr-inner {
+  text-align: center !important;
+  background-color: rgba(255, 255, 255, 0.70);
+  width: 100%;
+  /*margin-bottom: 10px;*/
+  justify-content: center;
+}
+
+.i-news-ul {
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+.i-news-ul li {
+  /*width:30%;*/
+  display: inline-block;
+  box-sizing: border-box;
+  /*border: 1px solid #0065aa;*/
+  padding: 4px 8px;
+  margin: 4px;
+  /*border-radius: 4px;*/
+  /*vertical-align: top;*/
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+/*説明会ボタン　バナーエリア*/
+
+.btnHSAdmBnr {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+
+}
+
+/*　　モバイル説明会ボタン標準*/
+.btnHSAdmStd {
+  width: 100%;
+  justify-content: center !important;
+  text-align: center !important;
+
+}
+
+.btnHSAdmStd a {
+  display: block;
+  width: 100%;
+  /*height:100%;*/
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  box-shadow: none;
+  padding: 10px;
+  margin-right: 2px;
+
+  left: 50%;
+}
+
+.centeringAv {
+  width: 100% !important;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.btnHSAdmStd a:hover {
+  /*color:#c71585;*/
+  color: khaki;
+
+  box-shadow: none;
+}
+
+/*MTE学院　内部進学用　出願*/
+.btnApply_es a {
+  background: orangered;
+  color: #fff;
+  display: flex;
+  height: 25px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: thick double #fff;
+}
+
+/*帰国生入試中学エントリー*/
+.btnApply_jhs_kikoku a {
+  background: #006633;
+  color: #fff;
+  display: flex;
+  height: 40px !important;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 0.3rem outset silver;
+  border-radius: 8px;
+  width: 100%;
+
+
+}
+
+/*帰国生入試中学エントリー*/
+.btnApply_shs_kikoku a {
+  background: #006633;
+  color: #fff;
+  display: flex;
+  height: 25px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: thick double #fff;
+}
+
+
+
+/*MTE学院　用　中学*/
+.btnEsHSAdm a {
+  background: #8fbc8f;
+  display: flex;
+  height: 25px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.btnEsHSAdmPC a:hover {
+  background: #999;
+}
+
+.btnEsHSAdmPC a small {
+  color: #fff;
+}
+
+/*中学*/
+.btnHSAdm a {
+  background: #41BF96;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnHSAdm a:hover {
+  background: #5DF0D8;
+}
+
+/*高校*/
+.btnSHSAdm a {
+  background: #1027A1;
+  height: 25px;
+  line-height25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnSHSAdm a:hover {
+  background: #2FA1E3;
+}
+
+/*塾*/
+.btnCramAdm a {
+  background: seagreen;
+  height: 25px;
+  line-height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnCramAdm a:hover {
+  background: #999;
+}
+
+
+/*期間限定ボタンPCモバイル共通*/
+.btnHSAdmTmp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnHSAdmTmp a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6d242e;
+  margin-bottom: 4px;
+  padding: 5px;
+}
+
+.btnHSAdmTmp a:hover {
+  color: #ccc;
+  /* margin-left:3px;
+    margin-top:3px;*/
+  box-shadow: none;
+  background: #db7093;
+}
+
+.type-hs#page-top .notice-news-wrap {
+  padding-bottom: 8px !important;
+}
+
+/*safari retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {}
+
+/*モバイル用　デジタルパンフレットなど*/
+.hs-ex-nav {
+  margin-top: 22px;
+}
+
+.hs-ex-nav li {
+  display: inline-block;
+  margin: 8px 1px;
+}
+
+.hs-ex-nav li a {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  padding: 6px 16px;
+  font-size: 1.1em;
+  /*background-color: darkcyan;*/
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  border-radius: 4px;
+}
+
+/*図書館ボタン*/
+.li-lib {
+  background: linen url("/static/top/img/hs/top/books.png") no-repeat left !important;
+  /*margin-right:12px!important;*/
+  background-size: 22% !important;
+  color: maroon !important;
+  border: 1px solid maroon !important;
+}
+
+/*部活動ボタン*/
+.li-bu {
+  background: orangered url("/static/top/img/hs/top/Tshirt.png") no-repeat left !important;
+  /*margin-right:12px!important;*/
+  background-size: 22% !important;
+  background-position: left top 4px 0px !important;
+}
+
+/*FAQボタン*/
+/*.li-faq{
+  background: url("/static/top/img/hs/top/qanda.png") no-repeat left !important;
+  background-size:22%!important;
+  background-position:left top 4px 0px !important;
+}*/
+/*学院コロナお知らせ*/
+.notice-title-es {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: 8px;
+}
+
+.notice-title-es li {
+  margin: 4px;
+}
+
+.notice-title-es li a {
+  background-color: #fff;
+  border: 1px solid #007199;
+  color: #007199;
+  border-radius: 5px;
+
+  padding: 6px;
+}
+
+/*★PC用★メニューが横並び 余白設定など*/
+@media (min-width: 768px) {
+  .topImgNeo {
+    background-size: 85% !important;
+    background-position: right 50% bottom 60% !important;
+  }
+
+  .i-news-bnr-pc-nodisp {
+    display: none;
+  }
+
+  .btnHSAdm_nodisp {
+    display: flex;
+  }
+
+  .br-nodisp {
+    display: none !important;
+  }
+
+  .hs-ex-nav {
+    /*display:none;*/
+  }
+
+  .btnHSAdm_nodisp a {
+    width: 95%;
+    height: 40px;
+    text-align: center;
+    /*padding: 6px !important;*/
+    margin-left: 16px;
+  }
+
+  .btnHSAdmStd {
+    /*width:24%;*/
+    text-align: center;
+    margin: 2px;
+
+  }
+
+  .bnrinnerHS-nodisp {
+    /*display: none;*/
+    padding: 0 20%;
+    /*margin-top:20px;*/
+    /*width:70%;*/
+  }
+
+  .Adm_list {
+    justify-content: center;
+    display: flex;
+    margin-left: 3px;
+    width: 100%;
+  }
+
+  .notice-news-wrap-hs {
+    margin-top: -160px !important;
+    width: 100%;
+    /*background-color:#223455!important;*/
+    justify-content: center;
+  }
+
+  .btnHSAdmBnr {
+    margin-top: 20px;
+  }
+
+  /*部活ビデオbox PC*/
+  .club-video-box {
+    width: 50%;
+  }
+
+  /*google spread sheet iframe用 PC */
+  .iframe-box-hs-pc {
+    width: 614px;
+    height: 680px;
+    border: thin solid #32a1ce;
+    padding: 0;
+    margin: 0;
+    "
+
+  }
+
+  .span-xs {
+    display: none;
+  }
+
+  .iframe-box-jh-pc {
+    width: 630px;
+    height: 420px;
+    border: thin solid #32a1ce;
+    padding: 0;
+    margin: 0;
+    "
+
+  }
+
+  .iframe-box-jh-xs {
+    display: none;
+  }
+
+  /*出願状況用div　*/
+  .applicant {
+    width: 100%;
+    align-items: stretch;
+  }
+
+  /*学院バナー*/
+  .tmpbnrES {
+    position: absolute;
+    border: 0;
+    width: 100%;
+    text-align: right;
+    margin-top: -380px;
+  }
+
+  .tmpbnrES a img {
+    margin-right: 8px;
+    margin-top: 6px;
+    width: 180px;
+  }
+
+  .tmpbnrES a {
+    border: none;
+  }
+
+  .tmpbnrES_xs {
+    display: none;
+  }
+
+}
+
+/*}*/
+
+
+/*★モバイル用★ 余白設定など*/
+@media only screen and (max-width: 768px) {
+
+  /*.btnHSAdmBnr{
+   margin-top:10px;
+}*/
+  .f-gray {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .nodisp_xs {
+    display: none;
+  }
+
+  .bnrinnerHS-nodisp {
+    /*display: none;*/
+    padding: 0 8px;
+
+  }
+
+  .i-news-bnr-mb-nodisp {
+    display: none;
+  }
+
+  .notice-news-wrap-hs {
+    margin-top: -120px !important;
+    /*background-color:#223455!important;*/
+    width: 100%;
+    text-align: center;
+  }
+
+  .topImgNeo {
+    background-size: 90% !important;
+    background-position: right 50% bottom 30% !important;
+  }
+
+  .btnApply_jhs_kikoku {
+    width: 100%;
+  }
+
+  .btnApply_jhs_kikoku a {
+    width: 95%;
+    white-space: nowrap;
+  }
+
+  .Adm_list {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3px;
+  }
+
+  .Adm_list li {
+    width: 50%;
+  }
+
+  /*部活ビデオbox Mobile*/
+  .club-video-box {
+    width: 90%;
+  }
+
+  /*google spread sheet iframe用 mobile*/
+  .iframe-box-hs-xs {
+    width: 100%;
+    height: 500px;
+    border: thin solid #32a1ce;
+    padding: 0;
+    margin: 0;
+    "
+
+  }
+
+  .iframe-box-hs-pc {
+    display: none;
+  }
+
+  .iframe-box-jh-xs {
+    width: 94%;
+    height: 420px;
+    border: thin solid #32a1ce;
+    padding: 0;
+    margin: 0;
+    "
+
+  }
+
+  .iframe-box-jh-pc {
+    display: none;
+  }
+
+  /*学院バナー*/
+  .tmpbnrES {
+    display: none;
+  }
+
+  .tmpbnrES_xs {
+    justify-content: center;
+    position: relative;
+    border: 0;
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .tmpbnrES_xs li {
+    margin: 0 0 6px;
+  }
+
+  .tmpbnrES_xs li a img {
+    width: 90%;
+  }
+}
+
+/*FORM*/
+.login-x {
+  position: relative;
+  text-align: center;
+  margin: 30px auto;
+  padding: 20px 20px 20px;
+  width: 460px;
+  background: white;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login-x:before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+.login-x h1 {
+  margin: -20px -20px 21px;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+  text-shadow: 0 1px white;
+  background: #f3f3f3;
+  border-bottom: 1px solid #cfcfcf;
+  border-radius: 3px 3px 0 0;
+  background-image: -webkit-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: -moz-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: -o-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: linear-gradient(to bottom, whiteffd, #eef2f5);
+  -webkit-box-shadow: 0 1px whitesmoke;
+  box-shadow: 0 1px whitesmoke;
+}
+
+.login-x p {
+  margin: 20px 0 0;
+}
+
+.login-x p:first-child {
+  margin-top: 0;
+}
+
+.login-x input[type=text],
+.login input[type=password] {
+  width: 278px;
+}
+
+.login-x p.remember_me {
+  float: left;
+  line-height: 31px;
+}
+
+.login-x p.submit {
+  text-align: center;
+}
+
+.login-help {
+  margin: 20px 0;
+  font-size: 11px;
+  text-align: center;
+  /*color: #2a85a1;*/
+}
+
+.login-help a {
+  color: #darkblue;
+  text-decoration: none;
+}
+
+.login-help a:hover {
+  text-decoration: underline;
+}
+
+:-moz-placeholder {
+  color: #c9c9c9 !important;
+  font-size: 13px;
+}
+
+::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 13px;
+}
+
+input {
+  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+input[type=text],
+input[type=password] {
+  margin: 5px;
+  padding: 0 10px;
+  width: 200px;
+  height: 34px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+  -moz-outline-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  border-color: #7dc9e2;
+  outline-color: #dceefc;
+  outline-offset: 0;
+}
+
+input[type=submit] {
+  padding: 0 18px;
+  height: 29px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #527881;
+  text-shadow: 0 1px #e3f1f1;
+  background: #cde5ef;
+  border: 1px solid;
+  border-color: #b4ccce #b3c0c8 #9eb9c2;
+  border-radius: 16px;
+  outline: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  background-image: -webkit-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: -moz-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: -o-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: linear-gradient(to bottom, #edf5f8, #cde5ef);
+  -webkit-box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+input[type=submit]:active {
+  background: #cde5ef;
+  border-color: #9eb9c2 #b3c0c8 #b4ccce;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.lt-ie9 input[type=text],
+.lt-ie9 input[type=password] {
+  line-height: 34px;
+}
+
+*/お知らせリスト表示*/ .news_ul {
+  padding: 0;
+  line-height: 0.6em;
+}
+
+.news_ul li {
+  padding: 0;
+
+}
+
+.news_ul li:before {
+
+  display: inline-block;
+  vertical-align: middle;
+  /*以下白丸つくる*/
+  content: '';
+  width: 1em;
+  height: 1em;
+  /* background: #666;*/
+  border-radius: 5%;
+  margin-right: 8px;
+  margin-left: 20px;
+}
+
+/*MTE学院会*/
+#hachi-page-top {
+  margin: 0px;
+  padding: 0px;
+}
+
+.logoHachi {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(129deg, rgba(255, 255, 255, 1) 0%, rgba(77, 0, 0, 0.7595413165266106) 100%);
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+
+}
+
+.navbarHachi {
+  postion: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  height: 140px;
+}
+
+.cHachi-innr {
+  width: 100%;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+
+.navHachi {
+  list-style: none;
+  overflow: hidden;
+}
+
+.navHachi li {
+  /*width:120px;*/
+  text-align: center;
+  background-color: ;
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 2px;
+}
+
+.navHachi li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px;
+}
+
+.center-box {
+  text-align: center;
+  padding: 0 20%;
+}
+
+.nav-bg {
+  background: rgba(179, 227, 245, 0.72);
+}
+
+.nav-bg ul li a {}
+
+.hachi-maga {
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+.hachi-maga li {
+  width: 140px;
+  text-align: center;
+  float: left;
+  margin-top: 40px;
+}
+
+.hachi-maga li a {
+  background: linear-gradient(45deg, #00bcd43d 0%, #e6f6f7a3 34%, #e7f8e400 68%, #fcfbd600 100%);
+  border: solid 1px #0065aa;
+  padding: 5px;
+  margin: 3px;
+  text-align: center;
+  float: left;
+}
+
+.hachi-maga li a img {
+  width: 110px;
+  height: 155px;
+}
+
+/*elegant hr*/
+.hr-ele {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: .5;
+}
+
+.hr-ele:before {
+  content: '';
+  background: -webkit-linear-gradient(left, transparent, #818078, transparent);
+  background: linear-gradient(to right, transparent, #818078, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+
+.hr-ele:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 0 .5em;
+  line-height: 1.5em;
+  color: #818078;
+  background-color: #fcfcfa;
+}
+
+/*合格速報  モバイル 共通*/
+.container100 {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.box-outer {
+  width: 86%;
+  position: relative;
+  left: 8%;
+  padding: 1px;
+  border: solid 3px #ffa3d1;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* 80% 不透過 */
+}
+
+.box-outer .box-title {
+  position: absolute;
+  display: inline-block;
+  top: -2px;
+  left: -2px;
+  padding: 0 9px;
+  height: 19px;
+  line-height: 25px;
+  font-size: 12px;
+  background: #ffa3d1;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.box-outer p {
+  margin: 0;
+  padding: 0;
+  font: bold 1.6em 'fsans-serif' "モリサワ「新ゴR」";
+  text-align: center;
+
+}
+
+.box-outer .date-box {
+  text-align: right;
+  font: bold 1.6em 'fsans-serif' ​"モリサワ「新ゴR」";
+  color: #666;
+  margin: 0;
+  padding: 0;
+
+}
+
+.box_uni {
+  display: grid;
+  grid-template-columns: 30% 20% 30% 20%;
+  width: 100%;
+  border: 3px solid #610000;
+}
+
+.box_uni .uni_item {
+  text-align: left;
+  padding: 1px 12px;
+  font: bold 1.6em 'fsans-serif' ​"モリサワ「新ゴR」";
+  color: #610000;
+}
+
+.box_uni .uni_item:nth-child(1) {
+  grid-column: 1/ 5;
+  background-color: #610000;
+  color: #fff;
+  font: bold 1.6em 'fsans-serif' ​"モリサワ「新ゴR」";
+  text-align-last: justify;
+  padding: 1px 20px;
+}
+
+.box_uni2 {
+  display: grid;
+  grid-template-columns: 100%;
+  width: 100%;
+  /*height: 500px;*/
+  border: 2px solid #610000;
+  position: relative;
+}
+
+.box_uni2 .uni_item {
+  text-align: center;
+  padding: 1px 8px;
+  font: bold 1.6em 'fsans-serif' ​"モリサワ「新ゴR」";
+  color: #610000;
+
+}
+
+.box_uni2 .uni_item:nth-child(odd) {
+  background-color: #610000;
+  /*text-align-last: justify;*/
+  padding: 1px 20px;
+  color: #fff;
+  font: bold 1.6em;
+}
+
+.box_uni2 .uni_item:nth-child(even) {
+  color: #610000;
+  background-color: #fff;
+  font: bold 0.8em;
+
+}
+
+.box_uni2 .uni_item:nth-child(7) {
+  color: #610000;
+  background-color: #fff;
+  border-top: solid 2px #610000;
+  /*padding:8px;*/
+  font: bold 1.0em;
+
+}
+
+@media (min-width: 768px) {
+  .box-outer {
+    width: 70%;
+    position: relative;
+    padding: 2px;
+    left: 13%
+  }
+
+  .box-outer .box-title {
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #e198b4;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .box_uni .uni_item {
+    text-align: left;
+    padding: 2px 30px;
+    font: bold 1.4em;
+    color: #610000;
+    letter-spacing: 0.6em;
+  }
+
+
+  .box_uni2 .uni_item {
+    text-align: center;
+    padding: 1px 20px;
+    font: bold 1.1em;
+    color: #610000;
+
+  }
+
+  .box_uni2 .uni_item:nth-child(odd) {
+    text-align: right;
+    letter-spacing: 1em;
+
+  }
+
+  .box_uni2 .uni_item:nth-child(even) {
+    padding: 1px 20px;
+    font: bold 1.2em;
+    letter-spacing: 0.4em;
+
+  }
+
+  .box_uni2 .uni_item:nth-child(7) {
+    color: #610000;
+    background-color: #fff;
+    border-top: solid 2px #610000;
+    padding: 2px 12px;
+    font: bold 1.4em;
+    letter-spacing: 0.7em;
+
+  }
+
+  .f-gray {
+    color: #999;
+  }
+
+  .nodisp_L {
+    display: none;
+  }
+}
+
+.star-y {
+  color: #ffa3d1;
+}
