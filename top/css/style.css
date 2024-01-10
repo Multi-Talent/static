@@ -3307,15 +3307,8 @@ body {
 }
 
 body.type-tp {
-    background-color: #fefbe2
-}
-
-body.type-kg {
-    background-color: #fefbe2
-}
-
-body.type-es {
-    background-color: #fefddf
+    /* background-color: #fefbe2 */
+    background-color: #fff
 }
 
 body.type-en.page-index {
@@ -12251,6 +12244,7 @@ table+table {
 
 .type-tp .header {
     background-image: none;
+    background-color: rgba(255,255,255,0.9);
     border-bottom: 1px solid #bbb;
     border-top: 5px solid #fbb03b
 }
@@ -12646,6 +12640,7 @@ table+table {
 
 .type-en .header {
     background-image: none;
+    background-color: rgba(255,255,255,0.9);
     border-bottom: 1px solid #bbb;
     border-top: 5px solid #fbb03b
 }
@@ -13030,6 +13025,7 @@ table+table {
 
 .type-cn .header {
     background-image: none;
+    background-color: rgba(255,255,255,0.9);
     border-bottom: 1px solid #bbb;
     border-top: 5px solid #fbb03b
 }
@@ -13393,6 +13389,7 @@ table+table {
 
 .type-at .header {
     background-image: none;
+    background-color: rgba(255,255,255,0.9);
     border-bottom: 1px solid #bbb;
     border-top: 5px solid #fbb03b
 }
@@ -13755,6 +13752,7 @@ table+table {
 
 .type-pg .header {
     background-image: none;
+    background-color: rgba(255,255,255,0.9);
     border-bottom: 1px solid #bbb;
     border-top: 5px solid #fbb03b
 }
