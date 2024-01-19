@@ -4565,7 +4565,7 @@
 }
 
 .experience-section .curriculum-section .curriculum-box li.curriculum-prg .voice {
-  left: 60px;
+  left: 90px;
   top: 76px;
 }
 
@@ -4587,14 +4587,14 @@
   left: 28%;
   top: -50px;
   width: 310px;
-  transform: rotate(-20deg);
+  transform: rotate(-30deg);
 }
 
 .experience-section .curriculum-section .curriculum-box li.curriculum-prg p span {
   display: inline-block;
-  transform: rotate(65deg);
+  transform: rotate(62deg);
   position: relative;
-  top: 70px;
+  top: 80px;
   left: -27px;
 }
 
@@ -4619,14 +4619,14 @@
   .experience-section .curriculum-section .curriculum-box li.curriculum-prg .voice {
     width: 14%;
     right: inherit;
-    top: -10vw;
+    top: -8vw;
     left: 50%;
-    transform: rotate(342deg);
+    transform: rotate(330deg);
   }
 
   .experience-section .curriculum-section .curriculum-box li.curriculum-prg .title {
     width: 80%;
-    top: 12vw;
+    top: 45vw;
     left: 5%;
   }
 

@@ -12691,13 +12691,13 @@ table+table {
     background-image: url("/static/top/img/en/common/icon_menu_02.png")
 }
 
-.type-en .header .nav-wrap .nav .nav-item .nav-adults .icon-wrap {
+.type-en .header .nav-wrap .nav .nav-item .nav-eng-exam .icon-wrap {
     background-image: url("/static/top/img/en/common/icon_menu_03.png");
     padding-left: 32px
 }
 
 .type-en .header .nav-wrap .nav .nav-item .nav-exam-info .icon-wrap {
-    background-image: url("/static/top/img/common/icon_menu_04.png");
+    background-image: url("/static/top/img/en/common/icon_menu_04.png");
     padding-left: 30px
 }
 
@@ -12981,7 +12981,7 @@ table+table {
     color: #fff
 }
 
-.type-en.cat-adults .header .nav-wrap .nav .nav-item .nav-adults .icon-wrap {
+.type-en.cat-eng-exam .header .nav-wrap .nav .nav-item .nav-eng-exam .icon-wrap {
     background-image: url("/static/top/img/en/common/icon_menu_03_on.png");
     background-color: #fda835;
     color: #fff
@@ -13082,7 +13082,7 @@ table+table {
 }
 
 .type-cn .header .nav-wrap .nav .nav-item .nav-exam-info .icon-wrap {
-    background-image: url("/static/top/img/common/icon_menu_04.png");
+    background-image: url("/static/top/img/cn/common/icon_menu_04.png");
     padding-left: 30px
 }
 
@@ -16344,7 +16344,7 @@ footer .go-top:after {
 
 
 .type-kg .hero {
-    background-image: url("/static/top/img/kg/common/_main_lv_01.jpg")
+    background-image: url("/static/top/img/kg/common/main_lv_01.jpg")
 }
 
 .type-hs .hero {
@@ -16356,7 +16356,7 @@ footer .go-top:after {
 }
 
 .type-tp .hero {
-    background-image: url("/static/top/img/top/common/cn_top_access.jpg")
+    background-image: url("/static/top/img/top/common/top_access.jpg")
 }
 
 .type-tp .fqa {
@@ -18323,15 +18323,15 @@ footer .go-top:after {
     display: block
 }
 
-.type-en.page-kids-year h2.normal {
+.type-en.page-eng-exam-year h2.normal {
     display: none
 }
 
-.type-en.page-kids-year .type-en-year {
+.type-en.page-eng-exam-year .type-en-year {
     display: block
 }
 
-.type-en.page-kids-year .topics-section {
+.type-en.page-eng-exam-year .topics-section {
     margin-top: 50px
 }
 
@@ -24709,7 +24709,7 @@ footer .go-top:after {
 }
 
 .type-tp.cat-exam-info .hero {
-    background-image: url("/static/top/img/top/exam_info/cn_top_exam_info.jpg")
+    background-image: url("/static/top/img/top/exam_info/top_exam_info.jpg")
 }
 
 .type-tp.cat-exam-info.page-top .table-03.colspan-table {
@@ -25558,11 +25558,11 @@ footer .go-top:after {
     background-image: url("/static/top/img/en/kids/challenge/icon_grade_04.png")
 }
 
-.type-en.cat-adults .hero {
+.type-en.cat-eng-exam .hero {
     background-image: url("/static/top/img/en/adults/main_lv_01.jpg")
 }
 
-.type-en.cat-adults.page-schoolhome .schoolhome .theme-box {
+.type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-box {
     position: relative;
     background: #fff;
     max-width: 630px;
@@ -25570,35 +25570,35 @@ footer .go-top:after {
     padding: 40px
 }
 
-.type-en.cat-adults.page-schoolhome .schoolhome .theme-title {
+.type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-title {
     margin: 0 0 40px 0
 }
 
-.type-en.cat-adults.page-schoolhome .schoolhome .theme-title span {
+.type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-title span {
     background: url("/static/top/img/en/adults/schoolhome/bg_stripe_or.png") 0 0 repeat;
     padding: 0 0.1em
 }
 
-.type-en.cat-adults.page-schoolhome .schoolhome .theme-title span:before,
-.type-en.cat-adults.page-schoolhome .schoolhome .theme-title span:after {
+.type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-title span:before,
+.type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-title span:after {
     display: none
 }
 
-.type-en.cat-adults.page-schoolhome .schoolhome .theme-text {
+.type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-text {
     text-align: left
 }
 
-.type-en.cat-adults.page-schoolhome .schoolhome .theme-text dl {
+.type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-text dl {
     display: block;
     position: relative;
     padding-left: 1.6rem
 }
 
-.type-en.cat-adults.page-schoolhome .schoolhome .theme-text dl+dl {
+.type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-text dl+dl {
     margin-top: 1.6rem
 }
 
-.type-en.cat-adults.page-schoolhome .schoolhome .theme-text dl:before {
+.type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-text dl:before {
     display: inline-block;
     position: absolute;
     top: 0.5rem;
@@ -25608,7 +25608,7 @@ footer .go-top:after {
     font-size: 1.0rem
 }
 
-.type-en.cat-adults.page-schoolhome .schoolhome .theme-image {
+.type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-image {
     max-width: 34.44444%;
     position: absolute;
     right: -9.20635%;
@@ -25616,7 +25616,7 @@ footer .go-top:after {
 }
 
 .type-en.cat-exam-info .hero {
-    background-image: url("/static/top/img/en/exam_info/cn_top_exam_info.jpg")
+    background-image: url("/static/top/img/en/exam_info/en_top_exam_info.jpg")
 }
 
 .type-en.cat-exam-info.page-top .table-03.colspan-table {
@@ -27371,7 +27371,7 @@ footer .go-top:after {
 }
 
 .type-at.cat-exam-info .hero {
-    background-image: url("/static/top/img/at/exam_info/cn_top_exam_info.jpg")
+    background-image: url("/static/top/img/at/exam_info/at_top_exam_info.jpg")
 }
 
 .type-at.cat-exam-info.page-top .table-03.colspan-table {
@@ -28247,7 +28247,7 @@ footer .go-top:after {
 }
 
 .type-pg.cat-exam-info .hero {
-    background-image: url("/static/top/img/pg/exam_info/cn_top_exam_info.jpg")
+    background-image: url("/static/top/img/pg/exam_info/pg_top_exam_info.jpg")
 }
 
 .type-pg.cat-exam-info.page-top .table-03.colspan-table {
@@ -35468,7 +35468,7 @@ screen and (max-height: 300px) {
         background-color: #0088b2
     }
 
-    .type-en.page-kids-year .topics-section {
+    .type-en.page-eng-exam-year .topics-section {
         margin-top: 25px
     }
 
@@ -39483,23 +39483,23 @@ screen and (max-height: 300px) {
         padding-left: 0
     }
 
-    .type-en.cat-adults.page-schoolhome .schoolhome .theme-box {
+    .type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-box {
         max-width: none;
         margin: 20px auto 0;
         padding: 20px
     }
 
-    .type-en.cat-adults.page-schoolhome .schoolhome .theme-title {
+    .type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-title {
         text-align: left;
         margin: 0 0 20px 0
     }
 
-    .type-en.cat-adults.page-schoolhome .schoolhome .theme-title span {
+    .type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-title span {
         background: none;
         padding: 0
     }
 
-    .type-en.cat-adults.page-schoolhome .schoolhome .theme-image {
+    .type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-image {
         max-width: 100%;
         position: inherit;
         right: auto;
