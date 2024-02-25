@@ -15531,7 +15531,7 @@ table+table {
 .type-en #footer .footer-middle .logo {
     width: 156px;
     height: 34px;
-    background-image: url("/static/top/img/en/common/header_logo_cn.png")
+    background-image: url("/static/top/img/en/common/header_logo_en.png")
 }
 
 .type-en #footer .footer-middle-link li a {
@@ -16254,6 +16254,7 @@ footer .go-top:after {
 .fqa,
 .contact,
 .about-us,
+.sitemap,
 .privacy {
     position: relative;
     height: 160px;
@@ -16267,6 +16268,7 @@ footer .go-top:after {
 .fqa:before,
 .contact:before,
 .about-us:before,
+.sitemap:before,
 .privacy:before {
     content: "";
     position: absolute;
@@ -16282,6 +16284,7 @@ footer .go-top:after {
 .fqa h1,
 .contact h1,
 .about-us h1,
+.sitemap h1,
 .privacy h1 {
     position: absolute;
     top: 50%;
@@ -16297,6 +16300,7 @@ footer .go-top:after {
 .lv-01 .fqa,
 .lv-01 .contact,
 .lv-01 .about-us,
+.lv-01 .sitemap,
 .lv-01 .privacy {
     height: 300px
 }
@@ -16311,23 +16315,27 @@ footer .go-top:after {
 
 
 .type-tp .hero {
-    background-image: url("/static/top/img/top/common/cn_top_access.jpg")
+    background-image: url("/static/top/img/top/common/top_common.jpg")
 }
 
 .type-tp .fqa {
-    background-image: url("/static/top/img/top/common/cn_top_fqa.jpg")
+    background-image: url("/static/top/img/top/common/top_common.jpg")
 }
 
 .type-tp .contact {
-    background-image: url("/static/top/img/top/common/cn_top_contact.jpg")
+    background-image: url("/static/top/img/top/common/top_common.jpg")
 }
 
 .type-tp .about-us {
-    background-image: url("/static/top/img/top/common/cn_top_about_us.jpg")
+    background-image: url("/static/top/img/top/common/top_common.jpg")
+}
+
+.type-tp .sitemap {
+    background-image: url("/static/top/img/top/common/top_common.jpg")
 }
 
 .type-tp .privacy {
-    background-image: url("/static/top/img/top/common/cn_top_privacy.jpg")
+    background-image: url("/static/top/img/top/common/top_common.jpg")
 }
 
 
@@ -16359,21 +16367,6 @@ footer .go-top:after {
     background-image: url("/static/top/img/top/common/top_access.jpg")
 }
 
-.type-tp .fqa {
-    background-image: url("/static/top/img/top/common/cn_top_fqa.jpg")
-}
-
-.type-tp .contact {
-    background-image: url("/static/top/img/top/common/cn_top_contact.jpg")
-}
-
-.type-tp .about-us {
-    background-image: url("/static/top/img/top/common/cn_top_about_us.jpg")
-}
-
-.type-tp .privacy {
-    background-image: url("/static/top/img/top/common/cn_top_privacy.jpg")
-}
 
 
 
