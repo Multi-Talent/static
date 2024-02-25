@@ -3979,6 +3979,39 @@ div.error label.error:before {
     font-weight: normal;
 }
 
+
+/* INVOICE LIST */
+
+.invoice-input .form-control {
+    margin: 0;
+}
+
+.invoice-input select.form-control {
+    padding: 8px 10px
+}
+
+.invoice-list-group {
+    padding: 0;
+}
+
+.invoice-form .form-group {
+    margin: 0;
+}
+
+.invoice-list-item {
+    border-bottom: 1px dotted #ddd;
+    padding: 12px 15px;
+}
+
+.invoice-list-group .invoice-list-item:last-child {
+    border-bottom: 0;
+}
+
+.invoice-unsaved {
+    font-weight: normal;
+}
+
+
 .disp-content {
     white-space: pre-wrap;
     word-wrap: break-word;
