@@ -413,7 +413,7 @@ function ms_save_or_open_blob(url, open_type, wait_message, file_name, content_t
         var blob = xhr.response;
 
         if (xhr.readyState === 4 && xhr.status === 200) {
-            if (typeof(file_name) === "undefined"  || file_name === "") {
+            if (typeof(file_name) === "undefined" || file_name === "") {
                 var cd = xhr.getResponseHeader("content-disposition")
                 if (!cd) {
                     hide_cover();
@@ -440,7 +440,9 @@ function ms_save_or_open_blob(url, open_type, wait_message, file_name, content_t
             hide_cover();
         } else if (xhr.status === 210) {
             if($('.indicator').length) {
-                alert(xhr.getResponseHeader("result-message"));
+                if(xhr.getResponseHeader("result-message") != null && xhr.getResponseHeader("result-message") != "") {
+                    alert(xhr.getResponseHeader("result-message"));
+                }
             }
             hide_cover();
         } else if (xhr.status === 500) {
