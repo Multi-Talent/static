@@ -439,7 +439,9 @@ function ms_save_or_open_blob(url, open_type, wait_message, file_name, content_t
         } else if (xhr.status === 204) {
             hide_cover();
         } else if (xhr.status === 205) {
-            alert(xhr.getResponseHeader("SEND_INVOICE_MSG"));
+            if($('.indicator').length) {
+                alert(xhr.getResponseHeader("success-message"));
+            }
             hide_cover();
         } else if (xhr.status === 500) {
             hide_cover();
