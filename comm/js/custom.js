@@ -440,7 +440,7 @@ function ms_save_or_open_blob(url, open_type, wait_message, file_name, content_t
             hide_cover();
         } else if (xhr.status === 210) {
             if($('.indicator').length) {
-                alert(xhr.getResponseHeader("success-message"));
+                alert(xhr.getResponseHeader("result-message"));
             }
             hide_cover();
         } else if (xhr.status === 500) {
