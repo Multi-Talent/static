@@ -438,7 +438,7 @@ function ms_save_or_open_blob(url, open_type, wait_message, file_name, content_t
             hide_cover();
         } else if (xhr.status === 204) {
             hide_cover();
-        } else if (xhr.status === 205) {
+        } else if (xhr.status === 210) {
             if($('.indicator').length) {
                 alert(xhr.getResponseHeader("success-message"));
             }
