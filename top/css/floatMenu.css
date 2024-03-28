@@ -261,7 +261,7 @@
       padding: 5px 22px;
       position: relative;
       letter-spacing: -1px;
-      background-image: url("/static/top/img/hs/top/books.png");
+      background-image: url("https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/hs/top/books.png");
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: left top;

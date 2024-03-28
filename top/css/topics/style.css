@@ -1,17 +1,17 @@
 .type-en.cat-topics .hero {
-  background-image: url(/static/top/img/en/topics/main_lv_01.jpg);
+  background-image: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/en/topics/main_lv_01.jpg);
 }
 
 .type-cn.cat-topics .hero {
-  background-image: url(/static/top/img/cn/topics/main_lv_01.jpg);
+  background-image: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/cn/topics/main_lv_01.jpg);
 }
 
 .type-at.cat-topics .hero {
-  background-image: url(/static/top/img/at/topics/main_lv_01.jpg);
+  background-image: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/at/topics/main_lv_01.jpg);
 }
 
 .type-pg.cat-topics .hero {
-  background-image: url(/static/top/img/pg/topics/main_lv_01.jpg);
+  background-image: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/pg/topics/main_lv_01.jpg);
 }
 
 .page-topics .category-navi {
