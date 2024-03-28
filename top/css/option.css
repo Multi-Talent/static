@@ -17,7 +17,7 @@
 
 .insta-title {
     content: "";
-    background-image: url(/static/top/img/kg/common/insta230207.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/kg/common/insta230207.png);
     background-repeat: no-repeat;
     background-size: contain;
     vertical-align: middle;
@@ -1450,11 +1450,11 @@ input[name="tab_item"] {
 }
 
 .type-hs .header .nav-wrap .nav .nav-item .nav-jclass .icon-wrap {
-    background: url(/static/top/img/hs/common/icon_menu_003.png) center top no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/hs/common/icon_menu_003.png) center top no-repeat;
 }
 
 .type-hs .header .nav-wrap .nav .nav-item .nav-adultshigh .icon-wrap {
-    background: url(/static/top/img/hs/common/icon_menu_004.png) center top no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/hs/common/icon_menu_004.png) center top no-repeat;
 }
 
 .type-hs .header .nav-wrap .nav .nav-item:nth-of-type(4).active .subnav-wrap {
@@ -1535,7 +1535,7 @@ input[name="tab_item"] {
         margin: 0 auto;
         text-align: center;
         color: #62421a;
-        background: url("/static/top/img/hs/common/icon_menu_01.png") 10px center no-repeat;
+        background: url("https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/hs/common/icon_menu_01.png") 10px center no-repeat;
     }
 
     .subnav_inner_02 {
@@ -1545,7 +1545,7 @@ input[name="tab_item"] {
         position: relative;
         margin: 0 auto;
         color: #62421a;
-        background: url("/static/top/img/hs/common/icon_menu_003.png") 10px center no-repeat;
+        background: url("https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/hs/common/icon_menu_003.png") 10px center no-repeat;
     }
 
     .subnav_inner_03 {
@@ -1555,7 +1555,7 @@ input[name="tab_item"] {
         text-align: center;
         margin: 0 auto;
         color: #62421a;
-        background: url("/static/top/img/hs/common/icon_menu_004.png") 10px center no-repeat;
+        background: url("https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/hs/common/icon_menu_004.png") 10px center no-repeat;
     }
 
     .subnav_inner_04 {
@@ -1565,7 +1565,7 @@ input[name="tab_item"] {
         text-align: center;
         margin: 0 auto;
         color: #62421a;
-        background: url("/static/top/img/hs/common/icon_menu_02.png") 10px center no-repeat;
+        background: url("https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/hs/common/icon_menu_02.png") 10px center no-repeat;
     }
 
     .subnav_inner_05 {
@@ -1574,7 +1574,7 @@ input[name="tab_item"] {
         position: relative;
         margin: 0 auto;
         color: #62421a;
-        background: url("/static/top/img/hs/common/icon_menu_05.png") 10px center no-repeat;
+        background: url("https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/hs/common/icon_menu_05.png") 10px center no-repeat;
     }
 
     .subnav_inner_06 {
@@ -1584,7 +1584,7 @@ input[name="tab_item"] {
         text-align: center;
         margin: 0 auto;
         color: #62421a;
-        background: url("/static/top/img/hs/common/icon_menu_04.png") 10px center no-repeat;
+        background: url("https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/hs/common/icon_menu_04.png") 10px center no-repeat;
     }
 
 }
@@ -1666,7 +1666,7 @@ input[name="tab_item"] {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background-image: url(/static/top/img/hs/examinee/btn_img_jh.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/hs/examinee/btn_img_jh.png);
     font-weight: bold;
     font-family: 游ゴシック, 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", HGS明朝E, メイリオ, Meiryo, serif;
     padding: 10px;
@@ -1685,7 +1685,7 @@ input[name="tab_item"] {
 }
 
 .hs_exam_infos {
-    background-image: url(/static/top/img/hs/examinee/btn_img_jh.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/hs/examinee/btn_img_jh.png);
     border: 1px solid #709db3;
     border-radius: 4px;
 }
@@ -2509,7 +2509,7 @@ input[name="tab_item"] {
     width: 225px;
     height: 70px;
     margin-top: 0;
-    background: url(/static/top/img/hs/common/recommend_title.png) 0 0 no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/hs/common/recommend_title.png) 0 0 no-repeat;
     background-size: contain;
     font: 0/0 a;
     color: transparent;

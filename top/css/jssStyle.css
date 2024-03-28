@@ -1254,7 +1254,7 @@ div.wpcf7-mail-sent-ok {
 	content: "";
 	position: relative;
 	z-index: 1;
-	background-image: url(/static/top/img/cn/common/wave_top_blue3.svg);
+	background-image: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/cn/common/wave_top_blue3.svg);
 	background-position: center top;
 	background-repeat: repeat-x;
 	background-size: auto 52px;
@@ -1650,19 +1650,19 @@ div.wpcf7-acceptance-missing {
 }
 
 .guidance-box .step-data.step1 .data-bk {
-    background-image: url(/static/top/img/cn/guide/guide_01.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/cn/guide/guide_01.jpg);
     background-position: right 35px bottom -40px;
     background-size: 155px auto
 }
 
 .guidance-box .step-data.step2 .data-bk {
-    background-image: url(/static/top/img/cn/guide/guide_02.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/cn/guide/guide_02.jpg);
     background-position: right 55px bottom -40px;
     background-size: 130px auto
 }
 
 .guidance-box .step-data.step3 .data-bk {
-    background-image: url(/static/top/img/cn/guide/guide_03.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/cn/guide/guide_03.jpg);
     background-position: right 28px bottom -70px;
     background-size: 185px auto
 }
@@ -1786,7 +1786,7 @@ div.wpcf7-acceptance-missing {
 }
 
 .greeting-box .greeting-bk .data-bk .detail {
-    background: url(/static/top/img/cn/kids/logo3.svg)no-repeat center top 45%;
+    background: url(https://cdn.jsdelivr.net/gh/Multi-Talent/static@assets/top/img/cn/kids/logo3.svg)no-repeat center top 45%;
     text-align: center;
     padding: 120px 0 20px
 }
