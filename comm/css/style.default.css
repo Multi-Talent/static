@@ -4017,6 +4017,40 @@ div.error label.error:before {
     word-wrap: break-word;
 }
 
+
+
+/* NOTICE LIST */
+
+.notice-input .form-control {
+    margin: 0;
+}
+
+.notice-input select.form-control {
+    padding: 8px 10px
+}
+
+.notice-list-group {
+    padding: 0;
+}
+
+.notice-form .form-group {
+    margin: 0;
+}
+
+.notice-list-item {
+    border-bottom: 1px dotted #ddd;
+    padding: 12px 15px;
+}
+
+.notice-list-group .notice-list-item:last-child {
+    border-bottom: 0;
+}
+
+.notice-unsaved {
+    font-weight: normal;
+}
+
+
 /********** 16. BUG TRACKER **********/
 /*************************************/
 
