@@ -12464,6 +12464,11 @@ table+table {
     padding-left: 32px
 }
 
+.type-tp .header .nav-wrap .nav .nav-item .nav-jp .icon-wrap {
+    background-image: url("https://multi-talent.github.io/static/top/img/top/common/jp_icon.png");
+    padding-left: 30px
+}
+
 .type-tp .header .nav-wrap .nav .nav-item .nav-pg .icon-wrap {
     background-image: url("https://multi-talent.github.io/static/top/img/top/common/pg_icon.png");
     padding-left: 30px
@@ -12752,6 +12757,12 @@ table+table {
 
 .type-tp.cat-art .header .nav-wrap .nav .nav-item .nav-art .icon-wrap {
     background-image: url("https://multi-talent.github.io/static/top/img/top/common/icon_menu_03_on.png");
+    background-color: #fda835;
+    color: #fff
+}
+
+.type-tp.cat-jp .header .nav-wrap .nav .nav-item .nav-jp .icon-wrap {
+    background-image: url("https://multi-talent.github.io/static/top/img/top/common/icon_menu_06_on.png");
     background-color: #fda835;
     color: #fff
 }
