@@ -10,6 +10,10 @@
   background-image: url(https://multi-talent.github.io/static/top/img/at/topics/main_lv_01.jpg);
 }
 
+.type-jp.cat-topics .hero {
+  background-image: url(https://multi-talent.github.io/static/top/img/jp/topics/main_lv_01.jpg);
+}
+
 .type-pg.cat-topics .hero {
   background-image: url(https://multi-talent.github.io/static/top/img/pg/topics/main_lv_01.jpg);
 }
