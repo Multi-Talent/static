@@ -14,9 +14,23 @@ $(function () {
     $overlay.on("click", function () {
         $body.removeClass("is-active");
     });
-    $(".js-nav_item").on("click", function () {
-        $(this).next("ul").slideToggle();
+    // メニューの動作設定
+    var $navItem = $(".js-nav_item");
+
+    // クリックイベント（全デバイス共通）
+    $navItem.on("click", function () {
+        var $currentMenu = $(this).next("ul");
+        // 他の全ての子メニューを閉じる
+        $navItem.each(function() {
+            var $otherMenu = $(this).next("ul");
+            if (!$otherMenu.is($currentMenu)) {
+                $otherMenu.slideUp();
+            }
+        });
+        // 現在のメニューをトグル
+        $currentMenu.slideToggle();
     });
+
     var $pagetop = $(".js-pagetop");
     $pagetop.hide();
     $(window).on("scroll", function () {
