@@ -8146,3 +8146,47 @@ footer a {
         padding: 20px;
     }
 }
+
+/* Delete Button Styles */
+.sw-button_delete {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 24px;
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.sw-button_delete:hover {
+    background: #c82333;
+}
+
+.sw-button_delete:active {
+    background: #bd2130;
+}
+
+/* Checkbox Styles for Attendance List */
+.attendance-table input[type="checkbox"] {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.attendance-table th input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .sw-button_delete {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+}
