@@ -7691,3 +7691,458 @@ footer a {
         flex-basis: 45%
     }
 }
+
+/* ========================================
+   Teacher Attendance Styles
+   ======================================== */
+
+/* Common styles */
+.teacher-attendance-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.sw-title_attendance {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.sw-description {
+    text-align: center;
+    margin-bottom: 32px;
+    color: #666;
+}
+
+/* Class info box */
+.class-info-box {
+    background: #e3f2fd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.class-info-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.class-info-date {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Class card */
+.class-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.class-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.class-info {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.class-form {
+    display: flex;
+    gap: 16px;
+    align-items: flex-end;
+}
+
+.sw-form_field-inline {
+    flex: 1;
+}
+
+.sw-form_label-inline {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.sw-form_input-inline {
+    width: 100%;
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.sw-form_submit-inline {
+    height: 40px;
+    min-width: 160px;
+}
+
+/* Legend */
+.legend {
+    margin: 24px 0;
+    padding: 16px;
+    background: #fff3cd;
+    border-radius: 8px;
+}
+
+.legend-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.legend-item {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+/* Attendance table */
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.attendance-table th,
+.attendance-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.attendance-table th {
+    background: #f5f5f5;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.attendance-table td {
+    font-size: 14px;
+}
+
+.attendance-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.attendance-table tr:hover {
+    background: #f0f0f0;
+}
+
+/* Attendance radio buttons */
+.attendance-radio {
+    white-space: nowrap;
+}
+
+.attendance-radio label {
+    margin-right: 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.attendance-radio input[type="radio"] {
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+/* Attendance status badges */
+.attendance-status {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.attendance-status.present {
+    background: #d4edda;
+    color: #155724;
+}
+
+.attendance-status.absent {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.attendance-status.online {
+    background: #d1ecf1;
+    color: #0c5460;
+}
+
+/* Detail card */
+.detail-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.detail-row {
+    display: flex;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #eee;
+}
+
+.detail-row:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.detail-label {
+    width: 150px;
+    font-weight: 700;
+    color: #333;
+    font-size: 14px;
+}
+
+.detail-value {
+    flex: 1;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Textarea preview in table */
+.td-textarea-preview {
+    line-height: 1.4;
+    max-height: calc(1.4em * 2);
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 4px 6px;
+    scrollbar-gutter: stable;
+}
+
+/* Button styles */
+.sw-button_detail {
+    display: inline-block;
+    padding: 6px 16px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.sw-button_detail:hover {
+    background: #0056b3;
+    color: #fff;
+}
+
+/* Responsive: Mobile (max-width: 767px) */
+@media screen and (max-width: 767px) {
+    .teacher-attendance-container {
+        padding: 0 12px;
+        max-width: 100%;
+    }
+
+    .sw-title_attendance {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .sw-description {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    /* Class info */
+    .class-info-box {
+        padding: 16px;
+    }
+
+    .class-info-title {
+        font-size: 16px;
+    }
+
+    .class-info-date {
+        font-size: 14px;
+    }
+
+    /* Class card */
+    .class-card {
+        padding: 16px;
+    }
+
+    .class-title {
+        font-size: 16px;
+    }
+
+    .class-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .sw-form_submit-inline {
+        width: 100%;
+        margin-top: 12px;
+    }
+
+    /* Legend */
+    .legend {
+        padding: 12px;
+    }
+
+    .legend-title {
+        font-size: 14px;
+    }
+
+    .legend-item {
+        font-size: 13px;
+    }
+
+    /* Detail card */
+    .detail-card {
+        padding: 16px;
+    }
+
+    .detail-row {
+        flex-direction: column;
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+    }
+
+    .detail-label {
+        width: 100%;
+        margin-bottom: 4px;
+        font-size: 13px;
+    }
+
+    .detail-value {
+        font-size: 14px;
+    }
+
+    /* Table to card layout */
+    .attendance-table {
+        border: 0;
+    }
+
+    .attendance-table thead {
+        display: none;
+    }
+
+    .attendance-table tbody {
+        display: block;
+    }
+
+    .attendance-table tr {
+        display: block;
+        margin-bottom: 16px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 12px;
+        background: #fff;
+    }
+
+    .attendance-table td {
+        display: block;
+        border: none;
+        padding: 8px 0;
+        text-align: left !important;
+    }
+
+    .attendance-table td:before {
+        content: attr(data-label);
+        font-weight: 700;
+        display: block;
+        margin-bottom: 4px;
+        color: #666;
+        font-size: 12px;
+    }
+
+    /* Radio buttons */
+    .attendance-radio {
+        white-space: normal;
+    }
+
+    .attendance-radio label {
+        display: inline-block;
+        margin-right: 12px;
+        margin-bottom: 8px;
+    }
+
+    /* Status badges */
+    .attendance-status {
+        display: inline-block;
+        margin-right: 8px;
+    }
+
+    /* Buttons */
+    .sw-button_detail {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    .sw-form_action {
+        flex-direction: column;
+    }
+
+    .sw-form_submit,
+    .sw-form_back {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .sw-button_submit,
+    .sw-button_back {
+        width: 100%;
+        display: block;
+    }
+
+    .sw-form_field {
+        margin-bottom: 20px;
+    }
+
+    .sw-form_label {
+        font-size: 13px;
+    }
+
+    .sw-form_radio label {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .sw-form_textarea {
+        min-height: 100px;
+        font-size: 14px;
+    }
+}
+
+/* Responsive: Tablet (768px - 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .teacher-attendance-container {
+        max-width: 720px;
+    }
+
+    .attendance-table th,
+    .attendance-table td {
+        padding: 10px 8px;
+        font-size: 13px;
+    }
+
+    .detail-card {
+        padding: 20px;
+    }
+}
