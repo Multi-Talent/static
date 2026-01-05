@@ -8307,7 +8307,9 @@ footer a {
         flex-direction: column;
         width: 100%;
     }
-
+    .sw-button_search {
+        margin-left: 0px
+    }
     .sw-button_search,
     .sw-button_clear {
         width: 100%;
