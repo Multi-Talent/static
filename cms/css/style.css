@@ -8046,27 +8046,31 @@ footer a {
 
     .attendance-table tr {
         display: block;
-        margin-bottom: 16px;
+        margin-bottom: 12px;
         border: 1px solid #ddd;
         border-radius: 8px;
-        padding: 12px;
+        padding: 8px 12px;
         background: #fff;
     }
 
     .attendance-table td {
-        display: block;
+        display: flex;
+        align-items: center;
         border: none;
-        padding: 8px 0;
+        padding: 6px 0;
         text-align: left !important;
+        min-height: 32px;
     }
 
     .attendance-table td:before {
         content: attr(data-label);
         font-weight: 700;
-        display: block;
-        margin-bottom: 4px;
+        display: inline-block;
+        min-width: 100px;
+        margin-right: 12px;
         color: #666;
         font-size: 12px;
+        flex-shrink: 0;
     }
 
     /* Radio buttons */
@@ -8315,3 +8319,27 @@ footer a {
         width: 100%;
     }
 }
+
+    /* チェックボックスのセルはラベルを非表示 */
+    .attendance-table td[data-label="選択"]:before {
+        min-width: auto;
+        margin-right: 8px;
+    }
+
+    /* 操作ボタンのセルはラベルを左に固定 */
+    .attendance-table td[data-label="操作"] {
+        flex-wrap: wrap;
+    }
+
+    .attendance-table td[data-label="操作"] .sw-button_detail {
+        flex: 1;
+        min-width: 100%;
+        margin-top: 4px;
+    }
+
+    /* ステータス表示のセルは横並びを維持 */
+    .attendance-table td[data-label="出席"],
+    .attendance-table td[data-label="欠席"],
+    .attendance-table td[data-label="オンライン"] {
+        justify-content: space-between;
+    }
