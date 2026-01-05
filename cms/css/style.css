@@ -8190,3 +8190,126 @@ footer a {
         margin-bottom: 16px;
     }
 }
+
+/* Search Section Styles */
+.search-section {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.search-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 16px 0;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #007bff;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.search-fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+}
+
+.search-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.search-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #495057;
+}
+
+.search-input {
+    padding: 10px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.2s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.search-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-start;
+}
+
+.sw-button_search,
+.sw-button_clear {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sw-button_search {
+    background: #007bff;
+    color: #fff;
+}
+
+.sw-button_search:hover {
+    background: #0056b3;
+}
+
+.sw-button_search:active {
+    background: #004085;
+}
+
+.sw-button_clear {
+    background: #6c757d;
+    color: #fff;
+}
+
+.sw-button_clear:hover {
+    background: #5a6268;
+}
+
+.sw-button_clear:active {
+    background: #495057;
+}
+
+@media screen and (max-width: 767px) {
+    .search-section {
+        padding: 16px;
+    }
+
+    .search-fields {
+        grid-template-columns: 1fr;
+    }
+
+    .search-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sw-button_search,
+    .sw-button_clear {
+        width: 100%;
+    }
+}
