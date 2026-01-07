@@ -48,11 +48,39 @@ jQuery(document).ready(function () {
     }
 
     function adjustmainpanelheight() {
-        // Adjust mainpanel height
-        var docHeight = jQuery(document).height();
-        if (docHeight > jQuery(".mainpanel").height())
-            jQuery(".mainpanel").height(docHeight);
+        var $main = jQuery(".mainpanel");
+        if (!$main.length) return;
+
+        // 画面（viewport）基準にする
+        var winH = jQuery(window).height();
+
+        // mainpanel の上端が画面上からどれだけ下か
+        var top = $main.offset().top;
+
+        // 必要なら header / footer 分を引く（環境に合わせて調整）
+        var headerH = jQuery(".headerbar:visible").outerHeight(true) || 0;
+        var footerH = jQuery(".footer:visible").outerHeight(true) || 0;
+
+        // 基本の mainpanel 高さ（最低でも viewport を満たす）
+        var baseH = Math.max(0, winH - top - footerH);
+
+        // DataTables の scrollBody がある場合、その高さを mainpanel に反映しない（＝内部スクロール前提）
+        // ※逆に「scrollBody が生成されていない＝scrollYが効いてない」判定にも使える
+        var hasDTScrollBody = jQuery(".dataTables_scrollBody").length > 0;
+
+        if (hasDTScrollBody) {
+            // DataTableが内部スクロールできる前提なので、document高さ追従はやめる
+            $main.css("height", baseH + "px");
+            return;
+        }
+
+        // DataTable が無い（または scrollY が効いていない）場合のみ、
+        // 内容の実高さと viewport 高さの大きい方にする
+        // ※document.height() は使わない
+        var contentH = $main.get(0).scrollHeight; // mainpanel内の実コンテンツ高さ
+        $main.css("height", Math.max(baseH, contentH) + "px");
     }
+
     adjustmainpanelheight();
 
     // Tooltip
