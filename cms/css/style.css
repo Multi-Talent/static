@@ -8111,7 +8111,7 @@ footer a {
     .sw-button_submit,
     .sw-button_back {
         width: 100%;
-        display: block;
+        /* display: block; */
     }
 
     .sw-form_field {
