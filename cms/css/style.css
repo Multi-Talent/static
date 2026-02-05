@@ -8343,3 +8343,395 @@ footer a {
     .attendance-table td[data-label="オンライン"] {
         justify-content: space-between;
     }
+
+/* ==========================================
+   Notify Buttons (Teacher Attendance Notifications)
+   ========================================== */
+.notify-buttons {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    vertical-align: middle;
+}
+
+/* テーブルセル内での垂直配置 */
+td.notify-buttons {
+    vertical-align: middle !important;
+}
+
+.btn-notify {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.3s ease, transform 0.1s ease;
+    cursor: pointer;
+}
+
+.btn-notify:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.btn-notify:active {
+    transform: translateY(0);
+}
+
+.btn-notify-arrival {
+    background: #28a745;
+    color: #fff;
+    border: 1px solid #28a745;
+}
+
+.btn-notify-arrival:hover {
+    background: #218838;
+    border-color: #1e7e34;
+    color: #fff;
+}
+
+.btn-notify-absent {
+    background: #ffc107;
+    color: #000;
+    border: 1px solid #ffc107;
+}
+
+.btn-notify-absent:hover {
+    background: #e0a800;
+    border-color: #d39e00;
+    color: #000;
+}
+
+.notify-disabled {
+    display: inline-block;
+    padding: 6px 12px;
+    color: #6c757d;
+    font-size: 13px;
+    font-style: italic;
+}
+
+/* Responsive styles for notify buttons */
+@media screen and (max-width: 767px) {
+    .notify-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn-notify {
+        width: 100%;
+    }
+
+    .attendance-table td.notify-buttons {
+        flex-direction: column;
+    }
+}
+
+/* Notification button - sent state */
+.btn-notify-sent {
+    opacity: 0.7;
+    position: relative;
+}
+
+.btn-notify-sent:after {
+    content: '✓';
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.btn-notify-arrival.btn-notify-sent:after {
+    color: #fff;
+}
+
+.btn-notify-absent.btn-notify-sent:after {
+    color: #000;
+}
+
+/* ================================================
+   Responsive Design for Mobile and Tablet
+   ================================================ */
+
+/* Tablet (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .teacher-attendance-container {
+        padding: 15px;
+    }
+
+    .sw-table_attendance {
+        font-size: 13px;
+    }
+
+    .btn-notify {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .notify-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .notify-buttons a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Mobile (max-width: 767px) */
+@media screen and (max-width: 767px) {
+    .teacher-attendance-container {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .sw-title_attendance {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .sw-description {
+        font-size: 13px;
+    }
+
+    /* テーブルをカード形式に変換 */
+    .sw-table_attendance {
+        border: 0;
+    }
+
+    .sw-table_attendance thead {
+        display: none;
+    }
+
+    .sw-table_attendance tbody,
+    .sw-table_attendance tr,
+    .sw-table_attendance td {
+        display: block;
+        width: 100%;
+    }
+
+    .sw-table_attendance tr {
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 15px;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .sw-table_attendance td {
+        text-align: left;
+        padding: 8px 0;
+        border: none;
+        position: relative;
+        padding-left: 120px;
+        min-height: 40px;
+    }
+
+    .sw-table_attendance td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 110px;
+        padding-right: 10px;
+        white-space: nowrap;
+        font-weight: bold;
+        color: #333;
+    }
+
+    /* ラジオボタン用の特別なスタイル */
+    .sw-table_attendance td.attendance-radio {
+        padding-left: 0;
+    }
+
+    .sw-table_attendance td.attendance-radio:before {
+        content: attr(data-label);
+        display: block;
+        position: static;
+        width: 100%;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    .sw-table_attendance td.attendance-radio label {
+        display: inline-block;
+        margin-right: 15px;
+        margin-bottom: 5px;
+    }
+
+    /* 通知ボタンのレスポンシブ対応 */
+    .notify-buttons {
+        padding-left: 0 !important;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .notify-buttons:before {
+        content: attr(data-label);
+        display: block;
+        width: 100%;
+        margin-bottom: 8px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .notify-buttons a,
+    .notify-buttons .notify-disabled {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .btn-notify {
+        padding: 10px 15px;
+        font-size: 14px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* フォームボタンのレスポンシブ対応 */
+    .sw-form_action {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sw-form_submit,
+    .sw-form_back {
+        width: 100%;
+    }
+
+    .sw-button_submit,
+    .sw-button_back {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    /* 検索フォームのレスポンシブ対応 */
+    .search-form_field {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-form_input,
+    .sw-button_search,
+    .sw-button_reset {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* 詳細カードのレスポンシブ対応 */
+    .detail-card {
+        padding: 15px;
+    }
+
+    .detail-row {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 0;
+    }
+
+    .detail-label {
+        width: 100%;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .detail-value {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    /* 凡例のレスポンシブ対応 */
+    .legend {
+        padding: 15px;
+    }
+
+    .legend-item {
+        display: block;
+        margin-bottom: 8px;
+    }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .sw-title_attendance {
+        font-size: 18px;
+    }
+
+    .sw-table_attendance td {
+        padding-left: 100px;
+        font-size: 13px;
+    }
+
+    .sw-table_attendance td:before {
+        width: 90px;
+        font-size: 12px;
+    }
+
+    .btn-notify {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .sw-button_submit,
+    .sw-button_back {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .detail-card {
+        padding: 10px;
+    }
+
+    .sw-form_textarea {
+        min-height: 100px;
+        font-size: 13px;
+    }
+}
+
+/* Landscape orientation adjustments for mobile */
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    .sw-table_attendance td {
+        padding-left: 140px;
+    }
+
+    .sw-table_attendance td:before {
+        width: 130px;
+    }
+
+    .notify-buttons {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .notify-buttons a {
+        flex: 1;
+    }
+}
+
+/* Print styles */
+@media print {
+    .notify-buttons,
+    .sw-form_action,
+    .sw-button_submit,
+    .sw-button_back {
+        display: none;
+    }
+
+    .sw-table_attendance {
+        border-collapse: collapse;
+    }
+
+    .sw-table_attendance th,
+    .sw-table_attendance td {
+        border: 1px solid #000;
+        padding: 5px;
+    }
+}
