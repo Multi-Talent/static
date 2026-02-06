@@ -54,44 +54,45 @@ $(function () {
 });
 
 function search_addr_by_zip(fzip1, fzip2, fpref, faddr, farea, fstrt, ffocus) {
-  // クリア（input/select 両対応）
-  $('[name="' + fpref + '"], #' + fpref).val('');
-  $('[name="' + faddr + '"], #' + faddr).val('');
-  if (farea) $('[name="' + farea + '"], #' + farea).val('');
-  if (fstrt) $('[name="' + fstrt + '"], #' + fstrt).val('');
+    // input/select/textarea 全部対応（name指定）
+    const $pref = $('[name="' + fpref + '"]');
+    const $addr = $('[name="' + faddr + '"]');
+    const $area = farea ? $('[name="' + farea + '"]') : $();
+    const $strt = fstrt ? $('[name="' + fstrt + '"]') : $();
 
-  // ★必ず先にコールバック設定
-  AjaxZip3.onSuccess = function () {
-    // fpref (例: "神奈川県") から select(prefecture_code) を選ぶ
-    const prefName = $('#fpref').val(); // ← fpref を使う（都道府県名）
-    if (prefName) {
-      const $sel = $('#prefecture_code');
-      const match = $sel.find('option').filter(function () {
-        return $(this).text() === prefName;
-      }).val();
+    // 初期化（存在するものだけ）
+    $pref.val('');
+    $addr.val('');
+    $area.val('');
+    $strt.val('');
 
-      if (match !== undefined) {
-        $sel.val(match).trigger('change'); // ★ここで change を確実に発火
-      }
-    }
+    // ★先にコールバック設定（これ重要）
+    AjaxZip3.onSuccess = function () {
+        // 必要なら change を手動で発火（イベントで拾いたい場合）
+        $pref.trigger('change');
+        $addr.trigger('change');
+        $area.trigger('change');
+        $strt.trigger('change');
 
-    // フォーカス
-    if (farea && $('[name="' + farea + '"], #' + farea).length) {
-      $('[name="' + farea + '"], #' + farea).focus();
-    } else {
-      $('#address_2').focus();
-    }
-  };
+        // focus したい先があるならそこへ
+        if ($area.length) {
+            $area.focus();
+        } else if ($strt.length) {
+            $strt.focus();
+        } else if ($addr.length) {
+            $addr.focus();
+        }
+    };
 
-  AjaxZip3.onFailure = function () {
-    // 失敗時：必要ならここで通知
-    // console.log('AjaxZip3 failed');
-  };
+    AjaxZip3.onFailure = function () {
+        // 失敗時（郵便番号が不正、見つからない等）
+        // ここにエラー表示など
+        // console.log('zip2addr failed');
+    };
 
-  // ★最後に実行
-  AjaxZip3.zip2addr(fzip1, fzip2, fpref, faddr, farea, fstrt, ffocus);
+    // 最後に実行
+    AjaxZip3.zip2addr(fzip1, fzip2, fpref, faddr, farea, fstrt, ffocus);
 }
-
 
 function submit_func(form_name, confirm_msg) {
     if (window.confirm(confirm_msg)) {
