@@ -54,13 +54,44 @@ $(function () {
 });
 
 function search_addr_by_zip(fzip1, fzip2, fpref, faddr, farea, fstrt, ffocus) {
-    $('input[name="' + fpref + '"]').val("");
-    $('input[name="' + faddr + '"]').val("");
-    AjaxZip3.zip2addr(fzip1, fzip2, fpref, faddr, farea, fstrt, ffocus);
-    AjaxZip3.onSuccess = function () {
-        $('input[name="' + farea + '"]').focus();
-    };
+  // クリア（input/select 両対応）
+  $('[name="' + fpref + '"], #' + fpref).val('');
+  $('[name="' + faddr + '"], #' + faddr).val('');
+  if (farea) $('[name="' + farea + '"], #' + farea).val('');
+  if (fstrt) $('[name="' + fstrt + '"], #' + fstrt).val('');
+
+  // ★必ず先にコールバック設定
+  AjaxZip3.onSuccess = function () {
+    // fpref (例: "神奈川県") から select(prefecture_code) を選ぶ
+    const prefName = $('#fpref').val(); // ← fpref を使う（都道府県名）
+    if (prefName) {
+      const $sel = $('#prefecture_code');
+      const match = $sel.find('option').filter(function () {
+        return $(this).text() === prefName;
+      }).val();
+
+      if (match !== undefined) {
+        $sel.val(match).trigger('change'); // ★ここで change を確実に発火
+      }
+    }
+
+    // フォーカス
+    if (farea && $('[name="' + farea + '"], #' + farea).length) {
+      $('[name="' + farea + '"], #' + farea).focus();
+    } else {
+      $('#address_2').focus();
+    }
+  };
+
+  AjaxZip3.onFailure = function () {
+    // 失敗時：必要ならここで通知
+    // console.log('AjaxZip3 failed');
+  };
+
+  // ★最後に実行
+  AjaxZip3.zip2addr(fzip1, fzip2, fpref, faddr, farea, fstrt, ffocus);
 }
+
 
 function submit_func(form_name, confirm_msg) {
     if (window.confirm(confirm_msg)) {
