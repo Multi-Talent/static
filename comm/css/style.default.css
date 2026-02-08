@@ -5613,12 +5613,20 @@ td.notify-buttons {
         display: flex;
         flex-wrap: wrap;
         gap: 8px;
+        margin-right: 0;
+    }
+
+    .panel-body .btn-group.mr10 {
+        margin-right: 0;
     }
 
     .panel-body .btn-group .btn {
         flex: 1 1 auto;
         min-width: 120px;
         margin-bottom: 8px;
+        margin-right: 0;
+        position: relative;
+        z-index: 1;
     }
 
     .user-info-item {
@@ -5638,15 +5646,26 @@ td.notify-buttons {
 /* Mobile (max-width: 767px) */
 @media screen and (max-width: 767px) {
     .panel-body .btn-group {
-        display: block;
+        display: block !important;
         margin-bottom: 15px;
+        margin-right: 0 !important;
+    }
+
+    .panel-body .btn-group.mr10 {
+        margin-right: 0 !important;
     }
 
     .panel-body .btn-group .btn {
-        display: block;
-        width: 100%;
+        display: block !important;
+        width: 100% !important;
         margin-bottom: 8px;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
         text-align: center;
+        position: relative;
+        z-index: 1;
+        pointer-events: auto;
+        touch-action: manipulation;
     }
 
     .user-info-item {
@@ -5682,11 +5701,19 @@ td.notify-buttons {
     .panel-body > .required {
         display: block;
         padding: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         background: #fff3cd;
         border: 1px solid #ffc107;
         border-radius: 4px;
         font-size: 13px;
+        position: relative;
+        z-index: 0;
+    }
+
+    /* Ensure buttons are above other elements */
+    .panel-body .btn-group {
+        position: relative;
+        z-index: 10;
     }
 
     /* Form control for teacher classes */
@@ -5702,13 +5729,23 @@ td.notify-buttons {
         padding: 10px;
     }
 
+    .panel-body .btn-group {
+        display: block !important;
+        width: 100% !important;
+    }
+
     .panel-body .btn-group .btn {
-        font-size: 12px;
-        padding: 8px 10px;
+        display: block !important;
+        width: 100% !important;
+        font-size: 13px;
+        padding: 10px 12px;
+        margin-bottom: 10px;
+        position: relative;
+        z-index: 1;
     }
 
     .panel-body .btn-group .btn i {
-        margin-right: 3px;
+        margin-right: 5px;
     }
 
     .user-info-item {
@@ -5729,5 +5766,488 @@ td.notify-buttons {
         color: #007bff;
         text-decoration: underline;
         word-break: break-all;
+    }
+}
+
+/* ================================================
+   User List Screen - Responsive Design
+   ================================================ */
+
+/* Base styles for user list */
+.panel .pull-right {
+    margin-bottom: 15px;
+}
+
+.panel .pull-right .btn-group {
+    margin-right: 5px;
+}
+
+/* Tablet (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    /* Toolbar buttons */
+    .panel .pull-right {
+        float: none !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-bottom: 15px;
+    }
+
+    .panel .pull-right .btn-group {
+        margin-bottom: 10px;
+    }
+
+    .panel .pull-right .btn-group .btn {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    /* DataTables wrapper adjustments */
+    #user_list_table_wrapper {
+        overflow-x: auto;
+    }
+
+    #user_list_table {
+        font-size: 12px;
+    }
+
+    #user_list_table th,
+    #user_list_table td {
+        padding: 6px 8px;
+        white-space: nowrap;
+    }
+
+    /* Checkbox column */
+    #user_list_table th:first-child,
+    #user_list_table td:first-child {
+        min-width: 40px;
+    }
+
+    /* Name and email columns - allow wrapping */
+    #user_list_table td:nth-child(2),
+    #user_list_table td:nth-child(3) {
+        white-space: normal;
+        min-width: 120px;
+    }
+}
+
+/* Mobile (max-width: 767px) */
+@media screen and (max-width: 767px) {
+    /* Prevent horizontal scroll on the entire page */
+    body {
+        overflow-x: hidden;
+    }
+
+    .contentpanel,
+    .panel,
+    .panel-body {
+        overflow-x: hidden !important;
+        max-width: 100%;
+    }
+
+    /* Toolbar - stack buttons vertically */
+    .panel .pull-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        float: none !important;
+        clear: both;
+    }
+
+    .panel .pull-right .btn-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0 !important;
+    }
+
+    .panel .pull-right .btn-group .btn {
+        flex: 1 1 calc(25% - 5px);
+        min-width: 60px;
+        padding: 8px 4px;
+        font-size: 11px;
+        white-space: nowrap;
+    }
+
+    .panel .pull-right .btn-group .btn i {
+        display: block;
+        margin: 0 auto 3px;
+    }
+
+    /* Subtitle and description */
+    .panel-body h5.subtitle {
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        clear: both;
+    }
+
+    .panel-body p.text-muted {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    /* DataTables wrapper - disable all complex layouts */
+    .table-responsive {
+        border: none !important;
+        overflow: visible !important;
+        overflow-x: visible !important;
+        overflow-y: visible !important;
+        -webkit-overflow-scrolling: auto !important;
+        max-width: 100% !important;
+    }
+
+    #user_list_table_wrapper {
+        overflow: visible !important;
+        overflow-x: visible !important;
+        overflow-y: visible !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    #user_list_table_wrapper .dataTables_scroll {
+        overflow: visible !important;
+        overflow-x: visible !important;
+        overflow-y: visible !important;
+        width: 100% !important;
+    }
+
+    #user_list_table_wrapper .dataTables_scroll > div {
+        overflow: visible !important;
+    }
+
+    #user_list_table_wrapper .dataTables_scrollHead,
+    #user_list_table_wrapper .dataTables_scrollBody,
+    #user_list_table_wrapper .dataTables_scrollFoot {
+        overflow: visible !important;
+        width: 100% !important;
+    }
+
+    /* Completely hide the scroll head container */
+    #user_list_table_wrapper .dataTables_scrollHead {
+        display: none !important;
+        height: 0 !important;
+        visibility: hidden !important;
+    }
+
+    #user_list_table_wrapper .dataTables_scrollHead .dataTables_scrollHeadInner {
+        width: 100% !important;
+        display: none !important;
+    }
+
+    #user_list_table_wrapper .dataTables_scrollHead table {
+        display: none !important;
+    }
+
+    #user_list_table_wrapper .dataTables_scrollBody {
+        max-height: none !important;
+        overflow: visible !important;
+    }
+
+    #user_list_table_wrapper .dataTables_scrollBody .dataTables_scrollBodyInner {
+        width: 100% !important;
+        overflow: visible !important;
+    }
+
+    /* Disable fixed columns completely on mobile */
+    #user_list_table_wrapper .DTFC_LeftWrapper,
+    #user_list_table_wrapper .DTFC_RightWrapper,
+    #user_list_table_wrapper .DTFC_LeftBodyLiner,
+    #user_list_table_wrapper .DTFC_RightBodyLiner,
+    #user_list_table_wrapper .DTFC_LeftHeadWrapper,
+    #user_list_table_wrapper .DTFC_RightHeadWrapper {
+        display: none !important;
+    }
+
+    /* Hide all table headers */
+    #user_list_table thead,
+    #user_list_table thead tr,
+    #user_list_table thead th {
+        display: none !important;
+        height: 0 !important;
+        overflow: hidden !important;
+    }
+
+    /* Hide any cloned headers that DataTables might create */
+    .dataTables_scrollHead thead,
+    .DTFC_LeftHeadWrapper thead,
+    .DTFC_RightHeadWrapper thead {
+        display: none !important;
+    }
+
+    /* Convert table structure to block */
+    #user_list_table,
+    .dataTables_scrollBody #user_list_table {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        border: none !important;
+        table-layout: auto !important;
+        overflow: visible !important;
+    }
+
+    #user_list_table tbody {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    #user_list_table tr {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 15px;
+        background: #fff !important;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    /* Reset DataTables styling */
+    #user_list_table tr.odd,
+    #user_list_table tr.even {
+        background: #fff !important;
+    }
+
+    #user_list_table td {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 8px 0 !important;
+        border: none !important;
+        text-align: left !important;
+        white-space: normal !important;
+        word-wrap: break-word;
+        background: transparent !important;
+        left: auto !important;
+        right: auto !important;
+        position: relative !important;
+        box-sizing: border-box;
+    }
+
+    #user_list_table td:before {
+        content: attr(data-label);
+        font-weight: 600;
+        display: block;
+        margin-bottom: 5px;
+        color: #666;
+        font-size: 11px;
+        text-transform: uppercase;
+    }
+
+    /* Checkbox - top-right corner */
+    #user_list_table td:first-child {
+        position: absolute !important;
+        top: 10px;
+        right: 10px;
+        width: auto !important;
+        padding: 0 !important;
+        z-index: 5;
+    }
+
+    #user_list_table td:first-child:before {
+        display: none !important;
+    }
+
+    #user_list_table td:first-child .ckbox {
+        margin: 0;
+    }
+
+    /* Name field - prominent display */
+    #user_list_table td:nth-child(2) {
+        font-size: 16px !important;
+        font-weight: 600;
+        color: #333;
+        padding-top: 0 !important;
+        margin-bottom: 10px;
+        padding-right: 50px !important;
+    }
+
+    #user_list_table td:nth-child(2) a {
+        color: #007bff;
+        text-decoration: none;
+        word-break: break-word;
+    }
+
+    /* Email field */
+    #user_list_table td:nth-child(3) {
+        padding: 8px 0 !important;
+    }
+
+    #user_list_table td:nth-child(3) a {
+        color: #007bff;
+        word-break: break-all;
+    }
+
+    #user_list_table td:nth-child(3) i.flaticon-mail {
+        margin-right: 5px;
+    }
+
+    /* Address field */
+    #user_list_table td:nth-child(5) {
+        font-size: 12px !important;
+        line-height: 1.5;
+        padding: 8px 0 !important;
+    }
+
+    /* Phone field */
+    #user_list_table td:nth-child(6) a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    /* Status field with badge */
+    #user_list_table td:nth-child(10) .required {
+        display: inline-block;
+        padding: 4px 8px;
+        background: #fff3cd;
+        border: 1px solid #ffc107;
+        border-radius: 4px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    /* Hide less important fields */
+    #user_list_table td:nth-child(4),  /* 兄弟登録 */
+    #user_list_table td:nth-child(13) { /* 備考 */
+        display: none !important;
+    }
+
+    /* Compact remaining fields */
+    #user_list_table td:nth-child(7),  /* 学年 */
+    #user_list_table td:nth-child(8),  /* 性別 */
+    #user_list_table td:nth-child(9),  /* 生年月日 */
+    #user_list_table td:nth-child(11), /* ユーザータイプ */
+    #user_list_table td:nth-child(12) { /* Kids A-Z */
+        padding: 5px 0 !important;
+        font-size: 13px;
+    }
+
+    /* DataTables controls */
+    #user_list_table_wrapper .dataTables_info {
+        text-align: center;
+        margin-top: 15px;
+        padding: 10px;
+        font-size: 13px;
+        clear: both;
+        float: none !important;
+    }
+
+    #user_list_table_wrapper .dataTables_paginate {
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px 0;
+        clear: both;
+        float: none !important;
+    }
+
+    .dataTables_paginate .paginate_button {
+        padding: 6px 10px !important;
+        font-size: 12px;
+        margin: 0 2px;
+        display: inline-block;
+    }
+
+    .dataTables_paginate .paginate_button.current {
+        background: #007bff !important;
+        color: #fff !important;
+        border-color: #007bff !important;
+    }
+}
+
+/* Very Small Mobile (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .panel-heading h5.bug-key-title {
+        font-size: 18px;
+    }
+
+    .panel-heading .panel-title {
+        font-size: 13px;
+    }
+
+    /* Toolbar buttons - 2 per row */
+    .panel .pull-right .btn-group .btn {
+        flex: 1 1 calc(50% - 5px);
+        padding: 10px 5px;
+        font-size: 10px;
+    }
+
+    .panel .pull-right .btn-group .btn i {
+        font-size: 14px;
+    }
+
+    /* Card styling more compact */
+    #user_list_table tr {
+        padding: 12px !important;
+        margin-bottom: 12px;
+    }
+
+    #user_list_table td {
+        padding: 6px 0 !important;
+    }
+
+    #user_list_table td:nth-child(2) {
+        font-size: 15px !important;
+        padding-right: 45px !important;
+    }
+
+    #user_list_table td:before {
+        font-size: 10px;
+        margin-bottom: 3px;
+    }
+
+    #user_list_table td:nth-child(3),
+    #user_list_table td:nth-child(5),
+    #user_list_table td:nth-child(6) {
+        font-size: 12px !important;
+    }
+
+    /* Further hide columns on very small screens */
+    #user_list_table td:nth-child(12) { /* Kids A-Z */
+        display: none !important;
+    }
+
+    /* Pagination buttons smaller */
+    .dataTables_paginate .paginate_button {
+        padding: 5px 8px !important;
+        font-size: 11px;
+    }
+}
+
+/* Print styles for user list */
+@media print {
+    .panel .pull-right {
+        display: none;
+    }
+
+    #user_list_table {
+        font-size: 9px;
+    }
+
+    #user_list_table th,
+    #user_list_table td {
+        padding: 3px;
+    }
+
+    /* Show table structure on print */
+    #user_list_table thead {
+        display: table-header-group;
+    }
+
+    #user_list_table tr {
+        display: table-row;
+        border: 1px solid #000;
+    }
+
+    #user_list_table td {
+        display: table-cell;
+        border: 1px solid #000;
+    }
+
+    #user_list_table td:before {
+        display: none;
     }
 }
