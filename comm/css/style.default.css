@@ -6282,3 +6282,236 @@ td.notify-buttons {
         display: none;
     }
 }
+
+/* ================================================
+   TOPICS Manager - Responsive Design
+   ================================================ */
+
+/* TOPICS specific styles - period display */
+.table > thead > tr > th:nth-child(7),
+.table > tbody > tr > td:nth-child(7) {
+    min-width: 140px;
+    white-space: nowrap;
+}
+
+.period-display {
+    line-height: 1.2;
+}
+
+.period-display small {
+    display: block;
+    font-size: 9px;
+    margin-top: 1px;
+}
+
+/* ================================================
+   Event Manager - Styles
+   ================================================ */
+
+/* Event Manager specific styles - 5th column */
+.table > thead > tr > th:nth-child(5),
+.table > tbody > tr > td:nth-child(5) {
+    min-width: 140px;
+    white-space: nowrap;
+}
+
+.event-preview-image {
+    max-width: 200px;
+    max-height: 200px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.event-description-display {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-height: 100px;
+}
+
+/* ================================================
+   Slider Home Manager - Styles
+   ================================================ */
+
+/* Slider Home specific styles - 6th column for period display */
+.table > thead > tr > th:nth-child(6),
+.table > tbody > tr > td:nth-child(6) {
+    min-width: 140px;
+    white-space: nowrap;
+}
+
+/* ================================================
+   Slider Member Manager - Styles
+   ================================================ */
+
+/* Slider Member specific styles */
+.slider-preview-image {
+    max-width: 200px;
+    max-height: 200px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.slider-text-truncate {
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* ================================================
+   System News Manager - Styles
+   ================================================ */
+
+/* System News specific styles */
+.news-content-truncated {
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.news-content-display {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-height: 100px;
+}
+
+/* Mobile responsive styles - TOPICS card layout */
+@media (max-width: 767px) {
+    /* Override form-inline from general mobile styles with !important for TOPICS */
+    .form-inline .btn {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0 !important;
+    }
+
+    /* TOPICS specific: タイトルリンクの特別なスタイル */
+    .table-responsive tbody td a {
+        display: block;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+
+    .label {
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    /* TOPICS specific: ボタン配置の調整 */
+    .table-responsive tbody td .btn {
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+
+    /* TOPICS specific: フォームのレスポンシブ対応 */
+    .form-horizontal .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-horizontal .control-label {
+        text-align: left;
+        padding-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .form-horizontal .col-sm-3,
+    .form-horizontal .col-sm-9,
+    .form-horizontal .col-sm-offset-3 {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .form-horizontal .col-sm-offset-3 {
+        margin-left: 0;
+    }
+
+    .dl-horizontal dt {
+        float: none;
+        width: auto;
+        text-align: left;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .dl-horizontal dd {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    /* TOPICS specific: period-display alignment */
+    .period-display {
+        text-align: left;
+    }
+
+    /* TOPICS specific: first-child styling */
+    .table-responsive tbody td:first-child {
+        background-color: #f8f9fa;
+        font-weight: bold;
+        color: #333;
+    }
+}
+
+/* Tablet responsive styles - TOPICS */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table-responsive table {
+        min-width: 900px;
+    }
+
+    .form-inline .form-group {
+        margin-bottom: 10px;
+    }
+
+    .form-horizontal .control-label {
+        text-align: left;
+        padding-top: 7px;
+    }
+
+    .panel-body .btn {
+        margin-bottom: 5px;
+    }
+}
+
+/* ================================================
+   Slider Member Manager - Mobile Responsive
+   ================================================ */
+
+@media (max-width: 767px) {
+    /* Slider Member specific: truncate text responsive */
+    .slider-text-truncate {
+        max-width: 100%;
+        text-align: left;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+    }
+}
+
+/* Slider Member Manager - Tablet Responsive */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .table-responsive table {
+        min-width: 800px;
+    }
+}
+
+/* ================================================
+   System News Manager - Mobile Responsive
+   ================================================ */
+
+@media (max-width: 767px) {
+    /* System News specific: truncate text responsive */
+    .news-content-truncated {
+        max-width: 100%;
+    }
+}
