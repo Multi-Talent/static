@@ -5036,6 +5036,37 @@ td.notify-buttons {
     }
 }
 
+/* ================================================
+   Error Display Styles
+   ================================================ */
+.sw-errors {
+    border: 1px solid #df0a17;
+    padding: 8px 16px;
+    margin-top: 24px
+}
+
+.sw-errors_item {
+    color: #df0a17;
+    padding-left: 1em;
+    position: relative;
+    font-size: 14px
+}
+
+.sw-errors_item:before {
+    content: "\30FB";
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.sw-errors_item+.sw-errors_item {
+    margin-top: 4px
+}
+
+.error {
+    color: #df0a17
+}
+
 /* Mobile (max-width: 767px) */
 @media screen and (max-width: 767px) {
     /* Panel adjustments */

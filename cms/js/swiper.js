@@ -323,12 +323,12 @@ function GlinkActive() {
   該当Classがあるとき、高さを調整する。
 ------------------------------------------------------------*/
 function matchheightFun() {
-  //トップページ：.js-article-thum-swiper .js-article-thum-area
+  //TOPページ：.js-article-thum-swiper .js-article-thum-area
   if ($(".js-article-thum-swiper .js-article-thum-area").length) {
     $(".js-article-thum-swiper .js-article-thum-area").matchHeight();
   }
 
-  //トップページ：.js-article-thum-swiper .js-article-thum-text-area
+  //TOPページ：.js-article-thum-swiper .js-article-thum-text-area
   if ($(".js-article-thum-swiper .js-article-thum-text-area").length) {
     $(".js-article-thum-swiper .js-article-thum-text-area").matchHeight();
   }
@@ -339,13 +339,13 @@ function matchheightFun() {
  リセット
 ------------------------------------------------------------*/
 function matchheightRemoveFun() {
-  //トップページ：.js-article-thum-swiper .js-article-thum-area
+  //TOPページ：.js-article-thum-swiper .js-article-thum-area
   if ($(".js-article-thum-swiper .js-article-thum-area").length) {
     $(".js-article-thum-swiper .js-article-thum-area").matchHeight({
       remove: true,
     });
   }
-  //トップページ：.js-article-thum-swiper .js-article-thum-text-area
+  //TOPページ：.js-article-thum-swiper .js-article-thum-text-area
   if ($(".js-article-thum-swiper .js-article-thum-text-area").length) {
     $(".js-article-thum-swiper .js-article-thum-text-area").matchHeight({
       remove: true,

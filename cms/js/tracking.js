@@ -1901,7 +1901,7 @@
             };
             var match = document.referrer.match(/^https?:\/\/([^\/:]+)(?::\d+)?(\/[^?#]*)/i);
             if (!match
-                || 1 < match[2].length  // 流入元情報ではトップページ以外取得できないから取得できるものは除外
+                || 1 < match[2].length  // 流入元情報ではTOPページ以外取得できないから取得できるものは除外
                 || this.pageUrl.indexOf(match[1]) === 0  // 同一ドメイン内の遷移を除外
             ) {
                 return referer;

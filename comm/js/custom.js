@@ -515,3 +515,14 @@ function ms_save_or_open_blob(url, open_type, wait_message, file_name, content_t
         xhr.send();
     }
 }
+
+function show_image_size(image_id, image_size_disp_id) {
+    var img = document.getElementById(image_id);
+    if (img) {
+        var imgObj = new Image();
+        imgObj.onload = function() {
+            $('#' + image_size_disp_id).text('(' + this.width + '×' + this.height + ')');
+        };
+        imgObj.src = img.src;
+    }
+}
