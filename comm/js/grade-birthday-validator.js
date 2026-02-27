@@ -153,7 +153,7 @@
 
         if (year < range.min || year > range.max) {
             const message = `${range.gradeName}の場合、誕生年は${range.min}年～${range.max}年の範囲で入力してください。` +
-                          `（標準: ${range.expected}年生まれ、前後${tolerance}年まで許容）`;
+                          `<br>（標準: ${range.expected}年生まれ、前後${tolerance}年まで許容）`;
             return { valid: false, message: message, range: range };
         }
 
