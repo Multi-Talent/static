@@ -7801,6 +7801,14 @@ footer a {
     align-items: flex-end;
 }
 
+.class-comment-display {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-height: 100px;
+}
+
 .sw-form_field-inline {
     flex: 1;
 }
@@ -8769,5 +8777,1094 @@ td.notify-buttons {
     .sw-table_attendance td {
         border: 1px solid #000;
         padding: 5px;
+    }
+}
+
+/* ========================================
+   Class Management Styles (Add/Edit)
+   ======================================== */
+
+/* Container styles */
+.class-add-container,
+.class-edit-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+/* Form container */
+.class-form {
+    background: #fff;
+    border-radius: 8px;
+    padding: 32px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Form fields */
+.sw-form_field {
+    margin-bottom: 24px;
+}
+
+.sw-form_label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+    white-space: nowrap; /* タイトルの改行を防ぐ */
+}
+
+.sw-form_label .required {
+    color: #dc3545;
+    margin-left: 4px;
+}
+
+/* Input and textarea */
+.sw-form_input,
+.sw-form_textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.sw-form_input:focus,
+.sw-form_textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
+}
+
+.sw-form_textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Help text */
+.sw-form_help {
+    display: block;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #666;
+    word-wrap: break-word; /* 例文は改行OK */
+    white-space: normal;
+}
+
+/* Class info box (edit page) */
+.class-info-box {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.class-info-box h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #333;
+}
+
+.class-info-item {
+    display: flex;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.class-info-item:last-child {
+    border-bottom: none;
+}
+
+.class-info-label {
+    width: 120px;
+    font-weight: 600;
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+}
+
+.class-info-value {
+    flex: 1;
+    color: #333;
+    font-size: 14px;
+    text-align: right;
+}
+
+/* Form actions */
+.sw-form_actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid #eee;
+}
+
+/* Buttons */
+.sw-button_submit {
+    padding: 12px 48px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Different colors for add vs edit */
+.class-add-container .sw-button_submit {
+    background: #28a745;
+}
+
+.class-add-container .sw-button_submit:hover {
+    background: #218838;
+}
+
+.class-edit-container .sw-button_submit {
+    background: #007bff;
+}
+
+.class-edit-container .sw-button_submit:hover {
+    background: #0056b3;
+}
+
+.sw-button_cancel {
+    padding: 12px 48px;
+    background: #6c757d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    border: none;
+}
+
+.sw-button_cancel:hover {
+    background: #5a6268;
+}
+
+/* ==========================================
+   Responsive: Tablet (768px - 1024px)
+   ========================================== */
+@media screen and (max-width: 1024px) {
+    .class-add-container,
+    .class-edit-container {
+        max-width: 700px;
+        padding: 20px;
+    }
+
+    .class-form {
+        padding: 28px;
+    }
+
+    .class-info-box {
+        padding: 14px;
+    }
+
+    .class-info-label {
+        width: 110px;
+    }
+}
+
+/* ==========================================
+   Responsive: Mobile (max-width: 767px)
+   ========================================== */
+@media screen and (max-width: 767px) {
+    .class-add-container,
+    .class-edit-container {
+        padding: 12px;
+        max-width: 100%;
+    }
+
+    .sw-title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sw-description {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* Class info box */
+    .class-info-box {
+        padding: 16px 12px;
+        margin-bottom: 16px;
+    }
+
+    .class-info-box h3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .class-info-item {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .class-info-label {
+        width: 100%;
+        margin-bottom: 4px;
+        font-size: 12px;
+        color: #888;
+    }
+
+    .class-info-value {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    /* Form */
+    .class-form {
+        padding: 20px 16px;
+    }
+
+    .sw-form_field {
+        margin-bottom: 20px;
+    }
+
+    .sw-form_label {
+        font-size: 13px;
+        margin-bottom: 6px;
+        white-space: nowrap; /* タイトルの改行を防ぐ */
+    }
+
+    .sw-form_input,
+    .sw-form_textarea {
+        font-size: 16px; /* iOS zoomを防ぐため16px以上 */
+        padding: 12px;
+    }
+
+    .sw-form_textarea {
+        min-height: 120px;
+    }
+
+    .sw-form_help {
+        font-size: 12px;
+        margin-top: 4px;
+        word-wrap: break-word; /* 例文は改行OK */
+        white-space: normal;
+    }
+
+    .sw-form_actions {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 24px;
+        padding-top: 20px;
+    }
+
+    .sw-button_submit,
+    .sw-button_cancel {
+        width: 100%;
+        padding: 14px 24px;
+        font-size: 15px;
+    }
+}
+
+/* ==========================================
+   Responsive: Small Mobile (max-width: 375px)
+   ========================================== */
+@media screen and (max-width: 375px) {
+    .class-add-container,
+    .class-edit-container {
+        padding: 8px;
+    }
+
+    .class-info-box {
+        padding: 12px 10px;
+    }
+
+    .class-info-box h3 {
+        font-size: 14px;
+    }
+
+    .class-info-item {
+        padding: 8px 0;
+    }
+
+    .class-form {
+        padding: 16px 12px;
+    }
+
+    .sw-form_field {
+        margin-bottom: 16px;
+    }
+
+    .sw-form_input,
+    .sw-form_textarea {
+        padding: 10px;
+    }
+}
+
+/* ========================================
+   Class List Styles
+   ======================================== */
+
+.teacher-class-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.search-form {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.search-form-row {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-form-field {
+    flex: 1;
+    min-width: 200px;
+}
+
+.search-form-field label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+
+.search-form-field input[type="text"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.search-form-buttons {
+    display: flex;
+    gap: 8px;
+    align-items: flex-end;
+}
+
+.sw-button_search, .sw-button_reset {
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.sw-button_search {
+    background: #007bff;
+    color: #fff;
+}
+
+.sw-button_search:hover {
+    background: #0056b3;
+}
+
+.sw-button_reset {
+    background: #6c757d;
+    color: #fff;
+}
+
+.sw-button_reset:hover {
+    background: #5a6268;
+}
+
+.class-actions-top {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+}
+
+.sw-button_add_class {
+    padding: 10px 24px;
+    background: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.sw-button_add_class:hover {
+    background: #218838;
+}
+
+.class-table-container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.class-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.class-table thead {
+    background: #007bff;
+    color: #fff;
+}
+
+.class-table th {
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.class-table th.checkbox-col {
+    width: 50px;
+    text-align: center;
+}
+
+.class-table th.id-col {
+    width: 100px;
+}
+
+.class-table th.name-col {
+    width: auto;
+}
+
+.class-table th.count-col {
+    width: 120px;
+    text-align: center;
+}
+
+.class-table th.creator-col {
+    width: 180px;
+}
+
+.class-table th.operations-col {
+    width: 150px;
+    text-align: center;
+}
+
+.class-table tbody tr {
+    border-bottom: 1px solid #ddd;
+    transition: background 0.2s ease;
+}
+
+.class-table tbody tr:hover {
+    background: #f8f9fa;
+}
+
+.class-table tbody td {
+    padding: 12px 16px;
+    font-size: 14px;
+}
+
+.class-table tbody td.checkbox-col {
+    text-align: center;
+}
+
+.class-table tbody td.count-col {
+    text-align: center;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.class-table tbody td.operations-col {
+    text-align: center;
+}
+
+.class-checkbox {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+/* Class List - Tablet (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .teacher-class-container {
+        padding: 20px;
+    }
+
+    .class-table th.creator-col {
+        width: 140px;
+    }
+
+    .class-table th.operations-col {
+        width: 120px;
+    }
+}
+
+/* Class List - Mobile (max-width: 767px) */
+@media screen and (max-width: 767px) {
+    .teacher-class-container {
+        padding: 12px;
+    }
+
+    /* 検索フォーム */
+    .search-form {
+        padding: 16px;
+    }
+
+    .search-form-row {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .search-form-field {
+        width: 100%;
+        min-width: auto;
+    }
+
+    .search-form-field label {
+        font-size: 13px;
+    }
+
+    .search-form-field input[type="text"] {
+        font-size: 16px; /* iOS zoomを防ぐため16px以上 */
+    }
+
+    .search-form-buttons {
+        width: 100%;
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    .sw-button_search, .sw-button_reset {
+        flex: 1;
+        font-size: 14px;
+        padding: 12px 16px;
+    }
+
+    /* クラス追加ボタン */
+    .class-actions-top {
+        margin-bottom: 12px;
+    }
+
+    .sw-button_add_class {
+        width: 100%;
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    /* テーブルをカード表示に変換 */
+    .class-table-container {
+        background: transparent;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .class-table {
+        display: block;
+        width: 100%;
+    }
+
+    .class-table thead {
+        display: none; /* ヘッダーを非表示 */
+    }
+
+    .class-table tbody {
+        display: block;
+    }
+
+    .class-table tbody tr {
+        display: block;
+        margin-bottom: 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        padding: 12px;
+        border-bottom: none;
+    }
+
+    .class-table tbody tr:hover {
+        background: #fff;
+    }
+
+    .class-table tbody td {
+        display: flex;
+        align-items: center;
+        padding: 8px 0;
+        border: none;
+        text-align: left !important;
+    }
+
+    .class-table tbody td:before {
+        content: attr(data-label);
+        font-weight: 700;
+        display: inline-block;
+        min-width: 90px;
+        margin-right: 12px;
+        color: #666;
+        font-size: 12px;
+        flex-shrink: 0;
+    }
+
+    .class-table tbody td.checkbox-col {
+        justify-content: flex-start;
+        padding: 0 0 12px 0;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 8px;
+    }
+
+    .class-table tbody td.checkbox-col:before {
+        content: '';
+        min-width: 0;
+        margin-right: 8px;
+    }
+
+    .class-table tbody td.operations-col {
+        justify-content: flex-start;
+        padding-top: 12px;
+        border-top: 1px solid #eee;
+        margin-top: 8px;
+    }
+
+    .class-table tbody td.operations-col:before {
+        min-width: 90px;
+    }
+}
+
+/* Class List - Small Mobile (max-width: 375px) */
+@media screen and (max-width: 375px) {
+    .teacher-class-container {
+        padding: 8px;
+    }
+
+    .search-form {
+        padding: 12px;
+    }
+
+    .class-table tbody tr {
+        padding: 10px;
+    }
+
+    .class-table tbody td:before {
+        min-width: 80px;
+        font-size: 11px;
+    }
+}
+
+/* ========================================
+   Class Detail Styles
+   ======================================== */
+
+.class-detail-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+}
+
+.info-table th,
+.info-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.info-table th {
+    width: 150px;
+    background: #f8f9fa;
+    font-weight: 600;
+    color: #495057;
+}
+
+.info-table td {
+    background: #fff;
+}
+
+.class-edit-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    padding-top: 12px;
+}
+
+.sw-button_edit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 24px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.sw-button_edit:hover {
+    background: #0056b3;
+}
+
+.sw-button_delete-class {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 24px;
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.sw-button_delete-class:hover {
+    background: #c82333;
+}
+
+.section-title {
+    margin: 24px 0 16px 0;
+    color: #333;
+    font-size: 18px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 8px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+}
+
+.sw-button_add {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 24px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.sw-button_add:hover {
+    background: #218838;
+}
+
+.sw-button_request {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 24px;
+    background: #ffc107;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.sw-button_request:hover {
+    background: #e0a800;
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.student-table th,
+.student-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.student-table th {
+    background: #f5f5f5;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.student-table td {
+    font-size: 14px;
+}
+
+.student-table tr:hover {
+    background: #f9f9f9;
+}
+
+.student-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.student-link:hover {
+    text-decoration: underline;
+}
+
+.sw-button_view {
+    display: inline-block;
+    padding: 6px 16px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    margin-right: 8px;
+}
+
+.sw-button_view:hover {
+    background: #0056b3;
+    color: #fff;
+}
+
+.sw-button_request-small {
+    display: inline-block;
+    padding: 6px 16px;
+    background: #ffc107;
+    color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.sw-button_request-small:hover {
+    background: #e0a800;
+    color: #000;
+}
+
+.student-table input[type="checkbox"] {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+/* Class Detail - Tablet (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .class-detail-container {
+        padding: 20px;
+    }
+
+    .class-info-box {
+        padding: 16px;
+    }
+
+    .info-table th {
+        width: 130px;
+    }
+}
+
+/* Class Detail - Mobile (max-width: 767px) */
+@media screen and (max-width: 767px) {
+    .class-detail-container {
+        padding: 12px;
+    }
+
+    /* クラス情報ボックス */
+    .class-info-box {
+        padding: 16px;
+        margin-bottom: 16px;
+    }
+
+    .class-info-box h3 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .info-table {
+        margin-bottom: 12px;
+    }
+
+    .info-table th,
+    .info-table td {
+        display: block;
+        width: 100%;
+        padding: 8px 0;
+        border-bottom: none;
+    }
+
+    .info-table th {
+        background: transparent;
+        font-size: 12px;
+        color: #666;
+        padding-bottom: 4px;
+    }
+
+    .info-table td {
+        padding-bottom: 12px;
+        border-bottom: 1px solid #eee;
+        font-size: 14px;
+    }
+
+    .info-table tr:last-child td {
+        border-bottom: none;
+    }
+
+    .class-edit-buttons {
+        flex-direction: column;
+        gap: 8px;
+        padding-top: 12px;
+    }
+
+    .sw-button_edit,
+    .sw-button_delete-class {
+        width: 100%;
+        height: 44px;
+        font-size: 14px;
+    }
+
+    /* セクションタイトル */
+    .section-title {
+        font-size: 16px;
+        margin: 20px 0 12px 0;
+    }
+
+    /* アクションボタン */
+    .action-buttons {
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 12px;
+    }
+
+    .sw-button_add,
+    .sw-button_delete,
+    .sw-button_request {
+        width: 100%;
+        height: 44px;
+        font-size: 14px;
+    }
+
+    /* 生徒テーブル */
+    .student-table {
+        border: 0;
+    }
+
+    .student-table thead {
+        display: none;
+    }
+
+    .student-table tbody {
+        display: block;
+    }
+
+    .student-table tr {
+        display: block;
+        margin-bottom: 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 12px;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .student-table td {
+        display: flex;
+        align-items: flex-start;
+        border: none;
+        padding: 8px 0;
+        text-align: left !important;
+        min-height: auto;
+    }
+
+    .student-table td:before {
+        content: attr(data-label);
+        font-weight: 700;
+        display: inline-block;
+        min-width: 90px;
+        margin-right: 12px;
+        color: #666;
+        font-size: 12px;
+        flex-shrink: 0;
+        padding-top: 2px;
+    }
+
+    .student-table td:first-child {
+        padding-bottom: 12px;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 4px;
+    }
+
+    .student-table td:last-child {
+        padding-top: 12px;
+        border-top: 1px solid #eee;
+        margin-top: 4px;
+        flex-wrap: wrap;
+    }
+
+    .student-link {
+        font-size: 14px;
+    }
+
+    .sw-button_view {
+        padding: 8px 16px;
+        font-size: 13px;
+        margin-right: 6px;
+    }
+
+    .sw-button_request-small {
+        padding: 8px 16px;
+        font-size: 13px;
+        margin-left: 0;
+        margin-top: 6px;
+    }
+
+    /* 戻るボタン */
+    .sw-form_back {
+        text-align: center;
+    }
+}
+
+/* Class Detail - Small Mobile (max-width: 375px) */
+@media screen and (max-width: 375px) {
+    .class-detail-container {
+        padding: 8px;
+    }
+
+    .class-info-box {
+        padding: 12px;
+    }
+
+    .student-table tr {
+        padding: 10px;
+    }
+
+    .student-table td:before {
+        min-width: 80px;
+        font-size: 11px;
     }
 }
