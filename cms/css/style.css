@@ -9840,7 +9840,7 @@ td.notify-buttons {
         padding: 8px 16px;
         font-size: 13px;
         margin-left: 0;
-        margin-top: 6px;
+        /* margin-top: 6px; */
     }
 
     /* 戻るボタン */
