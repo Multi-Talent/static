@@ -314,6 +314,10 @@ input::placeholder {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding: 0 8px;
     color: #fff;
     font-size: 14px
@@ -9866,5 +9870,363 @@ td.notify-buttons {
     .student-table td:before {
         min-width: 80px;
         font-size: 11px;
+    }
+}
+
+/* ================================================
+   Video List Styles (mte-video)
+   ================================================ */
+
+.my-video-main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mte-video_list {
+    background: #f5f7f8;
+    padding: 8px 4px
+}
+
+.mte-video_item {
+    background: #fff;
+    border-radius: 4px;
+    padding: 16px 8px;
+    margin-bottom: 16px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .08)
+}
+
+.mte-video_item+.mte-video_item {
+    margin-top: 8px
+}
+
+.mte-video_player {
+    text-align: center;
+    margin-right: 10px;
+}
+
+.video-player-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-player-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-placeholder {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mte-video_text {
+    margin-top: 8px;
+    line-height: 1.5
+}
+
+.mte-video_table {
+    margin-top: 16px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.mte-video_table,
+.mte-video_table dl {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.mte-video_table dl {
+    font-size: 12px;
+    border-top: 1px dashed hsla(0, 0%, 61.2%, .48)
+}
+
+.mte-video_table dl:last-of-type {
+    border-bottom: 1px dashed hsla(0, 0%, 61.2%, .48)
+}
+
+.mte-video_table dt {
+    width: 88px;
+    background: #f5f5f1;
+    padding: 8px
+}
+
+.mte-video_table dd {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 8px
+}
+
+.mte-video_link {
+    margin: 16px auto 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mte-video_link .sw-button_link-gray {
+    height: 48px
+}
+
+/* Tablet styles for video list */
+@media screen and (min-width: 768px) {
+    .mte-video_list {
+        padding: 16px
+    }
+
+    .mte-video_item+.mte-video_item {
+        margin-top: 16px
+    }
+
+    .mte-video_table dl {
+        font-size: 14px
+    }
+
+    .mte-video_table dt {
+        width: 120px
+    }
+}
+
+/* Desktop styles for video list */
+@media screen and (min-width: 1024px) {
+    .mte-video_item {
+        padding: 8px 16px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    .mte-video_player {
+        margin-top: 0;
+        margin-right: 16px;
+        width: 280px;
+        flex-shrink: 0;
+    }
+
+    .mte-video_player .video-player-wrapper,
+    .mte-video_player .video-placeholder {
+        width: 100%;
+    }
+
+    .mte-video_table {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        margin: 0 16px 0 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .mte-video_link {
+        width: 240px;
+        margin: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 12px;
+        flex-shrink: 0;
+    }
+
+    .mte-video_link .sw-button_link-gray {
+        width: 100%;
+        height: 56px;
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+/* Video list - Teacher actions */
+.sw-teacher-actions {
+    margin: 20px 0;
+    text-align: right;
+}
+
+.sw-teacher-actions .sw-button_link-gray {
+    margin-left: 10px;
+}
+
+/* Video list - Video player wrapper (already exists, ensuring consistency) */
+.video-player-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-player-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Video list - Video placeholder */
+.video-placeholder {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-placeholder img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-placeholder.no-video {
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-placeholder.no-video p {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Video list - Status colors */
+.video-status-youtube {
+    color: #FF0000;
+}
+
+.video-status-pending {
+    color: #f0ad4e;
+}
+
+.video-status-uploading {
+    color: #5bc0de;
+}
+
+.video-status-completed {
+    color: #5cb85c;
+}
+
+.video-status-failed {
+    color: #d9534f;
+}
+
+/* Video list - YouTube link */
+.mte-video_table .youtube-link {
+    color: #007bff;
+}
+
+/* Video list - Edit/Delete button styling */
+.mte-video_link {
+    display: flex;
+    gap: 10px;
+}
+
+.mte-video_link .sw-button_link-gray.delete-button {
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+/* Video list - Description section */
+.video-description-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.video-description-content {
+    white-space: pre-wrap;
+}
+
+/* Video list - Empty state */
+.video-empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: #999;
+}
+
+/* Mobile responsive styles for video list */
+@media (max-width: 768px) {
+    .video-player-wrapper iframe,
+    .video-placeholder {
+        max-width: 100%;
+    }
+
+    .mte-video_link {
+        flex-direction: column;
+    }
+
+    .mte-video_link a {
+        width: 100%;
+        text-align: center;
     }
 }
