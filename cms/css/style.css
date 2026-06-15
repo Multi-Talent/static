@@ -10103,12 +10103,34 @@ td.notify-buttons {
 
 /* Video list - Teacher actions */
 .sw-teacher-actions {
-    margin: 20px 0;
-    text-align: right;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .sw-teacher-actions .sw-button_link-gray {
     margin-left: 10px;
+}
+
+/* Gray button link style for video management */
+.sw-button_link-gray {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.sw-button_link-gray:hover {
+    background-color: #5a6268;
+    text-decoration: none;
+}
+
+.sw-button_link-gray i {
+    margin-right: 5px;
 }
 
 /* Video list - Video player wrapper (already exists, ensuring consistency) */
@@ -10191,6 +10213,9 @@ td.notify-buttons {
 
 /* Video list - Edit/Delete button styling */
 .mte-video_link {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
     display: flex;
     gap: 10px;
 }
@@ -10218,6 +10243,150 @@ td.notify-buttons {
     color: #999;
 }
 
+/* Video Manager Form - Form layout */
+.video-manage-form {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Video Manager Form - Form section */
+.form-section {
+    background: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-section-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 20px 0;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #007bff;
+}
+
+.form-section-title i {
+    margin-right: 8px;
+    color: #007bff;
+}
+
+/* Video Manager Form - Form group */
+.video-manage-form .form-group {
+    margin-bottom: 20px;
+}
+
+.video-manage-form .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.video-manage-form .form-label.required::after {
+    content: " *";
+    color: #d9534f;
+}
+
+.video-manage-form .form-control {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.video-manage-form .form-control:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.video-manage-form select.form-control {
+    height: auto;
+}
+
+.video-manage-form textarea.form-control {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.video-manage-form .form-help {
+    font-size: 12px;
+    color: #666;
+    margin-top: 4px;
+}
+
+.video-manage-form .error-message {
+    color: #d9534f;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+/* Video Manager Form - Checkbox */
+.video-manage-form .checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.video-manage-form .checkbox-label input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+/* Video Manager Form - Buttons */
+.video-manage-form .form-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid #eee;
+}
+
+.video-manage-form .sw-button_submit,
+.video-manage-form .sw-button_back {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.video-manage-form .sw-button_submit {
+    background: #007bff;
+    color: #fff;
+}
+
+.video-manage-form .sw-button_submit:hover {
+    background: #0056b3;
+}
+
+.video-manage-form .sw-button_back {
+    background: #6c757d;
+    color: #fff;
+}
+
+.video-manage-form .sw-button_back:hover {
+    background: #5a6268;
+    text-decoration: none;
+}
+
+.video-manage-form .sw-button_submit i,
+.video-manage-form .sw-button_back i {
+    margin-right: 8px;
+}
+
 /* Mobile responsive styles for video list */
 @media (max-width: 768px) {
     .video-player-wrapper iframe,
@@ -10232,5 +10401,19 @@ td.notify-buttons {
     .mte-video_link a {
         width: 100%;
         text-align: center;
+    }
+
+    /* Video Manager Form - Mobile */
+    .form-section {
+        padding: 16px;
+    }
+
+    .video-manage-form .form-buttons {
+        flex-direction: column;
+    }
+
+    .video-manage-form .sw-button_submit,
+    .video-manage-form .sw-button_back {
+        width: 100%;
     }
 }
