@@ -1965,11 +1965,13 @@ div.error label.error:before {
 /*******************************/
 
 
-.dataTable tbody tr.search-hit {
+/* DataTables 検索ヒット行：薄いハイライト */
+table.dataTable tbody tr.search-hit > td {
     background-color: #fff3cd !important;
 }
 
-.dataTable tbody tr.current-search-hit {
+/* DataTables 現在選択中の検索ヒット行：強いハイライト */
+table.dataTable tbody tr.current-search-hit > td {
     background-color: #ffc107 !important;
 }
 
