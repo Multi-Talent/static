@@ -1965,6 +1965,13 @@ div.error label.error:before {
 /*******************************/
 
 
+.dataTable tbody tr.search-hit {
+    background-color: #fff3cd !important;
+}
+
+.dataTable tbody tr.current-search-hit {
+    background-color: #ffc107 !important;
+}
 
 .dataTables_length .chosen-container {
     min-width: 75px;

@@ -10101,6 +10101,15 @@ td.notify-buttons {
     }
 }
 
+/* dataTable filter */
+.dataTable tbody tr.search-hit {
+    background-color: #fff3cd !important;
+}
+
+.dataTable tbody tr.current-search-hit {
+    background-color: #ffc107 !important;
+}
+
 /* Video list - Teacher actions */
 .sw-teacher-actions {
     padding: 10px 20px;
