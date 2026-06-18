@@ -10427,3 +10427,381 @@ table.dataTable tbody tr.current-search-hit > td {
         width: 100%;
     }
 }
+
+/* ==========================================
+   Video List - Year/Month Grouping (Accordion)
+   ========================================== */
+
+.fiscal-year-group {
+    margin-bottom: 30px;
+}
+
+.fiscal-year-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 8px;
+}
+
+.fiscal-year-title i {
+    margin-right: 8px;
+}
+
+.month-group {
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.month-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #f8f9fa;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.month-header:hover {
+    background: #e9ecef;
+}
+
+.month-header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.month-toggle-icon {
+    font-size: 14px;
+    color: #666;
+    transition: transform 0.3s ease;
+    width: 16px;
+}
+
+.month-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.month-count {
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+}
+
+.month-header-right {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-month-action {
+    padding: 6px 12px;
+    font-size: 13px;
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #495057;
+}
+
+.btn-month-action:hover {
+    background: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.btn-month-action i {
+    margin-right: 5px;
+}
+
+.month-content {
+    padding: 15px;
+    background: white;
+}
+
+/* Badge Styles */
+.badge {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badge i {
+    margin-right: 3px;
+}
+
+.badge-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.badge-warning {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.badge-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.badge-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+/* Month group empty state */
+.month-content:empty::after {
+    content: "この月には動画がありません";
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .month-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .month-header-right {
+        width: 100%;
+    }
+
+    .btn-month-action {
+        width: 100%;
+    }
+
+    .fiscal-year-title {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+
+    .month-title {
+        font-size: 16px;
+    }
+}
+
+/* ==========================================
+   Video List - Year/Month Filter (Performance)
+   ========================================== */
+
+.year-month-filter {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.filter-form {
+    margin: 0;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.filter-label {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+}
+
+.filter-label i {
+    margin-right: 5px;
+}
+
+.filter-select {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-select:hover {
+    border-color: #ffd700;
+    box-shadow: 0 2px 8px rgba(255,215,0,0.3);
+}
+
+.filter-select:focus {
+    outline: none;
+    border-color: #ffd700;
+    box-shadow: 0 0 0 3px rgba(255,215,0,0.2);
+}
+
+.btn-clear-filter {
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.btn-clear-filter:hover {
+    background: white;
+    color: #667eea;
+    text-decoration: none;
+}
+
+.btn-clear-filter i {
+    margin-right: 5px;
+}
+
+/* Toggle Search Button */
+.btn-toggle-search {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.btn-toggle-search:hover {
+    background: #0056b3;
+}
+
+.btn-toggle-search i {
+    margin-right: 8px;
+}
+
+/* Video Lazy Loading */
+.video-player-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    background: #000;
+    border-radius: 8px;
+}
+
+.video-player-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.video-thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.video-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+    text-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.video-thumbnail:hover .play-button {
+    color: #ff0000;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .filter-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .filter-label {
+        text-align: center;
+    }
+
+    .filter-select {
+        min-width: 100%;
+    }
+
+    .btn-clear-filter {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-button {
+        font-size: 60px;
+    }
+}
+
+/* Loading Indicator */
+.video-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 14px;
+}
+
+.video-loading i {
+    margin-right: 5px;
+}
