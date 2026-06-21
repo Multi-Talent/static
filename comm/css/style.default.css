@@ -4546,6 +4546,7 @@ table.dataTable tbody tr.current-search-hit > td {
 
     .search-buttons-admin {
         margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 
@@ -6563,6 +6564,7 @@ td.notify-buttons {
 
 .search-buttons-admin {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* ================================================
