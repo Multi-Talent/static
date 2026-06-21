@@ -8300,6 +8300,7 @@ footer a {
 }
 
 .search-buttons {
+    margin-top: 10px;
     display: flex;
     gap: 12px;
     justify-content: flex-start;
@@ -8356,6 +8357,7 @@ footer a {
     }
 
     .search-buttons {
+        margin-top: 10px;
         flex-direction: column;
         width: 100%;
     }

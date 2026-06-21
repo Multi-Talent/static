@@ -4543,6 +4543,10 @@ table.dataTable tbody tr.current-search-hit > td {
         border-radius: 2px;
         padding: 2px 5px;
     }
+
+    .search-buttons-admin {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -6555,6 +6559,10 @@ td.notify-buttons {
 .upload-status-failed {
     background-color: #d9534f;
     color: white;
+}
+
+.search-buttons-admin {
+    margin-top: 10px;
 }
 
 /* ================================================
