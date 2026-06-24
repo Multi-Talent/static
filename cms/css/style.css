@@ -10237,6 +10237,17 @@ table.dataTable tbody tr.current-search-hit > td {
     border-color: #d9534f;
 }
 
+/* Video list - Classes section */
+.video-classes-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.video-classes-content {
+    white-space: pre-wrap;
+}
+
 /* Video list - Description section */
 .video-description-title {
     margin-top: 20px;
@@ -10806,4 +10817,48 @@ table.dataTable tbody tr.current-search-hit > td {
 
 .video-loading i {
     margin-right: 5px;
+}
+
+/* 動画公開クラス表示用textarea */
+.video-classes-textarea {
+    width: 100%;
+    min-height: 60px;
+    max-height: 120px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    line-height: 1.5;
+    resize: vertical;
+    font-family: inherit;
+    color: #333;
+}
+
+.video-classes-textarea:focus {
+    outline: none;
+    border-color: #8b5cf6;
+    background-color: #fff;
+}
+
+/* 動画説明表示用textarea */
+.video-description-textarea {
+    width: 100%;
+    min-height: 120px;
+    max-height: 240px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    line-height: 1.5;
+    resize: vertical;
+    font-family: inherit;
+    color: #333;
+}
+
+.video-description-textarea:focus {
+    outline: none;
+    border-color: #8b5cf6;
+    background-color: #fff;
 }
