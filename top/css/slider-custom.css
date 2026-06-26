@@ -61,7 +61,7 @@
 @media screen and (max-width: 767px) {
     .sp-img-wrap.visible-xs {
         margin-top: 0 !important;
-        padding-top: 80px !important;
+        padding-top: 40px !important;
     }
     .sp-img-wrap.visible-xs .swiper-slide {
         height: 300px !important;
