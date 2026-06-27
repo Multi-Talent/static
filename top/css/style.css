@@ -9489,7 +9489,7 @@ h2.news span:after {
     width: 50px;
     height: 84px;
     margin: auto;
-    background: url("https://multi-talent.github.io/static/top/img/kg/common/char_star.png") center center no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/kg/common/char_star.png") center center no-repeat;
     background-size: contain
 }
 
@@ -9963,7 +9963,7 @@ h3.no-bdb+.inner-box>sup:nth-child(1),
 }
 
 .cat-exam-info h3 span:before {
-    background: url("https://multi-talent.github.io/static/top/img/cn/adults/schoolhome/bg_stripe_or.png") center center repeat;
+    background: url("https://multi-talent.github.io/static/top/images/cn/adults/schoolhome/bg_stripe_or.png") center center repeat;
 }
 
 .type-cn h3 span:after {
@@ -10491,7 +10491,7 @@ a.btn.download:after {
     border-radius: 0;
     -webkit-transition: all 0.75s ease 0s;
     transition: all 0.75s ease 0s;
-    background: url("https://multi-talent.github.io/static/top/img/common/icon_download.png") 0 0 no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/common/icon_download.png") 0 0 no-repeat;
     background-size: 12px 13px;
     -webkit-transform: rotate(0deg) translateX(0) translateY(0);
     -ms-transform: rotate(0deg) translateX(0) translateY(0);
@@ -11534,7 +11534,7 @@ table+table {
     width: 100%;
     min-width: 980px;
     height: 80px;
-    background: url("https://multi-talent.github.io/static/top/img/kg/common/header_line.png") center bottom 2px repeat-x;
+    background: url("https://multi-talent.github.io/static/top/images/kg/common/header_line.png") center bottom 2px repeat-x;
     background-color: #fff;
     z-index: 10;
     -webkit-transition: all 0.5s ease 0s;
@@ -11574,7 +11574,7 @@ table+table {
     width: 176px;
     height: 39px;
     margin: 20px 30px 0 0;
-    background: url("https://multi-talent.github.io/static/top/img/kg/common/logo_kg.svg") left top no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/kg/common/logo_kg.svg") left top no-repeat;
     background-size: contain;
     font: 0/0 a;
     color: transparent;
@@ -11639,7 +11639,7 @@ table+table {
     font-weight: bold;
     font-family: "Rounded Mplus 1c", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "游ゴシック", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "MS Gothic", "ＭＳ ゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 43px;
-    background: url("https://multi-talent.github.io/static/top/img/kg/common/icon_menu_01.png") 10px center no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/kg/common/icon_menu_01.png") 10px center no-repeat;
     border-radius: 4px;
     -webkit-transition: background 0.5s ease 0s;
     transition: background 0.5s ease 0s
@@ -11650,19 +11650,19 @@ table+table {
 }
 
 .header .nav-wrap .nav .nav-item .nav-guide .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/common/icon_menu_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/common/icon_menu_01.png")
 }
 
 .header .nav-wrap .nav .nav-item .nav-kids .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/common/icon_menu_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/common/icon_menu_02.png")
 }
 
 .header .nav-wrap .nav .nav-item .nav-trait .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/common/icon_menu_03.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/common/icon_menu_03.png")
 }
 
 .header .nav-wrap .nav .nav-item .nav-exam-info .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/common/icon_menu_04.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/common/icon_menu_04.png")
 }
 
 .header .nav-wrap .nav .nav-item.active .subnav-wrap {
@@ -11782,7 +11782,7 @@ table+table {
     font-family: "Rounded Mplus 1c", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "游ゴシック", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "MS Gothic", "ＭＳ ゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     color: #62421a;
-    background: url("https://multi-talent.github.io/static/top/img/kg/common/icon_search_01.png") 50% 8px no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/kg/common/icon_search_01.png") 50% 8px no-repeat;
     border-radius: 4px 4px 0 0;
     margin-top: 9px;
     padding-top: 36px;
@@ -11826,7 +11826,7 @@ table+table {
     height: 2em;
     padding: 0.5em 0.25rem 0.5em 30px;
     margin: 0;
-    background: #fff url("https://multi-talent.github.io/static/top/img/common/icon_search_01.png") 8px 50% no-repeat;
+    background: #fff url("https://multi-talent.github.io/static/top/images/common/icon_search_01.png") 8px 50% no-repeat;
     background-size: 16px auto;
     border: none;
     border-radius: 3px;
@@ -11835,7 +11835,7 @@ table+table {
 
 .header .search-wrap.is-open .link-search {
     color: #fff;
-    background: #ff979d url("https://multi-talent.github.io/static/top/img/kg/common/icon_search_01_on.png") 50% 12px no-repeat
+    background: #ff979d url("https://multi-talent.github.io/static/top/images/kg/common/icon_search_01_on.png") 50% 12px no-repeat
 }
 
 .header .search-wrap.is-open .link-search:before,
@@ -11969,23 +11969,23 @@ table+table {
 }
 
 .header .sp-navbar-wrap .sp-navbar .nav-item .nav-entry {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/kg/common/icon_menu_01.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/kg/common/icon_menu_01.png");
     background-size: 16.5px auto
 }
 
 .header .sp-navbar-wrap .sp-navbar .nav-item .nav-exam-info {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/kg/common/icon_menu_02.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/kg/common/icon_menu_02.png");
     background-size: 16px auto
 }
 
 .header .sp-navbar-wrap .sp-navbar .nav-item .nav-access {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/kg/common/icon_menu_03.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/kg/common/icon_menu_03.png");
     background-size: 13px auto
 }
 
 .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu {
     position: relative;
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/kg/common/icon_menu_04.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/kg/common/icon_menu_04.png");
     background-position: 50% 13px;
     background-size: 15px auto
 }
@@ -11998,7 +11998,7 @@ table+table {
     height: 100%;
     content: '閉じる';
     padding-top: 32px;
-    background: url("https://multi-talent.github.io/static/top/img/sp/kg/common/icon_menu_05.png") 50% 13px no-repeat #ff979d;
+    background: url("https://multi-talent.github.io/static/top/images/sp/kg/common/icon_menu_05.png") 50% 13px no-repeat #ff979d;
     background-size: 12px auto;
     color: #fff;
     opacity: 0;
@@ -12239,7 +12239,7 @@ table+table {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    background: url("https://multi-talent.github.io/static/top/img/common/icon_blank_01.png") 0 0 no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/common/icon_blank_01.png") 0 0 no-repeat;
     background-size: contain
 }
 
@@ -12252,7 +12252,7 @@ table+table {
     width: 100%;
     height: 3em;
     padding: 0.8rem 0.5rem 0.8rem 34px;
-    background: #fff url("https://multi-talent.github.io/static/top/img/common/icon_search_01.png") 10px 50% no-repeat;
+    background: #fff url("https://multi-talent.github.io/static/top/images/common/icon_search_01.png") 10px 50% no-repeat;
     background-size: 16px auto;
     border: none;
     border-radius: 3px;
@@ -12300,25 +12300,25 @@ table+table {
 }
 
 .type-kg.cat-guide .header .nav-wrap .nav .nav-item .nav-guide .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/common/icon_menu_01_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/common/icon_menu_01_on.png");
     background-color: #ff979d;
     color: #fff
 }
 
 .type-kg.cat-kids .header .nav-wrap .nav .nav-item .nav-kids .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/common/icon_menu_02_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/common/icon_menu_02_on.png");
     background-color: #ff979d;
     color: #fff
 }
 
 .type-kg.cat-trait .header .nav-wrap .nav .nav-item .nav-trait .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/common/icon_menu_03_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/common/icon_menu_03_on.png");
     background-color: #ff979d;
     color: #fff
 }
 
 .type-kg.cat-exam-info .header .nav-wrap .nav .nav-item .nav-exam-info .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/common/icon_menu_04_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/common/icon_menu_04_on.png");
     background-color: #ff979d;
     color: #fff
 }
@@ -12417,7 +12417,7 @@ table+table {
     width: 173px;
     height: 38px;
     margin: 19px 30px 0 0;
-    background-image: url("https://multi-talent.github.io/static/top/img/common/header_logo.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/common/header_logo.png")
 }
 
 .type-tp .header .logo:after {
@@ -12448,29 +12448,29 @@ table+table {
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 38px;
-    background: url("https://multi-talent.github.io/static/top/img/top/common/icon_menu_access.png") 10px center no-repeat
+    background: url("https://multi-talent.github.io/static/top/images/top/common/icon_menu_access.png") 10px center no-repeat
 }
 
 .type-tp .header .nav-wrap .nav .nav-item .nav-english .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/english_icon_on.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/english_icon_on.png")
 }
 
 .type-tp .header .nav-wrap .nav .nav-item .nav-chinese .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/chinese_icon.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/chinese_icon.png")
 }
 
 .type-tp .header .nav-wrap .nav .nav-item .nav-art .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/art_icon.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/art_icon.png");
     padding-left: 32px
 }
 
 .type-tp .header .nav-wrap .nav .nav-item .nav-jp .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/jp_icon.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/jp_icon.png");
     padding-left: 30px
 }
 
 .type-tp .header .nav-wrap .nav .nav-item .nav-pg .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/pg_icon.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/pg_icon.png");
     padding-left: 30px
 }
 
@@ -12509,7 +12509,7 @@ table+table {
     font-weight: normal;
     font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "游ゴシック", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "MS Gothic", "ＭＳ ゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: inherit;
-    background: url("https://multi-talent.github.io/static/top/img/common/search_icon.png") 50% 10px no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/common/search_icon.png") 50% 10px no-repeat;
     margin-top: 10px;
     padding-top: 32px
 }
@@ -12526,7 +12526,7 @@ table+table {
 
 .type-tp .header .search-wrap.is-open .link-search {
     color: #fff;
-    background: #fbb03b url("https://multi-talent.github.io/static/top/img/top/common/icon_menu_05_on.png") 50% 10px no-repeat
+    background: #fbb03b url("https://multi-talent.github.io/static/top/images/top/common/icon_menu_05_on.png") 50% 10px no-repeat
 }
 
 .type-tp .header .search-wrap.is-open .link-search:before,
@@ -12661,28 +12661,28 @@ table+table {
 }
 
 .type-tp .header .sp-navbar-wrap .sp-navbar .nav-item .nav-entry {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/top/common/icon_menu_01.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/top/common/icon_menu_01.png");
     background-size: 16px auto
 }
 
 .type-tp .header .sp-navbar-wrap .sp-navbar .nav-item .nav-exam-info {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_exam.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_exam.png");
     background-size: 16px auto
 }
 
 .type-tp .header .sp-navbar-wrap .sp-navbar .nav-item .nav-access {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_access.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_access.png");
     background-size: 13px auto
 }
 
 .type-tp .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_04.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_04.png");
     background-position: 50% 13px;
     background-size: 15px auto
 }
 
 .type-tp .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu:after {
-    background: url("https://multi-talent.github.io/static/top/img/sp/top/common/icon_menu_05.png") 50% 13px no-repeat #fbb03b;
+    background: url("https://multi-talent.github.io/static/top/images/sp/top/common/icon_menu_05.png") 50% 13px no-repeat #fbb03b;
     background-size: 12px auto
 }
 
@@ -12725,7 +12725,7 @@ table+table {
 }
 
 .type-tp .header .sp-partner-link-wrap .sp-partnerlink li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/icon_blank_01.png")
 }
 
 .type-tp .header .sp-search-wrap {
@@ -12744,31 +12744,31 @@ table+table {
 }
 
 .type-tp.cat-english .header .nav-wrap .nav .nav-item .nav-english .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/english_icon_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/english_icon_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-tp.cat-chinese .header .nav-wrap .nav .nav-item .nav-chinese .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/icon_menu_02_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/icon_menu_02_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-tp.cat-art .header .nav-wrap .nav .nav-item .nav-art .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/icon_menu_03_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/icon_menu_03_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-tp.cat-jp .header .nav-wrap .nav .nav-item .nav-jp .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/icon_menu_06_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/icon_menu_06_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-tp.cat-pg .header .nav-wrap .nav .nav-item .nav-pg .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/icon_menu_04_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/icon_menu_04_on.png");
     background-color: #fda835;
     color: #fff
 }
@@ -12824,7 +12824,7 @@ table+table {
     width: 173px;
     height: 38px;
     margin: 19px 30px 0 0;
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/header_logo_en.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/header_logo_en.png")
 }
 
 .type-en .header .logo:after {
@@ -12855,24 +12855,24 @@ table+table {
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 38px;
-    background: url("https://multi-talent.github.io/static/top/img/en/common/icon_menu_03.png") 10px center no-repeat
+    background: url("https://multi-talent.github.io/static/top/images/en/common/icon_menu_03.png") 10px center no-repeat
 }
 
 .type-en .header .nav-wrap .nav .nav-item .nav-guide .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/icon_menu_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/icon_menu_01.png")
 }
 
 .type-en .header .nav-wrap .nav .nav-item .nav-kids .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/icon_menu_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/icon_menu_02.png")
 }
 
 .type-en .header .nav-wrap .nav .nav-item .nav-eng-exam .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/icon_menu_03.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/icon_menu_03.png");
     padding-left: 32px
 }
 
 .type-en .header .nav-wrap .nav .nav-item .nav-exam-info .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/icon_menu_04.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/icon_menu_04.png");
     padding-left: 30px
 }
 
@@ -12910,7 +12910,7 @@ table+table {
     font-weight: normal;
     font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "游ゴシック", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "MS Gothic", "ＭＳ ゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: inherit;
-    background: url("https://multi-talent.github.io/static/top/img/common/search_icon.png") 50% 10px no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/common/search_icon.png") 50% 10px no-repeat;
     margin-top: 10px;
     padding-top: 32px
 }
@@ -12927,7 +12927,7 @@ table+table {
 
 .type-en .header .search-wrap.is-open .link-search {
     color: #fff;
-    background: #fbb03b url("https://multi-talent.github.io/static/top/img/en/common/icon_menu_05_on.png") 50% 10px no-repeat
+    background: #fbb03b url("https://multi-talent.github.io/static/top/images/en/common/icon_menu_05_on.png") 50% 10px no-repeat
 }
 
 .type-en .header .search-wrap.is-open .link-search:before,
@@ -13062,28 +13062,28 @@ table+table {
 }
 
 .type-en .header .sp-navbar-wrap .sp-navbar .nav-item .nav-entry {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/en/common/icon_menu_01.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/en/common/icon_menu_01.png");
     background-size: 16px auto
 }
 
 .type-en .header .sp-navbar-wrap .sp-navbar .nav-item .nav-exam-info {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_exam.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_exam.png");
     background-size: 16px auto
 }
 
 .type-en .header .sp-navbar-wrap .sp-navbar .nav-item .nav-access {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_access.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_access.png");
     background-size: 13px auto
 }
 
 .type-en .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_04.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_04.png");
     background-position: 50% 13px;
     background-size: 15px auto
 }
 
 .type-en .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu:after {
-    background: url("https://multi-talent.github.io/static/top/img/sp/en/common/icon_menu_05.png") 50% 13px no-repeat #fbb03b;
+    background: url("https://multi-talent.github.io/static/top/images/sp/en/common/icon_menu_05.png") 50% 13px no-repeat #fbb03b;
     background-size: 12px auto
 }
 
@@ -13126,7 +13126,7 @@ table+table {
 }
 
 .type-en .header .sp-partner-link-wrap .sp-partnerlink li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/icon_blank_01.png")
 }
 
 .type-en .header .sp-search-wrap {
@@ -13145,25 +13145,25 @@ table+table {
 }
 
 .type-en.cat-guide .header .nav-wrap .nav .nav-item .nav-guide .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/icon_menu_01_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/icon_menu_01_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-en.cat-kids .header .nav-wrap .nav .nav-item .nav-kids .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/icon_menu_02_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/icon_menu_02_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-en.cat-eng-exam .header .nav-wrap .nav .nav-item .nav-eng-exam .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/icon_menu_03_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/icon_menu_03_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-en.cat-exam-info .header .nav-wrap .nav .nav-item .nav-exam-info .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/icon_menu_04_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/icon_menu_04_on.png");
     background-color: #fda835;
     color: #fff
 }
@@ -13209,7 +13209,7 @@ table+table {
     width: 173px;
     height: 38px;
     margin: 19px 30px 0 0;
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/header_logo_cn.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/header_logo_cn.png")
 }
 
 .type-cn .header .logo:after {
@@ -13240,24 +13240,24 @@ table+table {
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 38px;
-    background: url("https://multi-talent.github.io/static/top/img/cn/common/icon_menu_03.png") 10px center no-repeat
+    background: url("https://multi-talent.github.io/static/top/images/cn/common/icon_menu_03.png") 10px center no-repeat
 }
 
 .type-cn .header .nav-wrap .nav .nav-item .nav-guide .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/icon_menu_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/icon_menu_01.png")
 }
 
 .type-cn .header .nav-wrap .nav .nav-item .nav-kids .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/icon_menu_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/icon_menu_02.png")
 }
 
 .type-cn .header .nav-wrap .nav .nav-item .nav-adults .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/icon_menu_03.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/icon_menu_03.png");
     padding-left: 32px
 }
 
 .type-cn .header .nav-wrap .nav .nav-item .nav-exam-info .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/icon_menu_04.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/icon_menu_04.png");
     padding-left: 30px
 }
 
@@ -13295,7 +13295,7 @@ table+table {
     font-weight: normal;
     font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "游ゴシック", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "MS Gothic", "ＭＳ ゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: inherit;
-    background: url("https://multi-talent.github.io/static/top/img/common/search_icon.png") 50% 10px no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/common/search_icon.png") 50% 10px no-repeat;
     margin-top: 10px;
     padding-top: 32px
 }
@@ -13312,7 +13312,7 @@ table+table {
 
 .type-cn .header .search-wrap.is-open .link-search {
     color: #fff;
-    background: #fbb03b url("https://multi-talent.github.io/static/top/img/cn/common/icon_menu_05_on.png") 50% 10px no-repeat
+    background: #fbb03b url("https://multi-talent.github.io/static/top/images/cn/common/icon_menu_05_on.png") 50% 10px no-repeat
 }
 
 .type-cn .header .search-wrap.is-open .link-search:before,
@@ -13447,28 +13447,28 @@ table+table {
 }
 
 .type-cn .header .sp-navbar-wrap .sp-navbar .nav-item .nav-entry {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/cn/common/icon_menu_01.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/cn/common/icon_menu_01.png");
     background-size: 16px auto
 }
 
 .type-cn .header .sp-navbar-wrap .sp-navbar .nav-item .nav-exam-info {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_exam.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_exam.png");
     background-size: 16px auto
 }
 
 .type-cn .header .sp-navbar-wrap .sp-navbar .nav-item .nav-access {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_access.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_access.png");
     background-size: 13px auto
 }
 
 .type-cn .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_04.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_04.png");
     background-position: 50% 13px;
     background-size: 15px auto
 }
 
 .type-cn .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu:after {
-    background: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_05.png") 50% 13px no-repeat #fbb03b;
+    background: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_05.png") 50% 13px no-repeat #fbb03b;
     background-size: 12px auto
 }
 
@@ -13511,7 +13511,7 @@ table+table {
 }
 
 .type-cn .header .sp-partner-link-wrap .sp-partnerlink li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/icon_blank_01.png")
 }
 
 .type-cn .header .sp-search-wrap {
@@ -13530,25 +13530,25 @@ table+table {
 }
 
 .type-cn.cat-guide .header .nav-wrap .nav .nav-item .nav-guide .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/icon_menu_01_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/icon_menu_01_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-cn.cat-kids .header .nav-wrap .nav .nav-item .nav-kids .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/icon_menu_02_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/icon_menu_02_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-cn.cat-adults .header .nav-wrap .nav .nav-item .nav-adults .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/icon_menu_03_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/icon_menu_03_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-cn.cat-exam-info .header .nav-wrap .nav .nav-item .nav-exam-info .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/icon_menu_04_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/icon_menu_04_on.png");
     background-color: #fda835;
     color: #fff
 }
@@ -13573,7 +13573,7 @@ table+table {
     width: 173px;
     height: 38px;
     margin: 19px 30px 0 0;
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/header_logo_at.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/header_logo_at.png")
 }
 
 .type-at .header .logo:after {
@@ -13604,24 +13604,24 @@ table+table {
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 38px;
-    background: url("https://multi-talent.github.io/static/top/img/at/common/icon_menu_03.png") 10px center no-repeat
+    background: url("https://multi-talent.github.io/static/top/images/at/common/icon_menu_03.png") 10px center no-repeat
 }
 
 .type-at .header .nav-wrap .nav .nav-item .nav-guide .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/icon_menu_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/icon_menu_01.png")
 }
 
 .type-at .header .nav-wrap .nav .nav-item .nav-kids .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/icon_menu_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/icon_menu_02.png")
 }
 
 .type-at .header .nav-wrap .nav .nav-item .nav-adults .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/icon_menu_03.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/icon_menu_03.png");
     padding-left: 32px
 }
 
 .type-at .header .nav-wrap .nav .nav-item .nav-exam-info .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/icon_menu_04.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/icon_menu_04.png");
     padding-left: 30px
 }
 
@@ -13659,7 +13659,7 @@ table+table {
     font-weight: normal;
     font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "游ゴシック", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "MS Gothic", "ＭＳ ゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: inherit;
-    background: url("https://multi-talent.github.io/static/top/img/common/search_icon.png") 50% 10px no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/common/search_icon.png") 50% 10px no-repeat;
     margin-top: 10px;
     padding-top: 32px
 }
@@ -13676,7 +13676,7 @@ table+table {
 
 .type-at .header .search-wrap.is-open .link-search {
     color: #fff;
-    background: #fbb03b url("https://multi-talent.github.io/static/top/img/at/common/icon_menu_05_on.png") 50% 10px no-repeat
+    background: #fbb03b url("https://multi-talent.github.io/static/top/images/at/common/icon_menu_05_on.png") 50% 10px no-repeat
 }
 
 .type-at .header .search-wrap.is-open .link-search:before,
@@ -13811,28 +13811,28 @@ table+table {
 }
 
 .type-at .header .sp-navbar-wrap .sp-navbar .nav-item .nav-entry {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/at/common/icon_menu_01.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/at/common/icon_menu_01.png");
     background-size: 16px auto
 }
 
 .type-at .header .sp-navbar-wrap .sp-navbar .nav-item .nav-exam-info {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_exam.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_exam.png");
     background-size: 16px auto
 }
 
 .type-at .header .sp-navbar-wrap .sp-navbar .nav-item .nav-access {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_access.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_access.png");
     background-size: 13px auto
 }
 
 .type-at .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_04.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_04.png");
     background-position: 50% 13px;
     background-size: 15px auto
 }
 
 .type-at .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu:after {
-    background: url("https://multi-talent.github.io/static/top/img/sp/at/common/icon_menu_05.png") 50% 13px no-repeat #fbb03b;
+    background: url("https://multi-talent.github.io/static/top/images/sp/at/common/icon_menu_05.png") 50% 13px no-repeat #fbb03b;
     background-size: 12px auto
 }
 
@@ -13875,7 +13875,7 @@ table+table {
 }
 
 .type-at .header .sp-partner-link-wrap .sp-partnerlink li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/icon_blank_01.png")
 }
 
 .type-at .header .sp-search-wrap {
@@ -13894,25 +13894,25 @@ table+table {
 }
 
 .type-at.cat-guide .header .nav-wrap .nav .nav-item .nav-guide .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/icon_menu_01_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/icon_menu_01_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-at.cat-kids .header .nav-wrap .nav .nav-item .nav-kids .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/icon_menu_02_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/icon_menu_02_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-at.cat-adults .header .nav-wrap .nav .nav-item .nav-adults .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/icon_menu_03_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/icon_menu_03_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-at.cat-exam-info .header .nav-wrap .nav .nav-item .nav-exam-info .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/icon_menu_04_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/icon_menu_04_on.png");
     background-color: #fda835;
     color: #fff
 }
@@ -13935,7 +13935,7 @@ table+table {
     width: 173px;
     height: 38px;
     margin: 19px 30px 0 0;
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/header_logo_jp.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/header_logo_jp.png")
 }
 
 .type-jp .header .logo:after {
@@ -13966,24 +13966,24 @@ table+table {
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 38px;
-    background: url("https://multi-talent.github.io/static/top/img/jp/common/icon_menu_03.png") 10px center no-repeat
+    background: url("https://multi-talent.github.io/static/top/images/jp/common/icon_menu_03.png") 10px center no-repeat
 }
 
 .type-jp .header .nav-wrap .nav .nav-item .nav-guide .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/icon_menu_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/icon_menu_01.png")
 }
 
 .type-jp .header .nav-wrap .nav .nav-item .nav-kids .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/icon_menu_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/icon_menu_02.png")
 }
 
 .type-jp .header .nav-wrap .nav .nav-item .nav-adults .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/icon_menu_03.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/icon_menu_03.png");
     padding-left: 32px
 }
 
 .type-jp .header .nav-wrap .nav .nav-item .nav-exam-info .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/icon_menu_04.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/icon_menu_04.png");
     padding-left: 30px
 }
 
@@ -14021,7 +14021,7 @@ table+table {
     font-weight: normal;
     font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "游ゴシック", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "MS Gothic", "ＭＳ ゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: inherit;
-    background: url("https://multi-talent.github.io/static/top/img/common/search_icon.png") 50% 10px no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/common/search_icon.png") 50% 10px no-repeat;
     margin-top: 10px;
     padding-top: 32px
 }
@@ -14038,7 +14038,7 @@ table+table {
 
 .type-jp .header .search-wrap.is-open .link-search {
     color: #fff;
-    background: #fbb03b url("https://multi-talent.github.io/static/top/img/jp/common/icon_menu_05_on.png") 50% 10px no-repeat
+    background: #fbb03b url("https://multi-talent.github.io/static/top/images/jp/common/icon_menu_05_on.png") 50% 10px no-repeat
 }
 
 .type-jp .header .search-wrap.is-open .link-search:before,
@@ -14173,28 +14173,28 @@ table+table {
 }
 
 .type-jp .header .sp-navbar-wrap .sp-navbar .nav-item .nav-entry {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/at/common/icon_menu_01.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/at/common/icon_menu_01.png");
     background-size: 16px auto
 }
 
 .type-jp .header .sp-navbar-wrap .sp-navbar .nav-item .nav-exam-info {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_exam.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_exam.png");
     background-size: 16px auto
 }
 
 .type-jp .header .sp-navbar-wrap .sp-navbar .nav-item .nav-access {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_access.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_access.png");
     background-size: 13px auto
 }
 
 .type-jp .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_04.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_04.png");
     background-position: 50% 13px;
     background-size: 15px auto
 }
 
 .type-jp .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu:after {
-    background: url("https://multi-talent.github.io/static/top/img/sp/at/common/icon_menu_05.png") 50% 13px no-repeat #fbb03b;
+    background: url("https://multi-talent.github.io/static/top/images/sp/at/common/icon_menu_05.png") 50% 13px no-repeat #fbb03b;
     background-size: 12px auto
 }
 
@@ -14237,7 +14237,7 @@ table+table {
 }
 
 .type-jp .header .sp-partner-link-wrap .sp-partnerlink li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/icon_blank_01.png")
 }
 
 .type-jp .header .sp-search-wrap {
@@ -14256,25 +14256,25 @@ table+table {
 }
 
 .type-jp.cat-guide .header .nav-wrap .nav .nav-item .nav-guide .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/icon_menu_01_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/icon_menu_01_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-jp.cat-kids .header .nav-wrap .nav .nav-item .nav-kids .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/icon_menu_02_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/icon_menu_02_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-jp.cat-adults .header .nav-wrap .nav .nav-item .nav-adults .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/icon_menu_03_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/icon_menu_03_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-jp.cat-exam-info .header .nav-wrap .nav .nav-item .nav-exam-info .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/icon_menu_04_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/icon_menu_04_on.png");
     background-color: #fda835;
     color: #fff
 }
@@ -14297,7 +14297,7 @@ table+table {
     width: 173px;
     height: 38px;
     margin: 19px 30px 0 0;
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/header_logo_cn.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/header_logo_cn.png")
 }
 
 .type-pg .header .logo:after {
@@ -14328,24 +14328,24 @@ table+table {
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 38px;
-    background: url("https://multi-talent.github.io/static/top/img/pg/common/icon_menu_03.png") 10px center no-repeat
+    background: url("https://multi-talent.github.io/static/top/images/pg/common/icon_menu_03.png") 10px center no-repeat
 }
 
 .type-pg .header .nav-wrap .nav .nav-item .nav-guide .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/icon_menu_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/icon_menu_01.png")
 }
 
 .type-pg .header .nav-wrap .nav .nav-item .nav-kids .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/icon_menu_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/icon_menu_02.png")
 }
 
 .type-pg .header .nav-wrap .nav .nav-item .nav-adults .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/icon_menu_03.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/icon_menu_03.png");
     padding-left: 32px
 }
 
 .type-pg .header .nav-wrap .nav .nav-item .nav-exam-info .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/icon_menu_04.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/icon_menu_04.png");
     padding-left: 30px
 }
 
@@ -14383,7 +14383,7 @@ table+table {
     font-weight: normal;
     font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "游ゴシック", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "MS Gothic", "ＭＳ ゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: inherit;
-    background: url("https://multi-talent.github.io/static/top/img/common/search_icon.png") 50% 10px no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/common/search_icon.png") 50% 10px no-repeat;
     margin-top: 10px;
     padding-top: 32px
 }
@@ -14400,7 +14400,7 @@ table+table {
 
 .type-pg .header .search-wrap.is-open .link-search {
     color: #fff;
-    background: #fbb03b url("https://multi-talent.github.io/static/top/img/pg/common/icon_menu_05_on.png") 50% 10px no-repeat
+    background: #fbb03b url("https://multi-talent.github.io/static/top/images/pg/common/icon_menu_05_on.png") 50% 10px no-repeat
 }
 
 .type-pg .header .search-wrap.is-open .link-search:before,
@@ -14535,28 +14535,28 @@ table+table {
 }
 
 .type-pg .header .sp-navbar-wrap .sp-navbar .nav-item .nav-entry {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/pg/common/icon_menu_01.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/pg/common/icon_menu_01.png");
     background-size: 16px auto
 }
 
 .type-pg .header .sp-navbar-wrap .sp-navbar .nav-item .nav-exam-info {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_exam.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_exam.png");
     background-size: 16px auto
 }
 
 .type-pg .header .sp-navbar-wrap .sp-navbar .nav-item .nav-access {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_access.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_access.png");
     background-size: 13px auto
 }
 
 .type-pg .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/common/icon_menu_04.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/common/icon_menu_04.png");
     background-position: 50% 13px;
     background-size: 15px auto
 }
 
 .type-pg .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu:after {
-    background: url("https://multi-talent.github.io/static/top/img/sp/pg/common/icon_menu_05.png") 50% 13px no-repeat #fbb03b;
+    background: url("https://multi-talent.github.io/static/top/images/sp/pg/common/icon_menu_05.png") 50% 13px no-repeat #fbb03b;
     background-size: 12px auto
 }
 
@@ -14599,7 +14599,7 @@ table+table {
 }
 
 .type-pg .header .sp-partner-link-wrap .sp-partnerlink li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/icon_blank_01.png")
 }
 
 .type-pg .header .sp-search-wrap {
@@ -14618,25 +14618,25 @@ table+table {
 }
 
 .type-pg.cat-guide .header .nav-wrap .nav .nav-item .nav-guide .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/icon_menu_01_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/icon_menu_01_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-pg.cat-kids .header .nav-wrap .nav .nav-item .nav-kids .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/icon_menu_02_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/icon_menu_02_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-pg.cat-adults .header .nav-wrap .nav .nav-item .nav-adults .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/icon_menu_03_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/icon_menu_03_on.png");
     background-color: #fda835;
     color: #fff
 }
 
 .type-pg.cat-exam-info .header .nav-wrap .nav .nav-item .nav-exam-info .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/icon_menu_04_on.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/icon_menu_04_on.png");
     background-color: #fda835;
     color: #fff
 }
@@ -14669,7 +14669,7 @@ table+table {
     width: 230px;
     height: 30px;
     margin: 25px 20px 0 0;
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/logo_hs.svg")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/logo_hs.svg")
 }
 
 .type-hs .header .logo:after {
@@ -14714,7 +14714,7 @@ table+table {
     -webkit-transform: scaleY(1.005);
     -ms-transform: scaleY(1.005);
     transform: scaleY(1.005);
-    background: url("https://multi-talent.github.io/static/top/img/hs/common/icon_menu_01.png") center top no-repeat
+    background: url("https://multi-talent.github.io/static/top/images/hs/common/icon_menu_01.png") center top no-repeat
 }
 
 .type-hs .header .nav-wrap .nav .nav-item>a:after {
@@ -14729,23 +14729,23 @@ table+table {
 }
 
 .type-hs .header .nav-wrap .nav .nav-item .nav-guide .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/icon_menu_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/icon_menu_01.png")
 }
 
 .type-hs .header .nav-wrap .nav .nav-item .nav-kids .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/icon_menu_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/icon_menu_02.png")
 }
 
 .type-hs .header .nav-wrap .nav .nav-item .nav-adults .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/icon_menu_03.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/icon_menu_03.png")
 }
 
 .type-hs .header .nav-wrap .nav .nav-item .nav-exam-info .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/icon_menu_04.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/icon_menu_04.png")
 }
 
 .type-hs .header .nav-wrap .nav .nav-item .nav-course .icon-wrap {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/icon_menu_05.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/icon_menu_05.png")
 }
 
 .type-hs .header .nav-wrap .nav .nav-item:nth-of-type(1).active .subnav-wrap,
@@ -14864,7 +14864,7 @@ table+table {
     -ms-transform: scaleY(1.005);
     transform: scaleY(1.005);
     color: inherit;
-    background: url("https://multi-talent.github.io/static/top/img/hs/common/icon_menu_06.png") 50% 20px no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/hs/common/icon_menu_06.png") 50% 20px no-repeat;
     margin-top: 0;
     padding-top: 44px;
     border-radius: 0
@@ -14883,7 +14883,7 @@ table+table {
 
 .type-hs .header .search-wrap.is-open .link-search {
     color: #fff;
-    background: #666 url("https://multi-talent.github.io/static/top/img/hs/common/icon_menu_06_on.png") 50% 20px no-repeat
+    background: #666 url("https://multi-talent.github.io/static/top/images/hs/common/icon_menu_06_on.png") 50% 20px no-repeat
 }
 
 .type-hs .header .search-wrap.is-open .link-search:before,
@@ -15005,29 +15005,29 @@ table+table {
 }
 
 .type-hs .header .sp-navbar-wrap .sp-navbar .nav-item .nav-entry {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/hs/common/icon_menu_01.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/hs/common/icon_menu_01.png");
     background-size: 15px auto
 }
 
 .type-hs .header .sp-navbar-wrap .sp-navbar .nav-item .nav-exam-info {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/hs/common/icon_menu_02.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/hs/common/icon_menu_02.png");
     background-size: 15px auto
 }
 
 .type-hs .header .sp-navbar-wrap .sp-navbar .nav-item .nav-access {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/hs/common/icon_menu_03.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/hs/common/icon_menu_03.png");
     background-size: 12px auto
 }
 
 .type-hs .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/hs/common/icon_menu_04.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/hs/common/icon_menu_04.png");
     background-position: 50% 13px;
     background-size: 15px auto
 }
 
 .type-hs .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu:after {
     content: '閉じる';
-    background: url("https://multi-talent.github.io/static/top/img/sp/hs/common/icon_menu_05.png") 50% 13px no-repeat #842251;
+    background: url("https://multi-talent.github.io/static/top/images/sp/hs/common/icon_menu_05.png") 50% 13px no-repeat #842251;
     background-size: 12px auto
 }
 
@@ -15075,7 +15075,7 @@ table+table {
 }
 
 .type-hs .header .sp-partner-link-wrap .sp-partner-link li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/icon_blank_01.png")
 }
 
 .type-hs .header .sp-search-wrap {
@@ -15138,7 +15138,7 @@ table+table {
     width: 137px;
     height: 36px;
     margin: 22px 30px 0 0;
-    background-image: url("https://multi-talent.github.io/static/top/img/mg/common/logo_mg.svg")
+    background-image: url("https://multi-talent.github.io/static/top/images/mg/common/logo_mg.svg")
 }
 
 .type-mg .header .logo:after {
@@ -15255,7 +15255,7 @@ table+table {
     -ms-transform: scaleY(1.005);
     transform: scaleY(1.005);
     color: inherit;
-    background: transparent url("https://multi-talent.github.io/static/top/img/mg/common/icon_search_01.png") 50% 20px no-repeat;
+    background: transparent url("https://multi-talent.github.io/static/top/images/mg/common/icon_search_01.png") 50% 20px no-repeat;
     margin-top: 0;
     padding-top: 44px;
     border-radius: 0
@@ -15274,7 +15274,7 @@ table+table {
 
 .type-mg .header .search-wrap.is-open .link-search {
     color: #fff;
-    background: #666 url("https://multi-talent.github.io/static/top/img/mg/common/icon_search_01_on.png") 50% 20px no-repeat
+    background: #666 url("https://multi-talent.github.io/static/top/images/mg/common/icon_search_01_on.png") 50% 20px no-repeat
 }
 
 .type-mg .header .search-wrap.is-open .link-search:before,
@@ -15387,30 +15387,30 @@ table+table {
 }
 
 .type-mg .header .sp-navbar-wrap .sp-navbar .nav-item .nav-exam-info {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/mg/common/icon_menu_01.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/mg/common/icon_menu_01.png");
     background-size: 15px auto
 }
 
 .type-mg .header .sp-navbar-wrap .sp-navbar .nav-item .nav-address {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/mg/common/icon_menu_02.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/mg/common/icon_menu_02.png");
     background-position: 50% 13px;
     background-size: 15px auto
 }
 
 .type-mg .header .sp-navbar-wrap .sp-navbar .nav-item .nav-access {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/mg/common/icon_menu_03.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/mg/common/icon_menu_03.png");
     background-size: 12px auto
 }
 
 .type-mg .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu {
-    background-image: url("https://multi-talent.github.io/static/top/img/sp/mg/common/icon_menu_04.png");
+    background-image: url("https://multi-talent.github.io/static/top/images/sp/mg/common/icon_menu_04.png");
     background-position: 50% 13px;
     background-size: 15px auto
 }
 
 .type-mg .header .sp-navbar-wrap .sp-navbar .nav-item .nav-menu:after {
     content: '閉じる';
-    background: url("https://multi-talent.github.io/static/top/img/sp/hs/common/icon_menu_05.png") 50% 13px no-repeat #792327;
+    background: url("https://multi-talent.github.io/static/top/images/sp/hs/common/icon_menu_05.png") 50% 13px no-repeat #792327;
     background-size: 12px auto
 }
 
@@ -15454,7 +15454,7 @@ table+table {
 }
 
 .type-mg .header .sp-partner-link-wrap .sp-partner-link li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/mg/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/mg/common/icon_blank_01.png")
 }
 
 .type-mg .header .sp-search-wrap {
@@ -15627,7 +15627,7 @@ table+table {
     position: relative;
     width: 100%;
     min-width: 980px;
-    background: #fff url("https://multi-talent.github.io/static/top/img/kg/common/_footer_pc_bg.jpg") center top repeat-x;
+    background: #fff url("https://multi-talent.github.io/static/top/images/kg/common/_footer_pc_bg.jpg") center top repeat-x;
     padding-top: 5px
 }
 
@@ -15742,7 +15742,7 @@ table+table {
     width: 159px;
     height: 43px;
     margin: 0 auto 10px;
-    background: url("https://multi-talent.github.io/static/top/img/kg/common/logo_kg.svg") center center no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/kg/common/logo_kg.svg") center center no-repeat;
     background-size: 100% auto;
     font: 0/0 a;
     color: transparent;
@@ -15800,7 +15800,7 @@ table+table {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    background: url("https://multi-talent.github.io/static/top/img/common/icon_blank_01.png") 0 0 no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/common/icon_blank_01.png") 0 0 no-repeat;
     background-size: contain
 }
 
@@ -15956,7 +15956,7 @@ table+table {
 .type-tp #footer .footer-middle .logo {
     width: 156px;
     height: 34px;
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/header_logo.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/header_logo.png")
 }
 
 .type-tp #footer .footer-middle-link li a {
@@ -15964,7 +15964,7 @@ table+table {
 }
 
 .type-tp #footer .footer-middle-link li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/icon_blank_01.png")
 }
 
 .type-tp #footer .footer-bottom {
@@ -16067,7 +16067,7 @@ table+table {
 .type-en #footer .footer-middle .logo {
     width: 156px;
     height: 34px;
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/header_logo_en.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/header_logo_en.png")
 }
 
 .type-en #footer .footer-middle-link li a {
@@ -16075,7 +16075,7 @@ table+table {
 }
 
 .type-en #footer .footer-middle-link li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/icon_blank_01.png")
 }
 
 .type-en #footer .footer-bottom {
@@ -16124,7 +16124,7 @@ table+table {
 .type-cn #footer .footer-middle .logo {
     width: 156px;
     height: 34px;
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/header_logo_cn.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/header_logo_cn.png")
 }
 
 .type-cn #footer .footer-middle-link li a {
@@ -16132,7 +16132,7 @@ table+table {
 }
 
 .type-cn #footer .footer-middle-link li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/icon_blank_01.png")
 }
 
 .type-cn #footer .footer-bottom {
@@ -16178,7 +16178,7 @@ table+table {
 .type-at #footer .footer-middle .logo {
     width: 156px;
     height: 34px;
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/header_logo_at.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/header_logo_at.png")
 }
 
 .type-at #footer .footer-middle-link li a {
@@ -16186,7 +16186,7 @@ table+table {
 }
 
 .type-at #footer .footer-middle-link li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/icon_blank_01.png")
 }
 
 .type-at #footer .footer-bottom {
@@ -16230,7 +16230,7 @@ table+table {
 .type-jp #footer .footer-middle .logo {
     width: 156px;
     height: 34px;
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/header_logo_at.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/header_logo_at.png")
 }
 
 .type-jp #footer .footer-middle-link li a {
@@ -16238,7 +16238,7 @@ table+table {
 }
 
 .type-jp #footer .footer-middle-link li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/icon_blank_01.png")
 }
 
 .type-jp #footer .footer-bottom {
@@ -16282,7 +16282,7 @@ table+table {
 .type-pg #footer .footer-middle .logo {
     width: 156px;
     height: 34px;
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/header_logo_pg.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/header_logo_pg.png")
 }
 
 .type-pg #footer .footer-middle-link li a {
@@ -16290,7 +16290,7 @@ table+table {
 }
 
 .type-pg #footer .footer-middle-link li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/icon_blank_01.png")
 }
 
 .type-pg #footer .footer-bottom {
@@ -16365,7 +16365,7 @@ table+table {
 .type-hs #footer .footer-middle .logo {
     width: 257px;
     height: 33px;
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/logo_hs.svg")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/logo_hs.svg")
 }
 
 .type-hs #footer .footer-middle-link li a {
@@ -16373,7 +16373,7 @@ table+table {
 }
 
 .type-hs #footer .footer-middle-link li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/icon_blank_01.png")
 }
 
 .type-hs #footer .footer-bottom {
@@ -16419,7 +16419,7 @@ table+table {
 .type-mg #footer .footer-middle .logo {
     width: 156px;
     height: 34px;
-    background-image: url("https://multi-talent.github.io/static/top/img/mg/common/logo_mg.svg")
+    background-image: url("https://multi-talent.github.io/static/top/images/mg/common/logo_mg.svg")
 }
 
 .type-mg #footer .footer-middle-link li a {
@@ -16427,7 +16427,7 @@ table+table {
 }
 
 .type-mg #footer .footer-middle-link li a:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/mg/common/icon_blank_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/mg/common/icon_blank_01.png")
 }
 
 .type-mg #footer .footer-bottom {
@@ -16742,7 +16742,7 @@ footer .go-top:after {
     display: block;
     height: 170px;
     text-align: center;
-    background-image: url(https://multi-talent.github.io/static/top/img/hs/examinee/btn_img_jh.png);
+    background-image: url(https://multi-talent.github.io/static/top/images/hs/examinee/btn_img_jh.png);
     background-position: right -3px bottom -7px;
     background-size: 40px auto;
     background-repeat: no-repeat;
@@ -16770,7 +16770,7 @@ footer .go-top:after {
 
 .foot-cv-wrap-hs .btn-img.btn-jh a {
     color: #c87e58;
-    background-image: url(https://multi-talent.github.io/static/top/img/hs/examinee/btn_img_jh.png)
+    background-image: url(https://multi-talent.github.io/static/top/images/hs/examinee/btn_img_jh.png)
 }
 
 .foot-cv-wrap-hs .btn-img.btn-hs {
@@ -16782,7 +16782,7 @@ footer .go-top:after {
 
 .foot-cv-wrap-hs .btn-img.btn-hs a {
     color: #709db3;
-    background-image: url(https://multi-talent.github.io/static/top/img/hs/examinee/btn_img_hs.png)
+    background-image: url(https://multi-talent.github.io/static/top/images/hs/examinee/btn_img_hs.png)
 }
 
 .type-hs .foot-cv-wrap-hs {
@@ -16871,7 +16871,7 @@ footer .go-top:after {
     position: relative;
     height: 160px;
     min-width: 980px;
-    background: url("https://multi-talent.github.io/static/top/img/kg/common/_main_lv_01.jpg") center top no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/kg/common/_main_lv_01.jpg") center top no-repeat;
     background-size: cover;
     color: #fff
 }
@@ -16930,31 +16930,31 @@ footer .go-top:after {
 
 
 .type-tp .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/top_common.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/top_common.jpg")
 }
 
 .type-tp .fqa {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/top_common.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/top_common.jpg")
 }
 
 .type-tp .top-login {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/top_common.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/top_common.jpg")
 }
 
 .type-tp .contact {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/top_common.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/top_common.jpg")
 }
 
 .type-tp .about-us {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/top_common.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/top_common.jpg")
 }
 
 .type-tp .sitemap {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/top_common.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/top_common.jpg")
 }
 
 .type-tp .privacy {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/top_common.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/top_common.jpg")
 }
 
 
@@ -16971,19 +16971,19 @@ footer .go-top:after {
 
 
 .type-kg .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/common/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/common/main_lv_01.jpg")
 }
 
 .type-hs .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/main_lv_01.jpg")
 }
 
 .type-mg .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/mg/common/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/mg/common/main_lv_01.jpg")
 }
 
 .type-tp .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/top_access.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/top_access.jpg")
 }
 
 
@@ -20675,7 +20675,7 @@ footer .go-top:after {
     display: block;
     width: 51px;
     height: 50px;
-    background: url("https://multi-talent.github.io/static/top/img/kg/common/icon_qa_q.png") center center no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/kg/common/icon_qa_q.png") center center no-repeat;
     background-size: contain
 }
 
@@ -20693,7 +20693,7 @@ footer .go-top:after {
     display: block;
     width: 51px;
     height: 50px;
-    background: url("https://multi-talent.github.io/static/top/img/kg/common/icon_qa_a.png") center center no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/kg/common/icon_qa_a.png") center center no-repeat;
     background-size: contain
 }
 
@@ -20705,7 +20705,7 @@ footer .go-top:after {
     display: block;
     width: 43px;
     height: 51px;
-    background: url("https://multi-talent.github.io/static/top/img/kg/common/char_star.png") center center no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/kg/common/char_star.png") center center no-repeat;
     background-size: cover
 }
 
@@ -20828,7 +20828,7 @@ footer .go-top:after {
 }
 
 .type-tp .accordion.qa .link-toggle:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/icon_qa_q.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/icon_qa_q.png")
 }
 
 .type-tp .accordion.qa .toggle-box {
@@ -20836,7 +20836,7 @@ footer .go-top:after {
 }
 
 .type-tp .accordion.qa .toggle-box .icon-qa-a {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/icon_qa_a.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/icon_qa_a.png")
 }
 
 .type-tp .accordion.qa .toggle-box:after {
@@ -20958,7 +20958,7 @@ footer .go-top:after {
 }
 
 .type-en .accordion.qa .link-toggle:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/icon_qa_q.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/icon_qa_q.png")
 }
 
 .type-en .accordion.qa .toggle-box {
@@ -20966,7 +20966,7 @@ footer .go-top:after {
 }
 
 .type-en .accordion.qa .toggle-box .icon-qa-a {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/icon_qa_a.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/icon_qa_a.png")
 }
 
 .type-en .accordion.qa .toggle-box:after {
@@ -21087,7 +21087,7 @@ footer .go-top:after {
 }
 
 .type-cn .accordion.qa .link-toggle:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/icon_qa_q.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/icon_qa_q.png")
 }
 
 .type-cn .accordion.qa .toggle-box {
@@ -21095,7 +21095,7 @@ footer .go-top:after {
 }
 
 .type-cn .accordion.qa .toggle-box .icon-qa-a {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/icon_qa_a.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/icon_qa_a.png")
 }
 
 .type-cn .accordion.qa .toggle-box:after {
@@ -21206,7 +21206,7 @@ footer .go-top:after {
 }
 
 .type-at .accordion.qa .link-toggle:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/icon_qa_q.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/icon_qa_q.png")
 }
 
 .type-at .accordion.qa .toggle-box {
@@ -21214,7 +21214,7 @@ footer .go-top:after {
 }
 
 .type-at .accordion.qa .toggle-box .icon-qa-a {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/icon_qa_a.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/icon_qa_a.png")
 }
 
 .type-at .accordion.qa .toggle-box:after {
@@ -21325,7 +21325,7 @@ footer .go-top:after {
 }
 
 .type-jp .accordion.qa .link-toggle:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/icon_qa_q.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/icon_qa_q.png")
 }
 
 .type-jp .accordion.qa .toggle-box {
@@ -21333,7 +21333,7 @@ footer .go-top:after {
 }
 
 .type-jp .accordion.qa .toggle-box .icon-qa-a {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/icon_qa_a.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/icon_qa_a.png")
 }
 
 .type-jp .accordion.qa .toggle-box:after {
@@ -21443,7 +21443,7 @@ footer .go-top:after {
 }
 
 .type-pg .accordion.qa .link-toggle:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/icon_qa_q.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/icon_qa_q.png")
 }
 
 .type-pg .accordion.qa .toggle-box {
@@ -21451,7 +21451,7 @@ footer .go-top:after {
 }
 
 .type-pg .accordion.qa .toggle-box .icon-qa-a {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/icon_qa_a.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/icon_qa_a.png")
 }
 
 .type-pg .accordion.qa .toggle-box:after {
@@ -21562,7 +21562,7 @@ footer .go-top:after {
 }
 
 .type-hs .accordion.qa .link-toggle:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/icon_qa_q.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/icon_qa_q.png")
 }
 
 .type-hs .accordion.qa .toggle-box {
@@ -21570,7 +21570,7 @@ footer .go-top:after {
 }
 
 .type-hs .accordion.qa .toggle-box .icon-qa-a {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/icon_qa_a.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/icon_qa_a.png")
 }
 
 .type-hs .accordion.qa .toggle-box:after {
@@ -22801,7 +22801,7 @@ footer .go-top:after {
     width: 225px;
     height: 70px;
     margin-top: 0;
-    background: url("https://multi-talent.github.io/static/top/img/common/title_voice_tc.png") 0 0 no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/common/title_voice_tc.png") 0 0 no-repeat;
     background-size: contain;
     font: 0/0 a;
     color: transparent;
@@ -22813,13 +22813,13 @@ footer .go-top:after {
 .section.section-voice-tc .h2-voice-pa,
 .section.section-voice-pa .h2-voice-pa,
 .section.section-voice-st .h2-voice-pa {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/common/title_voice_pa.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/common/title_voice_pa.png")
 }
 
 .section.section-voice-tc .h2-voice-st,
 .section.section-voice-pa .h2-voice-st,
 .section.section-voice-st .h2-voice-st {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/title_voice_st.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/title_voice_st.png")
 }
 
 .section.section-voice-pa .sec-inner,
@@ -22904,7 +22904,7 @@ footer .go-top:after {
 .voice-01+.voice-04,
 .voice-03+.voice-04,
 .voice-04+.voice-04 {
-    background: url("https://multi-talent.github.io/static/top/img/common/boder_dot.png") 0 0 repeat-x
+    background: url("https://multi-talent.github.io/static/top/images/common/boder_dot.png") 0 0 repeat-x
 }
 
 .voice-01 .voice-title,
@@ -22971,7 +22971,7 @@ footer .go-top:after {
     width: 225px;
     height: 70px;
     margin-top: 0;
-    background: url("https://multi-talent.github.io/static/top/img/common/title_voice_tc.png") 0 0 no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/common/title_voice_tc.png") 0 0 no-repeat;
     background-size: contain;
     font: 0/0 a;
     color: transparent;
@@ -22981,11 +22981,11 @@ footer .go-top:after {
 }
 
 .voice-04 .voice-box .h2-voice-pa {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/common/title_voice_pa.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/common/title_voice_pa.png")
 }
 
 .voice-04 .voice-box .h2-voice-st {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/title_voice_st.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/title_voice_st.png")
 }
 
 .voice-04 .voice-box .h2-voice-tc,
@@ -23040,7 +23040,7 @@ footer .go-top:after {
     right: 34px;
     width: 27px;
     height: 13px;
-    background: url("https://multi-talent.github.io/static/top/img/sp/common/icon_balloon.png") center center no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/sp/common/icon_balloon.png") center center no-repeat;
     background-size: cover
 }
 
@@ -23066,7 +23066,7 @@ footer .go-top:after {
 .type-tp .section.section-voice-tc .h2-voice-st,
 .type-tp .section.section-voice-pa .h2-voice-st,
 .type-tp .section.section-voice-st .h2-voice-st {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/title_voice_ch.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/title_voice_ch.png")
 }
 
 .type-tp .section.narrow {
@@ -23095,7 +23095,7 @@ footer .go-top:after {
 }
 
 .type-tp .voice-04 .voice-box .h2-voice-st {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/common/title_voice_ch.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/common/title_voice_ch.png")
 }
 
 
@@ -23125,7 +23125,7 @@ footer .go-top:after {
 .type-en .section.section-voice-tc .h2-voice-st,
 .type-en .section.section-voice-pa .h2-voice-st,
 .type-en .section.section-voice-st .h2-voice-st {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/title_voice_ch.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/title_voice_ch.png")
 }
 
 .type-en .section.narrow {
@@ -23154,7 +23154,7 @@ footer .go-top:after {
 }
 
 .type-en .voice-04 .voice-box .h2-voice-st {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/common/title_voice_ch.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/common/title_voice_ch.png")
 }
 
 .type-cn .section.section-voice-tc,
@@ -23166,7 +23166,7 @@ footer .go-top:after {
 .type-cn .section.section-voice-tc .h2-voice-st,
 .type-cn .section.section-voice-pa .h2-voice-st,
 .type-cn .section.section-voice-st .h2-voice-st {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/title_voice_ch.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/title_voice_ch.png")
 }
 
 .type-cn .section.narrow {
@@ -23195,7 +23195,7 @@ footer .go-top:after {
 }
 
 .type-cn .voice-04 .voice-box .h2-voice-st {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/common/title_voice_ch.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/common/title_voice_ch.png")
 }
 
 
@@ -23208,7 +23208,7 @@ footer .go-top:after {
 .type-at .section.section-voice-tc .h2-voice-st,
 .type-at .section.section-voice-pa .h2-voice-st,
 .type-at .section.section-voice-st .h2-voice-st {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/title_voice_ch.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/title_voice_ch.png")
 }
 
 .type-at .section.narrow {
@@ -23237,7 +23237,7 @@ footer .go-top:after {
 }
 
 .type-at .voice-04 .voice-box .h2-voice-st {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/common/title_voice_ch.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/common/title_voice_ch.png")
 }
 
 .type-jp .section.section-voice-tc,
@@ -23249,7 +23249,7 @@ footer .go-top:after {
 .type-jp .section.section-voice-tc .h2-voice-st,
 .type-jp .section.section-voice-pa .h2-voice-st,
 .type-jp .section.section-voice-st .h2-voice-st {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/title_voice_ch.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/title_voice_ch.png")
 }
 
 .type-jp .section.narrow {
@@ -23278,7 +23278,7 @@ footer .go-top:after {
 }
 
 .type-jp .voice-04 .voice-box .h2-voice-st {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/common/title_voice_ch.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/common/title_voice_ch.png")
 }
 
 .type-pg .section.section-voice-tc,
@@ -23290,7 +23290,7 @@ footer .go-top:after {
 .type-pg .section.section-voice-tc .h2-voice-st,
 .type-pg .section.section-voice-pa .h2-voice-st,
 .type-pg .section.section-voice-st .h2-voice-st {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/title_voice_ch.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/title_voice_ch.png")
 }
 
 .type-pg .section.narrow {
@@ -23319,7 +23319,7 @@ footer .go-top:after {
 }
 
 .type-pg .voice-04 .voice-box .h2-voice-st {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/common/title_voice_ch.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/common/title_voice_ch.png")
 }
 
 .type-hs .section.section-voice-tc,
@@ -23333,7 +23333,7 @@ footer .go-top:after {
 }
 
 .type-hs .section.section-voice-tc .h2-voice-tc {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/title_voice_tc.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/title_voice_tc.png")
 }
 
 .type-hs .section.narrow {
@@ -23375,7 +23375,7 @@ footer .go-top:after {
 }
 
 .type-hs .voice-04 .voice-box .h2-voice-st {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/common/title_voice_st.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/common/title_voice_st.png")
 }
 
 .info-menu {
@@ -23789,7 +23789,7 @@ footer .go-top:after {
 }
 
 .type-mg.cat-important .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/mg/education/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/mg/education/main_lv_01.jpg")
 }
 
 .type-kg .modal-bg {
@@ -23882,7 +23882,7 @@ footer .go-top:after {
     position: absolute;
     right: 30px;
     bottom: 0;
-    background: url(https://multi-talent.github.io/static/top/img/kg/top/hossi.png);
+    background: url(https://multi-talent.github.io/static/top/images/kg/top/hossi.png);
     background-size: 65px auto;
     display: block;
     width: 65px;
@@ -23893,7 +23893,7 @@ footer .go-top:after {
 }
 
 .type-kg .modal-wrap .modal-inner .modal-box {
-    background: url(https://multi-talent.github.io/static/top/img/kg/top/modal_bg.png) no-repeat center;
+    background: url(https://multi-talent.github.io/static/top/images/kg/top/modal_bg.png) no-repeat center;
     width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
@@ -24069,7 +24069,7 @@ footer .go-top:after {
 }
 
 .type-kg.cat-guide .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/guide/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/guide/main_lv_01.jpg")
 }
 
 .type-kg.cat-guide.page-top .message-image {
@@ -24117,7 +24117,7 @@ footer .go-top:after {
     content: '';
     width: 40px;
     height: 40px;
-    background: url("https://multi-talent.github.io/static/top/img/kg/common/icon_qa_q.png") center center no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/kg/common/icon_qa_q.png") center center no-repeat;
     background-size: 100% auto
 }
 
@@ -24471,7 +24471,7 @@ footer .go-top:after {
 
 .type-kg.cat-guide.page-facility .map-section .piyo-text:after {
     content: "";
-    background: url(https://multi-talent.github.io/static/top/img/kg/top/hiyoko.png);
+    background: url(https://multi-talent.github.io/static/top/images/kg/top/hiyoko.png);
     width: 65px;
     height: 55px;
     background-size: contain;
@@ -24487,7 +24487,7 @@ footer .go-top:after {
 }
 
 .type-kg.cat-kids .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/life/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/life/main_lv_01.jpg")
 }
 
 .type-kg.cat-kids.page-day .day {
@@ -24717,7 +24717,7 @@ footer .go-top:after {
 }
 
 .type-kg.cat-kids.page-day .day .day-section#hour-01:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/life/day/icon_time_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/life/day/icon_time_01.png")
 }
 
 .type-kg.cat-kids.page-day .day .day-section#hour-01 .day-heading,
@@ -24734,7 +24734,7 @@ footer .go-top:after {
 }
 
 .type-kg.cat-kids.page-day .day .day-section#hour-02:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/life/day/icon_time_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/life/day/icon_time_02.png")
 }
 
 .type-kg.cat-kids.page-day .day .day-section#hour-02 .day-heading,
@@ -24751,7 +24751,7 @@ footer .go-top:after {
 }
 
 .type-kg.cat-kids.page-day .day .day-section#hour-03:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/life/day/icon_time_03.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/life/day/icon_time_03.png")
 }
 
 .type-kg.cat-kids.page-day .day .day-section#hour-03 .day-heading,
@@ -24768,7 +24768,7 @@ footer .go-top:after {
 }
 
 .type-kg.cat-kids.page-day .day .day-section#hour-04:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/life/day/icon_time_04.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/life/day/icon_time_04.png")
 }
 
 .type-kg.cat-kids.page-day .day .day-section#hour-04 .day-heading,
@@ -24785,7 +24785,7 @@ footer .go-top:after {
 }
 
 .type-kg.cat-kids.page-day .day .day-section#hour-05:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/life/day/icon_time_05.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/life/day/icon_time_05.png")
 }
 
 .type-kg.cat-kids.page-day .day .day-section#hour-05 .day-heading,
@@ -24806,7 +24806,7 @@ footer .go-top:after {
 }
 
 .type-kg.cat-kids.page-day .day .day-section#hour-06:after {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/life/day/icon_time_06.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/life/day/icon_time_06.png")
 }
 
 .type-kg.cat-kids.page-day .day .day-section#hour-06 .day-heading,
@@ -24846,7 +24846,7 @@ footer .go-top:after {
     content: '';
     width: 60px;
     height: 67px;
-    background: url("https://multi-talent.github.io/static/top/img/kg/life/donguri/icon_donguri.png") 0 0 no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/kg/life/donguri/icon_donguri.png") 0 0 no-repeat;
     background-size: auto 67px;
     overflow: hidden;
     -webkit-animation: animete_donguri 1s steps(4) infinite;
@@ -24943,11 +24943,11 @@ footer .go-top:after {
 }
 
 .type-kg.cat-trait .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/trait/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/trait/main_lv_01.jpg")
 }
 
 .type-kg.cat-exam-info .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/kg/exam_info/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/kg/exam_info/main_lv_01.jpg")
 }
 
 .type-kg.cat-exam-info.page-exam-info #outline .table-03.colspan-table {
@@ -25028,7 +25028,7 @@ footer .go-top:after {
     content: '';
     width: 70px;
     height: 64px;
-    background: url("https://multi-talent.github.io/static/top/img/kg/exam_info/piyopiyo1/icon_hiyoko_r.png") 0 0 no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/kg/exam_info/piyopiyo1/icon_hiyoko_r.png") 0 0 no-repeat;
     background-size: auto 64px;
     overflow: hidden;
     -webkit-animation: animete_piyopiyo 1s steps(2) infinite;
@@ -25063,7 +25063,7 @@ footer .go-top:after {
     content: '';
     width: 60px;
     height: 55px;
-    background: url("https://multi-talent.github.io/static/top/img/kg/exam_info/hiyoko/icon_hiyoko.png") 0 0 no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/kg/exam_info/hiyoko/icon_hiyoko.png") 0 0 no-repeat;
     background-size: auto 55px;
     overflow: hidden;
     -webkit-animation: animete_hiyoko 1s steps(4) infinite;
@@ -25096,7 +25096,7 @@ footer .go-top:after {
 
 
 .type-tp.cat-guide .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/guide/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/guide/main_lv_01.jpg")
 }
 
 .type-tp.cat-guide.page-top .message-image {
@@ -25168,7 +25168,7 @@ footer .go-top:after {
 }
 
 .type-tp.cat-kids .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/kids/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/kids/main_lv_01.jpg")
 }
 
 .type-tp.cat-kids.page-timetable .timetable+.timetable {
@@ -25648,7 +25648,7 @@ footer .go-top:after {
 }
 
 .type-tp.cat-kids.page-trip .trip:nth-of-type(2n+0) .trip-content .voice-box .icon-voice:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/kids/trip/icon_voice_or.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/kids/trip/icon_voice_or.png")
 }
 
 .type-tp.cat-kids.page-trip .trip:nth-of-type(2n+1) {
@@ -25691,7 +25691,7 @@ footer .go-top:after {
 }
 
 .type-tp.cat-kids.page-trip .trip:nth-of-type(2n+1) .trip-content .voice-box .icon-voice:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/kids/trip/icon_voice_bl.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/kids/trip/icon_voice_bl.png")
 }
 
 .type-tp.cat-kids.page-challenge .nowrap {
@@ -25736,7 +25736,7 @@ footer .go-top:after {
 }
 
 .type-tp.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-01 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/kids/challenge/icon_grade_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/kids/challenge/icon_grade_01.png")
 }
 
 .type-tp.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-02 th span {
@@ -25744,7 +25744,7 @@ footer .go-top:after {
 }
 
 .type-tp.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-02 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/kids/challenge/icon_grade_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/kids/challenge/icon_grade_02.png")
 }
 
 .type-tp.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-03 th span {
@@ -25752,7 +25752,7 @@ footer .go-top:after {
 }
 
 .type-tp.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-03 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/kids/challenge/icon_grade_03.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/kids/challenge/icon_grade_03.png")
 }
 
 .type-tp.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-04 th span {
@@ -25760,11 +25760,11 @@ footer .go-top:after {
 }
 
 .type-tp.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-04 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/kids/challenge/icon_grade_04.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/kids/challenge/icon_grade_04.png")
 }
 
 .type-tp.cat-adults .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/adults/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/adults/main_lv_01.jpg")
 }
 
 .type-tp.cat-adults.page-schoolhome .schoolhome .theme-box {
@@ -25780,7 +25780,7 @@ footer .go-top:after {
 }
 
 .type-tp.cat-adults.page-schoolhome .schoolhome .theme-title span {
-    background: url("https://multi-talent.github.io/static/top/img/top/adults/schoolhome/bg_stripe_or.png") 0 0 repeat;
+    background: url("https://multi-talent.github.io/static/top/images/top/adults/schoolhome/bg_stripe_or.png") 0 0 repeat;
     padding: 0 0.1em
 }
 
@@ -25821,7 +25821,7 @@ footer .go-top:after {
 }
 
 .type-tp.cat-exam-info .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/exam_info/top_exam_info.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/exam_info/top_exam_info.jpg")
 }
 
 .type-tp.cat-exam-info.page-top .table-03.colspan-table {
@@ -25896,7 +25896,7 @@ footer .go-top:after {
 }
 
 .type-tp.cat-search .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/top/search/cn_top_search.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/top/search/cn_top_search.jpg")
 }
 
 .type-tp.cat-search.page-top .table-03.colspan-table {
@@ -26003,7 +26003,7 @@ footer .go-top:after {
 
 
 .type-en.cat-guide .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/guide/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/guide/main_lv_01.jpg")
 }
 
 .type-en.cat-guide.page-top .message-image {
@@ -26075,7 +26075,7 @@ footer .go-top:after {
 }
 
 .type-en.cat-kids .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/kids/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/kids/main_lv_01.jpg")
 }
 
 .type-en.cat-kids.page-timetable .timetable+.timetable {
@@ -26555,7 +26555,7 @@ footer .go-top:after {
 }
 
 .type-en.cat-kids.page-trip .trip:nth-of-type(2n+0) .trip-content .voice-box .icon-voice:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/kids/trip/icon_voice_or.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/kids/trip/icon_voice_or.png")
 }
 
 .type-en.cat-kids.page-trip .trip:nth-of-type(2n+1) {
@@ -26598,7 +26598,7 @@ footer .go-top:after {
 }
 
 .type-en.cat-kids.page-trip .trip:nth-of-type(2n+1) .trip-content .voice-box .icon-voice:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/kids/trip/icon_voice_bl.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/kids/trip/icon_voice_bl.png")
 }
 
 .type-en.cat-kids.page-challenge .nowrap {
@@ -26643,7 +26643,7 @@ footer .go-top:after {
 }
 
 .type-en.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-01 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/kids/challenge/icon_grade_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/kids/challenge/icon_grade_01.png")
 }
 
 .type-en.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-02 th span {
@@ -26651,7 +26651,7 @@ footer .go-top:after {
 }
 
 .type-en.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-02 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/kids/challenge/icon_grade_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/kids/challenge/icon_grade_02.png")
 }
 
 .type-en.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-03 th span {
@@ -26659,7 +26659,7 @@ footer .go-top:after {
 }
 
 .type-en.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-03 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/kids/challenge/icon_grade_03.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/kids/challenge/icon_grade_03.png")
 }
 
 .type-en.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-04 th span {
@@ -26667,11 +26667,11 @@ footer .go-top:after {
 }
 
 .type-en.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-04 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/kids/challenge/icon_grade_04.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/kids/challenge/icon_grade_04.png")
 }
 
 .type-en.cat-eng-exam .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/exam_info/en_top_exam_info.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/exam_info/en_top_exam_info.jpg")
 }
 
 .type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-box {
@@ -26687,7 +26687,7 @@ footer .go-top:after {
 }
 
 .type-en.cat-eng-exam.page-schoolhome .schoolhome .theme-title span {
-    background: url("https://multi-talent.github.io/static/top/img/en/adults/schoolhome/bg_stripe_or.png") 0 0 repeat;
+    background: url("https://multi-talent.github.io/static/top/images/en/adults/schoolhome/bg_stripe_or.png") 0 0 repeat;
     padding: 0 0.1em
 }
 
@@ -26728,7 +26728,7 @@ footer .go-top:after {
 }
 
 .type-en.cat-exam-info .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/exam_info/en_top_exam_info.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/exam_info/en_top_exam_info.jpg")
 }
 
 .type-en.cat-exam-info.page-top .table-03.colspan-table {
@@ -26803,7 +26803,7 @@ footer .go-top:after {
 }
 
 .type-en.cat-search .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/en/search/cn_top_search.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/en/search/cn_top_search.jpg")
 }
 
 .type-en.cat-search.page-top .table-03.colspan-table {
@@ -26883,7 +26883,7 @@ footer .go-top:after {
 
 
 .type-cn.cat-guide .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/guide/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/guide/main_lv_01.jpg")
 }
 
 .type-cn.cat-guide.page-top .message-image {
@@ -26955,7 +26955,7 @@ footer .go-top:after {
 }
 
 .type-cn.cat-kids .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/kids/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/kids/main_lv_01.jpg")
 }
 
 .type-cn.cat-kids.page-timetable .timetable+.timetable {
@@ -27435,7 +27435,7 @@ footer .go-top:after {
 }
 
 .type-cn.cat-kids.page-trip .trip:nth-of-type(2n+0) .trip-content .voice-box .icon-voice:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/kids/trip/icon_voice_or.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/kids/trip/icon_voice_or.png")
 }
 
 .type-cn.cat-kids.page-trip .trip:nth-of-type(2n+1) {
@@ -27478,7 +27478,7 @@ footer .go-top:after {
 }
 
 .type-cn.cat-kids.page-trip .trip:nth-of-type(2n+1) .trip-content .voice-box .icon-voice:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/kids/trip/icon_voice_bl.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/kids/trip/icon_voice_bl.png")
 }
 
 .type-cn.cat-kids.page-challenge .nowrap {
@@ -27523,7 +27523,7 @@ footer .go-top:after {
 }
 
 .type-cn.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-01 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/kids/challenge/icon_grade_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/kids/challenge/icon_grade_01.png")
 }
 
 .type-cn.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-02 th span {
@@ -27531,7 +27531,7 @@ footer .go-top:after {
 }
 
 .type-cn.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-02 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/kids/challenge/icon_grade_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/kids/challenge/icon_grade_02.png")
 }
 
 .type-cn.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-03 th span {
@@ -27539,7 +27539,7 @@ footer .go-top:after {
 }
 
 .type-cn.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-03 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/kids/challenge/icon_grade_03.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/kids/challenge/icon_grade_03.png")
 }
 
 .type-cn.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-04 th span {
@@ -27547,7 +27547,7 @@ footer .go-top:after {
 }
 
 .type-cn.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-04 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/kids/challenge/icon_grade_04.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/kids/challenge/icon_grade_04.png")
 }
 
 .type-cn.cat-adults {
@@ -27555,7 +27555,7 @@ footer .go-top:after {
 }
 
 .type-cn.cat-adults .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/adults/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/adults/main_lv_01.jpg")
 }
 
 .type-cn.cat-adults.page-schoolhome .schoolhome .theme-box {
@@ -27571,7 +27571,7 @@ footer .go-top:after {
 }
 
 .type-cn.cat-adults.page-schoolhome .schoolhome .theme-title span {
-    background: url("https://multi-talent.github.io/static/top/img/cn/adults/schoolhome/bg_stripe_or.png") 0 0 repeat;
+    background: url("https://multi-talent.github.io/static/top/images/cn/adults/schoolhome/bg_stripe_or.png") 0 0 repeat;
     padding: 0 0.1em
 }
 
@@ -27612,7 +27612,7 @@ footer .go-top:after {
 }
 
 .type-cn.cat-exam-info .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/exam_info/cn_top_exam_info.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/exam_info/cn_top_exam_info.jpg")
 }
 
 .type-cn.cat-exam-info.page-top .table-03.colspan-table {
@@ -27687,7 +27687,7 @@ footer .go-top:after {
 }
 
 .type-cn.cat-search .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/cn/search/cn_top_search.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/cn/search/cn_top_search.jpg")
 }
 
 .type-cn.cat-search.page-top .table-03.colspan-table {
@@ -27762,7 +27762,7 @@ footer .go-top:after {
 }
 
 .type-at.cat-guide .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/guide/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/guide/main_lv_01.jpg")
 }
 
 .type-at.cat-guide.page-top .message-image {
@@ -27834,7 +27834,7 @@ footer .go-top:after {
 }
 
 .type-at.cat-kids .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/kids/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/kids/main_lv_01.jpg")
 }
 
 .type-at.cat-kids.page-timetable .timetable+.timetable {
@@ -28314,7 +28314,7 @@ footer .go-top:after {
 }
 
 .type-at.cat-kids.page-trip .trip:nth-of-type(2n+0) .trip-content .voice-box .icon-voice:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/kids/trip/icon_voice_or.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/kids/trip/icon_voice_or.png")
 }
 
 .type-at.cat-kids.page-trip .trip:nth-of-type(2n+1) {
@@ -28357,7 +28357,7 @@ footer .go-top:after {
 }
 
 .type-at.cat-kids.page-trip .trip:nth-of-type(2n+1) .trip-content .voice-box .icon-voice:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/kids/trip/icon_voice_bl.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/kids/trip/icon_voice_bl.png")
 }
 
 .type-at.cat-kids.page-challenge .nowrap {
@@ -28402,7 +28402,7 @@ footer .go-top:after {
 }
 
 .type-at.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-01 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/kids/challenge/icon_grade_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/kids/challenge/icon_grade_01.png")
 }
 
 .type-at.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-02 th span {
@@ -28410,7 +28410,7 @@ footer .go-top:after {
 }
 
 .type-at.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-02 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/kids/challenge/icon_grade_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/kids/challenge/icon_grade_02.png")
 }
 
 .type-at.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-03 th span {
@@ -28418,7 +28418,7 @@ footer .go-top:after {
 }
 
 .type-at.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-03 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/kids/challenge/icon_grade_03.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/kids/challenge/icon_grade_03.png")
 }
 
 .type-at.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-04 th span {
@@ -28426,11 +28426,11 @@ footer .go-top:after {
 }
 
 .type-at.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-04 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/kids/challenge/icon_grade_04.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/kids/challenge/icon_grade_04.png")
 }
 
 .type-at.cat-adults .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/adults/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/adults/main_lv_01.jpg")
 }
 
 .type-at.cat-adults.page-schoolhome .schoolhome .theme-box {
@@ -28446,7 +28446,7 @@ footer .go-top:after {
 }
 
 .type-at.cat-adults.page-schoolhome .schoolhome .theme-title span {
-    background: url("https://multi-talent.github.io/static/top/img/at/adults/schoolhome/bg_stripe_or.png") 0 0 repeat;
+    background: url("https://multi-talent.github.io/static/top/images/at/adults/schoolhome/bg_stripe_or.png") 0 0 repeat;
     padding: 0 0.1em
 }
 
@@ -28487,7 +28487,7 @@ footer .go-top:after {
 }
 
 .type-at.cat-exam-info .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/exam_info/at_top_exam_info.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/exam_info/at_top_exam_info.jpg")
 }
 
 .type-at.cat-exam-info.page-top .table-03.colspan-table {
@@ -28562,7 +28562,7 @@ footer .go-top:after {
 }
 
 .type-at.cat-search .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/at/search/cn_top_search.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/at/search/cn_top_search.jpg")
 }
 
 .type-at.cat-search.page-top .table-03.colspan-table {
@@ -28638,7 +28638,7 @@ footer .go-top:after {
 
 
 .type-jp.cat-guide .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/guide/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/guide/main_lv_01.jpg")
 }
 
 .type-jp.cat-guide.page-top .message-image {
@@ -28710,7 +28710,7 @@ footer .go-top:after {
 }
 
 .type-jp.cat-kids .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/kids/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/kids/main_lv_01.jpg")
 }
 
 .type-jp.cat-kids.page-timetable .timetable+.timetable {
@@ -29190,7 +29190,7 @@ footer .go-top:after {
 }
 
 .type-jp.cat-kids.page-trip .trip:nth-of-type(2n+0) .trip-content .voice-box .icon-voice:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/kids/trip/icon_voice_or.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/kids/trip/icon_voice_or.png")
 }
 
 .type-jp.cat-kids.page-trip .trip:nth-of-type(2n+1) {
@@ -29233,7 +29233,7 @@ footer .go-top:after {
 }
 
 .type-jp.cat-kids.page-trip .trip:nth-of-type(2n+1) .trip-content .voice-box .icon-voice:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/kids/trip/icon_voice_bl.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/kids/trip/icon_voice_bl.png")
 }
 
 .type-jp.cat-kids.page-challenge .nowrap {
@@ -29278,7 +29278,7 @@ footer .go-top:after {
 }
 
 .type-jp.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-01 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/kids/challenge/icon_grade_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/kids/challenge/icon_grade_01.png")
 }
 
 .type-jp.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-02 th span {
@@ -29286,7 +29286,7 @@ footer .go-top:after {
 }
 
 .type-jp.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-02 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/kids/challenge/icon_grade_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/kids/challenge/icon_grade_02.png")
 }
 
 .type-jp.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-03 th span {
@@ -29294,7 +29294,7 @@ footer .go-top:after {
 }
 
 .type-jp.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-03 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/kids/challenge/icon_grade_03.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/kids/challenge/icon_grade_03.png")
 }
 
 .type-jp.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-04 th span {
@@ -29302,11 +29302,11 @@ footer .go-top:after {
 }
 
 .type-jp.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-04 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/kids/challenge/icon_grade_04.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/kids/challenge/icon_grade_04.png")
 }
 
 .type-jp.cat-adults .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/adults/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/adults/main_lv_01.jpg")
 }
 
 .type-jp.cat-adults.page-schoolhome .schoolhome .theme-box {
@@ -29322,7 +29322,7 @@ footer .go-top:after {
 }
 
 .type-jp.cat-adults.page-schoolhome .schoolhome .theme-title span {
-    background: url("https://multi-talent.github.io/static/top/img/jp/adults/schoolhome/bg_stripe_or.png") 0 0 repeat;
+    background: url("https://multi-talent.github.io/static/top/images/jp/adults/schoolhome/bg_stripe_or.png") 0 0 repeat;
     padding: 0 0.1em
 }
 
@@ -29363,7 +29363,7 @@ footer .go-top:after {
 }
 
 .type-jp.cat-exam-info .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/exam_info/at_top_exam_info.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/exam_info/at_top_exam_info.jpg")
 }
 
 .type-jp.cat-exam-info.page-top .table-03.colspan-table {
@@ -29438,7 +29438,7 @@ footer .go-top:after {
 }
 
 .type-jp.cat-search .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/jp/search/cn_top_search.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/jp/search/cn_top_search.jpg")
 }
 
 .type-jp.cat-search.page-top .table-03.colspan-table {
@@ -29513,7 +29513,7 @@ footer .go-top:after {
 }
 
 .type-pg.cat-guide .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/guide/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/guide/main_lv_01.jpg")
 }
 
 .type-pg.cat-guide.page-top .message-image {
@@ -29585,7 +29585,7 @@ footer .go-top:after {
 }
 
 .type-pg.cat-kids .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/kids/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/kids/main_lv_01.jpg")
 }
 
 .type-pg.cat-kids.page-timetable .timetable+.timetable {
@@ -30065,7 +30065,7 @@ footer .go-top:after {
 }
 
 .type-pg.cat-kids.page-trip .trip:nth-of-type(2n+0) .trip-content .voice-box .icon-voice:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/kids/trip/icon_voice_or.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/kids/trip/icon_voice_or.png")
 }
 
 .type-pg.cat-kids.page-trip .trip:nth-of-type(2n+1) {
@@ -30108,7 +30108,7 @@ footer .go-top:after {
 }
 
 .type-pg.cat-kids.page-trip .trip:nth-of-type(2n+1) .trip-content .voice-box .icon-voice:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/kids/trip/icon_voice_bl.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/kids/trip/icon_voice_bl.png")
 }
 
 .type-pg.cat-kids.page-challenge .nowrap {
@@ -30153,7 +30153,7 @@ footer .go-top:after {
 }
 
 .type-pg.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-01 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/kids/challenge/icon_grade_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/kids/challenge/icon_grade_01.png")
 }
 
 .type-pg.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-02 th span {
@@ -30161,7 +30161,7 @@ footer .go-top:after {
 }
 
 .type-pg.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-02 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/kids/challenge/icon_grade_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/kids/challenge/icon_grade_02.png")
 }
 
 .type-pg.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-03 th span {
@@ -30169,7 +30169,7 @@ footer .go-top:after {
 }
 
 .type-pg.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-03 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/kids/challenge/icon_grade_03.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/kids/challenge/icon_grade_03.png")
 }
 
 .type-pg.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-04 th span {
@@ -30177,11 +30177,11 @@ footer .go-top:after {
 }
 
 .type-pg.cat-kids.page-challenge .table-03.nawatobi-champ tbody .grade-04 th span:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/kids/challenge/icon_grade_04.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/kids/challenge/icon_grade_04.png")
 }
 
 .type-pg.cat-adults .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/adults/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/adults/main_lv_01.jpg")
 }
 
 .type-pg.cat-adults.page-schoolhome .schoolhome .theme-box {
@@ -30197,7 +30197,7 @@ footer .go-top:after {
 }
 
 .type-pg.cat-adults.page-schoolhome .schoolhome .theme-title span {
-    background: url("https://multi-talent.github.io/static/top/img/pg/adults/schoolhome/bg_stripe_or.png") 0 0 repeat;
+    background: url("https://multi-talent.github.io/static/top/images/pg/adults/schoolhome/bg_stripe_or.png") 0 0 repeat;
     padding: 0 0.1em
 }
 
@@ -30238,7 +30238,7 @@ footer .go-top:after {
 }
 
 .type-pg.cat-exam-info .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/exam_info/pg_top_exam_info.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/exam_info/pg_top_exam_info.jpg")
 }
 
 .type-pg.cat-exam-info.page-top .table-03.colspan-table {
@@ -30313,7 +30313,7 @@ footer .go-top:after {
 }
 
 .type-pg.cat-search .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/pg/search/cn_top_search.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/pg/search/cn_top_search.jpg")
 }
 
 .type-pg.cat-search.page-top .table-03.colspan-table {
@@ -30464,7 +30464,7 @@ footer .go-top:after {
 }
 
 .type-hs.cat-guide .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/guide/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/guide/main_lv_01.jpg")
 }
 
 .type-hs.cat-guide.page-top .message-image {
@@ -30536,7 +30536,7 @@ footer .go-top:after {
 }
 
 .type-hs.cat-kids .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/life/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/life/main_lv_01.jpg")
 }
 
 .type-hs.cat-kids.page-club .c-blue {
@@ -30806,7 +30806,7 @@ footer .go-top:after {
     width: auto;
     min-width: 78px;
     height: 63px;
-    background: url("https://multi-talent.github.io/static/top/img/hs/life/day/bg_time_01.png") 0 0 no-repeat;
+    background: url("https://multi-talent.github.io/static/top/images/hs/life/day/bg_time_01.png") 0 0 no-repeat;
     background-size: 100% auto
 }
 
@@ -30847,11 +30847,11 @@ footer .go-top:after {
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-01:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/life/day/bg_line_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/life/day/bg_line_01.png")
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-01 .day-content .title-box:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/life/day/icon_time_01.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/life/day/icon_time_01.png")
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-01 .day-content .title-box .title {
@@ -30859,11 +30859,11 @@ footer .go-top:after {
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-02:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/life/day/bg_line_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/life/day/bg_line_02.png")
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-02 .day-content .title-box:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/life/day/icon_time_02.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/life/day/icon_time_02.png")
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-02 .day-content .title-box .title {
@@ -30871,7 +30871,7 @@ footer .go-top:after {
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-03:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/life/day/bg_line_03.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/life/day/bg_line_03.png")
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-03 .day-content {
@@ -30879,7 +30879,7 @@ footer .go-top:after {
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-03 .day-content .title-box:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/life/day/icon_time_03.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/life/day/icon_time_03.png")
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-03 .day-content .title-box .title {
@@ -30887,11 +30887,11 @@ footer .go-top:after {
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-04:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/life/day/bg_line_04.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/life/day/bg_line_04.png")
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-04 .day-content .title-box:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/life/day/icon_time_04.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/life/day/icon_time_04.png")
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-04 .day-content .title-box .title {
@@ -30899,7 +30899,7 @@ footer .go-top:after {
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-05:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/life/day/bg_line_05.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/life/day/bg_line_05.png")
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-05 .day-content {
@@ -30907,7 +30907,7 @@ footer .go-top:after {
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-05 .day-content .title-box:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/life/day/icon_time_05.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/life/day/icon_time_05.png")
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-05 .day-content .title-box .title {
@@ -30915,7 +30915,7 @@ footer .go-top:after {
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-06 .day-content .title-box:before {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/life/day/icon_time_06.png")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/life/day/icon_time_06.png")
 }
 
 .type-hs.cat-kids.page-day .day .day-section#hour-06 .day-content .title-box .title {
@@ -30938,7 +30938,7 @@ footer .go-top:after {
 }
 
 .type-hs.cat-adults .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/class/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/class/main_lv_01.jpg")
 }
 
 .type-hs.cat-adults.page-risuu .feature-box,
@@ -30994,7 +30994,7 @@ footer .go-top:after {
 }
 
 .type-hs.cat-exam-info .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/exam_info/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/exam_info/main_lv_01.jpg")
 }
 
 .type-hs.cat-exam-info.page-top #expense .table {
@@ -31017,7 +31017,7 @@ footer .go-top:after {
 }
 
 .type-hs.cat-search .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/exam_info/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/exam_info/main_lv_01.jpg")
 }
 
 .type-hs.cat-search.page-top #expense .table {
@@ -31040,7 +31040,7 @@ footer .go-top:after {
 }
 
 .type-hs.cat-course .hero {
-    background-image: url("https://multi-talent.github.io/static/top/img/hs/course/main_lv_01.jpg")
+    background-image: url("https://multi-talent.github.io/static/top/images/hs/course/main_lv_01.jpg")
 }
 
 .type-hs.cat-course.page-top .feature-box {
@@ -31249,7 +31249,7 @@ footer .go-top:after {
     position: relative;
     display: block;
     text-align: center;
-    background-image: url(https://multi-talent.github.io/static/top/img/hs/examinee/btn_img_jh.png);
+    background-image: url(https://multi-talent.github.io/static/top/images/hs/examinee/btn_img_jh.png);
     background-position: 5% 5px;
     background-size: 90px auto;
     background-repeat: no-repeat;
@@ -31312,7 +31312,7 @@ footer .go-top:after {
 .type-hs.cat-junior.page-top .btn-wrap .btn-img.btn-jh a,
 .type-hs.cat-high.page-top .btn-wrap .btn-img.btn-jh a {
     color: #c87e58;
-    background-image: url(https://multi-talent.github.io/static/top/img/hs/examinee/btn_img_jh.png)
+    background-image: url(https://multi-talent.github.io/static/top/images/hs/examinee/btn_img_jh.png)
 }
 
 .type-hs#page-top .btn-wrap .btn-img.btn-hs,
@@ -31328,7 +31328,7 @@ footer .go-top:after {
 .type-hs.cat-junior.page-top .btn-wrap .btn-img.btn-hs a,
 .type-hs.cat-high.page-top .btn-wrap .btn-img.btn-hs a {
     color: #709db3;
-    background-image: url(https://multi-talent.github.io/static/top/img/hs/examinee/btn_img_hs.png)
+    background-image: url(https://multi-talent.github.io/static/top/images/hs/examinee/btn_img_hs.png)
 }
 
 .type-hs#page-top .btn-wrap .btn-img.btn-hs a:after,
@@ -31705,7 +31705,7 @@ screen and (max-height: 300px) {
         display: block;
         width: 100%;
         height: 3px;
-        background: url("https://multi-talent.github.io/static/top/img/kg/common/header_line.png") center center repeat-x
+        background: url("https://multi-talent.github.io/static/top/images/kg/common/header_line.png") center center repeat-x
     }
 
     .img-text-03 .row>div img {
@@ -34824,7 +34824,7 @@ screen and (max-height: 300px) {
         width: 12px;
         height: 13px;
         border-radius: 0;
-        background: url("https://multi-talent.github.io/static/top/img/common/icon_download.png") 0 0 no-repeat;
+        background: url("https://multi-talent.github.io/static/top/images/common/icon_download.png") 0 0 no-repeat;
         background-size: 12px 13px;
         -webkit-transform: rotate(0deg) translateX(0) translateY(0);
         -ms-transform: rotate(0deg) translateX(0) translateY(0);
@@ -40106,7 +40106,7 @@ screen and (max-height: 300px) {
         right: 75px;
         width: 28px;
         height: 14px;
-        background: url("https://multi-talent.github.io/static/top/img/sp/common/icon_balloon.png") center center no-repeat;
+        background: url("https://multi-talent.github.io/static/top/images/sp/common/icon_balloon.png") center center no-repeat;
         background-size: cover
     }
 
@@ -40130,7 +40130,7 @@ screen and (max-height: 300px) {
         display: block;
         border-radius: 10px;
         padding: 1rem 0;
-        background: url("https://multi-talent.github.io/static/top/img/kg/common/boder_dot.png") 0 0 repeat-x;
+        background: url("https://multi-talent.github.io/static/top/images/kg/common/boder_dot.png") 0 0 repeat-x;
         background-size: 4.5px auto
     }
 
@@ -40174,7 +40174,7 @@ screen and (max-height: 300px) {
     }
 
     .type-tp .voice-04 .voice-box .h2-voice-st {
-        background-image: url("https://multi-talent.github.io/static/top/img/top/common/title_voice_ch.png")
+        background-image: url("https://multi-talent.github.io/static/top/images/top/common/title_voice_ch.png")
     }
 
 
@@ -40197,7 +40197,7 @@ screen and (max-height: 300px) {
     }
 
     .type-en .voice-04 .voice-box .h2-voice-st {
-        background-image: url("https://multi-talent.github.io/static/top/img/en/common/title_voice_ch.png")
+        background-image: url("https://multi-talent.github.io/static/top/images/en/common/title_voice_ch.png")
     }
 
     .type-cn .section.narrow .sec-inner {
@@ -40209,7 +40209,7 @@ screen and (max-height: 300px) {
     }
 
     .type-cn .voice-04 .voice-box .h2-voice-st {
-        background-image: url("https://multi-talent.github.io/static/top/img/cn/common/title_voice_ch.png")
+        background-image: url("https://multi-talent.github.io/static/top/images/cn/common/title_voice_ch.png")
     }
 
     .type-at .section.narrow .sec-inner {
@@ -40221,7 +40221,7 @@ screen and (max-height: 300px) {
     }
 
     .type-at .voice-04 .voice-box .h2-voice-st {
-        background-image: url("https://multi-talent.github.io/static/top/img/at/common/title_voice_ch.png")
+        background-image: url("https://multi-talent.github.io/static/top/images/at/common/title_voice_ch.png")
     }
 
     .type-jp .section.narrow .sec-inner {
@@ -40233,7 +40233,7 @@ screen and (max-height: 300px) {
     }
 
     .type-jp .voice-04 .voice-box .h2-voice-st {
-        background-image: url("https://multi-talent.github.io/static/top/img/jp/common/title_voice_ch.png")
+        background-image: url("https://multi-talent.github.io/static/top/images/jp/common/title_voice_ch.png")
     }
 
     .type-pg .section.narrow .sec-inner {
@@ -40245,11 +40245,11 @@ screen and (max-height: 300px) {
     }
 
     .type-pg .voice-04 .voice-box .h2-voice-st {
-        background-image: url("https://multi-talent.github.io/static/top/img/pg/common/title_voice_ch.png")
+        background-image: url("https://multi-talent.github.io/static/top/images/pg/common/title_voice_ch.png")
     }
 
     .type-hs .voice-04 .voice-box .h2-voice-st {
-        background-image: url("https://multi-talent.github.io/static/top/img/hs/common/title_voice_st.png")
+        background-image: url("https://multi-talent.github.io/static/top/images/hs/common/title_voice_st.png")
     }
 
     .info-menu label:after {
@@ -44146,7 +44146,7 @@ screen and (max-height: 300px) {
         width: auto;
         min-width: 42.5px;
         height: 31.5px;
-        background-image: url("https://multi-talent.github.io/static/top/img/sp/hs/life/day/bg_time_01.png");
+        background-image: url("https://multi-talent.github.io/static/top/images/sp/hs/life/day/bg_time_01.png");
         background-size: 100% auto
     }
 

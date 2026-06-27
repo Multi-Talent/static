@@ -336,7 +336,7 @@
 
 /*図書館ボタン*/
 .li-lib {
-  background: linen url("https://multi-talent.github.io/static/top/img/hs/top/books.png") no-repeat left !important;
+  background: linen url("https://multi-talent.github.io/static/top/images/hs/top/books.png") no-repeat left !important;
   /*margin-right:12px!important;*/
   background-size: 22% !important;
   color: maroon !important;
@@ -345,7 +345,7 @@
 
 /*部活動ボタン*/
 .li-bu {
-  background: orangered url("https://multi-talent.github.io/static/top/img/hs/top/Tshirt.png") no-repeat left !important;
+  background: orangered url("https://multi-talent.github.io/static/top/images/hs/top/Tshirt.png") no-repeat left !important;
   /*margin-right:12px!important;*/
   background-size: 22% !important;
   background-position: left top 4px 0px !important;
@@ -353,7 +353,7 @@
 
 /*FAQボタン*/
 /*.li-faq{
-  background: url("https://multi-talent.github.io/static/top/img/hs/top/qanda.png") no-repeat left !important;
+  background: url("https://multi-talent.github.io/static/top/images/hs/top/qanda.png") no-repeat left !important;
   background-size:22%!important;
   background-position:left top 4px 0px !important;
 }*/
