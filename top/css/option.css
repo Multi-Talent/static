@@ -2113,7 +2113,7 @@ input[name="tab_item"] {
 
     .type-en#page-top .notice-news-wrap {
         position: relative;
-        margin-top: -270px;
+        margin-top: -80px;
         z-index: 3;
     }
 
@@ -2143,7 +2143,7 @@ input[name="tab_item"] {
 
     .type-cn#page-top .notice-news-wrap {
         position: relative;
-        margin-top: -270px;
+        margin-top: -80px;
         z-index: 3;
     }
 
@@ -2173,7 +2173,7 @@ input[name="tab_item"] {
 
     .type-at#page-top .notice-news-wrap {
         position: relative;
-        margin-top: -270px;
+        margin-top: -80px;
         z-index: 3;
     }
 
@@ -2202,7 +2202,7 @@ input[name="tab_item"] {
 
     .type-jp#page-top .notice-news-wrap {
         position: relative;
-        margin-top: -270px;
+        margin-top: -80px;
         z-index: 3;
     }
 
@@ -2231,7 +2231,7 @@ input[name="tab_item"] {
 
     .type-pg#page-top .notice-news-wrap {
         position: relative;
-        margin-top: -270px;
+        margin-top: -80px;
         z-index: 3;
     }
 
