@@ -18,6 +18,10 @@
     transition: all 0.3s ease;
     cursor: pointer;
     position: relative;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .video-file-drop-zone:hover {
@@ -25,11 +29,42 @@
     background-color: #f0f8ff;
 }
 
+/* ファイル選択済みの状態 */
+.video-file-has-file .video-file-drop-zone {
+    border-color: #5cb85c;
+    background-color: #e8f5e9;
+    border-style: solid;
+}
+
 /* ドラッグオーバー時のスタイル */
 .video-file-dragover .video-file-drop-zone {
     border-color: #5cb85c !important;
     background-color: #d4edda !important;
     transform: scale(1.02);
+}
+
+/* アップロードプロンプト */
+.video-file-upload-prompt {
+    width: 100%;
+}
+
+/* 選択済み情報表示 */
+.video-file-selected-info {
+    width: 100%;
+}
+
+.video-file-selected-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 15px 0 5px 0;
+    word-break: break-all;
+}
+
+.video-file-selected-size {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0 15px 0;
 }
 
 /* アイコンのスタイル */
@@ -84,10 +119,37 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* ファイル変更ボタン */
+.video-file-change-button {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.video-file-change-button:hover {
+    background-color: #ec971f;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-file-change-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 /* レスポンシブ対応 */
 @media screen and (max-width: 767px) {
     .video-file-drop-zone {
         padding: 30px 15px;
+        min-height: 150px;
     }
 
     .video-file-drop-zone i.fa {
@@ -98,7 +160,16 @@
         font-size: 14px;
     }
 
-    .video-file-button {
+    .video-file-selected-name {
+        font-size: 14px;
+    }
+
+    .video-file-selected-size {
+        font-size: 12px;
+    }
+
+    .video-file-button,
+    .video-file-change-button {
         padding: 8px 20px;
         font-size: 13px;
     }
