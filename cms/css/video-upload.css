@@ -1,0 +1,105 @@
+/* ========================================
+   動画ファイルアップロード - ドラッグ＆ドロップスタイル
+   ======================================== */
+
+/* アップロードエリアのコンテナ */
+.video-file-upload-area {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* ドロップゾーンのスタイル */
+.video-file-drop-zone {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.video-file-drop-zone:hover {
+    border-color: #5bc0de;
+    background-color: #f0f8ff;
+}
+
+/* ドラッグオーバー時のスタイル */
+.video-file-dragover .video-file-drop-zone {
+    border-color: #5cb85c !important;
+    background-color: #d4edda !important;
+    transform: scale(1.02);
+}
+
+/* アイコンのスタイル */
+.video-file-drop-zone i.fa {
+    color: #5bc0de;
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* テキストのスタイル */
+.video-file-drop-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.video-file-drop-or {
+    font-size: 14px;
+    color: #999;
+    margin: 10px 0;
+}
+
+/* ファイル入力（非表示） */
+.video-file-input {
+    display: none !important;
+}
+
+/* ファイル選択ボタン */
+.video-file-button {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.video-file-button:hover {
+    background-color: #46b8da;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-file-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 767px) {
+    .video-file-drop-zone {
+        padding: 30px 15px;
+    }
+
+    .video-file-drop-zone i.fa {
+        font-size: 2em !important;
+    }
+
+    .video-file-drop-text {
+        font-size: 14px;
+    }
+
+    .video-file-button {
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+}
