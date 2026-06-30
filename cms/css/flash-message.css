@@ -1,0 +1,211 @@
+/* ========================================
+   フラッシュメッセージ - 共通スタイル
+   ======================================== */
+
+/* メッセージコンテナ */
+.flash-messages-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* 個別メッセージ */
+.flash-message {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    border-left: 4px solid #ccc;
+    animation: slideInRight 0.4s ease-out;
+    position: relative;
+    overflow: hidden;
+}
+
+/* スライドインアニメーション */
+@keyframes slideInRight {
+    from {
+        transform: translateX(120%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* フェードアウトアニメーション */
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(120%);
+    }
+}
+
+.flash-message.fade-out {
+    animation: fadeOut 0.3s ease-out forwards;
+}
+
+/* アイコン */
+.flash-message-icon {
+    flex-shrink: 0;
+    margin-right: 12px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* メッセージ内容 */
+.flash-message-content {
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    word-break: break-word;
+}
+
+/* 閉じるボタン */
+.flash-message-close {
+    flex-shrink: 0;
+    background: none;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0;
+    margin-left: 12px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.flash-message-close:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #666;
+}
+
+/* 成功メッセージ */
+.flash-message-success {
+    border-left-color: #5cb85c;
+    background-color: #f0fff0;
+}
+
+.flash-message-success .flash-message-icon {
+    color: #5cb85c;
+}
+
+/* エラーメッセージ */
+.flash-message-error,
+.flash-message-danger {
+    border-left-color: #d9534f;
+    background-color: #fff5f5;
+}
+
+.flash-message-error .flash-message-icon,
+.flash-message-danger .flash-message-icon {
+    color: #d9534f;
+}
+
+/* 警告メッセージ */
+.flash-message-warning {
+    border-left-color: #f0ad4e;
+    background-color: #fffbf0;
+}
+
+.flash-message-warning .flash-message-icon {
+    color: #f0ad4e;
+}
+
+/* 情報メッセージ */
+.flash-message-info {
+    border-left-color: #5bc0de;
+    background-color: #f0f8ff;
+}
+
+.flash-message-info .flash-message-icon {
+    color: #5bc0de;
+}
+
+/* デフォルトメッセージ（カテゴリなし） */
+.flash-message-message {
+    border-left-color: #999;
+    background-color: #f9f9f9;
+}
+
+.flash-message-message .flash-message-icon {
+    color: #999;
+}
+
+/* プログレスバー（自動消去用） */
+.flash-message-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    transform-origin: left;
+}
+
+.flash-message-progress.animate {
+    animation: progressBar linear forwards;
+}
+
+@keyframes progressBar {
+    from {
+        transform: scaleX(1);
+    }
+    to {
+        transform: scaleX(0);
+    }
+}
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 767px) {
+    .flash-messages-container {
+        top: 10px;
+        right: 10px;
+        left: 10px;
+        max-width: none;
+    }
+
+    .flash-message {
+        padding: 12px 15px;
+    }
+
+    .flash-message-icon {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    .flash-message-content {
+        font-size: 13px;
+    }
+
+    .flash-message-close {
+        font-size: 16px;
+        width: 20px;
+        height: 20px;
+        margin-left: 8px;
+    }
+}
+
+/* プリント時は非表示 */
+@media print {
+    .flash-messages-container {
+        display: none;
+    }
+}
