@@ -6562,6 +6562,11 @@ td.notify-buttons {
     color: white;
 }
 
+.upload-status-file-uploaded {
+    background-color: #f04ecd;
+    color: white;
+}
+
 .search-buttons-admin {
     margin-top: 10px;
     margin-bottom: 10px;
