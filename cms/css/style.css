@@ -10585,6 +10585,11 @@ table.dataTable tbody tr.current-search-hit > td {
     color: white;
 }
 
+.badge-file-uploaded {
+    background-color: #f04ecd;
+    color: white;
+}
+
 /* Month group empty state */
 .month-content:empty::after {
     content: "この月には動画がありません";
