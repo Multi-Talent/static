@@ -43,6 +43,22 @@ var VideoUpload = (function() {
     }
 
     /**
+     * 許可された動画ファイルの拡張子
+     */
+    var ALLOWED_VIDEO_EXTENSIONS = ['.mp4', '.mov', '.avi', '.wmv', '.flv', '.mkv'];
+
+    /**
+     * ファイルの拡張子が許可されているかチェック
+     * @param {string} filename - ファイル名
+     * @return {boolean} 許可されている場合true
+     */
+    function isAllowedVideoFile(filename) {
+        if (!filename) return false;
+        var ext = filename.toLowerCase().substring(filename.lastIndexOf('.'));
+        return ALLOWED_VIDEO_EXTENSIONS.indexOf(ext) !== -1;
+    }
+
+    /**
      * ドラッグ＆ドロップ機能を初期化
      * @param {string} dropZoneId - ドロップゾーンのID
      * @param {string} fileInputId - ファイル入力のID
@@ -105,6 +121,14 @@ var VideoUpload = (function() {
 
             var files = e.dataTransfer.files;
             if (files.length > 0) {
+                var file = files[0];
+
+                // ファイル拡張子チェック
+                if (!isAllowedVideoFile(file.name)) {
+                    alert('対応していないファイル形式です。\n\n対応形式: MP4, MOV, AVI, WMV, FLV, MKV\n\n選択されたファイル: ' + file.name);
+                    return;
+                }
+
                 // ファイル入力に設定
                 fileInput.files = files;
                 // changeイベントを発火
@@ -132,6 +156,19 @@ var VideoUpload = (function() {
 
         // ファイル選択時のイベント
         fileInput.addEventListener('change', function() {
+            // ファイルが選択されている場合、拡張子チェック
+            if (fileInput.files && fileInput.files.length > 0) {
+                var file = fileInput.files[0];
+
+                if (!isAllowedVideoFile(file.name)) {
+                    alert('対応していないファイル形式です。\n\n対応形式: MP4, MOV, AVI, WMV, FLV, MKV\n\n選択されたファイル: ' + file.name);
+                    // ファイル選択をクリア
+                    fileInput.value = '';
+                    updateFileDisplay();
+                    return;
+                }
+            }
+
             updateFileDisplay();
         });
 
