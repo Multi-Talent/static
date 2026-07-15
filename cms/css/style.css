@@ -10997,3 +10997,573 @@ table.dataTable tbody tr.current-search-hit > td {
     border-color: #8b5cf6;
     background-color: #fff;
 }
+
+/* =========================================================
+   Print / Video Upload Styles added for print management
+   Source: uploaded print CSS snippet
+   ========================================================= */
+/* ==========================================
+   Print List Page Styles
+   ========================================== */
+
+/* Print Table Styles */
+.print-list-page .print-table-wrapper {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.print-list-page .print-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.print-list-page .print-table th,
+.print-list-page .print-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.print-list-page .print-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color: #333;
+}
+
+.print-list-page .print-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.print-list-page .print-action-buttons {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.print-list-page .print-action-buttons .sw-button_link-gray {
+    font-size: 13px;
+    padding: 6px 12px;
+}
+
+/* Files Expand Area */
+.print-list-page .files-expand-row {
+    background-color: #f9f9f9;
+}
+
+.print-list-page .files-expand-cell {
+    padding: 16px !important;
+}
+
+.print-list-page .files-list {
+    margin-top: 10px;
+}
+
+.print-list-page .file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.print-list-page .file-info {
+    flex: 1;
+}
+
+.print-list-page .file-name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.print-list-page .file-meta {
+    font-size: 12px;
+    color: #666;
+}
+
+.print-list-page .file-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.print-list-page .expand-toggle {
+    cursor: pointer;
+    color: #5bc0de;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.print-list-page .expand-toggle:hover {
+    color: #46b8da;
+}
+
+.print-list-page .expand-icon {
+    transition: transform 0.2s;
+    display: inline-block;
+}
+
+.print-list-page .expand-icon.rotated {
+    transform: rotate(180deg);
+}
+
+/* Card Layout for Mobile/Tablet */
+.print-list-page .print-card-list {
+    display: none;
+}
+
+.print-list-page .print-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.print-list-page .print-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.print-list-page .print-card-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    flex: 1;
+}
+
+.print-list-page .print-card-status {
+    margin-left: 10px;
+}
+
+.print-list-page .print-card-body {
+    margin-bottom: 12px;
+}
+
+.print-list-page .print-card-info {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.print-list-page .print-card-info-label {
+    font-weight: bold;
+    color: #666;
+}
+
+.print-list-page .print-card-info-value {
+    color: #333;
+}
+
+.print-list-page .print-card-files {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #eee;
+}
+
+.print-list-page .print-card-files-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.print-list-page .print-card-files-title {
+    font-weight: bold;
+    color: #666;
+    font-size: 14px;
+}
+
+.print-list-page .print-card-file-item {
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+.print-list-page .print-card-file-name {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.print-list-page .print-card-file-meta {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.print-list-page .print-card-file-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.print-list-page .print-card-footer {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding-top: 12px;
+    border-top: 1px solid #eee;
+}
+
+.print-list-page .print-card-footer .sw-button_link-gray {
+    flex: 1;
+    min-width: 100px;
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 14px;
+}
+
+.print-list-page .empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: #999;
+}
+
+.print-list-page .empty-state i {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .print-list-page .print-table-wrapper {
+        display: none;
+    }
+
+    .print-list-page .print-card-list {
+        display: block;
+    }
+
+    .print-list-page .sw-teacher-actions {
+        text-align: center;
+    }
+
+    .print-list-page .sw-teacher-actions .sw-button_link-gray {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Tablet specific styles if needed */
+}
+
+/* ==========================================
+   Print Manager Page Styles
+   ========================================== */
+
+/* File Upload Area */
+.print-manager-page .file-upload-container {
+    margin-top: 10px;
+}
+
+.print-manager-page .file-drop-zone {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fafafa;
+    transition: all 0.3s;
+    cursor: pointer;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.print-manager-page .file-drop-zone:hover {
+    border-color: #5bc0de;
+    background-color: #f0f8ff;
+}
+
+.print-manager-page .file-drop-zone.drag-over {
+    border-color: #5cb85c;
+    background-color: #e8f5e9;
+}
+
+.print-manager-page .file-drop-icon {
+    font-size: 48px;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.print-manager-page .file-drop-text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.print-manager-page .file-drop-subtext {
+    font-size: 13px;
+    color: #999;
+}
+
+.print-manager-page .file-input-hidden {
+    display: none;
+}
+
+.print-manager-page .file-previews {
+    margin-top: 20px;
+}
+
+.print-manager-page .file-preview-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.print-manager-page .file-preview-info {
+    flex: 1;
+}
+
+.print-manager-page .file-preview-name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.print-manager-page .file-preview-meta {
+    font-size: 12px;
+    color: #666;
+}
+
+.print-manager-page .file-preview-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.print-manager-page .file-remove-btn {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.print-manager-page .file-remove-btn:hover {
+    background-color: #c9302c;
+}
+
+/* Existing Files Section */
+.print-manager-page .existing-files-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border: 1px solid #5bc0de;
+    border-radius: 4px;
+}
+
+.print-manager-page .existing-files-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #5bc0de;
+}
+
+.print-manager-page .existing-file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.print-manager-page .existing-file-info {
+    flex: 1;
+}
+
+.print-manager-page .existing-file-name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.print-manager-page .existing-file-meta {
+    font-size: 12px;
+    color: #666;
+}
+
+.print-manager-page .existing-file-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.print-manager-page .current-file-info {
+    padding: 15px;
+    background-color: #f0f8ff;
+    border: 1px solid #5bc0de;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .print-manager-page .file-drop-zone {
+        padding: 30px 15px;
+        min-height: 120px;
+    }
+
+    .print-manager-page .file-drop-icon {
+        font-size: 36px;
+    }
+
+    .print-manager-page .file-preview-item,
+    .print-manager-page .existing-file-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .print-manager-page .file-preview-actions,
+    .print-manager-page .existing-file-actions {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .print-manager-page .file-preview-actions .sw-button_link-gray,
+    .print-manager-page .existing-file-actions .sw-button_link-gray {
+        flex: 1;
+    }
+}
+
+/* ==========================================
+   Video Manager Page - File Upload Styles
+   ========================================== */
+
+.video-manager-page .file-upload-container {
+    margin-top: 10px;
+}
+
+.video-manager-page .file-drop-zone {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fafafa;
+    transition: all 0.3s;
+    cursor: pointer;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-manager-page .file-drop-zone:hover {
+    border-color: #5bc0de;
+    background-color: #f0f8ff;
+}
+
+.video-manager-page .file-drop-zone.drag-over {
+    border-color: #5cb85c;
+    background-color: #e8f5e9;
+    transform: scale(1.02);
+}
+
+.video-manager-page .file-drop-icon {
+    font-size: 48px;
+    color: #5bc0de;
+    margin-bottom: 15px;
+}
+
+.video-manager-page .file-drop-text {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.video-manager-page .file-drop-subtext {
+    font-size: 13px;
+    color: #999;
+}
+
+.video-manager-page .file-input-hidden {
+    display: none;
+}
+
+.video-manager-page .file-previews {
+    margin-top: 20px;
+}
+
+.video-manager-page .file-preview-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.video-manager-page .file-preview-info {
+    flex: 1;
+}
+
+.video-manager-page .file-preview-name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.video-manager-page .file-preview-meta {
+    font-size: 12px;
+    color: #666;
+}
+
+.video-manager-page .file-preview-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.video-manager-page .file-remove-btn {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.video-manager-page .file-remove-btn:hover {
+    background-color: #c9302c;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .video-manager-page .file-drop-zone {
+        padding: 30px 15px;
+        min-height: 150px;
+    }
+
+    .video-manager-page .file-drop-icon {
+        font-size: 36px;
+    }
+}
