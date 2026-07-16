@@ -11567,3 +11567,839 @@ table.dataTable tbody tr.current-search-hit > td {
         font-size: 36px;
     }
 }
+
+/* ========================================
+   プリント一覧画面のスタイル
+   ======================================== */
+
+/* 共通ラベルスタイル */
+.label {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+.label-success {
+    background-color: #1CAF9A;
+}
+
+.label-default {
+    background-color: #777;
+}
+
+/* バッジスタイル */
+.badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-size: 0.85em;
+    font-weight: 600;
+    color: white;
+    white-space: nowrap;
+}
+
+.badge-success {
+    background-color: #5cb85c;
+}
+
+.badge-secondary {
+    background-color: #6c757d;
+}
+
+.badge-danger {
+    background-color: #d9534f;
+}
+
+/* 検索セクション */
+.search-section {
+    background: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.search-title {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.btn-toggle-search {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 15px;
+    transition: background 0.3s;
+}
+
+.btn-toggle-search:hover {
+    background: #0056b3;
+}
+
+.btn-toggle-search i {
+    margin-right: 5px;
+}
+
+.search-fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.search-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 13px;
+}
+
+.search-input {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
+}
+
+.search-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.sw-button_search,
+.sw-button_clear {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.sw-button_search {
+    background: #28a745;
+    color: white;
+}
+
+.sw-button_search:hover {
+    background: #218838;
+}
+
+.sw-button_clear {
+    background: #6c757d;
+    color: white;
+}
+
+.sw-button_clear:hover {
+    background: #5a6268;
+}
+
+/* 先生用アクションボタン */
+.sw-teacher-actions {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* PC用テーブル表示 */
+.print-table-wrapper {
+    display: block;
+    overflow-x: auto;
+    margin-bottom: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.print-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    min-width: 1000px;
+}
+
+.print-table thead {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.print-table thead th {
+    padding: 15px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.print-table tbody tr {
+    border-bottom: 1px solid #e9ecef;
+    transition: background-color 0.2s;
+}
+
+.print-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.print-table tbody td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.files-expand-row {
+    background-color: #f1f3f5 !important;
+}
+
+.files-expand-cell {
+    padding: 20px !important;
+}
+
+.files-list {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+    border-left: 3px solid #007bff;
+}
+
+.file-item:last-child {
+    margin-bottom: 0;
+}
+
+.file-info {
+    flex: 1;
+}
+
+.file-name {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.file-meta {
+    font-size: 12px;
+    color: #666;
+}
+
+.file-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.print-action-buttons {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.expand-toggle {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.expand-toggle:hover {
+    text-decoration: underline;
+}
+
+.expand-icon {
+    display: inline-block;
+    transition: transform 0.3s;
+    margin-right: 3px;
+}
+
+.expand-icon.rotated {
+    transform: rotate(180deg);
+}
+
+/* モバイル・タブレット用カード表示 */
+.print-card-list {
+    display: none;
+}
+
+.print-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+
+.print-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.print-card-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.print-card-title {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.print-card-body {
+    padding: 15px;
+}
+
+.print-card-info {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.print-card-info-label {
+    font-weight: 600;
+    color: #555;
+    font-size: 13px;
+}
+
+.print-card-info-value {
+    color: #333;
+    font-size: 13px;
+}
+
+.print-card-files {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 2px solid #e9ecef;
+}
+
+.print-card-files-header {
+    margin-bottom: 10px;
+}
+
+.print-card-files-title {
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+}
+
+.print-card-file-item {
+    background: #f8f9fa;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 3px solid #007bff;
+}
+
+.print-card-file-item:last-child {
+    margin-bottom: 0;
+}
+
+.print-card-file-name {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.print-card-file-meta {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.print-card-file-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.print-card-footer {
+    padding: 15px;
+    background: #f8f9fa;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    border-top: 1px solid #e9ecef;
+}
+
+/* 空の状態 */
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: #999;
+}
+
+.empty-state i {
+    font-size: 4em;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.empty-state p {
+    font-size: 1.1em;
+}
+
+/* ========================================
+   レビジョン履歴画面のスタイル
+   ======================================== */
+
+.print-revision-history-page {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.current-file-info {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    border-left: 5px solid #5bc0de;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.current-file-info h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.current-file-info p {
+    margin: 0;
+    line-height: 1.8;
+    color: #555;
+}
+
+.current-file-info strong {
+    color: #333;
+    font-weight: 600;
+}
+
+.current-file-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.current-file-info a:hover {
+    text-decoration: underline;
+}
+
+/* レビジョン一覧 - PC用テーブル */
+.revision-table-wrapper {
+    margin-top: 25px;
+    display: block;
+}
+
+.revision-list-title {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.revision-list-title i {
+    margin-right: 8px;
+    color: #667eea;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.revision-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    min-width: 800px;
+}
+
+.revision-table thead {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.revision-table thead th {
+    padding: 15px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.revision-table thead th.col-rev {
+    width: 80px;
+}
+
+.revision-table thead th.col-status {
+    width: 100px;
+}
+
+.revision-table thead th.col-size {
+    width: 120px;
+}
+
+.revision-table thead th.col-date {
+    width: 180px;
+}
+
+.revision-table thead th.col-s3 {
+    width: 100px;
+}
+
+.revision-table thead th.col-action {
+    width: 150px;
+}
+
+.revision-table tbody tr {
+    border-bottom: 1px solid #e9ecef;
+    transition: background-color 0.2s;
+}
+
+.revision-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.revision-table tbody td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.revision-row.revision-current {
+    background-color: #e8f5e9 !important;
+}
+
+.revision-row.revision-current:hover {
+    background-color: #c8e6c9 !important;
+}
+
+.revision-number {
+    font-size: 1.1em;
+    color: #667eea;
+    font-weight: 700;
+}
+
+.filename-main {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 3px;
+}
+
+.filename-sub {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.file-size {
+    font-weight: 600;
+    color: #555;
+}
+
+.file-size-empty {
+    color: #999;
+}
+
+.revision-date {
+    color: #555;
+    font-size: 13px;
+}
+
+.btn-download,
+.btn-download-disabled {
+    padding: 6px 12px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.btn-download-disabled {
+    cursor: not-allowed !important;
+    opacity: 0.5;
+    background: #999 !important;
+}
+
+.btn-download-disabled:hover {
+    background: #999 !important;
+}
+
+/* レビジョン一覧 - モバイル用テーブル */
+.revision-card-list {
+    display: none;
+}
+
+.revision-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+
+.revision-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.revision-card.revision-current-card {
+    border: 2px solid #5cb85c;
+}
+
+.revision-card-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.revision-card.revision-current-card .revision-card-header {
+    background: linear-gradient(135deg, #5cb85c 0%, #4caf50 100%);
+}
+
+.revision-card-rev {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.revision-label {
+    font-size: 0.9em;
+    opacity: 0.9;
+}
+
+.revision-card .revision-number {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.revision-card-badges {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.revision-card-body {
+    padding: 15px;
+}
+
+.revision-card-filename {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.revision-card-filename .filename-main {
+    font-size: 1.05em;
+}
+
+.revision-card-meta {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.meta-item {
+    display: flex;
+    gap: 8px;
+}
+
+.meta-label {
+    font-weight: 600;
+    color: #555;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.meta-value {
+    color: #333;
+    font-size: 13px;
+}
+
+.revision-card-footer {
+    padding: 15px;
+    background: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+}
+
+.btn-download-mobile {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+}
+
+/* データなしメッセージ */
+.no-data-message {
+    text-align: center;
+    padding: 60px 20px;
+    color: #999;
+}
+
+.no-data-message p {
+    font-size: 1.1em;
+}
+
+/* ユーティリティクラス */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* ========================================
+   レスポンシブ対応
+   ======================================== */
+
+/* タブレット (768px以下) */
+@media (max-width: 768px) {
+    /* 検索フィールド */
+    .search-fields {
+        grid-template-columns: 1fr;
+    }
+
+    .search-buttons {
+        flex-direction: column;
+    }
+
+    .sw-button_search,
+    .sw-button_clear {
+        width: 100%;
+    }
+
+    /* プリント一覧 - PC用テーブルを非表示 */
+    .print-table-wrapper {
+        display: none;
+    }
+
+    /* プリント一覧 - カード表示 */
+    .print-card-list {
+        display: block;
+    }
+
+    /* レビジョン履歴 - PC用テーブルを非表示 */
+    .revision-table-wrapper .table-responsive {
+        display: none;
+    }
+
+    /* レビジョン履歴 - カード表示 */
+    .revision-card-list {
+        display: block;
+    }
+
+    .revision-list-title {
+        font-size: 1.1em;
+    }
+}
+
+/* スマートフォン (480px以下) */
+@media (max-width: 480px) {
+    .print-revision-history-page {
+        padding: 10px;
+    }
+
+    .current-file-info {
+        padding: 15px;
+    }
+
+    .current-file-info h3 {
+        font-size: 1em;
+    }
+
+    .revision-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .revision-card-badges {
+        align-self: flex-end;
+    }
+
+    .print-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .print-card-status {
+        align-self: flex-end;
+    }
+
+    .print-card-info {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .print-card-info-label {
+        margin-bottom: 2px;
+    }
+
+    .print-card-footer,
+    .revision-card-footer {
+        flex-direction: column;
+    }
+
+    .sw-teacher-actions {
+        justify-content: stretch;
+    }
+
+    .sw-teacher-actions a {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* 大画面 (1200px以上) */
+@media (min-width: 1200px) {
+    .search-fields {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .print-card-info {
+        grid-template-columns: 150px 1fr;
+    }
+}
