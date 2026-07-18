@@ -6547,6 +6547,11 @@ td.notify-buttons {
     color: white;
 }
 
+.upload-status-downloading {
+    background-color: #b5de5b;
+    color: white;
+}
+
 .upload-status-uploading {
     background-color: #5bc0de;
     color: white;
