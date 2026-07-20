@@ -5329,6 +5329,66 @@ td.notify-buttons {
     }
 }
 
+/* ================================================
+   Print Manager - Admin Pages
+   ================================================ */
+
+.admin-print-list-page .table-responsive {
+    margin-top: 20px;
+}
+
+.admin-print-list-page .badge-info {
+    background-color: #5bc0de;
+}
+
+.admin-print-list-page .text-nowrap {
+    white-space: nowrap;
+}
+
+.admin-print-manager-page .form-horizontal .form-group {
+    margin-bottom: 15px;
+}
+
+.admin-print-manager-page .panel {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.admin-print-manager-page .mt20 {
+    margin-top: 20px;
+}
+
+.admin-print-history-page .success {
+    background-color: #dff0d8;
+}
+
+.admin-print-history-page .mb20 {
+    margin-bottom: 20px;
+}
+
+.admin-print-detail-page .file-info {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Responsive adjustments for print manager */
+@media (max-width: 768px) {
+    .admin-print-list-page .table-responsive table {
+        font-size: 12px;
+    }
+
+    .admin-print-list-page .btn-sm {
+        padding: 5px 8px;
+        font-size: 11px;
+    }
+
+    .admin-print-manager-page .form-horizontal .control-label {
+        text-align: left;
+        padding-top: 7px;
+    }
+}
+
 /* Landscape orientation for mobile */
 @media screen and (max-width: 767px) and (orientation: landscape) {
     .table-responsive .table td {
